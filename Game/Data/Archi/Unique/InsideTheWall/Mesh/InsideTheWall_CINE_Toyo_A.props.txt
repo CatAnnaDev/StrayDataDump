@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_05_Sewers/MI_Pipe_05_A_Sewers.MI_Pipe_05_A_Sewers'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_05_Sewers/MI_Pipe_05_A_Joint_Sewers.MI_Pipe_05_A_Joint_Sewers'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_05_Sewers/MI_Pipe_05_A_Sewers.MI_Pipe_05_A_Sewers'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.775, 242.512, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_05_Sewers/MI_Pipe_05_A_Joint_Sewers.MI_Pipe_05_A_Joint_Sewers'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.279, 233.532, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8265.64, Y=6463.43, Z=-604.529 }
+    BoxExtent = { X=92.4902, Y=99.5942, Z=40.9469 }
+    SphereRadius = 125.941
+}

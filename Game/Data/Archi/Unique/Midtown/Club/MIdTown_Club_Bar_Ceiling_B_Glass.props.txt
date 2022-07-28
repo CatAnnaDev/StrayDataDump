@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Frise_interior.MI_Frise_interior'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Pulse_Green_Bar.MI_Club_Screen_Pulse_Green_Bar'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Glass.MI_Club_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Frise_interior.MI_Frise_interior'
+        MaterialSlotName = MI_Trim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 268.354, 1021.29, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Pulse_Green_Bar.MI_Club_Screen_Pulse_Green_Bar'
+        MaterialSlotName = MI_LightStrip_PInk
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 58.5049, 1018.7, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Glass.MI_Club_Glass'
+        MaterialSlotName = MI_Glass8
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 361.064, 1020.34, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-317.485, Y=-208.761, Z=350 }
+    BoxExtent = { X=307.515, Y=203.761, Z=95 }
+    SphereRadius = 380.932
+}

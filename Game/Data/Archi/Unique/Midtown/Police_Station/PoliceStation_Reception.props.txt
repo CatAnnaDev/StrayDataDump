@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Reception_ground.MI_PoliceStation_Reception_ground'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Corridor_wall.MI_PoliceStation_Corridor_wall'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Corridor_roof.MI_PoliceStation_Corridor_roof'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Reception_ground.MI_PoliceStation_Reception_ground'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 294.626, 1454.83, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Corridor_wall.MI_PoliceStation_Corridor_wall'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 351.539, 1454.14, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Corridor_roof.MI_PoliceStation_Corridor_roof'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 332.809, 1454.39, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-381.983, Y=697.838, Z=-682.199 }
+    BoxExtent = { X=483.832, Y=208.847, Z=194.191 }
+    SphereRadius = 546.789
+}

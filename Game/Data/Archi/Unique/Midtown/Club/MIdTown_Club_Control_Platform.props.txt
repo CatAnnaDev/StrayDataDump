@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1.MI_Metal_Rust1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Floor_Grid.MI_Floor_Grid'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1.MI_Metal_Rust1'
+        MaterialSlotName = Mat_Ladder
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 279.761, 1.01496, 593.054, 508.941 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Floor_Grid.MI_Floor_Grid'
+        MaterialSlotName = Mi_Crane_Grid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 353.724, 264.833, 571.612, 510.175 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-204.464, Y=88.2021, Z=5 }
+    BoxExtent = { X=204.464, Y=88.2021, Z=5 }
+    SphereRadius = 222.734
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_New_Slime2.MI_Sewer_Concrete_New_Slime2'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_Floor_New_Mud.MI_Sewer_Concrete_Floor_New_Mud'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_New_Slime2.MI_Sewer_Concrete_New_Slime2'
+        MaterialSlotName = MI_Grey7
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 261.435, 1041.69, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_Floor_New_Mud.MI_Sewer_Concrete_Floor_New_Mud'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 389.966, 1044.43, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=200, Y=-270, Z=130 }
+    BoxExtent = { X=200, Y=270, Z=250 }
+    SphereRadius = 418.808
+}

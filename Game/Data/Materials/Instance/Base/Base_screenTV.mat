@@ -1,0 +1,6 @@
+Diffuse=flicker_line
+Opacity=Leak_alpha_CO
+Other[0]=Glitch_Mask2_LP
+Other[1]=gradients
+Other[2]=RGB_tv_pixel
+Other[3]=Rikonium_coupon

@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Floor_granite_CO
+Other[1]=Floor_granite_LP
+Other[2]=Floor_granite_NM
+Other[3]=Ground_int_water_CO
+Other[4]=Ground_int_water_LP
+Other[5]=Ground_int_water_NM
+Other[6]=Base_LP

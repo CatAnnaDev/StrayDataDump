@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/MI_BloclGround_200_B02.MI_BloclGround_200_B02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/MI_BloclGround_200_B02.MI_BloclGround_200_B02'
+        MaterialSlotName = MI_BloclGround_200_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 216.495, 234.075, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0164795, Y=-0.0140686, Z=0.00129318 }
+    BoxExtent = { X=100.012, Y=20.0124, Z=19.9962 }
+    SphereRadius = 103.025
+}

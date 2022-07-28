@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Bar_wall.MI_Bar_wall'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Bar_Roof.MI_Bar_Roof'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Bar_Ground.MI_Bar_Ground'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Bar_wall.MI_Bar_wall'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 538.389, 1306.15, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Bar_Roof.MI_Bar_Roof'
+        MaterialSlotName = 01 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 566.724, 1296.64, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Bar_Ground.MI_Bar_Ground'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 564.975, 1293.86, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=402.848, Y=-280.943, Z=-24.3283 }
+    BoxExtent = { X=146.491, Y=470.706, Z=159.107 }
+    SphereRadius = 518.014
+}

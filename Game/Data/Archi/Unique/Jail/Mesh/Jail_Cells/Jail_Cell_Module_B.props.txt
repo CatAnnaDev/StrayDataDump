@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint.MI_VP_CrackedPaint'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_hall_tilee3.MI_concrete_hall_tilee3'
+    Materials[2] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint.MI_VP_CrackedPaint'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 616.937, 2070.87, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_hall_tilee3.MI_concrete_hall_tilee3'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 393.975, 893.844, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 584.329, 2072.65, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=149.679, Y=-218.694, Z=147.71 }
+    BoxExtent = { X=161.289, Y=218.695, Z=156.285 }
+    SphereRadius = 313.475
+}

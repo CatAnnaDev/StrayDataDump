@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Decals.MI_Train_Decals'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Decals.MI_Train_Decals'
+        MaterialSlotName = Train_Decals
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 173.157, 16.628, 53.2245, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.3055, Y=-0.00798035, Z=156.093 }
+    BoxExtent = { X=357.952, Y=144.767, Z=72.9027 }
+    SphereRadius = 392.94
+}

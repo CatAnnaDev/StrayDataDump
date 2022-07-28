@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Slime/M_ZurgSlime_02_Inst.M_ZurgSlime_02_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Slime/M_ZurgSlime_02_Inst.M_ZurgSlime_02_Inst'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 137.913, 15.2463, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.408693, Y=-0.0992327, Z=-3.19481e-05 }
+    BoxExtent = { X=3.58799, Y=14.1182, Z=2.09604e-05 }
+    SphereRadius = 14.567
+}

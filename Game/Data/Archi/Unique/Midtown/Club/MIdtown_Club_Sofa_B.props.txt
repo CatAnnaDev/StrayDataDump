@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Sofa_Fabric.MI_Club_Sofa_Fabric'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_goldTest.MI_goldTest'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/PoolTable/material/MI_Billard_gold.MI_Billard_gold'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Sofa_Fabric.MI_Club_Sofa_Fabric'
+        MaterialSlotName = MI_Grey2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 72.3889, 678.237, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_goldTest.MI_goldTest'
+        MaterialSlotName = Grey_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 67.7754, 680.027, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PoolTable/material/MI_Billard_gold.MI_Billard_gold'
+        MaterialSlotName = MI_Inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 81.6276, 671.013, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-81.9947, Y=139.834, Z=37.743 }
+    BoxExtent = { X=157.495, Y=139.834, Z=37.7571 }
+    SphereRadius = 213.311
+}

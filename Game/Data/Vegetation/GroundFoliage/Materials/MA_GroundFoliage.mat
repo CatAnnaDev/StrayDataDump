@@ -1,0 +1,8 @@
+Normal=Foilage_Ground_Main_N
+Opacity=Foilage_Ground_Main_A
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=PP2_rgb_XVect_a_XExtent
+Other[2]=SimpExPivPos
+Other[3]=test2_rgb_PivotPos_a_ParentIndexInt_UV_2
+Other[4]=WindTurblenceVectorAndGustMagnitude
+Other[5]=Foilage_Ground_Main_O

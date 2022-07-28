@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Garbage_Factory_Concrete_01.MI_Garbage_Factory_Concrete_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Garbage_Factory_Concrete_01.MI_Garbage_Factory_Concrete_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 512.203, 1848.91, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1025, Y=820, Z=-5.02105e-14 }
+    BoxExtent = { X=1025, Y=820, Z=5.02105e-14 }
+    SphereRadius = 1312.64
+}

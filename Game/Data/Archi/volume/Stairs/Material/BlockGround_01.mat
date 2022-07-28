@@ -1,0 +1,13 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=BlockGround01_NM
+Other[1]=HK_Concrete_5_CO
+Other[2]=HK_Concrete_5_LP
+Other[3]=HK_Concrete_5_NM
+Other[4]=Escalier_Mosaic01_CO
+Other[5]=Escalier_Mosaic01_Dirt3_LP
+Other[6]=Escalier_Mosaic01_Dirt3_NM
+Other[7]=Escalier_Mosaic01_Dirt3_CO
+Other[8]=Escalier_Mosaic01_LP
+Other[9]=Escalier_Mosaic01_NM
+Other[10]=Base_LP

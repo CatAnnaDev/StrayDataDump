@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Concrete_Directed.MI_Residence_Concrete_Directed'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Wood.MI_Residence_Wood'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Grille_Frame.MI_Grille_Frame'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Concrete_Directed.MI_Residence_Concrete_Directed'
+        MaterialSlotName = Concrete_Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 404.85, 622.397, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Wood.MI_Residence_Wood'
+        MaterialSlotName = Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 402.217, 636.559, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Grille_Frame.MI_Grille_Frame'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 186.848, 56.718, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.50005, Y=-302.5, Z=20 }
+    BoxExtent = { X=7.50003, Y=302.5, Z=60 }
+    SphereRadius = 308.484
+}

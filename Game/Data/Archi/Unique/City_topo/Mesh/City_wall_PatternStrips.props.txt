@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/CityWAll/MI_City_Walls_v2.MI_City_Walls_v2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/CityWAll/MI_City_Walls_v2.MI_City_Walls_v2'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19466.4, 36042.3, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=13273.6, Z=4192.8 }
+    BoxExtent = { X=22526.9, Y=22526.9, Z=9031.97 }
+    SphereRadius = 24270.1
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Map/_MainGame/01_InsideTheWall/InsideTheWall_Material_Instance/MI_concrete_city_wall_Micro.MI_concrete_city_wall_Micro'
+    Materials[1] = Material3'/Game/Technical/Lighting/M_FullBlack.M_FullBlack'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/01_InsideTheWall/InsideTheWall_Material_Instance/MI_concrete_city_wall_Micro.MI_concrete_city_wall_Micro'
+        MaterialSlotName = MI_concrete_city_wall_Micro
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1128.47, 6532.29, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Technical/Lighting/M_FullBlack.M_FullBlack'
+        MaterialSlotName = M_FullBlack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 446.51, 7264.37, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1092.5, Y=2504.36, Z=5609.4 }
+    BoxExtent = { X=1816.21, Y=1018.4, Z=5474 }
+    SphereRadius = 5778.98
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 319.206, 330.705, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.49934, Y=58.7532, Z=108.083 }
+    BoxExtent = { X=5.75988, Y=61.7542, Z=105.069 }
+    SphereRadius = 121.646
+}

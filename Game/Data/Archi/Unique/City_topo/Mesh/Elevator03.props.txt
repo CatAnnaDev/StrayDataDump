@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_city_wall.MI_concrete_city_wall'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Viv/MI_City_Levels.MI_City_Levels'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass4.MI_Glass4'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_city_wall.MI_concrete_city_wall'
+        MaterialSlotName = Bitume
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14553.7, 12397.2, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/MI_City_Levels.MI_City_Levels'
+        MaterialSlotName = screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1653.62, 8325.26, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass4.MI_Glass4'
+        MaterialSlotName = vitre
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14592.8, 12443.3, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-34866, Z=19001.9 }
+    BoxExtent = { X=900, Y=629.375, Z=6964.01 }
+    SphereRadius = 7050.07
+}

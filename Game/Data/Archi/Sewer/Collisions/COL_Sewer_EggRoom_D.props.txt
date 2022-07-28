@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/checker_1M_WorldMap_Inst_Orange.checker_1M_WorldMap_Inst_Orange'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/checker_1M_WorldMap_Inst_Orange.checker_1M_WorldMap_Inst_Orange'
+        MaterialSlotName = MI_COL
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 262.368, 266.225, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1223.72, Y=277.614, Z=7.69678 }
+    BoxExtent = { X=133.411, Y=124.966, Z=7.69678 }
+    SphereRadius = 175.387
+}

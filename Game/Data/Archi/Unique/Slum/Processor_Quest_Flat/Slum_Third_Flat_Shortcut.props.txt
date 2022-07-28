@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent.MI_MetalVent'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Processor_Quest_Flat/Base_Textures_Inst.Base_Textures_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent.MI_MetalVent'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.3519, 581.232, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Processor_Quest_Flat/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 192.194, 547.83, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=200, Y=-450, Z=315.654 }
+    BoxExtent = { X=200, Y=83.1068, Z=40.6774 }
+    SphereRadius = 220.367
+}

@@ -1,0 +1,292 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_BC.ClothDetail_03_BC'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_NM.ClothDetail_03_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothEdge.ClothEdge'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Props/Tarpaulin/texture/FabricHoles.FabricHoles'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Props/Tarpaulin/texture/FabricPattern.FabricPattern'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    ReferencedTextures[7] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+    ReferencedTextures[8] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[9] = Texture2D'/Game/Data/Textures/Base/Base_Wind.Base_Wind'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Detail BC Strength }
+                    ParameterInfos[2] = { Name=Lightmass Shadow Opacity }
+                    ParameterInfos[3] = { Name=SmallWind Strength }
+                    ParameterInfos[4] = { Name=Metallic }
+                    ParameterInfos[5] = { Name=FuzzyShading Core }
+                    ParameterInfos[6] = { Name=Big Thread Tiling }
+                    ParameterInfos[7] = { Name=Small Thread Tiling }
+                    ParameterInfos[8] = { Name=Specular }
+                    ParameterInfos[9] = { Name=Wind Normal }
+                    ParameterInfos[10] = { Name=FuzzyShading Power }
+                    ParameterInfos[11] = { Name=Detail Texture Tiling }
+                    ParameterInfos[12] = { Name=BigWind Scale }
+                    ParameterInfos[13] = { Name=Detail Tiling Ratio }
+                    ParameterInfos[14] = { Name=FuzzyShading Edge }
+                    ParameterInfos[15] = { Name=SmallWind Scale }
+                    ParameterInfos[16] = { Name=BigWind Speed }
+                    ParameterInfos[17] = { Name=Transmittance Strength }
+                    ParameterInfos[18] = { Name=Big Thread Thickness }
+                    ParameterInfos[19] = { Name=Detail NM Strength }
+                    ParameterInfos[20] = { Name=BigWind Strength }
+                    ParameterInfos[21] = { Name=Pattern Tiling V }
+                    ParameterInfos[22] = { Name=SmallWind Speed }
+                    ParameterInfos[23] = { Name=Holes Tiling }
+                    ParameterInfos[24] = { Name=Small Thread Contrast }
+                    ParameterInfos[25] = { Name=Pattern Tiling U }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Wind Direction }
+                    ParameterInfos[1] = { Name=BC Tint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Wind_NM }
+                    ParameterInfos[1] = { Name=Detail Alpha }
+                    ParameterInfos[2] = { Name=CO }
+                    ParameterInfos[3] = { Name=NM }
+                    ParameterInfos[4] = { Name=Detail NM }
+                    ParameterInfos[5] = { Name=Holes Texture }
+                    ParameterInfos[6] = { Name=Pattern }
+                    ParameterInfos[7] = { Name=Detail BC }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 0.9
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 7
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 30
+            ScalarValues[7] = 45
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0.0005
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.1
+            ScalarValues[16] = 0.05
+            ScalarValues[17] = 0.5
+            ScalarValues[18] = 1
+            ScalarValues[19] = 1
+            ScalarValues[20] = 50
+            ScalarValues[21] = 0.01
+            ScalarValues[22] = 0.25
+            ScalarValues[23] = 0.5
+            ScalarValues[24] = 0.3
+            ScalarValues[25] = 0.01
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.5, G=0.1, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_Wind.Base_Wind'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+            TextureValues[4] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_NM.ClothDetail_03_NM'
+            TextureValues[5] = Texture2D'/Game/Data/Props/Tarpaulin/texture/FabricHoles.FabricHoles'
+            TextureValues[6] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+            TextureValues[7] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_BC.ClothDetail_03_BC'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_Wind.Base_Wind'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_NM.ClothDetail_03_NM'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Props/Tarpaulin/texture/FabricPattern.FabricPattern'
+        ReferencedTextures[7] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_BC.ClothDetail_03_BC'
+        ReferencedTextures[8] = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothEdge.ClothEdge'
+        ReferencedTextures[9] = Texture2D'/Game/Data/Props/Tarpaulin/texture/FabricHoles.FabricHoles'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_Wind.Base_Wind'
+        Name = Wind_NM
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+        Name = Detail Alpha
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_NM.ClothDetail_03_NM'
+        Name = Detail NM
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Data/Props/Tarpaulin/texture/FabricHoles.FabricHoles'
+        Name = Holes Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+        Name = Pattern
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Data/Props/Tarpaulin/texture/ClothDetail_03_BC.ClothDetail_03_BC'
+        Name = Detail BC
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=0.9, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Detail BC Strength, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = Lightmass Shadow Opacity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=7, Name=SmallWind Strength, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=FuzzyShading Core, Group=None }
+    CollectedScalarParameters[6] = { Value=30, Name=Big Thread Tiling, Group=None }
+    CollectedScalarParameters[7] = { Value=45, Name=Small Thread Tiling, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Wind Normal, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=FuzzyShading Power, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=Detail Texture Tiling, Group=None }
+    CollectedScalarParameters[12] = { Value=0.0005, Name=BigWind Scale, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Detail Tiling Ratio, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=FuzzyShading Edge, Group=None }
+    CollectedScalarParameters[15] = { Value=0.1, Name=SmallWind Scale, Group=None }
+    CollectedScalarParameters[16] = { Value=0.05, Name=BigWind Speed, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.5
+        Name = Transmittance Strength
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=Big Thread Thickness, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Detail NM Strength, Group=None }
+    CollectedScalarParameters[20] = { Value=50, Name=BigWind Strength, Group=None }
+    CollectedScalarParameters[21] = { Value=0.01, Name=Pattern Tiling V, Group=None }
+    CollectedScalarParameters[22] = { Value=0.25, Name=SmallWind Speed, Group=None }
+    CollectedScalarParameters[23] = { Value=0.5, Name=Holes Tiling, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.3
+        Name = Small Thread Contrast
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0.01, Name=Pattern Tiling U, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.1, B=0, A=1 }
+        Name = Wind Direction
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BC Tint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = ClothDetail_03_BC
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = ClothDetail_03_NM
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 29.9932
+        UVChannelIndex = 0
+        TextureName = FabricPattern
+    }
+}

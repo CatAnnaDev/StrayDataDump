@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.houdini_default_material'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.houdini_default_material'
+        MaterialSlotName = houdini_default_material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-200, Z=100 }
+    BoxExtent = { X=275, Y=200, Z=250 }
+    SphereRadius = 422.049
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat_Slime.MI_Bat_Slime'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat_Slime.MI_Bat_Slime'
+        MaterialSlotName = MI_Bat_Slime
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 422.654, 1015.61, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=38.9459, Y=30.5289, Z=1076.04 }
+    BoxExtent = { X=746.43, Y=46.8887, Z=152.799 }
+    SphereRadius = 763.351
+}

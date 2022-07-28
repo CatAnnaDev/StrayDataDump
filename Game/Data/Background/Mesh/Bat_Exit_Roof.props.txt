@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Background/Material/MI_Bat27.MI_Bat27'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Background/Material/MI_metalgrid1.MI_metalgrid1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Background/Material/MI_Bat27.MI_Bat27'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 325.566, 334.231, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Background/Material/MI_metalgrid1.MI_metalgrid1'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 290.945, 333.946, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=59.7593, Y=5.09106, Z=13.5584 }
+    BoxExtent = { X=61.1278, Y=50, Z=63.5584 }
+    SphereRadius = 99.4653
+}

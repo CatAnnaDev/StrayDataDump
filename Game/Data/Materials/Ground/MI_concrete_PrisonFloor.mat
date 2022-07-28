@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=GroundSlum_CO
+Other[1]=GroundSlum_LP
+Other[2]=GroundSlum_NM
+Other[3]=HK_Concrete_2_Dark_CO
+Other[4]=HK_Concrete_2_LP
+Other[5]=HK_Concrete_2_NM
+Other[6]=GroundDirt01_CO
+Other[7]=GroundDirt01_LP
+Other[8]=GroundDirt01_NM
+Other[9]=Base_LP

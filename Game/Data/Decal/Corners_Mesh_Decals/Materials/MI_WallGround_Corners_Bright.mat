@@ -1,0 +1,6 @@
+Diffuse=Wall_Corner_01_D
+Normal=Wall_Corner_01_NM
+Other[0]=Wall_Corner_02_D
+Other[1]=Wall_Corner_02_NM
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=Wall_Corner_01_LP

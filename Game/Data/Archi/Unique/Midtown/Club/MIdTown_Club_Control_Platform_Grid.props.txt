@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Floor_Grid.MI_Floor_Grid'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Floor_Grid.MI_Floor_Grid'
+        MaterialSlotName = Mi_Crane_Grid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 353.994, 264.862, 571.747, 104.047 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100.576, Y=2.49939, Z=26.6418 }
+    BoxExtent = { X=98.2836, Y=0.000244141, Z=26.6416 }
+    SphereRadius = 101.83
+}

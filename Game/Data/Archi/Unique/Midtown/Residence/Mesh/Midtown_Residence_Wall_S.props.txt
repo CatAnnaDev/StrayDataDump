@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Concrete_Directed.MI_Residence_Concrete_Directed'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Concrete_Directed.MI_Residence_Concrete_Directed'
+        MaterialSlotName = Concrete_Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.565, 175.541, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-7.5, Z=40 }
+    BoxExtent = { X=50, Y=7.5, Z=40 }
+    SphereRadius = 64.469
+}

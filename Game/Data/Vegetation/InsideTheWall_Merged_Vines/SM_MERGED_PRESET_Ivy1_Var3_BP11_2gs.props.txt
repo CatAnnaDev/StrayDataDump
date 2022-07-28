@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/SplineThicken/ForStrip_Liana1_M.ForStrip_Liana1_M'
+    Materials[1] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/Ivy_MatInst.Ivy_MatInst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/SplineThicken/ForStrip_Liana1_M.ForStrip_Liana1_M'
+        MaterialSlotName = SplineThickenMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.4469, 14.6759, 2003.74, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/Ivy_MatInst.Ivy_MatInst'
+        MaterialSlotName = Ivy_MatInst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 120.347, 122.237, 1992.08, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=90.6389, Y=-5.32617, Z=602.605 }
+    BoxExtent = { X=410.204, Y=397.99, Z=716.815 }
+    SphereRadius = 744.976
+}

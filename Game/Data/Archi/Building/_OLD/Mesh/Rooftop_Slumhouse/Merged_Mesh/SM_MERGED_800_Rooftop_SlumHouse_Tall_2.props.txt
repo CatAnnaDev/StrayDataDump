@@ -1,0 +1,194 @@
+Materials[15] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Rusty_Plate.MI_Rusty_Plate'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Curtains/Material/MI_Curtains.MI_Curtains'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_CR_Door02.MI_CR_Door02'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grillage.MI_Grillage'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Props/PropsHall_Structure/MI_PropsHall_Structure.MI_PropsHall_Structure'
+    Materials[6] = MaterialInstanceConstant'/Game/Data/Props/WoodPlane/material/MI_WoodPlane01.MI_WoodPlane01'
+    Materials[7] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/PlasticWindows01.PlasticWindows01'
+    Materials[8] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass4.MI_Glass4'
+    Materials[9] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass2_dither.MI_Glass2_dither'
+    Materials[10] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate.MI_Plastic_Plate'
+    Materials[11] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plaster_Plate.MI_Plaster_Plate'
+    Materials[12] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+    Materials[13] = MaterialInstanceConstant'/Game/Data/Props/MetalPlane/material/MetalPlane_01.MetalPlane_01'
+    Materials[14] = MaterialInstanceConstant'/Game/Data/Archi/Building/_OLD/Mesh/Rooftop_Slumhouse/Low_Def/M_PROXY_SM_MERGED_800_Rooftop_SlumHouse_Tall_2.M_PROXY_SM_MERGED_800_Rooftop_SlumHouse_Tall_2'
+}
+SourceModels[0] = {}
+StaticMaterials[15] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Rusty_Plate.MI_Rusty_Plate'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 378.6, 2363.9, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Curtains/Material/MI_Curtains.MI_Curtains'
+        MaterialSlotName = MI_Curtains
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 296.492, 2374.05, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_CR_Door02.MI_CR_Door02'
+        MaterialSlotName = Material #46
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 354.389, 2380.06, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grillage.MI_Grillage'
+        MaterialSlotName = Material #47
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 20.8449, 2358.81, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+        MaterialSlotName = WorldGridMaterial_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 314.535, 2348.13, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsHall_Structure/MI_PropsHall_Structure.MI_PropsHall_Structure'
+        MaterialSlotName = MI_PropsHall_Structure
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 240.518, 2358.18, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WoodPlane/material/MI_WoodPlane01.MI_WoodPlane01'
+        MaterialSlotName = Woodkit02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 386.934, 2356.31, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/PlasticWindows01.PlasticWindows01'
+        MaterialSlotName = 01 - Default1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 312.191, 2385.75, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass4.MI_Glass4'
+        MaterialSlotName = 01 - Default2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 320.014, 2366.74, 0, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass2_dither.MI_Glass2_dither'
+        MaterialSlotName = MI_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 320.543, 2365.36, 0, 0 }
+        }
+    }
+    StaticMaterials[10] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate.MI_Plastic_Plate'
+        MaterialSlotName = WorldGridMaterial_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 440.797, 2380.81, 0, 0 }
+        }
+    }
+    StaticMaterials[11] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plaster_Plate.MI_Plaster_Plate'
+        MaterialSlotName = WorldGridMaterial_3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 332.311, 2337.88, 0, 0 }
+        }
+    }
+    StaticMaterials[12] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 317.471, 2365.59, 0, 0 }
+        }
+    }
+    StaticMaterials[13] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MetalPlane/material/MetalPlane_01.MetalPlane_01'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 640.553, 2351.97, 0, 0 }
+        }
+    }
+    StaticMaterials[14] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Building/_OLD/Mesh/Rooftop_Slumhouse/Low_Def/M_PROXY_SM_MERGED_800_Rooftop_SlumHouse_Tall_2.M_PROXY_SM_MERGED_800_Rooftop_SlumHouse_Tall_2'
+        MaterialSlotName = M_PROXY_SM_MERGED_800_Rooftop_SlumHouse_Tall_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.2628, Y=-220.111, Z=238.479 }
+    BoxExtent = { X=137.965, Y=294.732, Z=258.368 }
+    SphereRadius = 405.723
+}

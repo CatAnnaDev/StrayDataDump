@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Garbage_Factory_Concrete_02.MI_Garbage_Factory_Concrete_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Garbage_Factory_Concrete_02.MI_Garbage_Factory_Concrete_02'
+        MaterialSlotName = Tile_Wall
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 411.551, 1197.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-202.197, Y=212.803, Z=875 }
+    BoxExtent = { X=226.946, Y=226.945, Z=875 }
+    SphereRadius = 929.48
+}

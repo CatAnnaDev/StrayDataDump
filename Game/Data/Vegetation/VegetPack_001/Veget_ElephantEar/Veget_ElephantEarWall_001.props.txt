@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_ElephantEar/MI_ElephantEar_Frond.MI_ElephantEar_Frond'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_ElephantEar/MI_ElephantEar_Sterm.MI_ElephantEar_Sterm'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_ElephantEar/MI_ElephantEar_Leaves.MI_ElephantEar_Leaves'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_ElephantEar/MI_ElephantEar_Frond.MI_ElephantEar_Frond'
+        MaterialSlotName = Bark_Frond_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 11.5406, 138.731, 0, 1.62055 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_ElephantEar/MI_ElephantEar_Sterm.MI_ElephantEar_Sterm'
+        MaterialSlotName = Base_Stem_Frond_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 9.37163, 130.705, 0, 1.69411 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_ElephantEar/MI_ElephantEar_Leaves.MI_ElephantEar_Leaves'
+        MaterialSlotName = Atlas_Frond_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 48.6656, 118.532, 0, 1.37981 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=21.2219, Y=21.9209, Z=-6.90384 }
+    BoxExtent = { X=30.7136, Y=34.9129, Z=43.1731 }
+    SphereRadius = 49.8425
+}

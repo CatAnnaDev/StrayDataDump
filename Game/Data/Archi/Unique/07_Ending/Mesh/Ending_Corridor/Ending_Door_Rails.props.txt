@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_metal_Tile_01.MI_metal_Tile_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Decals.MI_Train_Decals'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_metal_Tile_01.MI_metal_Tile_01'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 302.487, 158.545, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Decals.MI_Train_Decals'
+        MaterialSlotName = 22 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 348.974, 119.054, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-206.27, Y=3.05176e-05, Z=1.97887e-05 }
+    BoxExtent = { X=142.409, Y=299.711, Z=4.52995e-06 }
+    SphereRadius = 331.582
+}

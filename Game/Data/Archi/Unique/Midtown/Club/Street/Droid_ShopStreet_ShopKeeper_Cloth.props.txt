@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Cloth_05/MI_Fiber.MI_Fiber'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Cloth_05/MI_Fiber.MI_Fiber'
+        MaterialSlotName = MI_Fiber
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 139.845, 150.118, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.6118, Y=-0.633614, Z=89.2726 }
+    BoxExtent = { X=15.0339, Y=24.6892, Z=70.293 }
+    SphereRadius = 73.5613
+}

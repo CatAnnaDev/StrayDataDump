@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Wood_Comptoir.MI_Wood_Comptoir'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Glass2.MI_Glass2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Wood_Comptoir.MI_Wood_Comptoir'
+        MaterialSlotName = Material #1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 173.404, 415.067, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Glass2.MI_Glass2'
+        MaterialSlotName = portecoulissante
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 165.998, 408.293, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=-19.6106, Z=1.58128 }
+    BoxExtent = { X=3.86856, Y=66.0562, Z=139.477 }
+    SphereRadius = 154.377
+}

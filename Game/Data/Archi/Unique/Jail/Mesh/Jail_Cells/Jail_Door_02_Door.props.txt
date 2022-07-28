@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid_2.MI_metalgrid_2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 354.815, 368.665, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid_2.MI_metalgrid_2'
+        MaterialSlotName = Material #24
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 738.288, 366.242, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=61.7677, Y=-5.6793, Z=110.605 }
+    BoxExtent = { X=63.2306, Y=7.14223, Z=109.469 }
+    SphereRadius = 126.246
+}

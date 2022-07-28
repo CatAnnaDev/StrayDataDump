@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Floor_Tile.MI_Residence_Floor_Tile'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Floor_Tile.MI_Residence_Floor_Tile'
+        MaterialSlotName = Tile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 435.705, 138.809, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=140.315, Y=0, Z=0 }
+    BoxExtent = { X=140.315, Y=280.63, Z=1.71836e-14 }
+    SphereRadius = 313.754
+}

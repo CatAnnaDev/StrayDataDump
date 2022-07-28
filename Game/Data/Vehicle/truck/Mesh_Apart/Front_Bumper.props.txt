@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/truck/Material/MI_truck.MI_truck'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/truck/Material/MI_truck.MI_truck'
+        MaterialSlotName = Truck
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 423.068, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.84785, Y=-7.61217, Z=-24.7776 }
+    BoxExtent = { X=8.43561, Y=12.8255, Z=24.7823 }
+    SphereRadius = 26.9917
+}

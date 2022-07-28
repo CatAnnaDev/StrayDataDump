@@ -1,0 +1,232 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Character/Droid/screen/set/texture/DroidScreen_Sad_01.DroidScreen_Sad_01'
+    ReferencedTextures[5] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Panner_speed }
+                    ParameterInfos[1] = { Name=fresnel }
+                    ParameterInfos[2] = { Name=Random intensity }
+                    ParameterInfos[3] = { Name=Bias }
+                    ParameterInfos[4] = { Name=Scanline_scale }
+                    ParameterInfos[5] = { Name=Columns }
+                    ParameterInfos[6] = { Name=Texture_co mix }
+                    ParameterInfos[7] = { Name=Opa_2 }
+                    ParameterInfos[8] = { Name=power }
+                    ParameterInfos[9] = { Name=Random speed }
+                    ParameterInfos[10] = { Name=Opa_1 }
+                    ParameterInfos[11] = { Name=Random tile }
+                    ParameterInfos[12] = { Name=add scanline }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Talk Color2 }
+                    ParameterInfos[1] = { Name=Talk Color Background }
+                    ParameterInfos[2] = { Name=WPO }
+                    ParameterInfos[3] = { Name=Talk Color3 }
+                    ParameterInfos[4] = { Name=color2 }
+                    ParameterInfos[5] = { Name=color3 }
+                    ParameterInfos[6] = { Name=color1 }
+                    ParameterInfos[7] = { Name=CO mul }
+                    ParameterInfos[8] = { Name=Talk Color1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NM }
+                    ParameterInfos[1] = { Name=Screen_texture }
+                    ParameterInfos[2] = { Name=Scanline_1 }
+                    ParameterInfos[3] = { Name=Scanline }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 2
+            ScalarValues[1] = 3
+            ScalarValues[2] = 10
+            ScalarValues[3] = -2
+            ScalarValues[4] = 0.005
+            ScalarValues[5] = 8
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 0.15
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0, G=1, B=0, A=1 }
+            VectorValues[1] = { R=0.020335, G=0.427844, B=1, A=1 }
+            VectorValues[2] = { R=100, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=1, A=1 }
+            VectorValues[4] = { R=0, G=1, B=0, A=1 }
+            VectorValues[5] = { R=0, G=0, B=1, A=1 }
+            VectorValues[6] = { R=1, G=0, B=0, A=1 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0 }
+            VectorValues[8] = { R=1, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+            TextureValues[1] = Texture2D'/Game/Character/Droid/screen/set/texture/DroidScreen_Sad_01.DroidScreen_Sad_01'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[7] = Texture2D'/Game/Character/Droid/screen/set/texture/DroidScreen_Sad_01.DroidScreen_Sad_01'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/screen/set/texture/DroidScreen_Sad_01.DroidScreen_Sad_01'
+        Name = Screen_texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        Name = Scanline_1
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        Name = Scanline
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Panner_speed, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=fresnel, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=Random intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=-2, Name=Bias, Group=None }
+    CollectedScalarParameters[4] = { Value=0.005, Name=Scanline_scale, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=Columns, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Texture_co mix, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Opa_2, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=power, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=Random speed, Group=None }
+    CollectedScalarParameters[10] = { Value=0.15, Name=Opa_1, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Random tile, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=add scanline, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = Talk Color2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.020335, G=0.427844, B=1, A=1 }
+        Name = Talk Color Background
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=100, G=1, B=0, A=0 }
+        Name = WPO
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = Talk Color3
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = color2
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = color3
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = color1
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = CO mul
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Talk Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = DroidScreen_Sad_01
+    }
+}

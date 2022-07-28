@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/GroundFoliage/Materials/GroundFoliage_Materials/brush_06_11_Mat.brush_06_11_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/GroundFoliage/Materials/GroundFoliage_Materials/brush_06_11_Mat.brush_06_11_Mat'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 93.9877, 0, 93.9877, 45.8515 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.684586, Y=-0.570089, Z=27.7619 }
+    BoxExtent = { X=23.5346, Y=19.4896, Z=27.747 }
+    SphereRadius = 34.1406
+}

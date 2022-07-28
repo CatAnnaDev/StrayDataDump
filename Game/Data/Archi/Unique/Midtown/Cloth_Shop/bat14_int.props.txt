@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Cloth_Shop/MI_PoliceStation_Corridor_roof.MI_PoliceStation_Corridor_roof'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Cloth_Shop/MI_ground_Jail.MI_ground_Jail'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Cloth_Shop/MI_wall01_2.MI_wall01_2'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Cloth_Shop/MI_PoliceStation_Corridor_roof.MI_PoliceStation_Corridor_roof'
+        MaterialSlotName = 01_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 285.735, 1964.28, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Cloth_Shop/MI_ground_Jail.MI_ground_Jail'
+        MaterialSlotName = 02_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 285.748, 1964, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Cloth_Shop/MI_wall01_2.MI_wall01_2'
+        MaterialSlotName = 03_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 285.786, 1963.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=12.3077, Y=-309.615, Z=-457.261 }
+    BoxExtent = { X=398.635, Y=548.586, Z=154.107 }
+    SphereRadius = 695.417
+}

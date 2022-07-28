@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum_Bar/MI_Cat_tree_Wood.MI_Cat_tree_Wood'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum_Bar/MI_Cat_tree_Wood.MI_Cat_tree_Wood'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.046, 114.343, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.54703, Y=0, Z=58.9705 }
+    BoxExtent = { X=4.45297, Y=3.00716, Z=58.9705 }
+    SphereRadius = 59.2148
+}

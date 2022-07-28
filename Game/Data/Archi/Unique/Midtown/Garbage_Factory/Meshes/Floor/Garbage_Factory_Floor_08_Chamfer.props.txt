@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Concrete_Chamfer.MI_Concrete_Chamfer'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Concrete_Chamfer.MI_Concrete_Chamfer'
+        MaterialSlotName = Chamfers
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.9334, 532.949, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=315.001, Y=252.448, Z=-37.45 }
+    BoxExtent = { X=315.101, Y=272.549, Z=37.55 }
+    SphereRadius = 418.122
+}

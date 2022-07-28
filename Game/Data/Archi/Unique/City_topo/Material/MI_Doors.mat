@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Metal_dirty_Pipe_CO
+Other[1]=Metal_dirty_Pipe_LP
+Other[2]=Metal_dirty_Pipe_NM
+Other[3]=Metal_Trims_Rust_D
+Other[4]=Metal_Trims_Rust_LP
+Other[5]=Rust_NM
+Other[6]=trash_ground01_CO
+Other[7]=trash_ground01_LP
+Other[8]=trash_ground01_NM
+Other[9]=Base_LP

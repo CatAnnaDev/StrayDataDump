@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Quai.MI_Metro_Quai'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Concrete_Wall_Moss.MI_Concrete_Wall_Moss'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid.MI_metalgrid'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Quai.MI_Metro_Quai'
+        MaterialSlotName = Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 333.291, 2938.05, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Concrete_Wall_Moss.MI_Concrete_Wall_Moss'
+        MaterialSlotName = sol
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 337.569, 2937.3, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid.MI_metalgrid'
+        MaterialSlotName = Frise
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 333.249, 2939.66, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2654.87, Y=-0.5177, Z=913.588 }
+    BoxExtent = { X=620.403, Y=827.122, Z=301.627 }
+    SphereRadius = 1077.04
+}

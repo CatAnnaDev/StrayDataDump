@@ -1,0 +1,104 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_NM_Alpha.Base_NM_Alpha'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=WindWeight }
+                    ParameterInfos[1] = { Name=WindIntensity }
+                    ParameterInfos[2] = { Name=WindSpeed }
+                    ParameterInfos[3] = { Name=Normal Intensity }
+                    ParameterInfos[4] = { Name=CamFade Radius }
+                    ParameterInfos[5] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=NM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.1, 0.2, 0.7, 1, 200, 0.25 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_NM_Alpha.Base_NM_Alpha'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_NM_Alpha.Base_NM_Alpha'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM_Alpha.Base_NM_Alpha'
+        Name = NM
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=WindWeight, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[4] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_NM_Alpha
+    }
+}

@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_wall01_4.MI_wall01_4'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Materials/Midtown/MI_Midtown_Bat04.MI_Midtown_Bat04'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+        MaterialSlotName = MI_Facade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.557, 1838.74, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+        MaterialSlotName = MI_Interior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.852, 1840.99, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_wall01_4.MI_wall01_4'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.227, 1835.49, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/Midtown/MI_Midtown_Bat04.MI_Midtown_Bat04'
+        MaterialSlotName = MI_Ceiling
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.599, 1842.92, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+        MaterialSlotName = MI_Plinth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 245.128, 1872.4, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-332.296, Y=-3.05176e-05, Z=100 }
+    BoxExtent = { X=332.296, Y=275, Z=250 }
+    SphereRadius = 498.544
+}

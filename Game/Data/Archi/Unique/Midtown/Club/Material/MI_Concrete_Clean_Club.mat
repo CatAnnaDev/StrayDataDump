@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=CleanCity_Concrete_Floor_CO
+Other[1]=CleanCity_Concrete_Floor_LP
+Other[2]=CleanCity_Concrete_Floor_NM
+Other[3]=PlantWall_CO
+Other[4]=PlantWall_LP
+Other[5]=PlantWall_NM
+Other[6]=Base_LP

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_concrete_city_wall_Mud.MI_concrete_city_wall_Mud'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_concrete_city_wall_Mud.MI_concrete_city_wall_Mud'
+        MaterialSlotName = MI_concrete_city_wall_Mud
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 789.18, 2279, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-56.5305, Y=454.764, Z=-185.017 }
+    BoxExtent = { X=309.523, Y=474.316, Z=284.983 }
+    SphereRadius = 625.203
+}

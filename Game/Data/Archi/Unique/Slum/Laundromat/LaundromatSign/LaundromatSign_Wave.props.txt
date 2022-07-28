@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Laundromat/LaundromatSign/MI_LaundromatSign_Red.MI_LaundromatSign_Red'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Laundromat/LaundromatSign/MI_LaundromatSign_Blue.MI_LaundromatSign_Blue'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Laundromat/LaundromatSign/MI_LaundromatSign_Red.MI_LaundromatSign_Red'
+        MaterialSlotName = Red
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 326.672, 30.9907, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Laundromat/LaundromatSign/MI_LaundromatSign_Blue.MI_LaundromatSign_Blue'
+        MaterialSlotName = Blue
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 305.717, 52.3153, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-1.78814e-06, Z=11.1082 }
+    BoxExtent = { X=50, Y=0.800001, Z=11.9082 }
+    SphereRadius = 51.3985
+}

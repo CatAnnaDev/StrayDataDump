@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Nature_Photo.MI_Nature_Photo'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_gold.MI_gold'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Nature_Photo.MI_Nature_Photo'
+        MaterialSlotName = MI_Nature_Photo
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 102.351, 69.9323, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_gold.MI_gold'
+        MaterialSlotName = MI_gold
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 41.8127, 69.983, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.51061, Y=1.90735e-06, Z=0 }
+    BoxExtent = { X=0.510639, Y=17.8319, Z=25.1414 }
+    SphereRadius = 30.8274
+}

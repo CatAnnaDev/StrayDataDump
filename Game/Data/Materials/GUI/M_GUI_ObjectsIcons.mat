@@ -1,0 +1,7 @@
+Diffuse=DefaultDiffuse
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=flipbook
+Other[3]=Scanline4x4
+Other[4]=Statics
+Other[5]=LOOT_Broken_Tracker

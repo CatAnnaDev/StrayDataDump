@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/Trees/M_Branches_Inst.M_Branches_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/Trees/M_Leaves_Inst.M_Leaves_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/Trees/M_Branches_Inst.M_Branches_Inst'
+        MaterialSlotName = M_Branches_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 108.988, 6857.63, 0, 2.26648 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/Trees/M_Leaves_Inst.M_Leaves_Inst'
+        MaterialSlotName = M_Leaves_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 1119.25, 6761.87, 0, 0.775227 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-138.711, Y=33.4119, Z=1118.22 }
+    BoxExtent = { X=602.994, Y=1147.85, Z=2218.8 }
+    SphereRadius = 2223.93
+}

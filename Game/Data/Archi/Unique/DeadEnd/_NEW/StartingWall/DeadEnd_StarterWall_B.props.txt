@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_concrete_city_wall_DeadEnd_Large.MI_concrete_city_wall_DeadEnd_Large'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_concrete_city_wall_DeadEnd_Large.MI_concrete_city_wall_DeadEnd_Large'
+        MaterialSlotName = MI_Wall1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 295.817, 1336.42, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=452.214, Y=116.992, Z=-402.572 }
+    BoxExtent = { X=152.388, Y=854.172, Z=450 }
+    SphereRadius = 971.476
+}

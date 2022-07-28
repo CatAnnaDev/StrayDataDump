@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Wheels.MI_Train_Wheels'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Wheels.MI_Train_Wheels'
+        MaterialSlotName = Train_Wheels
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 389.705, 688.001, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=555.207, Y=-3.05176e-05, Z=-57.1244 }
+    BoxExtent = { X=149.793, Y=134.158, Z=38.8754 }
+    SphereRadius = 180.092
+}

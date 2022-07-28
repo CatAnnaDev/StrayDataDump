@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Panning_Orange_Slow.MI_Club_Screen_Panning_Orange_Slow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Panning_Orange_Slow.MI_Club_Screen_Panning_Orange_Slow'
+        MaterialSlotName = MI_Gradient
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 524.383, 532.994, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=16.5895, Y=-1545, Z=360 }
+    BoxExtent = { X=333.865, Y=0, Z=205 }
+    SphereRadius = 391.779
+}

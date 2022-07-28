@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+        MaterialSlotName = ID8
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.293, 1670.26, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-196.034, Y=-208.415, Z=150.558 }
+    BoxExtent = { X=1128.97, Y=873.4, Z=150.608 }
+    SphereRadius = 1435.3
+}

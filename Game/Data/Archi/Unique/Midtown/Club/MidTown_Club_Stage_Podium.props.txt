@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Sky.MI_Club_Screen_Sky'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Floor_Yellow.MI_Club_Floor_Yellow'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Frise_interior.MI_Frise_interior'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Metal_Panel_C.MI_Club_Metal_Panel_C'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Sky.MI_Club_Screen_Sky'
+        MaterialSlotName = MI_Club_Metal_Panel_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 125.629, 306.847, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Floor_Yellow.MI_Club_Floor_Yellow'
+        MaterialSlotName = MI_Inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.9173, 306.48, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Frise_interior.MI_Frise_interior'
+        MaterialSlotName = MI_Trim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 30.3671, 307.522, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Metal_Panel_C.MI_Club_Metal_Panel_C'
+        MaterialSlotName = MI_Club_Metal_Panel_C
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.126, 306.649, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=36.5482 }
+    BoxExtent = { X=45.1733, Y=45.1733, Z=36.5482 }
+    SphereRadius = 57.966
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_Old_Leak.MI_Sewer_Concrete_Old_Leak'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_Old_Leak.MI_Sewer_Concrete_Old_Leak'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1219.09, 2719.21, 1665.74, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2562.99, Y=-1951.47, Z=-353.015 }
+    BoxExtent = { X=1153.7, Y=371.676, Z=400.141 }
+    SphereRadius = 1239.46
+}

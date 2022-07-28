@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Slime/M_ZurgSlime_02_Inst.M_ZurgSlime_02_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Slime/M_ZurgSlime_02_Inst.M_ZurgSlime_02_Inst'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 215.013, 339.445, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.03755, Y=-1.49681, Z=131.417 }
+    BoxExtent = { X=82.5479, Y=82.8762, Z=131.417 }
+    SphereRadius = 164.686
+}

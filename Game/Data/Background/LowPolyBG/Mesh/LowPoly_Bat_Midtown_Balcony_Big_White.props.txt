@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Background/LowPolyBG/Texture/M_LowPolyBats.M_LowPolyBats'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Background/LowPolyBG/Texture/M_LowPolyBats.M_LowPolyBats'
+        MaterialSlotName = Material #27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3130.25, 965.442, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=82.691, Y=9.15527e-05, Z=1.52588e-05 }
+    BoxExtent = { X=82.6913, Y=262.372, Z=125.25 }
+    SphereRadius = 302.265
+}

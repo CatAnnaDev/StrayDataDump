@@ -1,0 +1,121 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Normal_Tex.small_low_1_Atlas_Normal_Tex'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Tex.small_low_1_Atlas_Tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Bake dither Alpha }
+                    ParameterInfos[1] = { Name=min ao sss }
+                    ParameterInfos[2] = { Name=sss }
+                    ParameterInfos[3] = { Name=ro }
+                    ParameterInfos[4] = { Name=min ao diffuse }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=lightmass_co }
+                    ParameterInfos[1] = { Name=nm* }
+                    ParameterInfos[2] = { Name=co* }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=leaf_texture }
+                    ParameterInfos[1] = { Name=leaves_nm }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0.33, 0.9, 1.5, 38.8865, 0.9 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.522, G=1, B=0.175, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1.25, G=1.25, B=1.25, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Tex.small_low_1_Atlas_Tex'
+            TextureValues[1] = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Normal_Tex.small_low_1_Atlas_Normal_Tex'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Normal_Tex.small_low_1_Atlas_Normal_Tex'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Tex.small_low_1_Atlas_Tex'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Tex.small_low_1_Atlas_Tex'
+        Name = leaf_texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/small_low_poly/small_low_1_Atlas_Normal_Tex.small_low_1_Atlas_Normal_Tex'
+        Name = leaves_nm
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.33, Name=Bake dither Alpha, Group=None }
+    CollectedScalarParameters[1] = { Value=0.9, Name=min ao sss, Group=None }
+    CollectedScalarParameters[2] = { Value=1.5, Name=sss, Group=None }
+    CollectedScalarParameters[3] = { Value=38.8865, Name=ro, Group=None }
+    CollectedScalarParameters[4] = { Value=0.9, Name=min ao diffuse, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.522, G=1, B=0.175, A=1 }
+        Name = lightmass_co
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = nm*
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1.25, G=1.25, B=1.25, A=1 }
+        Name = co*
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

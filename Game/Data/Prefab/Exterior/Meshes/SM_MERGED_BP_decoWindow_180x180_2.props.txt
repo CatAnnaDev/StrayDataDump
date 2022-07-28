@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/HangingClothes/Material/MI_HangingClothes_Dull.MI_HangingClothes_Dull'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_FlowerPot01.M_FlowerPot01'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_ClayPot01.M_ClayPot01'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Props/FlowerpotAttach/Material/MI_FlowerpotAttach.MI_FlowerpotAttach'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+        MaterialSlotName = MI_pince_a_linge
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 15.1808, 368.872, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/HangingClothes/Material/MI_HangingClothes_Dull.MI_HangingClothes_Dull'
+        MaterialSlotName = MI_HangingClothes_Dull
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 263.683, 361.515, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_FlowerPot01.M_FlowerPot01'
+        MaterialSlotName = M_FlowerPot01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.945, 367.197, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_ClayPot01.M_ClayPot01'
+        MaterialSlotName = M_ClayPot01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.7951, 364.366, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+        MaterialSlotName = MI_Drying_rack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 122.598, 364.809, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/FlowerpotAttach/Material/MI_FlowerpotAttach.MI_FlowerpotAttach'
+        MaterialSlotName = MI_FlowerpotAttach
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.117, 369.484, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-16.213, Y=-63.3469, Z=-44.3671 }
+    BoxExtent = { X=34.7439, Y=77.2082, Z=53.5559 }
+    SphereRadius = 99.2597
+}

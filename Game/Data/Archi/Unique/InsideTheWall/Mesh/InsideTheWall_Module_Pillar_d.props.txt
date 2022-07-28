@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Map/_MainGame/01_InsideTheWall/InsideTheWall_Material_Instance/MI_concrete_city_wall_InsideTheWall_Walls.MI_concrete_city_wall_InsideTheWall_Walls'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/01_InsideTheWall/InsideTheWall_Material_Instance/MI_concrete_city_wall_InsideTheWall_Walls.MI_concrete_city_wall_InsideTheWall_Walls'
+        MaterialSlotName = MI_concrete_city_wall_InsideTheWall_Walls
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 949.477, 5815.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-32.0247, Y=16.4743, Z=0.10083 }
+    BoxExtent = { X=334.118, Y=493.806, Z=3199.37 }
+    SphereRadius = 3253.84
+}

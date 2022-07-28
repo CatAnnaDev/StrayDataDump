@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Grid_lod.MI_Grid_lod'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Grid_lod.MI_Grid_lod'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 508.023, 23653.5, 22064.3, 8612.99 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00195313, Y=6052.56, Z=2307.33 }
+    BoxExtent = { X=24057.1, Y=4056.96, Z=164.993 }
+    SphereRadius = 24392.5
+}

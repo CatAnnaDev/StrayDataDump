@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/Ivy_MatInst.Ivy_MatInst'
+    Materials[1] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/SplineThicken/ForStrip_Liana1_M.ForStrip_Liana1_M'
+    Materials[2] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/IvySingle_MatInst.IvySingle_MatInst'
+    Materials[3] = Material3'/Game/SmartSplineGen/Materials/BasicEnviro/Liana_Mat.Liana_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/Ivy_MatInst.Ivy_MatInst'
+        MaterialSlotName = Ivy_MatInst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.3, 111.015, 3230.8, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/SplineThicken/ForStrip_Liana1_M.ForStrip_Liana1_M'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.0591, 12.2504, 3262.35, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/IvySingle_MatInst.IvySingle_MatInst'
+        MaterialSlotName = IvySingle_MatInst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.8632, 35.3091, 3231.13, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/SmartSplineGen/Materials/BasicEnviro/Liana_Mat.Liana_Mat'
+        MaterialSlotName = Liana_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.0577, 13.2669, 3337.21, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=153.493, Y=622.494, Z=-370.89 }
+    BoxExtent = { X=515.521, Y=748.205, Z=952.752 }
+    SphereRadius = 1049.96
+}

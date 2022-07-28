@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_rideau.MI_rideau'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_rideau.MI_rideau'
+        MaterialSlotName = MI_rideau
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 424.497, 246.784, 246.669, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.7618, Y=-85.7725, Z=-1.52588e-05 }
+    BoxExtent = { X=6.05301, Y=99.4528, Z=138.734 }
+    SphereRadius = 170.144
+}

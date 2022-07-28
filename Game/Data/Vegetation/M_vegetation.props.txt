@@ -1,0 +1,125 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_DA.clover_leaf_DA'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_LP.clover_leaf_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_NM.clover_leaf_NM'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Vegetation/Noise_wind_CO.Noise_wind_CO'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=dzq }
+                    ParameterInfos[1] = { Name=wind_pow }
+                    ParameterInfos[2] = { Name=scale }
+                    ParameterInfos[3] = { Name=force }
+                    ParameterInfos[4] = { Name=world_scale }
+                    ParameterInfos[5] = { Name=speed }
+                    ParameterInfos[6] = { Name=distance }
+                    ParameterInfos[7] = { Name=xy }
+                    ParameterInfos[8] = { Name=rand_pos }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=offsety }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=co }
+                    ParameterInfos[1] = { Name=nm }
+                    ParameterInfos[2] = { Name=lp }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 2, 5, 0.135, 50, 2, 0.075, 40, 5, 4 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=15, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_DA.clover_leaf_DA'
+            TextureValues[1] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_NM.clover_leaf_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_LP.clover_leaf_LP'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_DA.clover_leaf_DA'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_LP.clover_leaf_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_NM.clover_leaf_NM'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Vegetation/Noise_wind_CO.Noise_wind_CO'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_DA.clover_leaf_DA'
+        Name = co
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_NM.clover_leaf_NM'
+        Name = nm
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_LP.clover_leaf_LP'
+        Name = lp
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=dzq, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=wind_pow, Group=None }
+    CollectedScalarParameters[2] = { Value=0.135, Name=scale, Group=None }
+    CollectedScalarParameters[3] = { Value=50, Name=force, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=world_scale, Group=None }
+    CollectedScalarParameters[5] = { Value=0.075, Name=speed, Group=None }
+    CollectedScalarParameters[6] = { Value=40, Name=distance, Group=None }
+    CollectedScalarParameters[7] = { Value=5, Name=xy, Group=None }
+    CollectedScalarParameters[8] = { Value=4, Name=rand_pos, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=15, A=1 }
+        Name = offsety
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

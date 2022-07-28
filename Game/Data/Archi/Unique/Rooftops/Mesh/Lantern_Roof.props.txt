@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Industrial_Metal.MI_Industrial_Metal'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Clara/Base_Glass_Inst3.Base_Glass_Inst3'
+    Materials[2] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_CC_Rust.MI_CC_Rust'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Industrial_Metal.MI_Industrial_Metal'
+        MaterialSlotName = Material #118
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 146.71, 930.162, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/Base_Glass_Inst3.Base_Glass_Inst3'
+        MaterialSlotName = glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 149.747, 929.058, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_CC_Rust.MI_CC_Rust'
+        MaterialSlotName = metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.3, 957.072, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0608368, Y=0, Z=29.7057 }
+    BoxExtent = { X=104.293, Y=178.792, Z=29.7057 }
+    SphereRadius = 208.554
+}

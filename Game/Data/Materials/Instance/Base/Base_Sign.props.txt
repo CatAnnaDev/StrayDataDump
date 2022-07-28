@@ -1,0 +1,115 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Fx/Flicker_Pattern_D.Flicker_Pattern_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Flicker Speed }
+                    ParameterInfos[1] = { Name=Frame_Rand }
+                    ParameterInfos[2] = { Name=Nmb_Vertical }
+                    ParameterInfos[3] = { Name=dzqdq }
+                    ParameterInfos[4] = { Name=Flicker intensity }
+                    ParameterInfos[5] = { Name=Flicker add }
+                    ParameterInfos[6] = { Name=RO }
+                    ParameterInfos[7] = { Name=Nmb_Horizontal }
+                    ParameterInfos[8] = { Name=CamFade Radius }
+                    ParameterInfos[9] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SI }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 20, 1, 4, 512, 0, 0.25, 0.25, 4, 200, 0.25 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Fx/Flicker_Pattern_D.Flicker_Pattern_D'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = CO
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=20, Name=Flicker Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Frame_Rand, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Nmb_Vertical, Group=None }
+    CollectedScalarParameters[3] = { Value=512, Name=dzqdq, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Flicker intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.25, Name=Flicker add, Group=None }
+    CollectedScalarParameters[6] = { Value=0.25, Name=RO, Group=None }
+    CollectedScalarParameters[7] = { Value=4, Name=Nmb_Horizontal, Group=None }
+    CollectedScalarParameters[8] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[9] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = SI
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = Base_CO
+    }
+}

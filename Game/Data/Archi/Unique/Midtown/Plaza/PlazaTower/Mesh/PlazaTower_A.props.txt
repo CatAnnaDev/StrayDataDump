@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Building.MI_PoliceStation_Building'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1.MI_Metal_Rust1'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads02.MI_Midtown_Ads02'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads01.MI_Midtown_Ads01'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile02.MI_CableTile02'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_PoliceStation_Building.MI_PoliceStation_Building'
+        MaterialSlotName = Plating
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 502.953, 3276.94, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1.MI_Metal_Rust1'
+        MaterialSlotName = Trims
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 444.528, 3294.97, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads02.MI_Midtown_Ads02'
+        MaterialSlotName = Ads
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 297.117, 3251.87, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads01.MI_Midtown_Ads01'
+        MaterialSlotName = AdsScroll
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 253.248, 3259.69, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile02.MI_CableTile02'
+        MaterialSlotName = Cables
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 52.332, 3318.69, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0204468, Y=0.125793, Z=-40.9018 }
+    BoxExtent = { X=528.905, Y=529.054, Z=199.758 }
+    SphereRadius = 535.519
+}

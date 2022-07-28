@@ -1,0 +1,5 @@
+Diffuse=DefaultDiffuse
+Normal=Base_NM
+Other[0]=Tile_grid_1M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=Base_LP

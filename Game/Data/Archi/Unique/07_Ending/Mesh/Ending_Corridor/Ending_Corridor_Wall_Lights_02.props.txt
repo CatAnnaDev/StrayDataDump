@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Trims_02_SI_Warm.MI_Trims_02_SI_Warm'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Trims_02_SI_Warm.MI_Trims_02_SI_Warm'
+        MaterialSlotName = MI_Grey_Plastic_Ground1_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 625.632, 307.744, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=395.389, Y=-254.999, Z=425 }
+    BoxExtent = { X=309.347, Y=255, Z=165 }
+    SphereRadius = 433.527
+}

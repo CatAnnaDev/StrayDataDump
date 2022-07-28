@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_siege_orange_plastic.MI_siege_orange_plastic'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_siege_orange_plastic.MI_siege_orange_plastic'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 153.108, 171.302, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=13.1512, Z=19.8059 }
+    BoxExtent = { X=25.6228, Y=33.3237, Z=34.3545 }
+    SphereRadius = 50.1518
+}

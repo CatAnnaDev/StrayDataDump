@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Jail/Mesh/Courtyard/Materials/MI_Courtyard_Mossy_Walls.MI_Courtyard_Mossy_Walls'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Jail/Mesh/Courtyard/Materials/MI_Courtyard_Mossy_Walls.MI_Courtyard_Mossy_Walls'
+        MaterialSlotName = Material #29
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 577.08, 3003.67, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-126.824, Y=-31.8931, Z=735.89 }
+    BoxExtent = { X=1914.91, Y=318.2, Z=735.89 }
+    SphereRadius = 2075.98
+}

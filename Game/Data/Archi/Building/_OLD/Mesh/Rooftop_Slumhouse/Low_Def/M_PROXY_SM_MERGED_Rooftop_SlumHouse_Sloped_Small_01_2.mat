@@ -1,0 +1,5 @@
+Diffuse=T_PROXY_SM_MERGED_Rooftop_SlumHouse_Sloped_Small_01_2_Diffuse
+Normal=BaseFlattenNormalMap
+Other[0]=BaseFlattenDiffuseMap
+Other[1]=BaseFlattenEmissiveMap
+Other[2]=BaseFlattenGrayScaleMap

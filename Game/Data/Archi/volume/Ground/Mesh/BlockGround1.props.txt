@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/BlockGround_01.BlockGround_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/BlockGround_01.BlockGround_01'
+        MaterialSlotName = BlockGround_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 525.082, 514.116, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.10352e-05, Y=-1.52588e-05, Z=3.8147e-06 }
+    BoxExtent = { X=228.111, Y=104.136, Z=30.3823 }
+    SphereRadius = 242.052
+}

@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Plaster_wall_01_CO
+Other[1]=Plaster_wall_01_LP
+Other[2]=Plaster_wall_01_NM
+Other[3]=BrickWall_CO
+Other[4]=BrickWall_LP
+Other[5]=BrickWall_NM
+Other[6]=Base_LP

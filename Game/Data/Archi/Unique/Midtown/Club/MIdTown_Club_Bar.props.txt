@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Frise_interior.MI_Frise_interior'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Marble_Club_Bar.MI_Marble_Club_Bar'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_cubes_wall.MI_cubes_wall'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Pulse_Walls.MI_Club_Screen_Pulse_Walls'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_cubes_wall.MI_cubes_wall'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Frise_interior.MI_Frise_interior'
+        MaterialSlotName = MI_Trim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.581, 659.282, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Marble_Club_Bar.MI_Marble_Club_Bar'
+        MaterialSlotName = MI_Marble
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 190.556, 763.766, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_cubes_wall.MI_cubes_wall'
+        MaterialSlotName = MI_Cube_Walls
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 157.542, 658.036, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Pulse_Walls.MI_Club_Screen_Pulse_Walls'
+        MaterialSlotName = MI_LightStrip
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.8894, 664.923, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_cubes_wall.MI_cubes_wall'
+        MaterialSlotName = MI_Club_Metal_Panel_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-255.237, Y=-202.5, Z=54.9979 }
+    BoxExtent = { X=270.237, Y=202.5, Z=55.0023 }
+    SphereRadius = 342.139
+}

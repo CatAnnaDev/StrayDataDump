@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Concrete_Chamfer.MI_Concrete_Chamfer'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Concrete_Chamfer.MI_Concrete_Chamfer'
+        MaterialSlotName = Chamfer
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 265.952, 961.372, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=547.105, Y=-0.000976563, Z=1367.46 }
+    BoxExtent = { X=547.105, Y=210.4, Z=1367.75 }
+    SphereRadius = 1485.81
+}

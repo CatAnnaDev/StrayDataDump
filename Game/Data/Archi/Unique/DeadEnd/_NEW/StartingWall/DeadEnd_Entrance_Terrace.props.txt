@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_DeadEnd_Ground_Plaza.MI_DeadEnd_Ground_Plaza'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_DeadEnd_Ground_Plaza.MI_DeadEnd_Ground_Plaza'
+        MaterialSlotName = MI_CobbleStone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1042.89, 560.81, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=292.5, Y=272.5, Z=6.27632e-15 }
+    BoxExtent = { X=289.705, Y=266.08, Z=1.77393e-14 }
+    SphereRadius = 393.354
+}

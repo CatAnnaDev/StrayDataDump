@@ -1,0 +1,7 @@
+Normal=Base_NM
+Other[0]=Diagonal_Tiles_CO
+Other[1]=Diagonal_Tiles_LP
+Other[2]=Diagonal_Tiles_Missing_Tiles_NM
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=Base_CO
+Other[5]=Base_LP

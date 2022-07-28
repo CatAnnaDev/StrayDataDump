@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Trims_Exterior.MI_Train_Trims_Exterior'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Trims_Exterior.MI_Train_Trims_Exterior'
+        MaterialSlotName = Train_Trims_Exterior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 327.865, 57.7745, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-375.067, Y=-25.5676, Z=154.925 }
+    BoxExtent = { X=7.30388, Y=31.5714, Z=42.6056 }
+    SphereRadius = 53.2306
+}

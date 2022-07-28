@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Drone/FX/hologram/MI_dialbox_sourceLight.MI_dialbox_sourceLight'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Drone/FX/hologram/MI_dialbox_boxglitch.MI_dialbox_boxglitch'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Drone/FX/hologram/MI_dialbox_sourceLight.MI_dialbox_sourceLight'
+        MaterialSlotName = 21 - Defaults
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.9068, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Drone/FX/hologram/MI_dialbox_boxglitch.MI_dialbox_boxglitch'
+        MaterialSlotName = cube
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 44.735, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.171062, Y=-2.17517, Z=32.8737 }
+    BoxExtent = { X=53.8096, Y=15.532, Z=33.1105 }
+    SphereRadius = 63.7764
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Green_Paint.MI_Green_Paint'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_noCF_TechRoom_Table.MI_noCF_TechRoom_Table'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_B_SI.MI_Sewers_Control_Panel_B_SI'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_A_ON.MI_Sewers_Control_Panel_A_ON'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Green_Paint.MI_Green_Paint'
+        MaterialSlotName = Main
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 315.348, 669.91, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_noCF_TechRoom_Table.MI_noCF_TechRoom_Table'
+        MaterialSlotName = Handles
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.4505, 675.569, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_B_SI.MI_Sewers_Control_Panel_B_SI'
+        MaterialSlotName = Buttons_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 193.102, 683.179, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_A_ON.MI_Sewers_Control_Panel_A_ON'
+        MaterialSlotName = Buttons_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 222.784, 690.25, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-60.2279, Y=-74.9998, Z=125 }
+    BoxExtent = { X=60.2276, Y=75.0001, Z=125 }
+    SphereRadius = 157.042
+}

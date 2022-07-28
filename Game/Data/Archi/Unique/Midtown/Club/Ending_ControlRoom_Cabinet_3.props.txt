@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic.MI_Black_Plastic'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_A_EN_ON.MI_Sewers_Control_Panel_A_EN_ON'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_TechRoom_TVs.MI_TechRoom_TVs'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Screen_Store.MI_Screen_Store'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_B_EN_SI.MI_Sewers_Control_Panel_B_EN_SI'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic.MI_Black_Plastic'
+        MaterialSlotName = Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 214.342, 183.843, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_A_EN_ON.MI_Sewers_Control_Panel_A_EN_ON'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.907, 176.468, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_TechRoom_TVs.MI_TechRoom_TVs'
+        MaterialSlotName = 21 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 115.034, 172.126, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Screen_Store.MI_Screen_Store'
+        MaterialSlotName = Screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.4672, 177.325, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_B_EN_SI.MI_Sewers_Control_Panel_B_EN_SI'
+        MaterialSlotName = 20 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 192.053, 177.172, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=37.3599, Y=143.614, Z=35.6908 }
+    BoxExtent = { X=3.35386, Y=90.9617, Z=25.8062 }
+    SphereRadius = 94.4486
+}

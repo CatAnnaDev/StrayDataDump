@@ -1,0 +1,61 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Glass/Water_drop_LP.Water_drop_LP'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Glass/Water_drop_NM.Water_drop_NM'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Glass/Windows_Glass_1_CO.Windows_Glass_1_CO'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=co*_2 }
+                    ParameterInfos[1] = { Name=refr }
+                    ParameterInfos[2] = { Name=co*_1 }
+                    ParameterInfos[3] = { Name=co* }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0, 1.6, 0.25, 1 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Glass/Water_drop_LP.Water_drop_LP'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Glass/Water_drop_NM.Water_drop_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Glass/Windows_Glass_1_CO.Windows_Glass_1_CO'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=co*_2, Group=None }
+    CollectedScalarParameters[1] = { Value=1.6, Name=refr, Group=None }
+    CollectedScalarParameters[2] = { Value=0.25, Name=co*_1, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=co*, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

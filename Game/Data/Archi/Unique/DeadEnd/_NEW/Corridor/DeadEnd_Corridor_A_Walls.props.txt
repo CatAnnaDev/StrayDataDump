@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/Midtown/MI_Midtown_Bat04.MI_Midtown_Bat04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/Midtown/MI_Midtown_Bat04.MI_Midtown_Bat04'
+        MaterialSlotName = MI_Tiles_Wall
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 583.936, 1889.05, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-941.502, Y=542.5, Z=190 }
+    BoxExtent = { X=893.498, Y=152.5, Z=190 }
+    SphereRadius = 926.118
+}

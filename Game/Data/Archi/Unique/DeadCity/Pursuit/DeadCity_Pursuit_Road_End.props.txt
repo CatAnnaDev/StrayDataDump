@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_DeadEnd_Ground_Plaza_Paveing.MI_DeadEnd_Ground_Plaza_Paveing'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_DeadEnd_Ground_Plaza_Paveing.MI_DeadEnd_Ground_Plaza_Paveing'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 457.421, 1507.62, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1770.47, Y=-772.821, Z=-116.272 }
+    BoxExtent = { X=1016.41, Y=549.616, Z=20.1492 }
+    SphereRadius = 1155.58
+}

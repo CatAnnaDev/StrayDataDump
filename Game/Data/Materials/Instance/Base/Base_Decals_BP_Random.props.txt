@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Decal/Texture/LittleTag_D.LittleTag_D'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Frame_Rand }
+                    ParameterInfos[1] = { Name=DetailAlpha Tiling U }
+                    ParameterInfos[2] = { Name=Nmb_Vertical }
+                    ParameterInfos[3] = { Name=RGB Layers ? }
+                    ParameterInfos[4] = { Name=DetailAlpha Mask Coverage }
+                    ParameterInfos[5] = { Name=DetailAlpha Mask Fade }
+                    ParameterInfos[6] = { Name=Rand_RGB }
+                    ParameterInfos[7] = { Name=DetailAlpha Mask Sharpness }
+                    ParameterInfos[8] = { Name=Nmb_Horizontal }
+                    ParameterInfos[9] = { Name=DetailAlpha Tiling V }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture_A }
+                    ParameterInfos[1] = { Name=DetailAlpha Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 1, 1, 4, 0, 0.5, 0, 0, 1, 4, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Decal/Texture/LittleTag_D.LittleTag_D'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Decal/Texture/LittleTag_D.LittleTag_D'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Decal/Texture/LittleTag_D.LittleTag_D'
+        Name = Texture_A
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+        Name = DetailAlpha Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Frame_Rand, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DetailAlpha Tiling U, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Nmb_Vertical, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=RGB Layers ?, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.5
+        Name = DetailAlpha Mask Coverage
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=DetailAlpha Mask Fade, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Rand_RGB, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = DetailAlpha Mask Sharpness
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=4, Name=Nmb_Horizontal, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=DetailAlpha Tiling V, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CO
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

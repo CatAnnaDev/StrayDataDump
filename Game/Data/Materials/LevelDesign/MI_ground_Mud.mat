@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=Base_NM
+Other[0]=GroundMud_CO
+Other[1]=GroundMud_LP
+Other[2]=GroundMud_NM
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=Base_LP
+Other[5]=Tile_grid_1M

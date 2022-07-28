@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Birch/MI_Veget_Birch_Bark.MI_Veget_Birch_Bark'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Birch/MI_Veget_Birch_Leaves.MI_Veget_Birch_Leaves'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Birch/MI_Veget_Birch_Leaves.MI_Veget_Birch_Leaves'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Birch/MI_Veget_Birch_Bark.MI_Veget_Birch_Bark'
+        MaterialSlotName = RiverBirch_Bark_1_Branch_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 17.0223, 1764.15, 0, 2.35668 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Birch/MI_Veget_Birch_Leaves.MI_Veget_Birch_Leaves'
+        MaterialSlotName = Atlas_Branch_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 49.3977, 1797.05, 0, 1.51648 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Birch/MI_Veget_Birch_Leaves.MI_Veget_Birch_Leaves'
+        MaterialSlotName = Atlas_Leaf_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 79.6467, 1769.37, 0, 0.965364 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-92.9986, Y=-7.27655, Z=154.918 }
+    BoxExtent = { X=140.693, Y=170.652, Z=262.251 }
+    SphereRadius = 279.639
+}

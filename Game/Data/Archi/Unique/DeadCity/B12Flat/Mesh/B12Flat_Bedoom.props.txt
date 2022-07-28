@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/B12Flat/Material/MI_Wood_floor_vertexpaint.MI_Wood_floor_vertexpaint'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_5.MI_wallpaper_5'
+    Materials[3] = MaterialInstanceConstant'/Game/Team/Viv/Mesh_test/MI_MosaicSol2.MI_MosaicSol2'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/B12Flat/Material/MI_Mosaic2.MI_Mosaic2'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+        MaterialSlotName = ID8
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 382.7, 1153.1, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/B12Flat/Material/MI_Wood_floor_vertexpaint.MI_Wood_floor_vertexpaint'
+        MaterialSlotName = ID1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 382.956, 1153.55, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_5.MI_wallpaper_5'
+        MaterialSlotName = ID2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.132, 1151.6, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Mesh_test/MI_MosaicSol2.MI_MosaicSol2'
+        MaterialSlotName = ID4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 353.939, 1153.58, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/B12Flat/Material/MI_Mosaic2.MI_Mosaic2'
+        MaterialSlotName = Material #160
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 387.559, 1157.27, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=449.604, Y=-395.727, Z=151.002 }
+    BoxExtent = { X=240.382, Y=240.66, Z=150.476 }
+    SphereRadius = 371.846
+}

@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1_noCF.MI_Metal_Rust1_noCF'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_NoCF_PoliceStation_Building.MI_NoCF_PoliceStation_Building'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Clim/Materials/MI_NOCf_vent11.MI_NOCf_vent11'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_NOcf_Metro_Quai_frise.MI_NOcf_Metro_Quai_frise'
+    Materials[4] = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Concrete1.MI_Metro_Concrete1'
+    Materials[5] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1_noCF.MI_Metal_Rust1_noCF'
+        MaterialSlotName = Trims
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 232.333, 1022.47, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Police_Station/MI_NoCF_PoliceStation_Building.MI_NoCF_PoliceStation_Building'
+        MaterialSlotName = Plates
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 254.862, 1014.93, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Clim/Materials/MI_NOCf_vent11.MI_NOCf_vent11'
+        MaterialSlotName = Clim
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 176.618, 1026.05, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_NOcf_Metro_Quai_frise.MI_NOcf_Metro_Quai_frise'
+        MaterialSlotName = SubwayTrims
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.918, 1026.21, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Concrete1.MI_Metro_Concrete1'
+        MaterialSlotName = Quai
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.928, 1025.28, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=-1.52588e-05, Z=73.7048 }
+    BoxExtent = { X=187.415, Y=187.415, Z=70.7049 }
+    SphereRadius = 203.569
+}

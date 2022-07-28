@@ -1,0 +1,128 @@
+Parent = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Scarf/Marerial/MI_Cloth_Scarf.MI_Cloth_Scarf'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Detail CO Intensity }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Detail NM Intensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Detail Scale }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base CO }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Scarf/Texture/Droid_Clothes_02_Scarf_D.Droid_Clothes_02_Scarf_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base LP }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Scarf/Texture/Droid_Clothes_02_Scarf_LP.Droid_Clothes_02_Scarf_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Base NM }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Scarf/Texture/Droid_Clothes_02_Scarf_NM.Droid_Clothes_02_Scarf_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Detail CO }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/Motif_Hawaii.Motif_Hawaii'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Detail NM }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Cam Fade ? }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Droid_Clothes_02_Scarf_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Droid_Clothes_02_Scarf_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Droid_Clothes_02_Scarf_NM
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_NM
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = Motif_Hawaii
+    }
+}

@@ -1,0 +1,131 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_CO.Metal_Dot_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_LP.Metal_Dot_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_NM.Metal_Dot_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Fiber_Strength }
+                    ParameterInfos[2] = { Name=Metallic }
+                    ParameterInfos[3] = { Name=Clear Coat }
+                    ParameterInfos[4] = { Name=Clear_Coat_Scaling }
+                    ParameterInfos[5] = { Name=Surface_Normal_Strength }
+                    ParameterInfos[6] = { Name=Clear Coat Roughness }
+                    ParameterInfos[7] = { Name=Roughness_Scaling }
+                    ParameterInfos[8] = { Name=Roughness_Min }
+                    ParameterInfos[9] = { Name=Roughness_Max }
+                    ParameterInfos[10] = { Name=Surface_Normal_Scaling }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Base_CO }
+                    ParameterInfos[1] = { Name=Surface_NM }
+                    ParameterInfos[2] = { Name=Clearcoat_NM }
+                    ParameterInfos[3] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0, 30, 0.5, 1, 30, 30, 0.1225, 30, 1, 1, 30 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_CO.Metal_Dot_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_NM.Metal_Dot_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_NM.Metal_Dot_NM'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_LP.Metal_Dot_LP'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_LP.Metal_Dot_LP'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_NM.Metal_Dot_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_CO.Metal_Dot_CO'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_CO.Metal_Dot_CO'
+        Name = Base_CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_NM.Metal_Dot_NM'
+        Name = Surface_NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_NM.Metal_Dot_NM'
+        Name = Clearcoat_NM
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Metal/Metal_Dot_LP.Metal_Dot_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Base Color, Group=None }
+    CollectedScalarParameters[1] = { Value=30, Name=Fiber_Strength, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Metallic, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Clear Coat, Group=None }
+    CollectedScalarParameters[4] = { Value=30, Name=Clear_Coat_Scaling, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 30
+        Name = Surface_Normal_Strength
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.1225
+        Name = Clear Coat Roughness
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=30, Name=Roughness_Scaling, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Roughness_Min, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Roughness_Max, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 30
+        Name = Surface_Normal_Scaling
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat_sobre_B.MI_Bat_sobre_B'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_hall_tilee3.MI_concrete_hall_tilee3'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+        MaterialSlotName = MI_Bat04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.044, 1979.03, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat_sobre_B.MI_Bat_sobre_B'
+        MaterialSlotName = MI_Bat06
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.029, 1977.73, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_hall_tilee3.MI_concrete_hall_tilee3'
+        MaterialSlotName = MI_Bat05
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.048, 1979.72, 0, 0 }
+        }
+    }
+}
+Sockets[6] = {  }
+ExtendedBounds =
+{
+    Origin = { X=-125, Y=-240, Z=125 }
+    BoxExtent = { X=525, Y=400, Z=125 }
+    SphereRadius = 671.751
+}

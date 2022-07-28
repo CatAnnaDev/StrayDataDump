@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/MI_Pipe_01_Inside_the_Wall_Joint.MI_Pipe_01_Inside_the_Wall_Joint'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/MI_Pipe_01_Inside_the_Wall_Joint.MI_Pipe_01_Inside_the_Wall_Joint'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 101.477, 92.2881, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-06, Z=-2.38419e-07 }
+    BoxExtent = { X=22.7426, Y=21.46, Z=3.55285 }
+    SphereRadius = 22.9109
+}

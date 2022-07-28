@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=YellowTile_CO
+Other[1]=YellowTile_LP
+Other[2]=YellowTile_NM
+Other[3]=YellowTile_Damaged_CO
+Other[4]=YellowTile_Damaged_LP
+Other[5]=YellowTile_Damaged_NM
+Other[6]=ZurgSlime_01_CO
+Other[7]=ZurgSlime_01_b_LP
+Other[8]=ZurgSlime_01_NM
+Other[9]=Base_LP

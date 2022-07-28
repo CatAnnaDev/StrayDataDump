@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Decal/Corners_Mesh_Decals/Materials/MI_WallGround_Corners.MI_WallGround_Corners'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Decal/Corners_Mesh_Decals/Materials/MI_WallGround_Corners.MI_WallGround_Corners'
+        MaterialSlotName = MI_WallGround_Corners
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 171.478, 57.5887, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.199214, Y=0, Z=15.0756 }
+    BoxExtent = { X=7.97212e-07, Y=47.8865, Z=14.8764 }
+    SphereRadius = 50.144
+}

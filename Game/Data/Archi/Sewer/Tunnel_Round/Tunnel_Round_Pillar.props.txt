@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_Old_Leak_Rebar.MI_Sewer_Concrete_Old_Leak_Rebar'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Sewer_Concrete_Old_Leak_Rebar.MI_Sewer_Concrete_Old_Leak_Rebar'
+        MaterialSlotName = MI_Grey9
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 379.794, 2735.58, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000488281, Y=546.905, Z=1367.61 }
+    BoxExtent = { X=210, Y=546.905, Z=1367.61 }
+    SphereRadius = 1487.8
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Archi/Unique/Midtown/Plaza/PlazaRoadLines/M_PlazaRoadLines.M_PlazaRoadLines'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Unique/Midtown/Plaza/PlazaRoadLines/M_PlazaRoadLines.M_PlazaRoadLines'
+        MaterialSlotName = RoadLines
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 157.15, 149.23, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.308533, Y=0.0425873, Z=0.149998 }
+    BoxExtent = { X=135.708, Y=35.7168, Z=2.28733e-06 }
+    SphereRadius = 138.859
+}

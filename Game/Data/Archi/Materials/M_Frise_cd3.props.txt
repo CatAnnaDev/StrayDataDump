@@ -1,0 +1,129 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Building_Chamfer/alpha_chamfer.alpha_chamfer'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Building_Chamfer/Frise_CD_D.Frise_CD_D'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Building_Chamfer/Frise_CD_NM.Frise_CD_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Tile/concrete_standard_rough/concrete_standard_rough_LP.concrete_standard_rough_LP'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Tile/HK_Concrete_4_NM.HK_Concrete_4_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=mul }
+                    ParameterInfos[2] = { Name=pow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=UV mul/add }
+                    ParameterInfos[1] = { Name=Color_Mul }
+                    ParameterInfos[2] = { Name=UV_co/nm }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NM_ }
+                    ParameterInfos[1] = { Name=CO_ }
+                    ParameterInfos[2] = { Name=RO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.8, 1.8154, 0.944748 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=2, G=2, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=2, G=2, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Tile/HK_Concrete_4_NM.HK_Concrete_4_NM'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Building_Chamfer/Frise_CD_D.Frise_CD_D'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Tile/concrete_standard_rough/concrete_standard_rough_LP.concrete_standard_rough_LP'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Tile/concrete_standard_rough/concrete_standard_rough_LP.concrete_standard_rough_LP'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Tile/HK_Concrete_4_NM.HK_Concrete_4_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Building_Chamfer/Frise_CD_D.Frise_CD_D'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Building_Chamfer/Frise_CD_NM.Frise_CD_NM'
+        ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Building_Chamfer/alpha_chamfer.alpha_chamfer'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/HK_Concrete_4_NM.HK_Concrete_4_NM'
+        Name = NM_
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Building_Chamfer/Frise_CD_D.Frise_CD_D'
+        Name = CO_
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/concrete_standard_rough/concrete_standard_rough_LP.concrete_standard_rough_LP'
+        Name = RO
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1.8154, Name=mul, Group=None }
+    CollectedScalarParameters[2] = { Value=0.944748, Name=pow, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=2, B=0, A=0 }
+        Name = UV mul/add
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color_Mul
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2, G=2, B=0, A=0 }
+        Name = UV_co/nm
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

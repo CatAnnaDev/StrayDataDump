@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Archi/Unique/Midtown/Police_Station/M_WantedPoster.M_WantedPoster'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Unique/Midtown/Police_Station/M_WantedPoster.M_WantedPoster'
+        MaterialSlotName = MI_PapersOld
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 64.384, 24.9424, 26.7871, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.86102e-06, Y=0, Z=1.65582 }
+    BoxExtent = { X=10.7682, Y=14.3, Z=1.07168 }
+    SphereRadius = 17.933
+}

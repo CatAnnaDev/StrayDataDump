@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Trims_Exterior.MI_Train_Trims_Exterior'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Trims_Interior.MI_Train_Trims_Interior'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Trims_Exterior.MI_Train_Trims_Exterior'
+        MaterialSlotName = Train_Trims_Exterior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 398.198, 515.651, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Trims_Interior.MI_Train_Trims_Interior'
+        MaterialSlotName = Train_Trims_Interior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 468.571, 516.736, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=414.927, Y=4.57764e-05, Z=86.5886 }
+    BoxExtent = { X=54.0339, Y=127.894, Z=138.999 }
+    SphereRadius = 180.423
+}

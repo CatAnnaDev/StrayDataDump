@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Building/_OLD/Mesh/Rooftop_Slumhouse/Low_Def/M_PROXY_SM_MERGED_SlumHouse_Bridge_2.M_PROXY_SM_MERGED_SlumHouse_Bridge_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Building/_OLD/Mesh/Rooftop_Slumhouse/Low_Def/M_PROXY_SM_MERGED_SlumHouse_Bridge_2.M_PROXY_SM_MERGED_SlumHouse_Bridge_2'
+        MaterialSlotName = M_PROXY_SM_MERGED_SlumHouse_Bridge_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 723.077, 781.187, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=104.765, Y=6.9841, Z=-33.4167 }
+    BoxExtent = { X=110.014, Y=80.7074, Z=116.798 }
+    SphereRadius = 173.531
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_intsol_white_tile.MI_intsol_white_tile'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint5.MI_VP_CrackedPaint5'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 447.041, 1149.5, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_intsol_white_tile.MI_intsol_white_tile'
+        MaterialSlotName = Material_002
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 447.041, 1148.66, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint5.MI_VP_CrackedPaint5'
+        MaterialSlotName = Material_003
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 447.041, 1148.11, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-39.2997, Y=-284.651, Z=149.416 }
+    BoxExtent = { X=223.385, Y=217.153, Z=139.423 }
+    SphereRadius = 341.314
+}

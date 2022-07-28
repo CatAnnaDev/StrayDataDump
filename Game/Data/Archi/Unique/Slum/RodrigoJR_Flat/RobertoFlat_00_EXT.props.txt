@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Ground.MI_Ground'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+        MaterialSlotName = MI_Bat04_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 239.94, 607.47, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Ground.MI_Ground'
+        MaterialSlotName = MI_Ground_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 341.333, 245.058, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.35141, Y=-16.9989, Z=150 }
+    BoxExtent = { X=323.101, Y=17.0011, Z=150 }
+    SphereRadius = 356.627
+}

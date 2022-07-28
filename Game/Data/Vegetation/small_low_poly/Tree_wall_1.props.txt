@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Data/Vegetation/small_low_poly/small_low_1_Branches_Mat.small_low_1_Branches_Mat'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/small_low_poly/small_low_1_Leaves_Mat_Inst.small_low_1_Leaves_Mat_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/small_low_poly/small_low_1_Branches_Mat.small_low_1_Branches_Mat'
+        MaterialSlotName = small_low_1_Branches_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 32.9135, 2981.81, 0, 1.81037 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/small_low_poly/small_low_1_Leaves_Mat_Inst.small_low_1_Leaves_Mat_Inst'
+        MaterialSlotName = small_low_1_Leaves_Mat_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 124.834, 2998.32, 0, 0.759428 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=16.563, Y=-161.766, Z=294.439 }
+    BoxExtent = { X=223.736, Y=176.065, Z=300.779 }
+    SphereRadius = 336.952
+}

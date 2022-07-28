@@ -1,0 +1,79 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/flower/FrondStem_Normal_Tex.FrondStem_Normal_Tex'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/flower/FrondStem_Tex.FrondStem_Tex'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Vegetation/flower/FrondStemBase_Tex.FrondStemBase_Tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Fade Offset }
+                    ParameterInfos[1] = { Name=Fade Distance }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 25, 50 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Vegetation/flower/FrondStem_Normal_Tex.FrondStem_Normal_Tex'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/flower/FrondStem_Tex.FrondStem_Tex'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/flower/FrondStemBase_Tex.FrondStemBase_Tex'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=25, Name=Fade Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=50, Name=Fade Distance, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FrondStem_Normal_Tex
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FrondStem_Tex
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FrondStemBase_Tex
+    }
+}

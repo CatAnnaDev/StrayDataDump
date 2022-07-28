@@ -1,0 +1,10 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=DefaultDiffuse
+Other[1]=YellowTile_CO
+Other[2]=YellowTile_LP
+Other[3]=YellowTile_NM
+Other[4]=HK_Concrete_3_CO
+Other[5]=HK_Concrete_3_LP
+Other[6]=HK_Concrete_3_NM
+Other[7]=Base_LP

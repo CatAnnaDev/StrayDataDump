@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+    Materials[1] = Material3'/Game/Data/Archi/Materials/M_Frise_cd.M_Frise_cd'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Materials/Base_Vertex_Paint_Inst_Mosaic01.Base_Vertex_Paint_Inst_Mosaic01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+        MaterialSlotName = MI_Bat01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.098, 1877.49, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Materials/M_Frise_cd.M_Frise_cd'
+        MaterialSlotName = M_Frise_cd
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 266.358, 1810.94, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/Base_Vertex_Paint_Inst_Mosaic01.Base_Vertex_Paint_Inst_Mosaic01'
+        MaterialSlotName = Base_Vertex_Paint_Inst_Mosaic01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.109, 1810.15, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-49.6227, Z=275 }
+    BoxExtent = { X=400.002, Y=449.723, Z=325 }
+    SphereRadius = 684.015
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Data/Background/LowPolyBG/Texture/M_LowPolyBats.M_LowPolyBats'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Rooftops_Scaffold_Tarp/MI_Rooftops_Scaffold_Tarp_A.MI_Rooftops_Scaffold_Tarp_A'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Background/LowPolyBG/Texture/M_LowPolyBats.M_LowPolyBats'
+        MaterialSlotName = Material #27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16395.9, 5179.5, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Rooftops_Scaffold_Tarp/MI_Rooftops_Scaffold_Tarp_A.MI_Rooftops_Scaffold_Tarp_A'
+        MaterialSlotName = Material #29
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16405.6, 5168.26, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000244141, Y=0, Z=2093.47 }
+    BoxExtent = { X=546.415, Y=470.924, Z=2078.67 }
+    SphereRadius = 2200.27
+}

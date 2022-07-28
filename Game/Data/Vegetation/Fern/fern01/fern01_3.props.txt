@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/Fern/fern01/MI_fern01.MI_fern01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/Fern/fern01/MI_fern01.MI_fern01'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 53.1535, 59.9584, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.37508, Y=-4.31334, Z=12.1374 }
+    BoxExtent = { X=27.9976, Y=26.8577, Z=12.6644 }
+    SphereRadius = 36.8696
+}

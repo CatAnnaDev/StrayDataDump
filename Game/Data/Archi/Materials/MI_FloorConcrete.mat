@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Wall_Paint_1_CO
+Other[1]=Wall_Paint_1_LP
+Other[2]=Wall_Paint_1_NM
+Other[3]=HK_Concrete_1_CO
+Other[4]=HK_Concrete_1_LP
+Other[5]=HK_Concrete_1_NM
+Other[6]=Ground_int_water_NoTiles_CO
+Other[7]=Ground_int_LP
+Other[8]=Ground_int_NM
+Other[9]=Base_LP

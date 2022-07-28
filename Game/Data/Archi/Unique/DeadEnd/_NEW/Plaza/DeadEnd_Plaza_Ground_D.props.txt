@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_DeadEnd_Ground_Plaza_Paveing.MI_DeadEnd_Ground_Plaza_Paveing'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadEnd/_NEW/Material/MI_DeadEnd_Ground_Plaza_Paveing.MI_DeadEnd_Ground_Plaza_Paveing'
+        MaterialSlotName = MI_Bitume_vpaint7
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 661.892, 912.52, 692.615, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1238.62, Y=1694.9, Z=720.746 }
+    BoxExtent = { X=494.898, Y=250.095, Z=1.68188 }
+    SphereRadius = 544.388
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light05_ON.MI_Light05_ON'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Defluxor/MI_DefluxorSI.MI_DefluxorSI'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light05_ON.MI_Light05_ON'
+        MaterialSlotName = aiStandardSurface5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 196.294, 94.1302, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Defluxor/MI_DefluxorSI.MI_DefluxorSI'
+        MaterialSlotName = LIghtBulb
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.54, 93.7722, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=15.8793 }
+    BoxExtent = { X=12.854, Y=12.2248, Z=15.8793 }
+    SphereRadius = 19.5826
+}

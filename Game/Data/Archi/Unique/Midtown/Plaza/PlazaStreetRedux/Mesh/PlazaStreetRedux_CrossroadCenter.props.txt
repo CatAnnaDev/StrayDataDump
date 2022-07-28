@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Quai1.MI_Metro_Quai1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+        MaterialSlotName = MI_Metro_Quai_frise
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 715.597, 544.932, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Quai1.MI_Metro_Quai1'
+        MaterialSlotName = MI_Metro_Quai
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.336, 501.884, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=9.00024 }
+    BoxExtent = { X=205, Y=205, Z=9.00024 }
+    SphereRadius = 205.197
+}

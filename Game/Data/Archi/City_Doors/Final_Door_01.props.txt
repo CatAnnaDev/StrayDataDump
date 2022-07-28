@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/City_topo/Material/MI_Doors.MI_Doors'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/City_topo/Material/MI_Doors.MI_Doors'
+        MaterialSlotName = MI_Doors
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6832.87, 6167.87, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.0459, Y=22615.4, Z=0.000976563 }
+    BoxExtent = { X=2095.06, Y=197.213, Z=1467.25 }
+    SphereRadius = 2549.7
+}

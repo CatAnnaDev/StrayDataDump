@@ -1,0 +1,11 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Train_Plastic_D
+Other[1]=Train_Plastic_LP
+Other[2]=Train_Plastic_NM
+Other[3]=HK_Concrete_3_CO
+Other[4]=Wall_Paint_1_LP
+Other[5]=Metal_Trims_Rust_D
+Other[6]=Metal_Trims_Rust_LP
+Other[7]=Metal_Trims_Rust_NM
+Other[8]=Base_LP

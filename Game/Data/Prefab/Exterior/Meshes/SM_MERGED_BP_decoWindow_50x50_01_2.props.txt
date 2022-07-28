@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/HangingClothes/Material/MI_HangingClothes_Dull.MI_HangingClothes_Dull'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_01.MI_Plasticbag_01'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/HangingClothes/Material/MI_HangingClothes_Dull.MI_HangingClothes_Dull'
+        MaterialSlotName = HangingClothes_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 265.252, 400.483, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 15.2056, 407.127, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_01.MI_Plasticbag_01'
+        MaterialSlotName = PlasticBag_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.6092, 394.501, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+        MaterialSlotName = Drying_rack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 143.932, 394.194, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-65.1609, Y=5.53531, Z=-46.2527 }
+    BoxExtent = { X=97.8536, Y=39.2614, Z=54.1407 }
+    SphereRadius = 117.906
+}

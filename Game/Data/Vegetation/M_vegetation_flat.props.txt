@@ -1,0 +1,96 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_wall_bake_NM.clover_leaf_wall_bake_NM'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/Ivy/ivy_da.ivy_da'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Vegetation/Ivy/ivy_LP.ivy_LP'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=AO min }
+                    ParameterInfos[1] = { Name=Dither Alpha }
+                    ParameterInfos[2] = { Name=nm* }
+                    ParameterInfos[3] = { Name=sss* }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=co }
+                    ParameterInfos[1] = { Name=nm }
+                    ParameterInfos[2] = { Name=lp }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0.5, 0.5, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Vegetation/Ivy/ivy_da.ivy_da'
+            TextureValues[1] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_wall_bake_NM.clover_leaf_wall_bake_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Vegetation/Ivy/ivy_LP.ivy_LP'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Vegetation/Ivy/ivy_da.ivy_da'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/Ivy/ivy_LP.ivy_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_wall_bake_NM.clover_leaf_wall_bake_NM'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Ivy/ivy_da.ivy_da'
+        Name = co
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Clover/clover_leaf_wall_bake_NM.clover_leaf_wall_bake_NM'
+        Name = nm
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Ivy/ivy_LP.ivy_LP'
+        Name = lp
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=AO min, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Dither Alpha, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=nm*, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=sss*, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Metal_Sewer_Rust_noCF.MI_Metal_Sewer_Rust_noCF'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Metal_Sewer_Rust_noCF.MI_Metal_Sewer_Rust_noCF'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Metal_Sewer_Rust_noCF.MI_Metal_Sewer_Rust_noCF'
+        MaterialSlotName = MI_Metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 516.042, 221.744, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Metal_Sewer_Rust_noCF.MI_Metal_Sewer_Rust_noCF'
+        MaterialSlotName = MI_DONOTEXPORT
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-22.4148, Z=0 }
+    BoxExtent = { X=85.856, Y=22.4148, Z=85.8561 }
+    SphereRadius = 88.7544
+}

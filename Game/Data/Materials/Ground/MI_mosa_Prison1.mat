@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=concrete_standard_rough_CO
+Other[1]=concrete_standard_rough_LP
+Other[2]=concrete_standard_rough_NM
+Other[3]=Escalier_Mosaic01_Dirt3_CO
+Other[4]=Escalier_Mosaic01_Dirt3_LP
+Other[5]=Escalier_Mosaic01_Dirt3_NM
+Other[6]=Escalier_Mosaic01_CO
+Other[7]=Escalier_Mosaic01_LP
+Other[8]=Escalier_Mosaic01_NM
+Other[9]=Base_LP

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/lockable_door/MI_L_Door_01.MI_L_Door_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/lockable_door/MI_L_Door_01.MI_L_Door_01'
+        MaterialSlotName = lockable_door
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 260.055, 236.12, 126.869, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=24.737, Y=0, Z=25.8296 }
+    BoxExtent = { X=34.9938, Y=5.87642, Z=33.5451 }
+    SphereRadius = 39.2752
+}

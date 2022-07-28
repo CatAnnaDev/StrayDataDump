@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Decal/MI_Wall_Dark_Leak_04_c.MI_Wall_Dark_Leak_04_c'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Decal/MI_Wall_Dark_Leak_04_c.MI_Wall_Dark_Leak_04_c'
+        MaterialSlotName = Leaks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 58.1802, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.52588e-05, Z=132.235 }
+    BoxExtent = { X=177.153, Y=177.153, Z=12.4231 }
+    SphereRadius = 177.588
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint.MI_VP_CrackedPaint'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_hall_tilee3.MI_concrete_hall_tilee3'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint.MI_VP_CrackedPaint'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 415.212, 3994.84, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_concrete_hall_tilee3.MI_concrete_hall_tilee3'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 415.273, 1031.87, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-162.5, Y=172.818, Z=153.668 }
+    BoxExtent = { X=175.078, Y=172.818, Z=165.562 }
+    SphereRadius = 296.528
+}

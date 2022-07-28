@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Floor_Terrazzo.MI_Club_Floor_Terrazzo'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Floor_Terrazzo.MI_Club_Floor_Terrazzo'
+        MaterialSlotName = MI_Terrazzo
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 305.226, 326.04, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=491.67, Y=-1244.06, Z=60.0001 }
+    BoxExtent = { X=88.3304, Y=143.952, Z=60 }
+    SphereRadius = 179.233
+}

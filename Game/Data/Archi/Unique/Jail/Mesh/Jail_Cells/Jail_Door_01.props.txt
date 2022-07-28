@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint1.MI_VP_CrackedPaint1'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid_2.MI_metalgrid_2'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 717.295, 770.668, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint1.MI_VP_CrackedPaint1'
+        MaterialSlotName = Material #12
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 379.666, 778.987, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid_2.MI_metalgrid_2'
+        MaterialSlotName = Material #24
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 718.331, 769.284, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.03162, Y=-2.09808e-05, Z=203.53 }
+    BoxExtent = { X=200.605, Y=8.34078, Z=203.53 }
+    SphereRadius = 285.835
+}

@@ -1,0 +1,10 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Plaster_wall_01_CO
+Other[1]=Base_LP
+Other[2]=HK_Concrete_2_CO
+Other[3]=HK_Concrete_2_LP
+Other[4]=HK_Concrete_2_NM
+Other[5]=Ground_int_CO
+Other[6]=Ground_int_LP
+Other[7]=Ground_int_NM

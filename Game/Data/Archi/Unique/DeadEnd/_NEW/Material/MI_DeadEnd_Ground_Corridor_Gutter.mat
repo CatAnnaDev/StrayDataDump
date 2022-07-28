@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Metro_Quai_frise_CO
+Other[1]=Metro_Quai_frise_LP
+Other[2]=Metro_Quai_frise_NM
+Other[3]=Ground_int_CO
+Other[4]=Ground_int_water_LP
+Other[5]=Ground_int_NM
+Other[6]=Base_LP

@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Ground_int_water_CO
+Other[1]=Ground_int_water_LP
+Other[2]=Ground_int_water_NM
+Other[3]=GroundSlum_CO
+Other[4]=GroundSlum_LP
+Other[5]=GroundSlum_NM
+Other[6]=HK_Concrete_2_Dark_CO
+Other[7]=HK_Concrete_2_LP
+Other[8]=HK_Concrete_2_NM
+Other[9]=Base_LP

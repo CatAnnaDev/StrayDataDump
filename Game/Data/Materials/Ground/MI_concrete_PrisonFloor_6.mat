@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Bitume_01_CO
+Other[1]=Bitume_01_LP
+Other[2]=Bitume_01_NM
+Other[3]=concrete_blocks_structure_CO
+Other[4]=HK_Concrete_5_LP
+Other[5]=concrete_blocks_structure_dirty_NM
+Other[6]=GroundSlum_CO1
+Other[7]=GroundSlum_LP
+Other[8]=GroundSlum_NM
+Other[9]=Base_LP

@@ -1,0 +1,8 @@
+Diffuse=Frise_CD_D
+Normal=Frise_CD_NM
+Other[0]=Ground_int_CO
+Other[1]=Ground_int_NM
+Other[2]=HK_Concrete_5_LP
+Other[3]=alpha_chamfer
+Other[4]=concrete_standard_rough_LP
+Other[5]=HK_Concrete_4_NM

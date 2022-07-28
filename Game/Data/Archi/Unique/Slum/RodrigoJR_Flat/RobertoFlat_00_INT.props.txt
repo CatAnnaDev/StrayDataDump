@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Roof.MI_Roof'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_wallpaper_1.MI_wallpaper_1'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Ground.MI_Ground'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Roof.MI_Roof'
+        MaterialSlotName = MI_Roof
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 340.742, 1959.16, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_wallpaper_1.MI_wallpaper_1'
+        MaterialSlotName = MI_wallpaper_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 338.404, 1959.26, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Ground.MI_Ground'
+        MaterialSlotName = MI_Ground
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 340.671, 1959.06, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-56.2609, Y=-750.5, Z=150 }
+    BoxExtent = { X=322.26, Y=749.675, Z=140 }
+    SphereRadius = 827.587
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+    Materials[1] = Material3'/Game/Data/Archi/Materials/M_Frise_cd.M_Frise_cd'
+    Materials[2] = MaterialInstanceConstant'/Game/Misc/materials/MI_Bitume_01.MI_Bitume_01'
+    Materials[3] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+        MaterialSlotName = MI_Bat01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.115, 1893.99, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Materials/M_Frise_cd.M_Frise_cd'
+        MaterialSlotName = M_Frise_cd
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.579, 1895.39, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_Bitume_01.MI_Bitume_01'
+        MaterialSlotName = MI_Bitume_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 297.907, 1894.69, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 218.637, 1887.21, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.173828, Y=0.0293427, Z=130.817 }
+    BoxExtent = { X=250.287, Y=250.109, Z=169.312 }
+    SphereRadius = 392.212
+}

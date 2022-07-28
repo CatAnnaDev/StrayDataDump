@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Building/_OLD/Mesh/Rooftop_Slumhouse/Low_Def/M_PROXY_SM_MERGED_Rooftop_SlumHouse_Sloped_Small_01_2.M_PROXY_SM_MERGED_Rooftop_SlumHouse_Sloped_Small_01_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Building/_OLD/Mesh/Rooftop_Slumhouse/Low_Def/M_PROXY_SM_MERGED_Rooftop_SlumHouse_Sloped_Small_01_2.M_PROXY_SM_MERGED_Rooftop_SlumHouse_Sloped_Small_01_2'
+        MaterialSlotName = M_PROXY_SM_MERGED_Rooftop_SlumHouse_Sloped_Small_01_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1005.19, 1118.23, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.77203, Y=-3.11537, Z=153.276 }
+    BoxExtent = { X=137.245, Y=138.583, Z=157.677 }
+    SphereRadius = 245.237
+}

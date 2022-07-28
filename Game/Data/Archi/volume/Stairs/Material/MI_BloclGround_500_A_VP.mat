@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=BlockGround_500_A__D
+Other[1]=BlockGround_500_A02__LP
+Other[2]=BlockGround_500_A02__NM
+Other[3]=GroundSlum_CO1
+Other[4]=GroundSlum_LP
+Other[5]=GroundSlum_NM
+Other[6]=Base_LP

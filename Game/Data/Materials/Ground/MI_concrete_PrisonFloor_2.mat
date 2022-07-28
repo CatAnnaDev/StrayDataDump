@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=concrete_standard_rough_CO
+Other[1]=concrete_raw_damaged_dirtyborder_LP
+Other[2]=concrete_raw_damaged_dirtyborder_NM
+Other[3]=crackedpaint_medium_CO
+Other[4]=crackedpaint_medium_LP
+Other[5]=crackedpaint_medium_NM
+Other[6]=crackedpaint_heavy_CO
+Other[7]=crackedpaint_heavy_LP
+Other[8]=crackedpaint_heavy_NM
+Other[9]=Base_LP

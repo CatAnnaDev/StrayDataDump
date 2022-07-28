@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Meshes/Battery_Tower/MI_Factory_Battery_Column.MI_Factory_Battery_Column'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Meshes/Battery_Tower/MI_Factory_Battery_Column.MI_Factory_Battery_Column'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 349.728, 463.367, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=0, Z=-34.6133 }
+    BoxExtent = { X=29.9, Y=29.9, Z=98.8566 }
+    SphereRadius = 103.279
+}

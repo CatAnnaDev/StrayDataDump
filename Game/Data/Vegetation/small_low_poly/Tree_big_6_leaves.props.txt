@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/small_low_poly/small_low_1_Leaves_Mat_Inst.small_low_1_Leaves_Mat_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/small_low_poly/small_low_1_Leaves_Mat_Inst.small_low_1_Leaves_Mat_Inst'
+        MaterialSlotName = small_low_1_Leaves_Mat_Inst1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 323.622, 6421.2, 0, 0.726318 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-78.4402, Y=-438.956, Z=491.65 }
+    BoxExtent = { X=480.729, Y=401.482, Z=493.291 }
+    SphereRadius = 604.3
+}

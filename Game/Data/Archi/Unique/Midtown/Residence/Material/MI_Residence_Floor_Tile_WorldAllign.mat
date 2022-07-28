@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Tile_Dark_A_CO
+Other[1]=Tile_Dark_A_LP
+Other[2]=Tile_Dark_A_NM
+Other[3]=Tile_Dark_B_CO
+Other[4]=Tile_Dark_B_LP
+Other[5]=Tile_Dark_B_NM
+Other[6]=HK_Concrete_5_CO
+Other[7]=HK_Concrete_5_LP
+Other[8]=HK_Concrete_5_NM
+Other[9]=Base_LP

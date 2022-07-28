@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light05_ON.MI_Light05_ON'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light05_ON.MI_Light05_ON'
+        MaterialSlotName = aiStandardSurface5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 183.939, 38.446, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.53674e-07, Y=-1.90735e-06, Z=4.98151 }
+    BoxExtent = { X=15.4913, Y=15.4913, Z=4.98152 }
+    SphereRadius = 16.2726
+}

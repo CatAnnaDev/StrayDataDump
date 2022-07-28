@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Tube_Light/MI_TubeLight1.MI_TubeLight1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Tube_Light/MI_TubeLight1.MI_TubeLight1'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 129.651, 134.206, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=27.9196, Y=2.28882e-05, Z=-3.90078 }
+    BoxExtent = { X=33.0466, Y=76.8149, Z=3.90079 }
+    SphereRadius = 82.6107
+}

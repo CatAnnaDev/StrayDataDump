@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/Base_Textures_Inst.Base_Textures_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Map/_MainGame/06_MidTown/remaster/Material/MI_Counter_Glass.MI_Counter_Glass'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/Base_Textures_Inst.Base_Textures_Inst'
+    Materials[3] = MaterialInstanceConstant'/Game/Team/Viv/MI_City_Levels.MI_City_Levels'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = Concrete
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2962.95, 11856.3, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/06_MidTown/remaster/Material/MI_Counter_Glass.MI_Counter_Glass'
+        MaterialSlotName = Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2960.17, 11826.8, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = Metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/MI_City_Levels.MI_City_Levels'
+        MaterialSlotName = Selfillum
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-404.443, Z=5212.01 }
+    BoxExtent = { X=480.606, Y=1121.17, Z=5212.01 }
+    SphereRadius = 5352.85
+}

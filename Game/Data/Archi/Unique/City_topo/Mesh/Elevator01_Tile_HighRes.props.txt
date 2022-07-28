@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/MI_Concrete_SlumsElevator.MI_Concrete_SlumsElevator'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/MI_Concrete_SlumsElevator.MI_Concrete_SlumsElevator'
+        MaterialSlotName = Bitume
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.31, 1080.04, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3469.83, Z=-4396.54 }
+    BoxExtent = { X=450, Y=413.075, Z=250.165 }
+    SphereRadius = 660.086
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Data/Vegetation/uniquetree/Broadleaf_Desktop_001_Branches_Mat.Broadleaf_Desktop_001_Branches_Mat'
+    Materials[1] = Material3'/Game/Data/Vegetation/Ivy/M_ivy_leaf.M_ivy_leaf'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/uniquetree/Broadleaf_Desktop_001_Branches_Mat.Broadleaf_Desktop_001_Branches_Mat'
+        MaterialSlotName = Branch
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 5.21489, 423.474, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/Ivy/M_ivy_leaf.M_ivy_leaf'
+        MaterialSlotName = Material #38
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.1258, 399.043, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.59499, Y=1.77028, Z=24.0136 }
+    BoxExtent = { X=102.687, Y=67.171, Z=23.9713 }
+    SphereRadius = 112.628
+}

@@ -1,0 +1,203 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Tile/Ground/GroundSlum/GroundSlum1_height.GroundSlum1_height'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=height }
+                    ParameterInfos[1] = { Name=V1 }
+                    ParameterInfos[2] = { Name=mul_1 }
+                    ParameterInfos[3] = { Name=pow_1 }
+                    ParameterInfos[4] = { Name=MaxStep }
+                    ParameterInfos[5] = { Name=ref_plane }
+                    ParameterInfos[6] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[7] = { Name=U1 }
+                    ParameterInfos[8] = { Name=Alpha 1/2 }
+                    ParameterInfos[9] = { Name=V2 }
+                    ParameterInfos[10] = { Name=Minstep }
+                    ParameterInfos[11] = { Name=U2 }
+                    ParameterInfos[12] = { Name=Alpha 1/2 pow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Base UV }
+                    ParameterInfos[1] = { Name=height_channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Height_1 }
+                    ParameterInfos[1] = { Name=NM_1 }
+                    ParameterInfos[2] = { Name=LP_1 }
+                    ParameterInfos[3] = { Name=CO_1 }
+                    ParameterInfos[4] = { Name=CO_2 }
+                    ParameterInfos[5] = { Name=Height_2 }
+                    ParameterInfos[6] = { Name=LP_2 }
+                    ParameterInfos[7] = { Name=NM_2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.02
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 32
+            ScalarValues[5] = 0.5
+            ScalarValues[6] = 32
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 1
+            ScalarValues[10] = 8
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Tile/Ground/GroundSlum/GroundSlum1_height.GroundSlum1_height'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+            TextureValues[4] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+            TextureValues[5] = Texture2D'/Game/Data/Textures/Tile/Ground/GroundSlum/GroundSlum1_height.GroundSlum1_height'
+            TextureValues[6] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+            TextureValues[7] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Tile/Ground/GroundSlum/GroundSlum1_height.GroundSlum1_height'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Ground/GroundSlum/GroundSlum1_height.GroundSlum1_height'
+        Name = Height_1
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = NM_1
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+        Name = LP_1
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = CO_1
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = CO_2
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Ground/GroundSlum/GroundSlum1_height.GroundSlum1_height'
+        Name = Height_2
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_LP.Base_LP'
+        Name = LP_2
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = NM_2
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0.02, Name=height, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=V1, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=mul_1, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=pow_1, Group=None }
+    CollectedScalarParameters[4] = { Value=32, Name=MaxStep, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=ref_plane, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=U1, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Alpha 1/2, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=V2, Group=None }
+    CollectedScalarParameters[10] = { Value=8, Name=Minstep, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=U2, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Alpha 1/2 pow, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Base UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = height_channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

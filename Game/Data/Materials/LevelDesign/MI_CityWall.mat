@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=Base_NM
+Other[0]=Concrete_WallCast_2K_CO
+Other[1]=Concrete_WallCast_2K_LP
+Other[2]=Concrete_WallCast_2K_NM
+Other[3]=Tile_grid_1M
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=Base_LP

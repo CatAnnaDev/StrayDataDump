@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/M_DirtGround_Inst4.M_DirtGround_Inst4'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/M_DirtGround_Inst4.M_DirtGround_Inst4'
+        MaterialSlotName = M_DirtGround_Inst4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 388.233, 189.824, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.157715, Z=1.34549 }
+    BoxExtent = { X=108.713, Y=79.1616, Z=3.98349 }
+    SphereRadius = 134.54
+}

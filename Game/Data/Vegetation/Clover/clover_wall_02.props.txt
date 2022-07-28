@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/Clover/MI_Clover.MI_Clover'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/Clover/MI_Clover2.MI_Clover2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/Clover/MI_Clover.MI_Clover'
+        MaterialSlotName = MI_Clover
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 23.5541, 0, 89.275, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/Clover/MI_Clover2.MI_Clover2'
+        MaterialSlotName = MI_Clover2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.142, 0, 93.4893, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.70422, Y=-4.967, Z=12.3898 }
+    BoxExtent = { X=52.9982, Y=30.8306, Z=14.6018 }
+    SphereRadius = 54.9831
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_DoorA4.MI_DoorA4'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Grillage_Rust_LD.MI_Grillage_Rust_LD'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_DoorA4.MI_DoorA4'
+        MaterialSlotName = MI_DoorA4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 236.372, 369.359, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Grillage_Rust_LD.MI_Grillage_Rust_LD'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 330.283, 369.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.08039, Y=73.9222, Z=133.932 }
+    BoxExtent = { X=11.2568, Y=74.3352, Z=131.463 }
+    SphereRadius = 151.087
+}

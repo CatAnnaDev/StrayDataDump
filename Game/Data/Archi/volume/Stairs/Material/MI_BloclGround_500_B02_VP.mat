@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=BlockGround_500_B02__D
+Other[1]=BlockGround_500_B02__LP
+Other[2]=BlockGround_500_B02__NM
+Other[3]=crackedpaint_heavy_CO
+Other[4]=crackedpaint_heavy_LP
+Other[5]=crackedpaint_heavy_NM
+Other[6]=Base_LP

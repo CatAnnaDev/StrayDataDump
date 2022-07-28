@@ -1,0 +1,5 @@
+Diffuse=Ground_int_water_NoTiles_CO
+Normal=Ground_int_water_NM
+Other[0]=Ground_int_water_NoTiles_NM
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=Ground_int_water_CO

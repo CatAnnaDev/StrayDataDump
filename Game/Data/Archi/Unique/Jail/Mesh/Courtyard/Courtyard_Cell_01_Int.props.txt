@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/PrisonWindows/MI_PrisonWindows_Inst.MI_PrisonWindows_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Ground_dusty_rocky.MI_Ground_dusty_rocky'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_concrete_PrisonCeiling_1.MI_concrete_PrisonCeiling_1'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/PrisonWindows/MI_PrisonWindows_Inst.MI_PrisonWindows_Inst'
+        MaterialSlotName = Material #29_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 470.628, 2241.99, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Ground_dusty_rocky.MI_Ground_dusty_rocky'
+        MaterialSlotName = Material #42
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 470.454, 2244.16, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_concrete_PrisonCeiling_1.MI_concrete_PrisonCeiling_1'
+        MaterialSlotName = Material #41
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 470.104, 2242.77, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-418.047, Y=1508.24, Z=143.325 }
+    BoxExtent = { X=388.375, Y=716.704, Z=141.558 }
+    SphereRadius = 827.368
+}

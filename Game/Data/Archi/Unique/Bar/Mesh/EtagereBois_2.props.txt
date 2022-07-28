@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Wood_Comptoir.MI_Wood_Comptoir'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Wood_Comptoir.MI_Wood_Comptoir'
+        MaterialSlotName = MI_Wood_Comptoir
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 277.138, 168.215, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=21.018, Y=-6.71631, Z=-11.7261 }
+    BoxExtent = { X=21.018, Y=90.1912, Z=15.6758 }
+    SphereRadius = 93.9252
+}

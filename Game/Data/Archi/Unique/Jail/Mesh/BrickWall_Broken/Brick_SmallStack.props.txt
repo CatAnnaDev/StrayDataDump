@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_brick04_Camfade.MI_brick04_Camfade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_brick04_Camfade.MI_brick04_Camfade'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 764.623, 203.334, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=23.2126, Y=10.355, Z=12.2773 }
+    BoxExtent = { X=35.6025, Y=29.3623, Z=18.6362 }
+    SphereRadius = 44.8691
+}

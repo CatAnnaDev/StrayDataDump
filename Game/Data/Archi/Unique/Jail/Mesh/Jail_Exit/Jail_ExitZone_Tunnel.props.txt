@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Jail/Materials/MI_concrete_city_wall_Jail.MI_concrete_city_wall_Jail'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_concrete_PrisonFloor_6.MI_concrete_PrisonFloor_6'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Jail/Materials/MI_concrete_city_wall_Jail.MI_concrete_city_wall_Jail'
+        MaterialSlotName = MI_concrete_city_wall_Jail
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 262.143, 1235.91, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_concrete_PrisonFloor_6.MI_concrete_PrisonFloor_6'
+        MaterialSlotName = MI_concrete_PrisonFloor_6
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 512.563, 1234.17, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.10352e-05, Y=-200, Z=120 }
+    BoxExtent = { X=240, Y=200, Z=160 }
+    SphereRadius = 350.999
+}

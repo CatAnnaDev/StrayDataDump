@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Tile_White_Ending_Metro_CO
+Other[1]=Tile_White_Ending_Metro_LP
+Other[2]=Tile_White_Ending_Metro_NM
+Other[3]=Metro_mosaic_oldB_02_CO
+Other[4]=Metro_mosaic_oldB_02_LP
+Other[5]=Metro_mosaic_oldB_02_NM
+Other[6]=Base_LP

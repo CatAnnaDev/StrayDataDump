@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Floor_Tile_WorldAllign.MI_Residence_Floor_Tile_WorldAllign'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_AsphaltMidtown.MI_AsphaltMidtown'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Residence_Floor_Tile_WorldAllign.MI_Residence_Floor_Tile_WorldAllign'
+        MaterialSlotName = Tile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.09, 217.488, 2611.87, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+        MaterialSlotName = MI_Metro_Quai_frise2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 852.297, 1040.65, 754.633, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_AsphaltMidtown.MI_AsphaltMidtown'
+        MaterialSlotName = Fbx Default Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 451.936, 1032.09, 706.518, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=799.962, Y=689.984, Z=1.00048 }
+    BoxExtent = { X=1300.04, Y=760.016, Z=9.00057 }
+    SphereRadius = 1505.92
+}

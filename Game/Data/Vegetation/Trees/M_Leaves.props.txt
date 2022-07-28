@@ -1,0 +1,119 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Vegetation/Trees/Leaves_D.Leaves_D'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/Trees/Leaves_NM.Leaves_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Fade Offset }
+                    ParameterInfos[1] = { Name=ao power }
+                    ParameterInfos[2] = { Name=Bake dither Alpha }
+                    ParameterInfos[3] = { Name=Fade Distance }
+                    ParameterInfos[4] = { Name=min ao sss }
+                    ParameterInfos[5] = { Name=sss }
+                    ParameterInfos[6] = { Name=ro }
+                    ParameterInfos[7] = { Name=min ao diffuse }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=nm* }
+                    ParameterInfos[1] = { Name=co* }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=leaf_texture }
+                    ParameterInfos[1] = { Name=leaves_nm }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 100, 1, 0.33, 200, 0.9, 1.5, 38.8865, 0.9 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=1.25, G=1.25, B=1.25, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Vegetation/Trees/Leaves_D.Leaves_D'
+            TextureValues[1] = Texture2D'/Game/Data/Vegetation/Trees/Leaves_NM.Leaves_NM'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Vegetation/Trees/Leaves_NM.Leaves_NM'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Vegetation/Trees/Leaves_D.Leaves_D'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Trees/Leaves_D.Leaves_D'
+        Name = leaf_texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Vegetation/Trees/Leaves_NM.Leaves_NM'
+        Name = leaves_nm
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=100, Name=Fade Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ao power, Group=None }
+    CollectedScalarParameters[2] = { Value=0.33, Name=Bake dither Alpha, Group=None }
+    CollectedScalarParameters[3] = { Value=200, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[4] = { Value=0.9, Name=min ao sss, Group=None }
+    CollectedScalarParameters[5] = { Value=1.5, Name=sss, Group=None }
+    CollectedScalarParameters[6] = { Value=38.8865, Name=ro, Group=None }
+    CollectedScalarParameters[7] = { Value=0.9, Name=min ao diffuse, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = nm*
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.25, G=1.25, B=1.25, A=1 }
+        Name = co*
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

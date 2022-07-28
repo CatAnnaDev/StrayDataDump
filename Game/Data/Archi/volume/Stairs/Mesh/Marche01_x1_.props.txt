@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/Base_Vertex_Paint_Inst_Marche.Base_Vertex_Paint_Inst_Marche'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/volume/Stairs/Material/Base_Vertex_Paint_Inst_Marche.Base_Vertex_Paint_Inst_Marche'
+        MaterialSlotName = Base_Vertex_Paint_Inst_Marche
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 214.161, 103.205, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=-11.7632, Z=7.09046 }
+    BoxExtent = { X=57.3682, Y=11.7632, Z=7.09042 }
+    SphereRadius = 58.9895
+}

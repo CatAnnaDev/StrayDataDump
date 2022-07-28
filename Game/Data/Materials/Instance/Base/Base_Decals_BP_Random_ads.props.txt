@@ -1,0 +1,106 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Decal/Texture/Stickers01_D.Stickers01_D'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_CO.Paper_torn_CO'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_LP.Paper_torn_LP'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Dirt Nmb_Vertical }
+                    ParameterInfos[1] = { Name=Nmb_Vertical }
+                    ParameterInfos[2] = { Name=Dirt Nmb_Horizontal }
+                    ParameterInfos[3] = { Name=Ro }
+                    ParameterInfos[4] = { Name=Nmb_Horizontal }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Texture }
+                    ParameterInfos[2] = { Name=Dirt }
+                    ParameterInfos[3] = { Name=Dirt LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 4, 4, 4, 0.4, 4 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+            TextureValues[1] = Texture2D'/Game/Data/Decal/Texture/Stickers01_D.Stickers01_D'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_CO.Paper_torn_CO'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_LP.Paper_torn_LP'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Decal/Texture/Stickers01_D.Stickers01_D'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_CO.Paper_torn_CO'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_LP.Paper_torn_LP'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Decal/Texture/Stickers01_D.Stickers01_D'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Papers/Paper_torn_CO.Paper_torn_CO'
+        Name = Dirt
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Papers/Paper_torn_LP.Paper_torn_LP'
+        Name = Dirt LP
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=Dirt Nmb_Vertical, Group=None }
+    CollectedScalarParameters[1] = { Value=4, Name=Nmb_Vertical, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Dirt Nmb_Horizontal, Group=None }
+    CollectedScalarParameters[3] = { Value=0.4, Name=Ro, Group=None }
+    CollectedScalarParameters[4] = { Value=4, Name=Nmb_Horizontal, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

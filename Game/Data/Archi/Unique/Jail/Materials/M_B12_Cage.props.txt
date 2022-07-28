@@ -1,0 +1,147 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Diverse/droid_text_alpha.droid_text_alpha'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Screen/screen01.screen01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Panner_speed }
+                    ParameterInfos[1] = { Name=U* }
+                    ParameterInfos[2] = { Name=Scanline_scale }
+                    ParameterInfos[3] = { Name=Texture_co mix }
+                    ParameterInfos[4] = { Name=SI_Mul }
+                    ParameterInfos[5] = { Name=V* }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=SpeedXY }
+                    ParameterInfos[1] = { Name=color2 }
+                    ParameterInfos[2] = { Name=color3 }
+                    ParameterInfos[3] = { Name=color1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture_co }
+                    ParameterInfos[1] = { Name=Scanline }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 2, 1, 0.005, 0, 1, 1 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=1, A=1 }
+            VectorValues[3] = { R=1, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Diverse/droid_text_alpha.droid_text_alpha'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Screen/screen01.screen01'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = Texture_co
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        Name = Scanline
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Panner_speed, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=U*, Group=None }
+    CollectedScalarParameters[2] = { Value=0.005, Name=Scanline_scale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Texture_co mix, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=SI_Mul, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=V*, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = SpeedXY
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = color2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = color3
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_text_alpha
+    }
+}

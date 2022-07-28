@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/B12Flat/Material/MI_Wood_floor_vertexpaint.MI_Wood_floor_vertexpaint'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_wallpaper_1.MI_wallpaper_1'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+        MaterialSlotName = ID8
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.056, 1580.27, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/B12Flat/Material/MI_Wood_floor_vertexpaint.MI_Wood_floor_vertexpaint'
+        MaterialSlotName = ID1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.263, 1580.44, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_wallpaper_1.MI_wallpaper_1'
+        MaterialSlotName = ID5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.382, 1580.98, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+        MaterialSlotName = ID7
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 378.699, 1587.12, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-141.492, Y=253.924, Z=151.102 }
+    BoxExtent = { X=350.266, Y=390.41, Z=150.512 }
+    SphereRadius = 545.622
+}

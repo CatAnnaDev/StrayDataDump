@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+        MaterialSlotName = MI_Bat04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.037, 680.753, 0, 0 }
+        }
+    }
+}
+Sockets[3] = {  }
+ExtendedBounds =
+{
+    Origin = { X=-95, Y=-24.9999, Z=150 }
+    BoxExtent = { X=395, Y=25.0003, Z=150 }
+    SphereRadius = 423.261
+}

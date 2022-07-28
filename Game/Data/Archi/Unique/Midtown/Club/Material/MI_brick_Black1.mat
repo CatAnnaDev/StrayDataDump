@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Brickwall_2_CO
+Other[1]=Brickwall_2_LP
+Other[2]=Brickwall_2_NM
+Other[3]=concrete_blocks_structure_dirty_CO
+Other[4]=concrete_blocks_structure_LP
+Other[5]=concrete_blocks_structure_dirty_NM
+Other[6]=Base_LP

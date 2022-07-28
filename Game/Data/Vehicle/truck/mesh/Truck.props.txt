@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/truck/Material/MI_truck.MI_truck'
+    Materials[1] = Material3'/Game/Data/Vehicle/truck/Material/MI_Truck_Glass.MI_Truck_Glass'
+    Materials[2] = Material3'/Game/Data/Vehicle/truck/Material/MI_Truck_Glass.MI_Truck_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/truck/Material/MI_truck.MI_truck'
+        MaterialSlotName = Truck
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 424.148, 775.329, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vehicle/truck/Material/MI_Truck_Glass.MI_Truck_Glass'
+        MaterialSlotName = Truck_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 423.775, 772.672, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vehicle/truck/Material/MI_Truck_Glass.MI_Truck_Glass'
+        MaterialSlotName = Truck_Glass_SideWindow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 423.876, 773.099, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-06, Y=-1.36195, Z=102.889 }
+    BoxExtent = { X=67.5, Y=141.33, Z=102.981 }
+    SphereRadius = 166.178
+}

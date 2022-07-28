@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads02.MI_Midtown_Ads02'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads01.MI_Midtown_Ads01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 497.105, 2466.38, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads02.MI_Midtown_Ads02'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 274.479, 2482.83, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Midtown_Ads01.MI_Midtown_Ads01'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 179.231, 2478.75, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-05, Y=-3.05176e-05, Z=330.594 }
+    BoxExtent = { X=375.357, Y=375.357, Z=43.6125 }
+    SphereRadius = 377.946
+}

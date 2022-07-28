@@ -1,0 +1,8 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=concrete_blocks_structure_CO
+Other[1]=concrete_blocks_structure_LP
+Other[2]=concrete_blocks_structure_NM
+Other[3]=Ground_int_water_LP
+Other[4]=Ground_int_water_NM
+Other[5]=Base_LP

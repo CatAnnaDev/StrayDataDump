@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Terracotta_Tiles_CO
+Other[1]=Terracotta_Tiles_LP
+Other[2]=Terracotta_Tiles_NM
+Other[3]=Terracotta_Tiles_Missing_Tiles_CO
+Other[4]=Terracotta_Tiles_Missing_Tiles_LP
+Other[5]=Terracotta_Tiles_Missing_Tiles_NM
+Other[6]=ZurgSlime_01_CO
+Other[7]=ZurgSlime_01_LP
+Other[8]=ZurgSlime_01_NM
+Other[9]=Base_LP

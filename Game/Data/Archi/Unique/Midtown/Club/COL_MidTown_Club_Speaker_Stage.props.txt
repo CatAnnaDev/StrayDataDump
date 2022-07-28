@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_BlockAllBlockCam.MI_Coll_BlockAllBlockCam'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_BlockAllBlockCam.MI_Coll_BlockAllBlockCam'
+        MaterialSlotName = MI_COL
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 289.071, 421.614, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1063.3, Y=15, Z=76.6809 }
+    BoxExtent = { X=55.3037, Y=235.997, Z=76.6809 }
+    SphereRadius = 250.105
+}

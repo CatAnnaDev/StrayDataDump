@@ -1,0 +1,145 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_D.Fluffy_Jacket_D'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_LP.Fluffy_Jacket_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Diverse/H_Color_Spectrum.H_Color_Spectrum'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Diverse/V_Color_Spectrum.V_Color_Spectrum'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Base_Blend }
+                    ParameterInfos[2] = { Name=Reflect_Frac }
+                    ParameterInfos[3] = { Name=NM_mul }
+                    ParameterInfos[4] = { Name=Fresnel_Exp }
+                    ParameterInfos[5] = { Name=Metal_Mul }
+                    ParameterInfos[6] = { Name=CamFade Radius }
+                    ParameterInfos[7] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color_Mul }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Base_Texture }
+                    ParameterInfos[1] = { Name=Detail_NM }
+                    ParameterInfos[2] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0.5, 0.5, 0, 1, 0, 0, 200, 0.25 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_D.Fluffy_Jacket_D'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+            TextureValues[2] = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_LP.Fluffy_Jacket_LP'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_LP.Fluffy_Jacket_LP'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Diverse/V_Color_Spectrum.V_Color_Spectrum'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Diverse/H_Color_Spectrum.H_Color_Spectrum'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ReferencedTextures[4] = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_D.Fluffy_Jacket_D'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_D.Fluffy_Jacket_D'
+        Name = Base_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = Detail_NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_LP.Fluffy_Jacket_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Base_Blend, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Reflect_Frac, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=NM_mul, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Fresnel_Exp, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Metal_Mul, Group=None }
+    CollectedScalarParameters[6] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color_Mul
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_NM
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fluffy_Jacket_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fluffy_Jacket_LP
+    }
+}

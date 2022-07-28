@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Plate_Text_Black.MI_Plate_Text_Black'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Plate_Text_Black.MI_Plate_Text_Black'
+        MaterialSlotName = Material #365
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.5781, 13.8197, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0999023, Y=-0.000137329, Z=6.48499e-05 }
+    BoxExtent = { X=1.14366e-06, Y=9.39472, Z=1.26994 }
+    SphereRadius = 9.48016
+}

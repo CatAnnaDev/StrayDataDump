@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=Base_NM
+Other[0]=Garbage_Tile_01_CO
+Other[1]=Garbage_Tile_01_LP
+Other[2]=Garbage_Tile_01_NM
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=Base_LP
+Other[5]=Tile_grid_1M

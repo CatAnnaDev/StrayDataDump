@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Concrete_A_CO
+Other[1]=Concrete_A_LP
+Other[2]=Concrete_A_NM
+Other[3]=Garbage_Factory_Concrete_02_D
+Other[4]=Garbage_Factory_Concrete_02_LP
+Other[5]=Garbage_Factory_Concrete_02_NM
+Other[6]=Base_LP

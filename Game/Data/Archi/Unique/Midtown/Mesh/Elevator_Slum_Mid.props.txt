@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Elevator_Slum_mid_02.MI_Elevator_Slum_mid_02'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Elevator_Slum_mid_01.MI_Elevator_Slum_mid_01'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Elevator_Slum_mid_03.MI_Elevator_Slum_mid_03'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Midtown_ConcreteFloor.MI_Midtown_ConcreteFloor'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/Mi_Pipe_01_Inside_the_Wall_Tile_Desaturated.Mi_Pipe_01_Inside_the_Wall_Tile_Desaturated'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Elevator_Slum_mid_02.MI_Elevator_Slum_mid_02'
+        MaterialSlotName = Walls Interior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 404.825, 1491.79, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Elevator_Slum_mid_01.MI_Elevator_Slum_mid_01'
+        MaterialSlotName = Walls Exterior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 405.069, 1491.88, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Elevator_Slum_mid_03.MI_Elevator_Slum_mid_03'
+        MaterialSlotName = Elevator Doors
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 404.759, 1494.48, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Midtown_ConcreteFloor.MI_Midtown_ConcreteFloor'
+        MaterialSlotName = Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 202.25, 1492.67, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/Mi_Pipe_01_Inside_the_Wall_Tile_Desaturated.Mi_Pipe_01_Inside_the_Wall_Tile_Desaturated'
+        MaterialSlotName = Parapet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 105.663, 1478.02, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-05, Z=245.628 }
+    BoxExtent = { X=219.515, Y=224.601, Z=247.369 }
+    SphereRadius = 399.023
+}

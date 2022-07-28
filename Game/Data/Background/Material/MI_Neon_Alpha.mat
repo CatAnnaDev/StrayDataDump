@@ -1,0 +1,5 @@
+Diffuse=fake_neon
+Normal=Base_NM
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=Base_CO
+Other[2]=Base_LP

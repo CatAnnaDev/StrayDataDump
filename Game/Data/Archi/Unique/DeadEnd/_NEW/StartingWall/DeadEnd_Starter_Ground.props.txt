@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_pavet_pom2.MI_pavet_pom2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_pavet_pom2.MI_pavet_pom2'
+        MaterialSlotName = MI_CobbleStone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1330.27, 1647.45, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6986.57, Y=5520.16, Z=-4805.93 }
+    BoxExtent = { X=707.554, Y=1418.16, Z=1.68359 }
+    SphereRadius = 1583
+}

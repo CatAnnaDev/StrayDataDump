@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/FakeBat/FakeBat01/MI_Fake_Bat4.MI_Fake_Bat4'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Background/Material/MI_Bat27.MI_Bat27'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/FakeBat/FakeBat01/MI_Fake_Bat4.MI_Fake_Bat4'
+        MaterialSlotName = MI_Bat27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3460.01, 5018.16, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Background/Material/MI_Bat27.MI_Bat27'
+        MaterialSlotName = Material #2711
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2830.27, 5010.89, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.198792, Y=-253.342, Z=-264.975 }
+    BoxExtent = { X=500.199, Y=754.073, Z=1237.53 }
+    SphereRadius = 1533.07
+}

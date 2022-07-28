@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Bitume_vpaint_Inst.MI_Bitume_vpaint_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Bitume_vpaint_Inst.MI_Bitume_vpaint_Inst'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1299.74, 1683.92, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-491.598, Y=207.674, Z=0.00012207 }
+    BoxExtent = { X=710.618, Y=988.85, Z=0.00012207 }
+    SphereRadius = 1217.7
+}

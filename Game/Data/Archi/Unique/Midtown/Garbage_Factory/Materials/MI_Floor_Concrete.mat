@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Bitume_01_CO
+Other[1]=Bitume_01_LP
+Other[2]=Bitume_01_NM
+Other[3]=pavet_round_dark_CO
+Other[4]=pavet_round_dark_LP
+Other[5]=pavet_round_dark_NM
+Other[6]=GroundMud02_CO
+Other[7]=GroundMud02_LP
+Other[8]=GroundMud02_NM
+Other[9]=Base_LP

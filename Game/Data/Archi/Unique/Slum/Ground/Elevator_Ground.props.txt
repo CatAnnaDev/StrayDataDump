@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Ground/GroundSlum/MI_GroundSlumPom.MI_GroundSlumPom'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Ground/GroundSlum/MI_GroundSlumPom.MI_GroundSlumPom'
+        MaterialSlotName = MI_GroundSlumPom
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 740.465, 1492.24, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1477.55, Y=10.7207, Z=-14.3565 }
+    BoxExtent = { X=860.424, Y=640.435, Z=19.5333 }
+    SphereRadius = 1070.07
+}

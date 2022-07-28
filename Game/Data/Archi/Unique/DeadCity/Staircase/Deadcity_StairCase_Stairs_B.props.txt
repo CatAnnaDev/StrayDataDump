@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Beton.MI_Wall_Beton'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_ground_Bitume.MI_ground_Bitume'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Beton.MI_Wall_Beton'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Beton.MI_Wall_Beton'
+        MaterialSlotName = MI_ai_White
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.95, 1491.36, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_ground_Bitume.MI_ground_Bitume'
+        MaterialSlotName = MI_ai_Grey_Dark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.941, 1478.16, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Beton.MI_Wall_Beton'
+        MaterialSlotName = MI_ai_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.99, 1489.96, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-269.999, Y=-124.999, Z=105 }
+    BoxExtent = { X=480, Y=125, Z=255 }
+    SphereRadius = 557.719
+}

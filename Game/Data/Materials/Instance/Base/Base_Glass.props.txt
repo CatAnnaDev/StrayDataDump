@@ -1,0 +1,183 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_Glass_LP.Base_Glass_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Tile/Mask/Dirt_Mask_01_MASK.Dirt_Mask_01_MASK'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=U* }
+                    ParameterInfos[1] = { Name=Specular }
+                    ParameterInfos[2] = { Name=Dirt_Mul }
+                    ParameterInfos[3] = { Name=NM* }
+                    ParameterInfos[4] = { Name=Lightmass Opacity }
+                    ParameterInfos[5] = { Name=V* }
+                    ParameterInfos[6] = { Name=Dirt_V* }
+                    ParameterInfos[7] = { Name=Dirt_U* }
+                    ParameterInfos[8] = { Name=Opacity }
+                    ParameterInfos[9] = { Name=Metal Mul }
+                    ParameterInfos[10] = { Name=IOR }
+                    ParameterInfos[11] = { Name=CamFade Radius }
+                    ParameterInfos[12] = { Name=Dirt_Pow }
+                    ParameterInfos[13] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=CO_mul }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=NM }
+                    ParameterInfos[2] = { Name=LP }
+                    ParameterInfos[3] = { Name=Dirt_Map }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 200
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.25
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Base/Base_Glass_LP.Base_Glass_LP'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Tile/Mask/Dirt_Mask_01_MASK.Dirt_Mask_01_MASK'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_Glass_LP.Base_Glass_LP'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Tile/Mask/Dirt_Mask_01_MASK.Dirt_Mask_01_MASK'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_Glass_CO.Base_Glass_CO'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_Glass_LP.Base_Glass_LP'
+        Name = LP
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Mask/Dirt_Mask_01_MASK.Dirt_Mask_01_MASK'
+        Name = Dirt_Map
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=U*, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Dirt_Mul, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=NM*, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Lightmass Opacity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=V*, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Dirt_V*, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Dirt_U*, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Opacity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Metal Mul, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=IOR, Group=None }
+    CollectedScalarParameters[11] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Dirt_Pow, Group=None }
+    CollectedScalarParameters[13] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = CO_mul
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_Glass_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_Glass_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_NM
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Dirt_Mask_01_MASK
+    }
+}

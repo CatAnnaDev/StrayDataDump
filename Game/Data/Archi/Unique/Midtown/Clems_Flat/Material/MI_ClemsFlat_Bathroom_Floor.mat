@@ -1,0 +1,10 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=tile_mosa_CO
+Other[1]=tile_mosa_LP
+Other[2]=tile_mosa_NM
+Other[3]=crackedpaint_light_CO
+Other[4]=crackedpaint_light_LP
+Other[5]=crackedpaint_light_NM
+Other[6]=concrete_blocks_structure_CO
+Other[7]=Base_LP

@@ -1,0 +1,195 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_LP.Droid_Clothes_01_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_NM.Droid_Clothes_01_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/fabric_colors_nuance_D.fabric_colors_nuance_D'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_CO.fibre_tissus_CO'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Detail NM Intensity }
+                    ParameterInfos[1] = { Name=Fuzz Power }
+                    ParameterInfos[2] = { Name=Detail CO Intensity }
+                    ParameterInfos[3] = { Name=Detail Rotation }
+                    ParameterInfos[4] = { Name=Fuzz Edge Brightness }
+                    ParameterInfos[5] = { Name=Fuzz Core Darkness }
+                    ParameterInfos[6] = { Name=SSS Amount }
+                    ParameterInfos[7] = { Name=Roughness Multiplier }
+                    ParameterInfos[8] = { Name=Specular Mask Power }
+                    ParameterInfos[9] = { Name=CamFade Radius }
+                    ParameterInfos[10] = { Name=Detail Scale }
+                    ParameterInfos[11] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color Multiplier }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Base NM }
+                    ParameterInfos[1] = { Name=Detail NM }
+                    ParameterInfos[2] = { Name=Detail CO }
+                    ParameterInfos[3] = { Name=Base CO }
+                    ParameterInfos[4] = { Name=Base LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] =
+        {
+            ScalarValues[0] = 2
+            ScalarValues[1] = 2
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.4
+            ScalarValues[5] = 0.4
+            ScalarValues[6] = 0.33
+            ScalarValues[7] = 0.8
+            ScalarValues[8] = 4
+            ScalarValues[9] = 200
+            ScalarValues[10] = 10
+            ScalarValues[11] = 0.25
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_NM.Droid_Clothes_01_NM'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_CO.fibre_tissus_CO'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/fabric_colors_nuance_D.fabric_colors_nuance_D'
+            TextureValues[4] = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_LP.Droid_Clothes_01_LP'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/fabric_colors_nuance_D.fabric_colors_nuance_D'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_LP.Droid_Clothes_01_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_NM.Droid_Clothes_01_NM'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_CO.fibre_tissus_CO'
+        ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_NM.Droid_Clothes_01_NM'
+        Name = Base NM
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        Name = Detail NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_CO.fibre_tissus_CO'
+        Name = Detail CO
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/fabric_colors_nuance_D.fabric_colors_nuance_D'
+        Name = Base CO
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Cloth/Cape_01/Texture/Droid_Clothes_01_LP.Droid_Clothes_01_LP'
+        Name = Base LP
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Detail NM Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Fuzz Power, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Detail CO Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Detail Rotation, Group=None }
+    CollectedScalarParameters[4] = { Value=0.4, Name=Fuzz Edge Brightness, Group=None }
+    CollectedScalarParameters[5] = { Value=0.4, Name=Fuzz Core Darkness, Group=None }
+    CollectedScalarParameters[6] = { Value=0.33, Name=SSS Amount, Group=None }
+    CollectedScalarParameters[7] = { Value=0.8, Name=Roughness Multiplier, Group=None }
+    CollectedScalarParameters[8] = { Value=4, Name=Specular Mask Power, Group=None }
+    CollectedScalarParameters[9] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[10] = { Value=10, Name=Detail Scale, Group=None }
+    CollectedScalarParameters[11] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color Multiplier
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Droid_Clothes_01_LP
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Droid_Clothes_01_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = fabric_colors_nuance_D
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_CO
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_NM
+    }
+}

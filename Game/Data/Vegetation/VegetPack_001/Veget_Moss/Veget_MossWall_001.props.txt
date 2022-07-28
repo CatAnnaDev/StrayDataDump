@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Vegetation/VegetPack_001/Veget_Moss/Veget_Moss_001_Leaf_Mat.Veget_Moss_001_Leaf_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/VegetPack_001/Veget_Moss/Veget_Moss_001_Leaf_Mat.Veget_Moss_001_Leaf_Mat'
+        MaterialSlotName = Veget_Moss_001_Leaf_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 17.8593, 722.68, 0, 2.39247 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.133652, Y=-1.66011, Z=-0.253395 }
+    BoxExtent = { X=37.7564, Y=14.7151, Z=39.8309 }
+    SphereRadius = 48.6366
+}

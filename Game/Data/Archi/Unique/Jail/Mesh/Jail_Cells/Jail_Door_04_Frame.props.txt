@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint1.MI_VP_CrackedPaint1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_Paint_Prison_4.MI_Paint_Prison_4'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid_2.MI_metalgrid_2'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/CrackedPaint/MI_VP_CrackedPaint1.MI_VP_CrackedPaint1'
+        MaterialSlotName = MI_VP_CrackedPaint1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 310.977, 706.937, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_Paint_Prison_4.MI_Paint_Prison_4'
+        MaterialSlotName = MI_Rust_Inst1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 696.198, 702.877, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/MidTown/Metro/Material_instance/MI_metalgrid_2.MI_metalgrid_2'
+        MaterialSlotName = MI_metalgrid_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 699.479, 706.444, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.594666, Y=2.47955e-05, Z=221.329 }
+    BoxExtent = { X=168.711, Y=8.23688, Z=221.827 }
+    SphereRadius = 277.85
+}

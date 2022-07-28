@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 245.015, 191.302, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-52.5, Y=-60, Z=30.1447 }
+    BoxExtent = { X=52.5, Y=60, Z=30.1447 }
+    SphereRadius = 85.2347
+}

@@ -1,0 +1,90 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Fx/Scanline4x4.Scanline4x4'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/GUI/Statics.Statics'
+    ReferencedTextures[6] = Texture2D'/Game/GPE/Lootable/Slums/Icons/LOOT_Broken_Tracker.LOOT_Broken_Tracker'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Effect On/Off }
+                    ParameterInfos[1] = { Name=Scanline UV }
+                    ParameterInfos[2] = { Name=Statics UV }
+                    ParameterInfos[3] = { Name=Statics Speed }
+                    ParameterInfos[4] = { Name=Scanline Speed }
+                    ParameterInfos[5] = { Name=Nb Rows/Columns }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Item Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 1, 50, 4, 1, -2, 6 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/GPE/Lootable/Slums/Icons/LOOT_Broken_Tracker.LOOT_Broken_Tracker'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/GPE/Lootable/Slums/Icons/LOOT_Broken_Tracker.LOOT_Broken_Tracker'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Textures/GUI/Statics.Statics'
+        ReferencedTextures[7] = Texture2D'/Game/Data/Textures/Fx/Scanline4x4.Scanline4x4'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/GPE/Lootable/Slums/Icons/LOOT_Broken_Tracker.LOOT_Broken_Tracker'
+        Name = Item Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Effect On/Off, Group=None }
+    CollectedScalarParameters[1] = { Value=50, Name=Scanline UV, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Statics UV, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Statics Speed, Group=None }
+    CollectedScalarParameters[4] = { Value=-2, Name=Scanline Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=6, Name=Nb Rows/Columns, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/Mesh/MI_DeadCity_Fan.MI_DeadCity_Fan'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/Mesh/MI_Sewers_Door_Trim_CamFade.MI_Sewers_Door_Trim_CamFade'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/Mesh/MI_DeadCity_Fan.MI_DeadCity_Fan'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.112, 126.118, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/DeadCity/Mesh/MI_Sewers_Door_Trim_CamFade.MI_Sewers_Door_Trim_CamFade'
+        MaterialSlotName = Sewers_Door_Trim
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 425.261, 126.099, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.8147e-06, Y=0, Z=18.5944 }
+    BoxExtent = { X=62.5708, Y=57.5478, Z=7.27485 }
+    SphereRadius = 62.6481
+}

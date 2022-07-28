@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Metal_Trims_Paint_D
+Other[1]=Metal_Trims_Paint_LP
+Other[2]=Metal_Trims_Paint_NM
+Other[3]=Metal_Trims_Rust_D
+Other[4]=Metal_Trims_Rust_LP
+Other[5]=Metal_Trims_Rust_NM
+Other[6]=Trash_D
+Other[7]=Trash_LP
+Other[8]=Trash_NM
+Other[9]=Base_LP

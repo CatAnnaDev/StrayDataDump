@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_2.MI_wallpaper_2'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Concrete.MI_Wall_Concrete'
+        MaterialSlotName = ID8
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.342, 1397.2, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+        MaterialSlotName = ID1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.335, 1397.32, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_2.MI_wallpaper_2'
+        MaterialSlotName = ID3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.545, 1396.91, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-239.711, Y=-386.35, Z=150.845 }
+    BoxExtent = { X=449.997, Y=250.036, Z=150.844 }
+    SphereRadius = 526.574
+}

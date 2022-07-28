@@ -1,0 +1,84 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_CO.Paper_torn_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_LP.Paper_torn_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/print/Paper_Ads_3x4_NM.Paper_Ads_3x4_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Frame_Rand }
+                    ParameterInfos[1] = { Name=Frame_Rand Co }
+                    ParameterInfos[2] = { Name=Nmb_Vertical }
+                    ParameterInfos[3] = { Name=Nmb_Vertical Co }
+                    ParameterInfos[4] = { Name=Nmb_Horizontal Co }
+                    ParameterInfos[5] = { Name=Nmb_Horizontal }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 0, 4, 4, 4, 4 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_LP.Paper_torn_LP'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/print/Paper_Ads_3x4_NM.Paper_Ads_3x4_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Papers/Paper_torn_CO.Paper_torn_CO'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+        Name = Color
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Frame_Rand, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Frame_Rand Co, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Nmb_Vertical, Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=Nmb_Vertical Co, Group=None }
+    CollectedScalarParameters[4] = { Value=4, Name=Nmb_Horizontal Co, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=Nmb_Horizontal, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

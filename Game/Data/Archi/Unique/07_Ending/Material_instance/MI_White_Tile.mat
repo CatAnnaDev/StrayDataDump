@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Tile_White_Ending_CO
+Other[1]=Tile_White_Ending_LP
+Other[2]=Tile_White_Ending_NM
+Other[3]=Metro_quai_dirty_CO
+Other[4]=Metro_quai_dirty_LP
+Other[5]=Metro_quai_dirty_NM
+Other[6]=Base_LP

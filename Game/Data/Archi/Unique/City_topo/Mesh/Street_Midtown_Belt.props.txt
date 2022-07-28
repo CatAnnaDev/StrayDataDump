@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Quai1.MI_Metro_Quai1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Quai1.MI_Metro_Quai1'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 443.094, 2271.94, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=780.63, Y=2831.81, Z=2172.24 }
+    BoxExtent = { X=2346.7, Y=1051.09, Z=30.2135 }
+    SphereRadius = 2487.34
+}

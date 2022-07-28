@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Pom_Grid_01.MI_Pom_Grid_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Belt/Material_instance/MI_Pom_Grid_01.MI_Pom_Grid_01'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 458.821, 2862.67, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=785.275, Y=2917.09, Z=2306.37 }
+    BoxExtent = { X=2357.98, Y=923.296, Z=164.031 }
+    SphereRadius = 2535.37
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Map/_MainGame/06_MidTown/remaster/Material/NewMaterial.NewMaterial'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Quai1.MI_Metro_Quai1'
+    Materials[2] = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Concrete.MI_Metro_Concrete'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Map/_MainGame/06_MidTown/remaster/Material/NewMaterial.NewMaterial'
+        MaterialSlotName = 1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 269.629, 1078.12, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Quai1.MI_Metro_Quai1'
+        MaterialSlotName = 2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 228.937, 1078.86, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Concrete.MI_Metro_Concrete'
+        MaterialSlotName = 3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 548.006, 1196.9, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Materials/MI_Metro_Quai_frise2.MI_Metro_Quai_frise2'
+        MaterialSlotName = 4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 336.071, 1087.15, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-465.247, Y=465.247, Z=7.21753 }
+    BoxExtent = { X=465.248, Y=465.248, Z=7.21753 }
+    SphereRadius = 657.999
+}

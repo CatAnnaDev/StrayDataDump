@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/flower/MI_Flower_Branches.MI_Flower_Branches'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/flower/MI_Flower_Leaves.MI_Flower_Leaves'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/flower/MI_Flower_Branches.MI_Flower_Branches'
+        MaterialSlotName = flower01_Branches_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 7.12816, 42.3992, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/flower/MI_Flower_Leaves.MI_Flower_Leaves'
+        MaterialSlotName = flower01_Leaves_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 6.31472, 43.0625, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=4.30589 }
+    BoxExtent = { X=3.54522, Y=3.84365, Z=4.30589 }
+    SphereRadius = 4.6688
+}

@@ -1,0 +1,131 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Tool/ToyoTool/Assets/Textures/Base/Base_CO.Base_CO'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=WindWeight }
+                    ParameterInfos[1] = { Name=Specular }
+                    ParameterInfos[2] = { Name=Roughness Leaf Top }
+                    ParameterInfos[3] = { Name=WindIntensity }
+                    ParameterInfos[4] = { Name=SSS Depth }
+                    ParameterInfos[5] = { Name=WindSpeed }
+                    ParameterInfos[6] = { Name=Roughness Branch }
+                    ParameterInfos[7] = { Name=Normal Intensity }
+                    ParameterInfos[8] = { Name=Roughness Leaf Bottom }
+                    ParameterInfos[9] = { Name=CamFade Radius }
+                    ParameterInfos[10] = { Name=SSS Multiplier }
+                    ParameterInfos[11] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=NM }
+                    ParameterInfos[2] = { Name=SSS }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 0.2
+            ScalarValues[3] = 0.2
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.7
+            ScalarValues[6] = 0.8
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.8
+            ScalarValues[9] = 200
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.25
+        }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+            TextureValues[2] = Texture2D'/Game/Tool/ToyoTool/Assets/Textures/Base/Base_CO.Base_CO'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Tool/ToyoTool/Assets/Textures/Base/Base_CO.Base_CO'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_CO.Base_CO'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Tool/ToyoTool/Assets/Textures/Base/Base_CO.Base_CO'
+        Name = SSS
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=WindWeight, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=Roughness Leaf Top, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=SSS Depth, Group=None }
+    CollectedScalarParameters[5] = { Value=0.7, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=0.8, Name=Roughness Branch, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.8
+        Name = Roughness Leaf Bottom
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=SSS Multiplier, Group=None }
+    CollectedScalarParameters[11] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

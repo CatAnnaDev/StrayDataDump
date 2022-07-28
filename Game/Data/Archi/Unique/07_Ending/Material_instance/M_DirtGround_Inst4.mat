@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Ground_dusty_rocky_D
+Other[1]=Ground_dusty_rocky_LP
+Other[2]=Ground_dusty_rocky_NM
+Other[3]=Ground_veget_01_D
+Other[4]=Ground_veget_01_LP
+Other[5]=Ground_veget_01_NM
+Other[6]=Base_LP

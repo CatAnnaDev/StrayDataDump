@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=YellowTile_Damaged_CO
+Other[1]=YellowTile_Damaged_LP
+Other[2]=YellowTile_Damaged_NM
+Other[3]=Ground_veget_01_D
+Other[4]=Ground_veget_01_LP
+Other[5]=Ground_veget_01_NM
+Other[6]=GroundDirt01_CO
+Other[7]=GroundDirt01_LP
+Other[8]=GroundDirt01_NM
+Other[9]=Base_LP

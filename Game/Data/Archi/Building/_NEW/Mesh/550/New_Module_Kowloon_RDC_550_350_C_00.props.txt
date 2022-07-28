@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_wall01_5.MI_wall01_5'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_intsol_white_tile.MI_intsol_white_tile'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat04.MI_Bat04'
+        MaterialSlotName = MI_Bat04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.093, 1644.51, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_wall01_5.MI_wall01_5'
+        MaterialSlotName = MI_Bat06
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.1, 1644.41, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_intsol_white_tile.MI_intsol_white_tile'
+        MaterialSlotName = MI_Bat05
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.044, 1643.62, 0, 0 }
+        }
+    }
+}
+Sockets[3] = {  }
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-200, Z=100 }
+    BoxExtent = { X=275, Y=200, Z=250 }
+    SphereRadius = 422.049
+}

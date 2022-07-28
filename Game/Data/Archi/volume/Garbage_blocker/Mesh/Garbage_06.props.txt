@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/volume/Garbage_blocker/Material/MI_Garbage_blocker_02.MI_Garbage_blocker_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/volume/Garbage_blocker/Material/MI_Garbage_blocker_02.MI_Garbage_blocker_02'
+        MaterialSlotName = Garbage
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 572.976, 720.647, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.221298, Y=-1.48843, Z=17.8507 }
+    BoxExtent = { X=201.62, Y=413.294, Z=56.9996 }
+    SphereRadius = 435.681
+}

@@ -1,0 +1,6 @@
+Diffuse=DefaultDiffuse
+Opacity=Screen_Error_A
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=flipbook
+Other[3]=RGB_tv_pixel

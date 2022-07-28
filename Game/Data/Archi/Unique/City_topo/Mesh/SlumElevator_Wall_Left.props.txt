@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/CityWAll/MI_concrete_city_wall_Micro_Mosa.MI_concrete_city_wall_Micro_Mosa'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/CityWAll/MI_concrete_city_wall_Micro_Mosa.MI_concrete_city_wall_Micro_Mosa'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 353.002, 1206.38, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1946.65, Y=3771.15, Z=-4716.54 }
+    BoxExtent = { X=1610.66, Y=74.8843, Z=175 }
+    SphereRadius = 1621.87
+}

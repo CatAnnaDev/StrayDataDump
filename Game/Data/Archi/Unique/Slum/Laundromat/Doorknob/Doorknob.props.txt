@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Archi/Unique/Slum/Laundromat/Doorknob/M_GoldSimple.M_GoldSimple'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Unique/Slum/Laundromat/Doorknob/M_GoldSimple.M_GoldSimple'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 21.2498, 33.1198, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-9.53674e-07, Z=2.84844 }
+    BoxExtent = { X=4.26033, Y=4.26033, Z=2.84844 }
+    SphereRadius = 4.53305
+}

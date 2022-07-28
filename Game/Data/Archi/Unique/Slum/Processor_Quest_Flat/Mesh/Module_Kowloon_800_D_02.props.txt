@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Clara/MI_Bat05_green.MI_Bat05_green'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_2.MI_wallpaper_2'
+    Materials[2] = MaterialInstanceConstant'/Game/Team/Clara/MI_Midtown_Bat04_Inst.MI_Midtown_Bat04_Inst'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_5.MI_wallpaper_5'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/MI_Bat05_green.MI_Bat05_green'
+        MaterialSlotName = Material #95
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 427.325, 1846.24, 1786.17, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_2.MI_wallpaper_2'
+        MaterialSlotName = Material #19
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 428.133, 2137.66, 1784.01, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/MI_Midtown_Bat04_Inst.MI_Midtown_Bat04_Inst'
+        MaterialSlotName = Material #32
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 420.161, 1887.72, 1784.46, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat01.MI_Bat01'
+        MaterialSlotName = Material #45
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wallpaper/MI_wallpaper_5.MI_wallpaper_5'
+        MaterialSlotName = Material #58
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 428.024, 0, 1783.96, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=545.909, Y=-0.138031, Z=149.534 }
+    BoxExtent = { X=512.214, Y=366.96, Z=141.061 }
+    SphereRadius = 645.179
+}

@@ -1,0 +1,12 @@
+Normal=Foilage_Ground_Main_N
+Other[0]=brush_03_05_PIV
+Other[1]=brush_03_05_VEC
+Other[2]=brush_03_01_PIV
+Other[3]=WindTurblenceVectorAndGustMagnitude
+Other[4]=brush_03_01_VEC
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=PP2_rgb_XVect_a_XExtent
+Other[7]=SimpExPivPos
+Other[8]=test2_rgb_PivotPos_a_ParentIndexInt_UV_2
+Other[9]=Foilage_Ground_Main_A
+Other[10]=Foilage_Ground_Main_O

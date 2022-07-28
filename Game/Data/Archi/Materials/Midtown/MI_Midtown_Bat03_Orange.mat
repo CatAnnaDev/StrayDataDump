@@ -1,0 +1,13 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=DefaultDiffuse
+Other[1]=WhiteTile_big_CO
+Other[2]=WhiteTile_big_LP
+Other[3]=WhiteTile_big_NM
+Other[4]=HK_Concrete_1_CO
+Other[5]=HK_Concrete_1_LP
+Other[6]=HK_Concrete_1_NM
+Other[7]=HK_Concrete_3_CO
+Other[8]=HK_Concrete_3_LP
+Other[9]=HK_Concrete_3_NM
+Other[10]=Base_LP

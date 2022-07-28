@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Vine/MI_Vine_Branch.MI_Vine_Branch'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Vine/MI_Vine_Leaves.MI_Vine_Leaves'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Vine/MI_Vine_Branch.MI_Vine_Branch'
+        MaterialSlotName = Stem_2_fresh_bright_green_Frond_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 3.85058, 528.992, 0, 2.37297 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/VegetPack_001/Veget_Vine/MI_Vine_Leaves.MI_Vine_Leaves'
+        MaterialSlotName = Atlas_Frond_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 75.767, 514.766, 0, 1.47682 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.70275, Y=0.87767, Z=103.853 }
+    BoxExtent = { X=35.4075, Y=82.3142, Z=111.418 }
+    SphereRadius = 113.896
+}

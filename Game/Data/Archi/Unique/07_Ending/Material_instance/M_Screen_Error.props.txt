@@ -1,0 +1,137 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Screen_Error_A.Screen_Error_A'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Fx/RGB_tv_pixel.RGB_tv_pixel'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=pixel_tile_u }
+                    ParameterInfos[2] = { Name=Animation_Stop }
+                    ParameterInfos[3] = { Name=Vignette Density2 }
+                    ParameterInfos[4] = { Name=Vignette Density }
+                    ParameterInfos[5] = { Name=pixel_tile_v }
+                    ParameterInfos[6] = { Name=Time_Multiply }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=Color_A }
+                    ParameterInfos[2] = { Name=Color_B }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.05, 240, 0, 0.8, 8, 180, 0.4 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=250, G=250, B=250, A=1 }
+            VectorValues[1] = { R=0.1, G=0.001667, B=0, A=1 }
+            VectorValues[2] = { R=2, G=0.033332, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Screen_Error_A.Screen_Error_A'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Screen_Error_A.Screen_Error_A'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Fx/RGB_tv_pixel.RGB_tv_pixel'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Screen_Error_A.Screen_Error_A'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=240, Name=pixel_tile_u, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Animation_Stop, Group=None }
+    CollectedScalarParameters[3] = { Value=0.8, Name=Vignette Density2, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=Vignette Density, Group=None }
+    CollectedScalarParameters[5] = { Value=180, Name=pixel_tile_v, Group=None }
+    CollectedScalarParameters[6] = { Value=0.4, Name=Time_Multiply, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=250, G=250, B=250, A=1 }
+        Name = Emissive
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1, G=0.001667, B=0, A=1 }
+        Name = Color_A
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2, G=0.033332, B=0, A=1 }
+        Name = Color_B
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 180
+        UVChannelIndex = 0
+        TextureName = RGB_tv_pixel
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.140625
+        UVChannelIndex = 0
+        TextureName = Screen_Error_A
+    }
+}

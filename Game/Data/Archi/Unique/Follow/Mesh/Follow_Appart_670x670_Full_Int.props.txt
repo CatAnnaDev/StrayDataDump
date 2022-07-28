@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_wallpaper_1.MI_wallpaper_1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_wallpaper_1.MI_wallpaper_1'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_wallpaper_1.MI_wallpaper_1'
+        MaterialSlotName = MI_Walls_Interior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 241.961, 1638.61, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 239.644, 1628.08, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_wallpaper_1.MI_wallpaper_1'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 241.902, 1636.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=80, Y=-410, Z=255.001 }
+    BoxExtent = { X=300, Y=375, Z=245.001 }
+    SphereRadius = 539.12
+}

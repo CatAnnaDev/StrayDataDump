@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Concrete_Tiles_CO
+Other[1]=Concrete_Tiles_LP
+Other[2]=Concrete_Tiles_NM
+Other[3]=Ground_int_CO
+Other[4]=Ground_int_LP
+Other[5]=Ground_int_NM
+Other[6]=Base_LP

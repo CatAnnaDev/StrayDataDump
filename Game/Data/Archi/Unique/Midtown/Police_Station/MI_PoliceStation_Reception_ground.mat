@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Diagonal_Tiles_CO
+Other[1]=Diagonal_Tiles_LP
+Other[2]=Diagonal_Tiles_Missing_Tiles_NM
+Other[3]=GroundMud_CO
+Other[4]=GroundMud_LP
+Other[5]=Metro_dark_dirty_NM
+Other[6]=Base_LP

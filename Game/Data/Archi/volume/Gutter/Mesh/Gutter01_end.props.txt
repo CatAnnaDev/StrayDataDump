@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/volume/Gutter/Material/MI_Rigole_VP.MI_Rigole_VP'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/volume/Gutter/Material/MI_Rigole_VP.MI_Rigole_VP'
+        MaterialSlotName = Standardmaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 601.61, 508.637, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.153748, Y=-2.92834, Z=-8.40678 }
+    BoxExtent = { X=250.148, Y=70.0748, Z=20.8083 }
+    SphereRadius = 260.407
+}

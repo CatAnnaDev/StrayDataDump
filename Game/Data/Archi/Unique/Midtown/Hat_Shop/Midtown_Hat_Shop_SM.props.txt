@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/Midtown/MI_Midtown_Bat01_Blue_Damaged.MI_Midtown_Bat01_Blue_Damaged'
+    Materials[1] = MaterialInstanceConstant'/Game/Map/Vertical_Slice/SUB_WarpZone/Material/MI_brick01.MI_brick01'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Ceiling_Metal.MI_Ceiling_Metal'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/Midtown/MI_Midtown_Bat01_Blue_Damaged.MI_Midtown_Bat01_Blue_Damaged'
+        MaterialSlotName = Exterior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.227, 1587.59, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/Vertical_Slice/SUB_WarpZone/Material/MI_brick01.MI_brick01'
+        MaterialSlotName = Interior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.632, 1580.7, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Wood/MI_noCF_Wood_floor_old.MI_noCF_Wood_floor_old'
+        MaterialSlotName = Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.701, 1580.31, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Residence/Material/MI_Ceiling_Metal.MI_Ceiling_Metal'
+        MaterialSlotName = Ceiling
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.655, 1580.55, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00012207, Y=307.472, Z=165 }
+    BoxExtent = { X=275, Y=307.473, Z=165 }
+    SphereRadius = 444.285
+}

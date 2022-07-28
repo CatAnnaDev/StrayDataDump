@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Mosaic_orange.MI_Metro_Mosaic_orange'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Quai_frise.MI_Metro_Quai_frise'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Quai.MI_Metro_Quai'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Mosaic_orange.MI_Metro_Mosaic_orange'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 437.64, 386.55, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Quai_frise.MI_Metro_Quai_frise'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.8439, 387.861, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Quai.MI_Metro_Quai'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 318.352, 386.691, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-101.068, Y=0, Z=7.51648 }
+    BoxExtent = { X=48.9324, Y=350, Z=23.4835 }
+    SphereRadius = 354.156
+}

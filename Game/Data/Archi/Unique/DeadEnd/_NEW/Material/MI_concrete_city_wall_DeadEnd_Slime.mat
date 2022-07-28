@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Concrete_WallCast_2K_CO
+Other[1]=Concrete_WallCast_2K_LP
+Other[2]=Concrete_WallCast_2K_NM
+Other[3]=concrete_blocks_structure_dirty_CO
+Other[4]=concrete_blocks_structure_LP
+Other[5]=HK_Concrete_2_NM
+Other[6]=ZurgSlime_01_CO
+Other[7]=ZurgSlime_01_LP
+Other[8]=ZurgSlime_01_NM
+Other[9]=Base_LP

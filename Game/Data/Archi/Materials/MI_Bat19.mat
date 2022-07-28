@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Wall_Paint_1_CO
+Other[1]=Wall_Paint_1_LP
+Other[2]=Wall_Paint_1_NM
+Other[3]=HK_Concrete_4_CO
+Other[4]=HK_Concrete_4_LP
+Other[5]=HK_Concrete_4_NM
+Other[6]=Leaking_2_CO
+Other[7]=Leaking_2_LP
+Other[8]=Leaking_2_NM
+Other[9]=Base_LP

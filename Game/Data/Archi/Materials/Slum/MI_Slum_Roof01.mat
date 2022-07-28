@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Diagonal_Tiles_CO
+Other[1]=Diagonal_Tiles_LP
+Other[2]=Diagonal_Tiles_NM
+Other[3]=Diagonal_Tiles_Missing_Tiles_CO
+Other[4]=Diagonal_Tiles_Missing_Tiles_LP
+Other[5]=Diagonal_Tiles_Missing_Tiles_NM
+Other[6]=GroundDirt01_CO
+Other[7]=GroundDirt01_LP
+Other[8]=GroundDirt01_NM
+Other[9]=Base_LP

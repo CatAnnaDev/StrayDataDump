@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Data/Vegetation/VegetPack_001/Veget_GroundPlant/LiveOak_leaf_front_1_Leaf_Mat.LiveOak_leaf_front_1_Leaf_Mat'
+    Materials[1] = Material3'/Game/Data/Vegetation/VegetPack_001/Veget_GroundPlant/LiveOak_leaf_front_1_Leaf_Mat.LiveOak_leaf_front_1_Leaf_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/VegetPack_001/Veget_GroundPlant/LiveOak_leaf_front_1_Leaf_Mat.LiveOak_leaf_front_1_Leaf_Mat'
+        MaterialSlotName = LiveOak_leaf_front_1_Branch_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 15.0336, 389.749, 0, 2.21637 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/VegetPack_001/Veget_GroundPlant/LiveOak_leaf_front_1_Leaf_Mat.LiveOak_leaf_front_1_Leaf_Mat'
+        MaterialSlotName = LiveOak_leaf_front_1_Leaf_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 10.7317, 379.705, 0, 1.07009 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.18393, Y=1.25923, Z=10.1783 }
+    BoxExtent = { X=151.203, Y=164.164, Z=16.5447 }
+    SphereRadius = 169.867
+}

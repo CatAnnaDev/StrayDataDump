@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Bark.MI_UniqueTree_Bark'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Bark.MI_UniqueTree_Bark'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Leaves.MI_UniqueTree_Leaves'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Leaves.MI_UniqueTree_Leaves'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Bark.MI_UniqueTree_Bark'
+        MaterialSlotName = Broadleaf_Desktop_001_Branches_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 22.4961, 11021, 465.747, 2.42673 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Bark.MI_UniqueTree_Bark'
+        MaterialSlotName = Broadleaf_Desktop_001_Branches_2_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 51.9631, 8067.41, 0, 1.70032 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Leaves.MI_UniqueTree_Leaves'
+        MaterialSlotName = Broadleaf_Desktop_001_Fronds_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 50.4173, 4206.21, 0, 2.93768 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/uniquetree/MI_UniqueTree_Leaves.MI_UniqueTree_Leaves'
+        MaterialSlotName = Broadleaf_Desktop_001_Leaves_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 156.834, 11281.8, 0, 0.711978 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-200.441, Y=124.169, Z=764.008 }
+    BoxExtent = { X=560.161, Y=359.338, Z=1019.94 }
+    SphereRadius = 1099.67
+}

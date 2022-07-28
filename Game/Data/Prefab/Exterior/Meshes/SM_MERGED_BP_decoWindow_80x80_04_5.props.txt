@@ -1,0 +1,146 @@
+Materials[11] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Can/MI_Plastic_Can_B_Grey.MI_Plastic_Can_B_Grey'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_01.MI_Plasticbag_01'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_02.MI_Plasticbag_02'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_Osier_neuf.MI_Osier_neuf'
+    Materials[6] = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_osier_02.MI_osier_02'
+    Materials[7] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_metal_Tile_01.MI_metal_Tile_01'
+    Materials[8] = MaterialInstanceConstant'/Game/Data/Props/Cloth/material/MI_cloth_01.MI_cloth_01'
+    Materials[9] = MaterialInstanceConstant'/Game/Data/Props/Cloth/material/MI_Cloth.MI_Cloth'
+    Materials[10] = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_03.MI_Plasticbag_03'
+}
+SourceModels[0] = {}
+StaticMaterials[11] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Can/MI_Plastic_Can_B_Grey.MI_Plastic_Can_B_Grey'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 98.102, 98.1208, 302.604, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_01.MI_Plasticbag_01'
+        MaterialSlotName = PlasticBag_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.3356, 93.5995, 294.852, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_02.MI_Plasticbag_02'
+        MaterialSlotName = PlasticBag_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 84.9624, 88.1048, 295.906, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 15.3139, 15.3139, 307.874, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 124.223, 129.963, 300.666, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_Osier_neuf.MI_Osier_neuf'
+        MaterialSlotName = MI_Osier_neuf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.8279, 159.747, 298.626, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_osier_02.MI_osier_02'
+        MaterialSlotName = MI_osier_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 43.2116, 143.408, 323.321, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_metal_Tile_01.MI_metal_Tile_01'
+        MaterialSlotName = 12 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.687, 55.475, 311.884, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cloth/material/MI_cloth_01.MI_cloth_01'
+        MaterialSlotName = Clothes
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 214.83, 77.4163, 288.625, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cloth/material/MI_Cloth.MI_Cloth'
+        MaterialSlotName = 01___Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 309.828, 27.379, 299.489, 0 }
+        }
+    }
+    StaticMaterials[10] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_03.MI_Plasticbag_03'
+        MaterialSlotName = PlasticBag_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 81.6168, 81.5248, 298.03, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.6029, Y=36.3563, Z=-18.1293 }
+    BoxExtent = { X=52.7186, Y=68.4769, Z=62.0471 }
+    SphereRadius = 87.747
+}

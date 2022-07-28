@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Vegetation/M_vegetation.M_vegetation'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Vegetation/M_vegetation.M_vegetation'
+        MaterialSlotName = MI_Clover
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22.1367, 130.855, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.64338, Y=-1.90308, Z=13.7287 }
+    BoxExtent = { X=57.7586, Y=48.4615, Z=18.5474 }
+    SphereRadius = 63.3619
+}

@@ -1,0 +1,412 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/PP2_rgb_XVect_a_XExtent.PP2_rgb_XVect_a_XExtent'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimpExPivPos.SimpExPivPos'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/test2_rgb_PivotPos_a_ParentIndexInt_UV_2.test2_rgb_PivotPos_a_ParentIndexInt_UV_2'
+    ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/WindTurblenceVectorAndGustMagnitude.WindTurblenceVectorAndGustMagnitude'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Vegetation/GroundFoliage/Textures/MasterTextures/Foilage_Ground_Main_A.Foilage_Ground_Main_A'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Vegetation/GroundFoliage/Textures/MasterTextures/Foilage_Ground_Main_N.Foilage_Ground_Main_N'
+    ReferencedTextures[7] = Texture2D'/Game/Data/Vegetation/GroundFoliage/Textures/MasterTextures/Foilage_Ground_Main_O.Foilage_Ground_Main_O'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[53] =
+                {
+                    ParameterInfos[0] = { Name=Max Rotation 3 }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Wind Angle offset 2 }
+                    ParameterInfos[3] = { Name=Fade Offset }
+                    ParameterInfos[4] = { Name=Wind 3 Random Rotation Influence }
+                    ParameterInfos[5] = { Name=Wind 3 Random Rotation Change Rate }
+                    ParameterInfos[6] = { Name=Distance_1 }
+                    ParameterInfos[7] = { Name=Wind 3's Angle Contribution to Wind 4 }
+                    ParameterInfos[8] = { Name=CurrentTime }
+                    ParameterInfos[9] = { Name=Brightness }
+                    ParameterInfos[10] = { Name=Wind Speed }
+                    ParameterInfos[11] = { Name=Wind 2's Angle Contribution to Wind 3 }
+                    ParameterInfos[12] = { Name=Wind 4 Random Rotation Influence }
+                    ParameterInfos[13] = { Name=Wind Horizontal Speed }
+                    ParameterInfos[14] = { Name=Specular }
+                    ParameterInfos[15] = { Name=Wind 1's Angle Contribution to Wind 2 }
+                    ParameterInfos[16] = { Name=Local Wind 4 Speed }
+                    ParameterInfos[17] = { Name=Max Rotation 1 }
+                    ParameterInfos[18] = { Name=Wind Angle Offset 3 }
+                    ParameterInfos[19] = { Name=Local Wind Scale 3 }
+                    ParameterInfos[20] = { Name=Wind 3 Shelter Dot Product Bias }
+                    ParameterInfos[21] = { Name=Wind 2 Random Rotation Change Rate }
+                    ParameterInfos[22] = { Name=Local Wind Scale 1 }
+                    ParameterInfos[23] = { Name=Dampening Radius Multiplier 4 }
+                    ParameterInfos[24] = { Name=Wind 1 Random Rotation Influence }
+                    ParameterInfos[25] = { Name=hardness }
+                    ParameterInfos[26] = { Name=Fade Distance }
+                    ParameterInfos[27] = { Name=Dampening Radius Multiplier 2 }
+                    ParameterInfos[28] = { Name=Wind Angle Offset 1 }
+                    ParameterInfos[29] = { Name=Wind Gust World Scale }
+                    ParameterInfos[30] = { Name=Wind 4 Shelter Dot Product Bias }
+                    ParameterInfos[31] = { Name=Wind 2's Angle Contribution to Wind 4 }
+                    ParameterInfos[32] = { Name=Wind Angle Offset 4 }
+                    ParameterInfos[33] = { Name=Wind 2 Shelter Dot Product Modulation }
+                    ParameterInfos[34] = { Name=PreviousTime }
+                    ParameterInfos[35] = { Name=Dampening Radius Multiplier 1 }
+                    ParameterInfos[36] = { Name=Wind 2 Random Rotation Influence }
+                    ParameterInfos[37] = { Name=Wind 1 Shelter Dot Product Bias }
+                    ParameterInfos[38] = { Name=Max Rotation 4 }
+                    ParameterInfos[39] = { Name=Wind 4 Shelter Dot Product Modulation }
+                    ParameterInfos[40] = { Name=Wind 1 Random Rotation Change Rate }
+                    ParameterInfos[41] = { Name=Max Rotation 2 }
+                    ParameterInfos[42] = { Name=Wind 1 Shelter Dot Product Modulation }
+                    ParameterInfos[43] = { Name=Subsurface Strengh }
+                    ParameterInfos[44] = { Name=Wind 1's Angle Contribution to Wind 4 }
+                    ParameterInfos[45] = { Name=Bend mul }
+                    ParameterInfos[46] = { Name=Wind 2 Shelter Dot Product Bias }
+                    ParameterInfos[47] = { Name=Local Wind Scale 2 }
+                    ParameterInfos[48] = { Name=Dampening Radius Multiplier 3 }
+                    ParameterInfos[49] = { Name=Wind 1's Angle Contribution to Wind 3 }
+                    ParameterInfos[50] = { Name=Distance }
+                    ParameterInfos[51] = { Name=Wind 3 Shelter Dot Product Modulation }
+                    ParameterInfos[52] = { Name=Wind 4 Random Rotation Change Rate }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normalized Wind Direction X Axis }
+                    ParameterInfos[1] = { Name=Normalized Wind Direction Y Axis }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Position and Index Texture }
+                    ParameterInfos[1] = { Name=WindTurbulenceVectorAndGustMagnitude }
+                    ParameterInfos[2] = { Name=X-Vector And X-Extent Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[53] =
+        {
+            ScalarValues[0] = 0.009174
+            ScalarValues[1] = 0.8
+            ScalarValues[2] = 0
+            ScalarValues[3] = 50
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 200
+            ScalarValues[6] = 10
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.25
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.25
+            ScalarValues[13] = 1
+            ScalarValues[14] = 5
+            ScalarValues[15] = 0
+            ScalarValues[16] = 2
+            ScalarValues[17] = 0.009174
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = -1.25
+            ScalarValues[21] = 200
+            ScalarValues[22] = 1
+            ScalarValues[23] = 2
+            ScalarValues[24] = 0.25
+            ScalarValues[25] = -0.5
+            ScalarValues[26] = 100
+            ScalarValues[27] = 2
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = -1.25
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0
+            ScalarValues[33] = -0.444
+            ScalarValues[34] = 0
+            ScalarValues[35] = 2
+            ScalarValues[36] = 0.25
+            ScalarValues[37] = -1.25
+            ScalarValues[38] = 0.009174
+            ScalarValues[39] = -0.444
+            ScalarValues[40] = 200
+            ScalarValues[41] = 0.009174
+            ScalarValues[42] = -0.444
+            ScalarValues[43] = 1.5
+            ScalarValues[44] = 0
+            ScalarValues[45] = 0.06
+            ScalarValues[46] = -1.25
+            ScalarValues[47] = 1
+            ScalarValues[48] = 2
+            ScalarValues[49] = 0
+            ScalarValues[50] = 40
+            ScalarValues[51] = -0.444
+            ScalarValues[52] = 200
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimpExPivPos.SimpExPivPos'
+            TextureValues[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/WindTurblenceVectorAndGustMagnitude.WindTurblenceVectorAndGustMagnitude'
+            TextureValues[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/PP2_rgb_XVect_a_XExtent.PP2_rgb_XVect_a_XExtent'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/WindTurblenceVectorAndGustMagnitude.WindTurblenceVectorAndGustMagnitude'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/test2_rgb_PivotPos_a_ParentIndexInt_UV_2.test2_rgb_PivotPos_a_ParentIndexInt_UV_2'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/PP2_rgb_XVect_a_XExtent.PP2_rgb_XVect_a_XExtent'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimpExPivPos.SimpExPivPos'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Vegetation/GroundFoliage/Textures/MasterTextures/Foilage_Ground_Main_O.Foilage_Ground_Main_O'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Vegetation/GroundFoliage/Textures/MasterTextures/Foilage_Ground_Main_N.Foilage_Ground_Main_N'
+        ReferencedTextures[7] = Texture2D'/Game/Data/Vegetation/GroundFoliage/Textures/MasterTextures/Foilage_Ground_Main_A.Foilage_Ground_Main_A'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimpExPivPos.SimpExPivPos'
+        Name = Position and Index Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/WindTurblenceVectorAndGustMagnitude.WindTurblenceVectorAndGustMagnitude'
+        Name = WindTurbulenceVectorAndGustMagnitude
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/PP2_rgb_XVect_a_XExtent.PP2_rgb_XVect_a_XExtent'
+        Name = X-Vector And X-Extent Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[53] =
+{
+    CollectedScalarParameters[0] = { Value=0.009174, Name=Max Rotation 3, Group=None }
+    CollectedScalarParameters[1] = { Value=0.8, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Wind Angle offset 2, Group=None }
+    CollectedScalarParameters[3] = { Value=50, Name=Fade Offset, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.25
+        Name = Wind 3 Random Rotation Influence
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 200
+        Name = Wind 3 Random Rotation Change Rate
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=10, Name=Distance_1, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = Wind 3's Angle Contribution to Wind 4
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=CurrentTime, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[10] = { Value=0.25, Name=Wind Speed, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = Wind 2's Angle Contribution to Wind 3
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.25
+        Name = Wind 4 Random Rotation Influence
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=Wind Horizontal Speed, Group=None }
+    CollectedScalarParameters[14] = { Value=5, Name=Specular, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = Wind 1's Angle Contribution to Wind 2
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=2, Name=Local Wind 4 Speed, Group=None }
+    CollectedScalarParameters[17] = { Value=0.009174, Name=Max Rotation 1, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Wind Angle Offset 3, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Local Wind Scale 3, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = -1.25
+        Name = Wind 3 Shelter Dot Product Bias
+        Group = None
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 200
+        Name = Wind 2 Random Rotation Change Rate
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=1, Name=Local Wind Scale 1, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 2
+        Name = Dampening Radius Multiplier 4
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.25
+        Name = Wind 1 Random Rotation Influence
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=-0.5, Name=hardness, Group=None }
+    CollectedScalarParameters[26] = { Value=100, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = 2
+        Name = Dampening Radius Multiplier 2
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=0, Name=Wind Angle Offset 1, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=Wind Gust World Scale, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = -1.25
+        Name = Wind 4 Shelter Dot Product Bias
+        Group = None
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = Wind 2's Angle Contribution to Wind 4
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=0, Name=Wind Angle Offset 4, Group=None }
+    CollectedScalarParameters[33] =
+    {
+        Value = -0.444
+        Name = Wind 2 Shelter Dot Product Modulation
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=0, Name=PreviousTime, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 2
+        Name = Dampening Radius Multiplier 1
+        Group = None
+    }
+    CollectedScalarParameters[36] =
+    {
+        Value = 0.25
+        Name = Wind 2 Random Rotation Influence
+        Group = None
+    }
+    CollectedScalarParameters[37] =
+    {
+        Value = -1.25
+        Name = Wind 1 Shelter Dot Product Bias
+        Group = None
+    }
+    CollectedScalarParameters[38] = { Value=0.009174, Name=Max Rotation 4, Group=None }
+    CollectedScalarParameters[39] =
+    {
+        Value = -0.444
+        Name = Wind 4 Shelter Dot Product Modulation
+        Group = None
+    }
+    CollectedScalarParameters[40] =
+    {
+        Value = 200
+        Name = Wind 1 Random Rotation Change Rate
+        Group = None
+    }
+    CollectedScalarParameters[41] = { Value=0.009174, Name=Max Rotation 2, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = -0.444
+        Name = Wind 1 Shelter Dot Product Modulation
+        Group = None
+    }
+    CollectedScalarParameters[43] = { Value=1.5, Name=Subsurface Strengh, Group=None }
+    CollectedScalarParameters[44] =
+    {
+        Value = 0
+        Name = Wind 1's Angle Contribution to Wind 4
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=0.06, Name=Bend mul, Group=None }
+    CollectedScalarParameters[46] =
+    {
+        Value = -1.25
+        Name = Wind 2 Shelter Dot Product Bias
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=1, Name=Local Wind Scale 2, Group=None }
+    CollectedScalarParameters[48] =
+    {
+        Value = 2
+        Name = Dampening Radius Multiplier 3
+        Group = None
+    }
+    CollectedScalarParameters[49] =
+    {
+        Value = 0
+        Name = Wind 1's Angle Contribution to Wind 3
+        Group = None
+    }
+    CollectedScalarParameters[50] = { Value=40, Name=Distance, Group=None }
+    CollectedScalarParameters[51] =
+    {
+        Value = -0.444
+        Name = Wind 3 Shelter Dot Product Modulation
+        Group = None
+    }
+    CollectedScalarParameters[52] =
+    {
+        Value = 200
+        Name = Wind 4 Random Rotation Change Rate
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Normalized Wind Direction X Axis
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = Normalized Wind Direction Y Axis
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

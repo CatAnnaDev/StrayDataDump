@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=concrete_blocks_structure_CO
+Other[1]=concrete_blocks_structure_dirty_LP
+Other[2]=concrete_blocks_structure_dirty_NM
+Other[3]=Ground_dusty_rocky_D
+Other[4]=Ground_dusty_rocky_LP
+Other[5]=Ground_dusty_rocky_NM
+Other[6]=Ground_veget_01_D
+Other[7]=Ground_veget_01_LP
+Other[8]=Ground_veget_01_NM
+Other[9]=Base_LP

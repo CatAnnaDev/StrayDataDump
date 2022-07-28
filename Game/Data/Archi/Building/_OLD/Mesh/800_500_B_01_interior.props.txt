@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_brick03.MI_brick03'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_wall01_4.MI_wall01_4'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat19.MI_Bat19'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_brick03.MI_brick03'
+        MaterialSlotName = 10 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.099, 1439.31, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_wall01_4.MI_wall01_4'
+        MaterialSlotName = Grid_00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.926, 1438.72, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Bat19.MI_Bat19'
+        MaterialSlotName = bois
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.97, 1438.47, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.27365, Y=-359.116, Z=172.084 }
+    BoxExtent = { X=373.398, Y=320.816, Z=165.754 }
+    SphereRadius = 519.445
+}

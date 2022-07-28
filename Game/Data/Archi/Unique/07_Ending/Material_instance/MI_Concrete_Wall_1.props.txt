@@ -1,0 +1,200 @@
+Parent = Material3'/Game/Data/Materials/Instance/Base/Base_Vertex_Paint.Base_Vertex_Paint'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Alpha 2/3 }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Alpha 2/3 pow }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=mul_2 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=pow_2 }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Alpha 1/2 }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Alpha 1/2 pow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=mul_1 }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=pow_1 }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=NM_mul }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Ro Multiplier }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=UV3 }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[9] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CO_1 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Concrete_A_CO.Concrete_A_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=LP_1 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Concrete_A_LP.Concrete_A_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NM_1 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Concrete_A_NM.Concrete_A_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CO_2 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Concrete_A_CO.Concrete_A_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=LP_2 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Concrete_A_LP.Concrete_A_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=NM_2 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/07_Ending/Material_instance/Concrete_A_NM.Concrete_A_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=CO_3 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/Garbage_Factory_Concrete_02_D.Garbage_Factory_Concrete_02_D'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=LP_3 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/Garbage_Factory_Concrete_02_LP.Garbage_Factory_Concrete_02_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=NM_3 }
+        ParameterValue = Texture2D'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/Garbage_Factory_Concrete_02_NM.Garbage_Factory_Concrete_02_NM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dirt_CO }
+        ParameterValue = { R=1.4, G=1.4, B=1.4, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=tex1_CO }
+        ParameterValue = { R=2, G=2, B=2, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=tex2_CO }
+        ParameterValue = { R=1.7, G=1.69247, B=1.67344, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Concrete_A_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Concrete_A_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Concrete_A_NM
+    }
+}

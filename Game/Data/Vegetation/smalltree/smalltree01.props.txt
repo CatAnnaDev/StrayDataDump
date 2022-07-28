@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/smalltree/MI_SmallTree_Leaves.MI_SmallTree_Leaves'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/smalltree/MI_SmallTree_Bark.MI_SmallTree_Bark'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/smalltree/MI_SmallTree_Leaves.MI_SmallTree_Leaves'
+        MaterialSlotName = MI_SmallTree_Leaves
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 61.4158, 1415.48, 0, 0.764353 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/smalltree/MI_SmallTree_Bark.MI_SmallTree_Bark'
+        MaterialSlotName = MI_SmallTree_Bark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.785, 1375.57, 0, 2.39405 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-15.7522, Y=-17.2632, Z=130.329 }
+    BoxExtent = { X=94.4729, Y=88.9084, Z=130.355 }
+    SphereRadius = 151.491
+}

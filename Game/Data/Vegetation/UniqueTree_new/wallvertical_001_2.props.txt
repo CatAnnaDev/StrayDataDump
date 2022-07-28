@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/UniqueTree_new/MI_UniqueTree_bark.MI_UniqueTree_bark'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Vegetation/UniqueTree_new/MI_UniqueTree_leaves.MI_UniqueTree_leaves'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/UniqueTree_new/MI_UniqueTree_bark.MI_UniqueTree_bark'
+        MaterialSlotName = BroadleafBark_2_Branch_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 12.9744, 5880.06, 0, 2.5891 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/UniqueTree_new/MI_UniqueTree_leaves.MI_UniqueTree_leaves'
+        MaterialSlotName = Atlas_Leaf_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 262.299, 6096.84, 0, 2.30043 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-15.9398, Y=-20.46, Z=877.014 }
+    BoxExtent = { X=590.559, Y=145.846, Z=949.504 }
+    SphereRadius = 987.596
+}

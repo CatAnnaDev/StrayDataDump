@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_Paint_Prison_4.MI_Paint_Prison_4'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Brick/MI_Paint_Prison_4.MI_Paint_Prison_4'
+        MaterialSlotName = MI_CC_Rust
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.712, 208.875, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-06, Y=0.000137329, Z=7.78107 }
+    BoxExtent = { X=8.21717, Y=212.486, Z=7.78107 }
+    SphereRadius = 212.787
+}

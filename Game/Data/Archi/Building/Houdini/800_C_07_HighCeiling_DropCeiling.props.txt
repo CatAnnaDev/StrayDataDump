@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Laundromat/DropCeiling/MI_DropCeiling.MI_DropCeiling'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Laundromat/DropCeiling/MI_DropCeiling.MI_DropCeiling'
+        MaterialSlotName = DropCeiling
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 144.929, 403.275, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-301.5, Z=285.75 }
+    BoxExtent = { X=366, Y=263.9, Z=10.7501 }
+    SphereRadius = 451.348
+}

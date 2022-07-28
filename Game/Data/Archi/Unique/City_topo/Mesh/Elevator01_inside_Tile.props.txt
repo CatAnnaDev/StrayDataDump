@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/MI_concrete_city_wall_Micro.MI_concrete_city_wall_Micro'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/MI_Rust_VP.MI_Rust_VP'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/MI_concrete_city_wall_Micro.MI_concrete_city_wall_Micro'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 257.672, 1949.33, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Elevator/Material/MI_Rust_VP.MI_Rust_VP'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 957.493, 836.663, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=351.288, Z=-5.34058e-05 }
+    BoxExtent = { X=245.747, Y=355.112, Z=125 }
+    SphereRadius = 444.472
+}

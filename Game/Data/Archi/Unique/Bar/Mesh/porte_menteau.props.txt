@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Materials/Tests/BlackMetal.BlackMetal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Tests/BlackMetal.BlackMetal'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 32.0662, 45.9731, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.29153e-06, Y=-4.44337, Z=-11.6141 }
+    BoxExtent = { X=4.92316, Y=4.33306, Z=13.5185 }
+    SphereRadius = 14.549
+}

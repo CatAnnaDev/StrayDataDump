@@ -1,0 +1,6 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Tile_Demaged_Decal_CO
+Other[1]=Tile_Demaged_Decal_LP
+Other[2]=Tile_Demaged_Decal_NM
+Other[3]=Base_LP

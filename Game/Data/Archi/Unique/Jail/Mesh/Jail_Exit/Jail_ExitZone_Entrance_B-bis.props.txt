@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Archi/Unique/Jail/Mesh/Jail_Exit/01_-_Default.01_-_Default'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Unique/Jail/Mesh/Jail_Exit/01_-_Default.01_-_Default'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 514.103, 388.094, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2845.47, Y=-928.42, Z=182.183 }
+    BoxExtent = { X=178.781, Y=9.71097, Z=182.183 }
+    SphereRadius = 255.436
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Roof.MI_Roof'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_wallpaper_1.MI_wallpaper_1'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_Ground.MI_Ground'
+    Materials[3] = MaterialInstanceConstant'/Game/Misc/materials/MI_bluemosaic.MI_bluemosaic'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_Roof.MI_Roof'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.741, 1547.13, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/RodrigoJR_Flat/Material/MI_wallpaper_1.MI_wallpaper_1'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.558, 1547.27, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Slum/Elliot_Flat/MI_Ground.MI_Ground'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.76, 1546.79, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_bluemosaic.MI_bluemosaic'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.083, 1547.01, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-171.743, Y=-447.176, Z=150 }
+    BoxExtent = { X=437.737, Y=412.81, Z=140 }
+    SphereRadius = 617.759
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Bitume_vpaint_Inst.MI_Bitume_vpaint_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Bitume_vpaint_Inst.MI_Bitume_vpaint_Inst'
+        MaterialSlotName = MI_Bitume_vpaint_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1001.03, 827.924, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=19.0836, Z=16.2558 }
+    BoxExtent = { X=500, Y=330.917, Z=16.2448 }
+    SphereRadius = 599.808
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vegetation/Ivy/M_vegetation_flat_Inst.M_vegetation_flat_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vegetation/Ivy/M_vegetation_flat_Inst.M_vegetation_flat_Inst'
+        MaterialSlotName = Material #106
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 304.923, 147.937, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-16.9685, Y=16.7696, Z=3.73215 }
+    BoxExtent = { X=71.959, Y=61.9095, Z=3.49907 }
+    SphereRadius = 78.5041
+}

@@ -1,0 +1,10 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=DefaultDiffuse
+Other[1]=ConcreteBunker_CO
+Other[2]=ConcreteBunker_LP
+Other[3]=ConcreteBunker_NM
+Other[4]=ZurgSlime_01_CO
+Other[5]=ZurgSlime_01_b_LP
+Other[6]=ZurgSlime_01_NM
+Other[7]=Base_LP

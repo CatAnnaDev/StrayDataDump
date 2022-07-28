@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Control_Desk/MI_Control_Desk.MI_Control_Desk'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Control_Desk/MI_Control_Desk.MI_Control_Desk'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 386.322, 77.722, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=92.9046, Y=-76.6283, Z=87.4142 }
+    BoxExtent = { X=21.5466, Y=55.4901, Z=5.78606 }
+    SphereRadius = 59.8071
+}

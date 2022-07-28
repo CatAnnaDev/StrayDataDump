@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Beton.MI_Wall_Beton'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Tile_Store03.MI_Tile_Store03'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Wall_Beton.MI_Wall_Beton'
+        MaterialSlotName = MI_ai_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.091, 581.847, 734.908, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Tile_Store03.MI_Tile_Store03'
+        MaterialSlotName = MI_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.178, 1155.57, 735.451, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=195, Y=-110, Z=250 }
+    BoxExtent = { X=195, Y=110, Z=250 }
+    SphereRadius = 335.597
+}

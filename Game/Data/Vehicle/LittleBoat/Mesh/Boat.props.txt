@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/LittleBoat/MI_LittleBoat.MI_LittleBoat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/LittleBoat/MI_LittleBoat.MI_LittleBoat'
+        MaterialSlotName = MI_LittleBoat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 396.461, 494.636, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.976364, Y=5.33591, Z=52.1053 }
+    BoxExtent = { X=51.55, Y=209.922, Z=52.5859 }
+    SphereRadius = 218.317
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane.MI_Crane'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane_Grid.MI_Crane_Grid'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage04.MI_Grillage04'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane.MI_Crane'
+        MaterialSlotName = Crane
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 375.63, 1642, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane_Grid.MI_Crane_Grid'
+        MaterialSlotName = Crane_Grid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.444, 1658.25, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage04.MI_Grillage04'
+        MaterialSlotName = grid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.3128, 1658.81, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=88.8622, Y=1.52588e-05, Z=99.6546 }
+    BoxExtent = { X=103.66, Y=104.24, Z=114.769 }
+    SphereRadius = 180.583
+}

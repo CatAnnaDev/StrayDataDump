@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/CleanCity/Lab/Material/MI_Danger_Ruban_Static.MI_Danger_Ruban_Static'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/CleanCity/Lab/Material/MI_Danger_Ruban_Static.MI_Danger_Ruban_Static'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 120.474, 139.094, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.75716, Y=6.60408, Z=-5.68211 }
+    BoxExtent = { X=2.12125, Y=79.7267, Z=61.288 }
+    SphereRadius = 97.7779
+}

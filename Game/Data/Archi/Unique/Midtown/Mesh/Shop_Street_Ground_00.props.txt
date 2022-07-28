@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Ground_dusty_rocky.MI_Ground_dusty_rocky'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Ground/MI_Ground_dusty_rocky.MI_Ground_dusty_rocky'
+        MaterialSlotName = MI_Ground_dusty_rocky
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1038.12, 1164.38, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=849.077, Y=137.024, Z=-4.47347 }
+    BoxExtent = { X=801.237, Y=566.528, Z=8.94079 }
+    SphereRadius = 879.322
+}

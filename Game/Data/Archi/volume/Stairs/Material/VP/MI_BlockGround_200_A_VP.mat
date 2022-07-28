@@ -1,0 +1,10 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=BlockGround_200_A__D
+Other[1]=BlockGround_200_A02__LP
+Other[2]=BlockGround_200_A02__NM
+Other[3]=BlockGround_200_A02__D
+Other[4]=HK_Concrete_5_CO
+Other[5]=HK_Concrete_5_LP
+Other[6]=HK_Concrete_5_NM
+Other[7]=Base_LP

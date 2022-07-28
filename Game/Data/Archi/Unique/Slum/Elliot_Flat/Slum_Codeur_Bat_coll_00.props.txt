@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Archi/Unique/Slum/Elliot_Flat/03_2.03_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Archi/Unique/Slum/Elliot_Flat/03_2.03_2'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.763, 1869.9, 1061.88, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-171.743, Y=-447.176, Z=-4.7007 }
+    BoxExtent = { X=437.737, Y=412.81, Z=14.7007 }
+    SphereRadius = 601.865
+}

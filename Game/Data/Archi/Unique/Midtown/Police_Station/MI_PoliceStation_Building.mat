@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Dirt_Metal_Plane_CO
+Other[1]=Dirt_Metal_Plane_LP
+Other[2]=Dirt_Metal_Plane_NM
+Other[3]=CC_Rust_CO
+Other[4]=CC_Rust_LP
+Other[5]=CC_Rust_NM
+Other[6]=Base_LP

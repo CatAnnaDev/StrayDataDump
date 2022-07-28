@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Concrete_WoodFormed_A_CO
+Other[1]=Concrete_WoodFormed_A_LP
+Other[2]=Concrete_WoodFormed_A_NM
+Other[3]=Concrete_WoodFormed_B_CO
+Other[4]=Concrete_WoodFormed_B_LP
+Other[5]=Concrete_WoodFormed_B_NM
+Other[6]=Base_LP

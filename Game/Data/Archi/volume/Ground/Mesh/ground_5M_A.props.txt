@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Materials/Tests/GreyNeutral.GreyNeutral'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Tests/GreyNeutral.GreyNeutral'
+        MaterialSlotName = GreyNeutral
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 502.215, 504.202, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000854492, Y=-6.10352e-05, Z=3.38813e-21 }
+    BoxExtent = { X=250, Y=250, Z=1.53081e-14 }
+    SphereRadius = 353.553
+}

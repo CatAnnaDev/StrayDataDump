@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Terracotta_Alveolus_Tiles_Missing_Tiles_CO
+Other[1]=Terracotta_Alveolus_Tiles_Missing_Tiles_LP
+Other[2]=Terracotta_Alveolus_Tiles_Missing_Tiles_NM
+Other[3]=Ground_int_water_NoTiles_CO
+Other[4]=Ground_int_water_LP
+Other[5]=Ground_int_water_NoTiles_NM
+Other[6]=GroundDirt01_CO
+Other[7]=GroundDirt01_LP
+Other[8]=GroundDirt01_NM
+Other[9]=Base_LP
