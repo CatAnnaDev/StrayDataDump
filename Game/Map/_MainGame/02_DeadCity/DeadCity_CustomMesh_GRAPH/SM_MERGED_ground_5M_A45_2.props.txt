@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Map/_MainGame/02_DeadCity/DeadCity_CustomMesh_GRAPH/MI_GroundSlum_WorldMapping.MI_GroundSlum_WorldMapping'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Map/_MainGame/02_DeadCity/DeadCity_CustomMesh_GRAPH/MI_GroundSlum_WorldMapping.MI_GroundSlum_WorldMapping'
+        MaterialSlotName = MI_GroundSlum_WorldMapping
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1520.83, 1272.2, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-43.4575, Y=-484.637, Z=-9.43653 }
+    BoxExtent = { X=610.18, Y=823.34, Z=9.73463 }
+    SphereRadius = 931.797
+}

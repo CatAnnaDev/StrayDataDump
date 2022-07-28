@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grid_rusty1.MI_Grid_rusty1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grid_rusty1.MI_Grid_rusty1'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 216.444, 216.291, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=4.95911e-05, Z=115 }
+    BoxExtent = { X=100, Y=0, Z=115 }
+    SphereRadius = 152.398
+}

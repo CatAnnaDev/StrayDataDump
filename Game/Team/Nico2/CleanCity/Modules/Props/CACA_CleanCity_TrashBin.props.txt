@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Dark_Inst.MI_Dark_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Inox.MI_Inox'
+    Materials[2] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_White_Inst.MI_White_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Dark_Inst.MI_Dark_Inst'
+        MaterialSlotName = MI_Clean_Dark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 252.54, 203.005, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Inox.MI_Inox'
+        MaterialSlotName = Mi_Metal_Brushed
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 251.75, 200.539, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_White_Inst.MI_White_Inst'
+        MaterialSlotName = Mi_Metal_Brushed_Dark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 251.719, 200.961, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=40 }
+    BoxExtent = { X=12.5, Y=17.5, Z=40 }
+    SphereRadius = 44.7422
+}

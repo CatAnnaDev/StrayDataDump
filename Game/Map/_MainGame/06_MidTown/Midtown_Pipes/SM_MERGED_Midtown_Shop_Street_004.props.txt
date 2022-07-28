@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_D.Mi_Pipe_02_Dead_City_D'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_C.Mi_Pipe_02_Dead_City_C'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A_White.Mi_Pipe_02_Dead_City_A_White'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A_GrayLight.Mi_Pipe_02_Dead_City_A_GrayLight'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_D.Mi_Pipe_02_Dead_City_D'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.242, 683.63, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_C.Mi_Pipe_02_Dead_City_C'
+        MaterialSlotName = WorldGridMaterial_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 296.316, 621.375, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A_White.Mi_Pipe_02_Dead_City_A_White'
+        MaterialSlotName = WorldGridMaterial_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 378.863, 600.196, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A_GrayLight.Mi_Pipe_02_Dead_City_A_GrayLight'
+        MaterialSlotName = WorldGridMaterial_3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 390.15, 624.489, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=648.547, Y=1225.01, Z=285.662 }
+    BoxExtent = { X=1042.6, Y=1232.37, Z=643.301 }
+    SphereRadius = 1634.06
+}

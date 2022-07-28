@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Grillage_LD.MI_Grillage_LD'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1.MI_Metal_Rust1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/MI_Grillage_LD.MI_Grillage_LD'
+        MaterialSlotName = MI_Grillage_LD
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.0492, 404.645, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust1.MI_Metal_Rust1'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 172.713, 368.627, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=22.6897, Z=98.6704 }
+    BoxExtent = { X=200.994, Y=25.8411, Z=100.013 }
+    SphereRadius = 225.86
+}

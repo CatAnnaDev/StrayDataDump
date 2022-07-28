@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_CC_Rust.MI_CC_Rust'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_CC_Rust.MI_CC_Rust'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 46.8163, 22.7968, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.272216, Y=-0.285154, Z=-9.74934 }
+    BoxExtent = { X=5.39038, Y=1.17154, Z=12.2849 }
+    SphereRadius = 12.5775
+}

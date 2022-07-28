@@ -1,0 +1,48 @@
+Skeleton = Skeleton'/Game/Character/Rat/Mesh/SKL_Rat.SKL_Rat'
+bHasVertexColors = true
+LODInfo[3] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "K:/HKViv/Hk_project/Content/Character/Rat/rats_LOD01.FBX"
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "K:/HKViv/Hk_project/Content/Character/Rat/rats_LOD02.FBX"
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[3] = { , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_CamFade.MI_Coll_CamFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_CamFade.MI_Coll_CamFade'
+        MaterialSlotName = Custom
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=695.416, Y=7623.72, Z=-4860.8 }
+    BoxExtent = { X=26.9829, Y=37.6563, Z=23.9688 }
+    SphereRadius = 48.9656
+}

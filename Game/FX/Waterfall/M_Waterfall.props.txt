@@ -1,0 +1,109 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/FX/Waterfall/waterfall_LP.waterfall_LP'
+    ReferencedTextures[1] = Texture2D'/Game/FX/Waterfall/waterfall_NM.waterfall_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Refraction }
+                    ParameterInfos[1] = { Name=co }
+                    ParameterInfos[2] = { Name=speed u }
+                    ParameterInfos[3] = { Name=nm* }
+                    ParameterInfos[4] = { Name=fresnel base }
+                    ParameterInfos[5] = { Name=speed u_1 }
+                    ParameterInfos[6] = { Name=v_1 }
+                    ParameterInfos[7] = { Name=speed v_1 }
+                    ParameterInfos[8] = { Name=u }
+                    ParameterInfos[9] = { Name=Ro }
+                    ParameterInfos[10] = { Name=Metal }
+                    ParameterInfos[11] = { Name=u_1 }
+                    ParameterInfos[12] = { Name=speed v }
+                    ParameterInfos[13] = { Name=v }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 1.6
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.05
+            ScalarValues[4] = 0.18
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.25
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0.25
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0.2
+            ScalarValues[12] = 0.5
+            ScalarValues[13] = 1
+        }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/FX/Waterfall/waterfall_NM.waterfall_NM'
+        ReferencedTextures[1] = Texture2D'/Game/FX/Waterfall/waterfall_LP.waterfall_LP'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1.6, Name=Refraction, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=co, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=speed u, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=nm*, Group=None }
+    CollectedScalarParameters[4] = { Value=0.18, Name=fresnel base, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=speed u_1, Group=None }
+    CollectedScalarParameters[6] = { Value=0.25, Name=v_1, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=speed v_1, Group=None }
+    CollectedScalarParameters[8] = { Value=0.25, Name=u, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Ro, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Metal, Group=None }
+    CollectedScalarParameters[11] = { Value=0.2, Name=u_1, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=speed v, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=v, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = waterfall_LP
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = waterfall_NM
+    }
+}

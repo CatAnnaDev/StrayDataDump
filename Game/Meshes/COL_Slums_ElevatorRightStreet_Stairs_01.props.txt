@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Instance/Base_Color_Inst.Base_Color_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Instance/Base_Color_Inst.Base_Color_Inst'
+        MaterialSlotName = MI_Coll_WalkableBlockCam1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.947, 4586.75, 1957.81, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=236.736, Y=418.773, Z=-114.499 }
+    BoxExtent = { X=298.705, Y=423.913, Z=119.935 }
+    SphereRadius = 529.002
+}

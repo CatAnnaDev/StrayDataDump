@@ -1,0 +1,7 @@
+Diffuse=Foam_dirt_CO
+Normal=bubble_piss_NM
+Opacity=bubble_piss_CO
+Other[0]=bubble_piss_LP
+Other[1]=color_irid_CO
+Other[2]=TilingNoise05
+Other[3]=Water_nm_NM

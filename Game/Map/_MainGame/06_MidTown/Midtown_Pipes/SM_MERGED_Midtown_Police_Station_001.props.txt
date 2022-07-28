@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_D.Mi_Pipe_02_Dead_City_D'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A.Mi_Pipe_02_Dead_City_A'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_C.Mi_Pipe_02_Dead_City_C'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A_White.Mi_Pipe_02_Dead_City_A_White'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_D.Mi_Pipe_02_Dead_City_D'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 397.778, 1853.6, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A.Mi_Pipe_02_Dead_City_A'
+        MaterialSlotName = Material_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.345, 1857.73, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_C.Mi_Pipe_02_Dead_City_C'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 228.057, 1904.73, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A_White.Mi_Pipe_02_Dead_City_A_White'
+        MaterialSlotName = WorldGridMaterial_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 208.534, 1906.18, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-589.6, Y=-896.351, Z=525.411 }
+    BoxExtent = { X=1046.04, Y=1503.97, Z=1079.82 }
+    SphereRadius = 1874.05
+}

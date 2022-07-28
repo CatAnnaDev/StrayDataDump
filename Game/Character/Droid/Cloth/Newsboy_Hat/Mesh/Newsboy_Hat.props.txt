@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Newsboy_Hat/Texture/MI_Newsboy_Hat.MI_Newsboy_Hat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Newsboy_Hat/Texture/MI_Newsboy_Hat.MI_Newsboy_Hat'
+        MaterialSlotName = MI_Newsboy_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 60.1543, 72.0141, 83.0885, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00333214, Y=6.07409, Z=16.1292 }
+    BoxExtent = { X=12.1937, Y=15.8797, Z=8.11895 }
+    SphereRadius = 17.8219
+}

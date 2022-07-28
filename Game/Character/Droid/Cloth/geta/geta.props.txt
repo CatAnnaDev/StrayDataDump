@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/geta/MI_geta.MI_geta'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/geta/MI_geta.MI_geta'
+        MaterialSlotName = MI_geta
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 53.2269, 72.8865, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.51924, Y=3.32607, Z=-13.886 }
+    BoxExtent = { X=7.42288, Y=15.8296, Z=8.82963 }
+    SphereRadius = 17.495
+}

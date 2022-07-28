@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Nico2/Sewer/Material/MI_concrete_city_wall_Micro1.MI_concrete_city_wall_Micro1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/Sewer/Material/MI_concrete_city_wall_Micro1.MI_concrete_city_wall_Micro1'
+        MaterialSlotName = MI_BurgerSign
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 270.851, 1961.79, 2850.64, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-596.985, Y=63.6395, Z=490.003 }
+    BoxExtent = { X=596.985, Y=619.619, Z=529.997 }
+    SphereRadius = 895.685
+}

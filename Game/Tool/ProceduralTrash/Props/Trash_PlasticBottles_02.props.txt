@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Tool/ProceduralTrash/Materials/Trash_Atlast_D_Mat.Trash_Atlast_D_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Tool/ProceduralTrash/Materials/Trash_Atlast_D_Mat.Trash_Atlast_D_Mat'
+        MaterialSlotName = Trash_Atlast_D_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 664.857, 68.7027, 69.1163, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-06, Y=0, Z=0 }
+    BoxExtent = { X=12.5776, Y=7.47035, Z=24.1776 }
+    SphereRadius = 24.5467
+}

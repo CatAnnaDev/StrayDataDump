@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Tool/VR/VRPawn/M_ScreenCam.M_ScreenCam'
+    Materials[1] = Material3'/Game/Tool/VR/VRPawn/M_Black.M_Black'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Tool/VR/VRPawn/M_ScreenCam.M_ScreenCam'
+        MaterialSlotName = Material #37
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.017, 141.871, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Tool/VR/VRPawn/M_Black.M_Black'
+        MaterialSlotName = Material #36
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.131, 141.893, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=89.4029, Y=1.03421e-05, Z=54.5077 }
+    SphereRadius = 104.709
+}

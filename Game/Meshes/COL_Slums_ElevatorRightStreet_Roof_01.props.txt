@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_WalkableBlockCam1.MI_Coll_WalkableBlockCam1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_WalkableBlockCam1.MI_Coll_WalkableBlockCam1'
+        MaterialSlotName = M_PROXY_SM_MERGED_800_Rooftop_SlumHouse_Tall_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 593.58, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.0875, Y=-215.515, Z=245.248 }
+    BoxExtent = { X=137.629, Y=292.968, Z=250.779 }
+    SphereRadius = 408.976
+}

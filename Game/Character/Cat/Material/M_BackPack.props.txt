@@ -1,0 +1,115 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Diverse/H_Color_Spectrum.H_Color_Spectrum'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Base Ro }
+                    ParameterInfos[1] = { Name=Base Metal }
+                    ParameterInfos[2] = { Name=Reflect_Frac }
+                    ParameterInfos[3] = { Name=Iri Ro }
+                    ParameterInfos[4] = { Name=Iri Metal }
+                    ParameterInfos[5] = { Name=Fresnel_Exp }
+                    ParameterInfos[6] = { Name=Blend Color/Iri }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Fresnel Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=NM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.6, 0, 0.1, 0, 0, 1, 0.75 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.025, G=0.025, B=0.025, A=1 }
+            VectorValues[1] = { R=0.5, G=0.5, B=0.5, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Diverse/H_Color_Spectrum.H_Color_Spectrum'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        Name = NM
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.6, Name=Base Ro, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Base Metal, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=Reflect_Frac, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Iri Ro, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Iri Metal, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Fresnel_Exp, Group=None }
+    CollectedScalarParameters[6] = { Value=0.75, Name=Blend Color/Iri, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.025, G=0.025, B=0.025, A=1 }
+        Name = Base Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = Fresnel Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_NM
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/book/Material/MI_Book_Altas0.MI_Book_Altas0'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/book/Material/MI_Book_Altas0.MI_Book_Altas0'
+        MaterialSlotName = MI_Book_Altas0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 169.801, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=29.3724, Y=-8.78327, Z=14.481 }
+    BoxExtent = { X=29.3724, Y=10.9922, Z=14.4811 }
+    SphereRadius = 34.2557
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/GPE/Electric_Pannel/Material/MI_Electric_Pannel.MI_Electric_Pannel'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Glass2.MI_Glass2'
+    Materials[2] = MaterialInstanceConstant'/Game/GPE/Electric_Pannel/Material/MI_Electric_Pannel1.MI_Electric_Pannel1'
+    Materials[3] = MaterialInstanceConstant'/Game/GPE/Electric_Pannel/Material/MI_Electric_Pannel2.MI_Electric_Pannel2'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Electric_Pannel/Material/MI_Electric_Pannel.MI_Electric_Pannel'
+        MaterialSlotName = 1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 179.092, 155.333, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/MI_Glass2.MI_Glass2'
+        MaterialSlotName = 2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 179.171, 156.272, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Electric_Pannel/Material/MI_Electric_Pannel1.MI_Electric_Pannel1'
+        MaterialSlotName = 3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 180.506, 161.692, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Electric_Pannel/Material/MI_Electric_Pannel2.MI_Electric_Pannel2'
+        MaterialSlotName = 4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 179.178, 156.627, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.8869, Y=13.2204, Z=18.1084 }
+    BoxExtent = { X=27.9585, Y=13.2204, Z=65.2923 }
+    SphereRadius = 71.2542
+}

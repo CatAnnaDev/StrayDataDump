@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/checker_1M_WorldMap_Inst_dark_grey.checker_1M_WorldMap_Inst_dark_grey'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/LevelDesign/checker_1M_WorldMap_Inst_dark_grey.checker_1M_WorldMap_Inst_dark_grey'
+        MaterialSlotName = checker_1M_WorldMap_Inst_dark_grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 504.755, 8208.53, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-272.616, Y=1316.64, Z=-1800 }
+    BoxExtent = { X=922.649, Y=1316.64, Z=1500 }
+    SphereRadius = 2198.82
+}

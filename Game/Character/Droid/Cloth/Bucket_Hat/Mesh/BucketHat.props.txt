@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Bucket_Hat/Texture/MI_BucketHat.MI_BucketHat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Bucket_Hat/Texture/MI_BucketHat.MI_BucketHat'
+        MaterialSlotName = MI_Bucket_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.5743, 95.1637, 89.0679, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0913343, Y=3.95687, Z=12.74 }
+    BoxExtent = { X=12.9303, Y=14.6756, Z=11.3572 }
+    SphereRadius = 17.9919
+}

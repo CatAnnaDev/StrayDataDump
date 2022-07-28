@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Instance/Base_Color_Inst.Base_Color_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Instance/Base_Color_Inst.Base_Color_Inst'
+        MaterialSlotName = Base_Color_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.3917, 402.899, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=128.18, Y=108.55, Z=13.9968 }
+    BoxExtent = { X=128.304, Y=108.568, Z=14.0514 }
+    SphereRadius = 168.563
+}

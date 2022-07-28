@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Grid/Material/MI_Pom_Grid_04.MI_Pom_Grid_04'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/MI_Rust_Inst1.MI_Rust_Inst1'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 288.846, 1158.22, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grid/Material/MI_Pom_Grid_04.MI_Pom_Grid_04'
+        MaterialSlotName = Material #106
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 23.7551, 1162.31, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=132.356, Y=-20.792, Z=288.74 }
+    BoxExtent = { X=138.241, Y=372.168, Z=288.74 }
+    SphereRadius = 488.981
+}

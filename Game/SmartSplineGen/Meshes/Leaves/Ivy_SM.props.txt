@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/Ivy_MatInst.Ivy_MatInst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/Foliage/Ivy_MatInst.Ivy_MatInst'
+        MaterialSlotName = Ivy_MatInst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.3436, 58.5155, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=27.0449, Y=0.00378036, Z=-2.83151 }
+    BoxExtent = { X=29.5305, Y=23.9259, Z=6.83772 }
+    SphereRadius = 37.4453
+}

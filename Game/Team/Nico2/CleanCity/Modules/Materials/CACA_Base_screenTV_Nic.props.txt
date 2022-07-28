@@ -1,0 +1,210 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Fx/flicker_line.flicker_line'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Fx/gradients.gradients'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Fx/RGB_tv_pixel.RGB_tv_pixel'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Tile/Leaking/Leak_alpha_CO.Leak_alpha_CO'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Contrast }
+                    ParameterInfos[1] = { Name=pixel_tile_u }
+                    ParameterInfos[2] = { Name=Glitch Multiplier }
+                    ParameterInfos[3] = { Name=Vignette Multiplier }
+                    ParameterInfos[4] = { Name=Glitch V }
+                    ParameterInfos[5] = { Name=glitch macro }
+                    ParameterInfos[6] = { Name=Glitch U }
+                    ParameterInfos[7] = { Name=Vignette Contrast }
+                    ParameterInfos[8] = { Name=Vignette Density }
+                    ParameterInfos[9] = { Name=Random_uv_loc }
+                    ParameterInfos[10] = { Name=Scanline Speed }
+                    ParameterInfos[11] = { Name=dirt }
+                    ParameterInfos[12] = { Name=V_Tiling_Tex }
+                    ParameterInfos[13] = { Name=U_Tiling_Tex }
+                    ParameterInfos[14] = { Name=pixel_tile_v }
+                    ParameterInfos[15] = { Name=Panning_Speed_X }
+                    ParameterInfos[16] = { Name=Scanline }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=uv_dirt }
+                    ParameterInfos[1] = { Name=Lightmass_SelfIllum }
+                    ParameterInfos[2] = { Name=Color glitch }
+                    ParameterInfos[3] = { Name=si }
+                    ParameterInfos[4] = { Name=Color add }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 200
+            ScalarValues[2] = 0.25
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.1
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 16
+            ScalarValues[9] = 100
+            ScalarValues[10] = 5
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 200
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.666
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.333, G=0.222, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0.472301, G=0.06052, B=0.505208, A=1 }
+            VectorValues[3] = { R=250, G=250, B=250, A=1 }
+            VectorValues[4] = { R=0.1875, G=0.25, B=0.21875, A=0.25 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Fx/RGB_tv_pixel.RGB_tv_pixel'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Tile/Leaking/Leak_alpha_CO.Leak_alpha_CO'
+        ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Fx/gradients.gradients'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Fx/flicker_line.flicker_line'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/print/Rikonium_coupon.Rikonium_coupon'
+        Name = texture
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=200, Name=pixel_tile_u, Group=None }
+    CollectedScalarParameters[2] = { Value=0.25, Name=Glitch Multiplier, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Vignette Multiplier, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=Glitch V, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=glitch macro, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=Glitch U, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Vignette Contrast, Group=None }
+    CollectedScalarParameters[8] = { Value=16, Name=Vignette Density, Group=None }
+    CollectedScalarParameters[9] = { Value=100, Name=Random_uv_loc, Group=None }
+    CollectedScalarParameters[10] = { Value=5, Name=Scanline Speed, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=dirt, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=V_Tiling_Tex, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=U_Tiling_Tex, Group=None }
+    CollectedScalarParameters[14] = { Value=200, Name=pixel_tile_v, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Panning_Speed_X, Group=None }
+    CollectedScalarParameters[16] = { Value=0.666, Name=Scanline, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.333, G=0.222, B=0, A=0 }
+        Name = uv_dirt
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Lightmass_SelfIllum
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.472301, G=0.06052, B=0.505208, A=1 }
+        Name = Color glitch
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=250, G=250, B=250, A=1 }
+        Name = si
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.1875, G=0.25, B=0.21875, A=0.25 }
+        Name = Color add
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = flicker_line
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = gradients
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.21875
+        UVChannelIndex = 0
+        TextureName = Leak_alpha_CO
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 200
+        UVChannelIndex = 0
+        TextureName = RGB_tv_pixel
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1.64063
+        UVChannelIndex = 0
+        TextureName = Rikonium_coupon
+    }
+}

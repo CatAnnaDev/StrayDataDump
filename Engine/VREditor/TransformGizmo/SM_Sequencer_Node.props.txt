@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Engine/VREditor/TransformGizmo/Main.Main'
+    Materials[1] = Material3'/Engine/VREditor/TransformGizmo/Xray.Xray'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Engine/VREditor/TransformGizmo/Main.Main'
+        MaterialSlotName = Main
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.6639, 31.926, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Engine/VREditor/TransformGizmo/Xray.Xray'
+        MaterialSlotName = Xray
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.6639, 31.926, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-4.76837e-07 }
+    BoxExtent = { X=6.50182, Y=5, Z=5 }
+    SphereRadius = 7.24162
+}

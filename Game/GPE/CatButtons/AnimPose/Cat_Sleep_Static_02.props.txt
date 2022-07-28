@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Cat/Texture/export/MI_CAT_Body_2sidedshading.MI_CAT_Body_2sidedshading'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Cat/Texture/export/M_Cat_Head_2sidedshading.M_Cat_Head_2sidedshading'
+    Materials[2] = MaterialInstanceConstant'/Game/Character/Cat/Material/MI_eye.MI_eye'
+    Materials[3] = MaterialInstanceConstant'/Game/Character/Cat/Material/M_eye_transp_Inst.M_eye_transp_Inst'
+    Materials[4] = MaterialInstanceConstant'/Game/Character/Cat/Material/M_Moustache_Inst.M_Moustache_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Texture/export/MI_CAT_Body_2sidedshading.MI_CAT_Body_2sidedshading'
+        MaterialSlotName = MI_CAT_Body_2sidedshading
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 60.7943, 73.9472, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Texture/export/M_Cat_Head_2sidedshading.M_Cat_Head_2sidedshading'
+        MaterialSlotName = M_Cat_Head_2sidedshading
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.2413, 74.4444, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Material/MI_eye.MI_eye'
+        MaterialSlotName = MI_eye
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.94756, 67.0315, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Material/M_eye_transp_Inst.M_eye_transp_Inst'
+        MaterialSlotName = M_eye_transp_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.0294, 67.5954, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Material/M_Moustache_Inst.M_Moustache_Inst'
+        MaterialSlotName = M_Moustache_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.90682, 74.2226, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.0059, Y=-6.79026, Z=6.22387 }
+    BoxExtent = { X=12.7444, Y=15.0129, Z=8.46545 }
+    SphereRadius = 16.402
+}

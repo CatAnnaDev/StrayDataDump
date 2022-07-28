@@ -1,0 +1,71 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/eye_1_LP.eye_1_LP'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=exp }
+                    ParameterInfos[1] = { Name=trans1 }
+                    ParameterInfos[2] = { Name=Spec Mask Scale V }
+                    ParameterInfos[3] = { Name=Offset U }
+                    ParameterInfos[4] = { Name=trans2 }
+                    ParameterInfos[5] = { Name=Spec Mask Scale U }
+                    ParameterInfos[6] = { Name=Offset V }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 3, 0.333, 1, 0.06, 2, 1, -0.02 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/eye_1_LP.eye_1_LP'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=exp, Group=None }
+    CollectedScalarParameters[1] = { Value=0.333, Name=trans1, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Spec Mask Scale V, Group=None }
+    CollectedScalarParameters[3] = { Value=0.06, Name=Offset U, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=trans2, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Spec Mask Scale U, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.02, Name=Offset V, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = eye_1_LP
+    }
+}

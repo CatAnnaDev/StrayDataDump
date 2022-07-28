@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Cat/Material/MI_Fabric02.MI_Fabric02'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Cat/Material/Base_Textures_Inst.Base_Textures_Inst'
+    Materials[2] = MaterialInstanceConstant'/Game/Character/Cat/Material/MI_backpackscreen_cine.MI_backpackscreen_cine'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Material/MI_Fabric02.MI_Fabric02'
+        MaterialSlotName = MI_Fabric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.24821, 97.4414, 82.0194, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Material/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = Base_Textures_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16.4095, 76.3269, 52.6419, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Cat/Material/MI_backpackscreen_cine.MI_backpackscreen_cine'
+        MaterialSlotName = MI_backpackscreen_cine
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 7.87053, 0, 52.5777, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.41605, Y=-0.135728, Z=22.1644 }
+    BoxExtent = { X=13.439, Y=5.51474, Z=9.54418 }
+    SphereRadius = 14.4811
+}

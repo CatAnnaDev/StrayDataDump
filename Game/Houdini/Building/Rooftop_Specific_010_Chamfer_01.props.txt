@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Materials/M_Frise_cd2_Dark.M_Frise_cd2_Dark'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Materials/M_Frise_cd2_Dark.M_Frise_cd2_Dark'
+        MaterialSlotName = M_Frise_cd2_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3031.86, 1051.13, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0717773, Y=43.1428, Z=-28.49 }
+    BoxExtent = { X=800.07, Y=676.782, Z=6.22772 }
+    SphereRadius = 1047.94
+}

@@ -1,0 +1,23 @@
+Materials[1] = {  }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MI_Coll_WalkableBlockCam1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1140.55, 1218.86, 388.874, 375.025 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.0046, Y=-11.5874, Z=-0.809107 }
+    BoxExtent = { X=137.707, Y=162.208, Z=17.2193 }
+    SphereRadius = 202.144
+}

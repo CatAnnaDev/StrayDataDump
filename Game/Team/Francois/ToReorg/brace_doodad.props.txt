@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust_noCF.MI_Metal_Rust_noCF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Garbage_Factory/Materials/MI_Metal_Rust_noCF.MI_Metal_Rust_noCF'
+        MaterialSlotName = Trims
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 368.603, 161.101, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.11318, Y=-4.76837e-06, Z=25.8579 }
+    BoxExtent = { X=8.11318, Y=13.2401, Z=25.8579 }
+    SphereRadius = 30.1621
+}

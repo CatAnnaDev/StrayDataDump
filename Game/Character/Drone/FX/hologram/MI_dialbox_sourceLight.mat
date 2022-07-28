@@ -1,0 +1,6 @@
+Diffuse=DefaultDiffuse
+Opacity=drone_projector_alpha
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=flipbook
+Other[3]=Holo_scanline_dust

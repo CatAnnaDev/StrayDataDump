@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Sign_horizontalTube_metal.MI_Sign_horizontalTube_metal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Sign_horizontalTube_metal.MI_Sign_horizontalTube_metal'
+        MaterialSlotName = MI_BurgerSign
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.454, 1213.27, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0540276, Y=4.57764e-05, Z=310 }
+    BoxExtent = { X=39.743, Y=138.782, Z=310 }
+    SphereRadius = 341.965
+}

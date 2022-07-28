@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Chariot/MI_Chariot.MI_Chariot'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Chariot/MI_Chariot.MI_Chariot'
+        MaterialSlotName = MI_Chariot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 122.946, 182.322, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0593567, Y=-12.6455, Z=49.9766 }
+    BoxExtent = { X=38.0155, Y=58.5279, Z=42.0769 }
+    SphereRadius = 76.552
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Texan_Hat/Texture/MI_Texan_Hat.MI_Texan_Hat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Texan_Hat/Texture/MI_Texan_Hat.MI_Texan_Hat'
+        MaterialSlotName = MI_Texan_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 77.221, 96.9068, 105.599, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=4.33036, Z=17.1742 }
+    BoxExtent = { X=17.6156, Y=20.6329, Z=10.7089 }
+    SphereRadius = 23.0363
+}

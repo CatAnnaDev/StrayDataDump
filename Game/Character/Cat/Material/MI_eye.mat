@@ -1,0 +1,5 @@
+Diffuse=eye_D
+Normal=eye_NM
+Other[0]=Cat_Eye_iris
+Other[1]=Cat_Eye_Shadow
+Other[2]=eye_Iris_D

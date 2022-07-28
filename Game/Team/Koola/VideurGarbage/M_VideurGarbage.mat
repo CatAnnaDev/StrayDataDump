@@ -1,0 +1,5 @@
+Diffuse=Garbage_Tile_dirty_LP
+Normal=Garbage_Tile_dirty_NM
+Other[0]=Garbage_Tile_01_AO
+Other[1]=Garbage_Tile_01_CO
+Other[2]=Noise_wind_CO

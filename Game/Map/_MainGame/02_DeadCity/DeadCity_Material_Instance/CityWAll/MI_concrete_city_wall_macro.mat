@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Concrete_WallCast_2K_CO
+Other[1]=Concrete_WallCast_2K_LP
+Other[2]=Concrete_WallCast_2K_NM
+Other[3]=HK_Concrete_5_CO
+Other[4]=HK_Concrete_5_LP
+Other[5]=HK_Concrete_5_NM
+Other[6]=Base_LP

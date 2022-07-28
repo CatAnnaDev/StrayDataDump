@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A.Mi_Pipe_02_Dead_City_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_03_Dead_City/Mi_Pipe_03_Dead_City.Mi_Pipe_03_Dead_City'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_C.Mi_Pipe_02_Dead_City_C'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/Mi_Pipe_01_Inside_the_Wall_Tile.Mi_Pipe_01_Inside_the_Wall_Tile'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_B.Mi_Pipe_02_Dead_City_B'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_D.Mi_Pipe_02_Dead_City_D'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_A.Mi_Pipe_02_Dead_City_A'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 405.508, 581.614, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_03_Dead_City/Mi_Pipe_03_Dead_City.Mi_Pipe_03_Dead_City'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 290.584, 568.136, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_C.Mi_Pipe_02_Dead_City_C'
+        MaterialSlotName = WorldGridMaterial_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 302.627, 592.163, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/Mi_Pipe_01_Inside_the_Wall_Tile.Mi_Pipe_01_Inside_the_Wall_Tile'
+        MaterialSlotName = Mi_Pipe_01_Inside_the_Wall_Tile_013
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 225.035, 583.605, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_B.Mi_Pipe_02_Dead_City_B'
+        MaterialSlotName = WorldGridMaterial_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.091, 579.407, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_02_Dead_City/Mi_Pipe_02_Dead_City_D.Mi_Pipe_02_Dead_City_D'
+        MaterialSlotName = Material_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.7646, 574.268, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=415.505, Y=-120.895, Z=-231.373 }
+    BoxExtent = { X=455.866, Y=568.297, Z=245.415 }
+    SphereRadius = 757.993
+}

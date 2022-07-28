@@ -1,0 +1,481 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_CO.Cat_furmesh_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_FurGrowth.Cat_furmesh_FurGrowth'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+    ReferencedTextures[3] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White.Default_White'
+    ReferencedTextures[4] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White_Linear.Default_White_Linear'
+    ReferencedTextures[5] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Normal.Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[70] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Fuzzy : Darkness }
+                    ParameterInfos[2] = { Name=Dirt Texture Power }
+                    ParameterInfos[3] = { Name=Fur Tip Thickness }
+                    ParameterInfos[4] = { Name=Texture Power for Tip }
+                    ParameterInfos[5] = { Name=Wind Intensity }
+                    ParameterInfos[6] = { Name=Fresnel Exponent }
+                    ParameterInfos[7] = { Name=AO Power }
+                    ParameterInfos[8] = { Name=Wind Speed }
+                    ParameterInfos[9] = { Name=WL2 Strength }
+                    ParameterInfos[10] = { Name=Fur Length Power }
+                    ParameterInfos[11] = { Name=Spec AO mul }
+                    ParameterInfos[12] = { Name=Clumping Root to Tip Distribution }
+                    ParameterInfos[13] = { Name=Metallic }
+                    ParameterInfos[14] = { Name=ForceBackpack }
+                    ParameterInfos[15] = { Name=Fur Length Affects Wind Strength }
+                    ParameterInfos[16] = { Name=Wind Root to Tip Distribution }
+                    ParameterInfos[17] = { Name=Min SSS }
+                    ParameterInfos[18] = { Name=Alpha Offset }
+                    ParameterInfos[19] = { Name=AO Strength }
+                    ParameterInfos[20] = { Name=Roughness Texture Offset }
+                    ParameterInfos[21] = { Name=WL2 Mask Rotation Amount }
+                    ParameterInfos[22] = { Name=WL2 Texture Offset }
+                    ParameterInfos[23] = { Name=Fade min }
+                    ParameterInfos[24] = { Name=Thickness Root to Tip Distribution }
+                    ParameterInfos[25] = { Name=Tip Hue Shift }
+                    ParameterInfos[26] = { Name=Fur Pattern Tiling }
+                    ParameterInfos[27] = { Name=WL2 Texture Tiling }
+                    ParameterInfos[28] = { Name=Height Variation Power }
+                    ParameterInfos[29] = { Name=Fur Root Thickness }
+                    ParameterInfos[30] = { Name=Fade max }
+                    ParameterInfos[31] = { Name=Second Tip Thickness }
+                    ParameterInfos[32] = { Name=Amount }
+                    ParameterInfos[33] = { Name=Max SSS }
+                    ParameterInfos[34] = { Name=WL2 Mask Rotation Speed }
+                    ParameterInfos[35] = { Name=Fade Out Start }
+                    ParameterInfos[36] = { Name=Fuzzy : Brightness }
+                    ParameterInfos[37] = { Name=Fuzzy : Lerp }
+                    ParameterInfos[38] = { Name=Base to Tip Distribution }
+                    ParameterInfos[39] = { Name=Fade Out End }
+                    ParameterInfos[40] = { Name=Normal Map Strength }
+                    ParameterInfos[41] = { Name=Mask Tiling }
+                    ParameterInfos[42] = { Name=Fuzzy : Power }
+                    ParameterInfos[43] = { Name=Dirt Root to Tip Distribution }
+                    ParameterInfos[44] = { Name=Dirt Power }
+                    ParameterInfos[45] = { Name=WL2 Mask Translation Amount }
+                    ParameterInfos[46] = { Name=Clumping Mask Power }
+                    ParameterInfos[47] = { Name=Avoid Short - Power }
+                    ParameterInfos[48] = { Name=Dirt Visibility }
+                    ParameterInfos[49] = { Name=Fur Pattern Tiling 2 }
+                    ParameterInfos[50] = { Name=Second Thickness Root to Tip Distribution }
+                    ParameterInfos[51] = { Name=Fur Pattern Tiling Far }
+                    ParameterInfos[52] = { Name=Spec AO power }
+                    ParameterInfos[53] = { Name=Roughness Texture Power }
+                    ParameterInfos[54] = { Name=WL2 Mask Translation Speed }
+                    ParameterInfos[55] = { Name=Camera Offset }
+                    ParameterInfos[56] = { Name=Mask Values Offset }
+                    ParameterInfos[57] = { Name=Fake SSS }
+                    ParameterInfos[58] = { Name=Compensation Power }
+                    ParameterInfos[59] = { Name=Hue Mask Tiling }
+                    ParameterInfos[60] = { Name=Second Base Thickness }
+                    ParameterInfos[61] = { Name=Mask Contribution }
+                    ParameterInfos[62] = { Name=Camera Distance Blend }
+                    ParameterInfos[63] = { Name=Rim Light Strength }
+                    ParameterInfos[64] = { Name=Height Variation }
+                    ParameterInfos[65] = { Name=Compensation Amount }
+                    ParameterInfos[66] = { Name=Avoid Short - Offset }
+                    ParameterInfos[67] = { Name=WL2 Texture Power }
+                    ParameterInfos[68] = { Name=Wind Weight }
+                    ParameterInfos[69] = { Name=Power SSS }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Base Colour }
+                    ParameterInfos[1] = { Name=Wind Offset }
+                    ParameterInfos[2] = { Name=Dirt Colour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=WL2 Texture }
+                    ParameterInfos[1] = { Name=Base Texture }
+                    ParameterInfos[2] = { Name=Fur Pattern Near }
+                    ParameterInfos[3] = { Name=Clumping Texture }
+                    ParameterInfos[4] = { Name=Dirt Texture }
+                    ParameterInfos[5] = { Name=Roughness Texture }
+                    ParameterInfos[6] = { Name=Hue Mask }
+                    ParameterInfos[7] = { Name=Normal Map }
+                    ParameterInfos[8] = { Name=Fur Pattern Far }
+                    ParameterInfos[9] = { Name=Fur Blend Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[70] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.1
+            ScalarValues[4] = 0.75
+            ScalarValues[5] = 0.2
+            ScalarValues[6] = 2
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.75
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.75
+            ScalarValues[16] = 2.6
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.5
+            ScalarValues[23] = 25
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 8
+            ScalarValues[27] = 8
+            ScalarValues[28] = 1
+            ScalarValues[29] = 1
+            ScalarValues[30] = 45
+            ScalarValues[31] = 0.1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0.1
+            ScalarValues[35] = 50
+            ScalarValues[36] = 0.5
+            ScalarValues[37] = 0.5
+            ScalarValues[38] = 1
+            ScalarValues[39] = 300
+            ScalarValues[40] = 1
+            ScalarValues[41] = 6
+            ScalarValues[42] = 1
+            ScalarValues[43] = 1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 0.5
+            ScalarValues[46] = 1
+            ScalarValues[47] = 0.5
+            ScalarValues[48] = 0
+            ScalarValues[49] = 14
+            ScalarValues[50] = 1
+            ScalarValues[51] = 8
+            ScalarValues[52] = 5
+            ScalarValues[53] = 1
+            ScalarValues[54] = 0.1
+            ScalarValues[55] = -100
+            ScalarValues[56] = 0.5
+            ScalarValues[57] = 0.25
+            ScalarValues[58] = 1
+            ScalarValues[59] = 3
+            ScalarValues[60] = 0.75
+            ScalarValues[61] = 0.75
+            ScalarValues[62] = 100
+            ScalarValues[63] = 1
+            ScalarValues[64] = 0
+            ScalarValues[65] = 0.1
+            ScalarValues[66] = 0
+            ScalarValues[67] = 1
+            ScalarValues[68] = 0.1
+            ScalarValues[69] = 1
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.0419999, G=0.217633, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0.46, G=0.320697, B=0.2783, A=1 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[1] = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_CO.Cat_furmesh_CO'
+            TextureValues[2] = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+            TextureValues[3] = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+            TextureValues[4] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White.Default_White'
+            TextureValues[5] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White_Linear.Default_White_Linear'
+            TextureValues[6] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White_Linear.Default_White_Linear'
+            TextureValues[7] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Normal.Normal'
+            TextureValues[8] = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+            TextureValues[9] = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_FurGrowth.Cat_furmesh_FurGrowth'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_FurGrowth.Cat_furmesh_FurGrowth'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_CO.Cat_furmesh_CO'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+        ReferencedTextures[3] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White_Linear.Default_White_Linear'
+        ReferencedTextures[4] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White.Default_White'
+        ReferencedTextures[5] = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Normal.Normal'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=WL2 Texture, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_CO.Cat_furmesh_CO'
+        Name = Base Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+        Name = Fur Pattern Near
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+        Name = Clumping Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White.Default_White'
+        Name = Dirt Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White_Linear.Default_White_Linear'
+        Name = Roughness Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Default_White_Linear.Default_White_Linear'
+        Name = Hue Mask
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Default/Normal.Normal'
+        Name = Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+        Name = Fur Pattern Far
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_FurGrowth.Cat_furmesh_FurGrowth'
+        Name = Fur Blend Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[70] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Fuzzy : Darkness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Dirt Texture Power, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Fur Tip Thickness, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.75
+        Name = Texture Power for Tip
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.2, Name=Wind Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=Fresnel Exponent, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=AO Power, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Wind Speed, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=WL2 Strength, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Fur Length Power, Group=None }
+    CollectedScalarParameters[11] = { Value=0.75, Name=Spec AO mul, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = Clumping Root to Tip Distribution
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=ForceBackpack, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.75
+        Name = Fur Length Affects Wind Strength
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 2.6
+        Name = Wind Root to Tip Distribution
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=1, Name=Min SSS, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Alpha Offset, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=AO Strength, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0
+        Name = Roughness Texture Offset
+        Group = None
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1
+        Name = WL2 Mask Rotation Amount
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=0.5, Name=WL2 Texture Offset, Group=None }
+    CollectedScalarParameters[23] = { Value=25, Name=Fade min, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 1
+        Name = Thickness Root to Tip Distribution
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0, Name=Tip Hue Shift, Group=None }
+    CollectedScalarParameters[26] = { Value=8, Name=Fur Pattern Tiling, Group=None }
+    CollectedScalarParameters[27] = { Value=8, Name=WL2 Texture Tiling, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=Height Variation Power, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=Fur Root Thickness, Group=None }
+    CollectedScalarParameters[30] = { Value=45, Name=Fade max, Group=None }
+    CollectedScalarParameters[31] = { Value=0.1, Name=Second Tip Thickness, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=Amount, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Max SSS, Group=None }
+    CollectedScalarParameters[34] =
+    {
+        Value = 0.1
+        Name = WL2 Mask Rotation Speed
+        Group = None
+    }
+    CollectedScalarParameters[35] = { Value=50, Name=Fade Out Start, Group=None }
+    CollectedScalarParameters[36] = { Value=0.5, Name=Fuzzy : Brightness, Group=None }
+    CollectedScalarParameters[37] = { Value=0.5, Name=Fuzzy : Lerp, Group=None }
+    CollectedScalarParameters[38] =
+    {
+        Value = 1
+        Name = Base to Tip Distribution
+        Group = None
+    }
+    CollectedScalarParameters[39] = { Value=300, Name=Fade Out End, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=Normal Map Strength, Group=None }
+    CollectedScalarParameters[41] = { Value=6, Name=Mask Tiling, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=Fuzzy : Power, Group=None }
+    CollectedScalarParameters[43] =
+    {
+        Value = 1
+        Name = Dirt Root to Tip Distribution
+        Group = None
+    }
+    CollectedScalarParameters[44] = { Value=1, Name=Dirt Power, Group=None }
+    CollectedScalarParameters[45] =
+    {
+        Value = 0.5
+        Name = WL2 Mask Translation Amount
+        Group = None
+    }
+    CollectedScalarParameters[46] = { Value=1, Name=Clumping Mask Power, Group=None }
+    CollectedScalarParameters[47] = { Value=0.5, Name=Avoid Short - Power, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=Dirt Visibility, Group=None }
+    CollectedScalarParameters[49] = { Value=14, Name=Fur Pattern Tiling 2, Group=None }
+    CollectedScalarParameters[50] =
+    {
+        Value = 1
+        Name = Second Thickness Root to Tip Distribution
+        Group = None
+    }
+    CollectedScalarParameters[51] = { Value=8, Name=Fur Pattern Tiling Far, Group=None }
+    CollectedScalarParameters[52] = { Value=5, Name=Spec AO power, Group=None }
+    CollectedScalarParameters[53] =
+    {
+        Value = 1
+        Name = Roughness Texture Power
+        Group = None
+    }
+    CollectedScalarParameters[54] =
+    {
+        Value = 0.1
+        Name = WL2 Mask Translation Speed
+        Group = None
+    }
+    CollectedScalarParameters[55] = { Value=-100, Name=Camera Offset, Group=None }
+    CollectedScalarParameters[56] = { Value=0.5, Name=Mask Values Offset, Group=None }
+    CollectedScalarParameters[57] = { Value=0.25, Name=Fake SSS, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=Compensation Power, Group=None }
+    CollectedScalarParameters[59] = { Value=3, Name=Hue Mask Tiling, Group=None }
+    CollectedScalarParameters[60] =
+    {
+        Value = 0.75
+        Name = Second Base Thickness
+        Group = None
+    }
+    CollectedScalarParameters[61] = { Value=0.75, Name=Mask Contribution, Group=None }
+    CollectedScalarParameters[62] =
+    {
+        Value = 100
+        Name = Camera Distance Blend
+        Group = None
+    }
+    CollectedScalarParameters[63] = { Value=1, Name=Rim Light Strength, Group=None }
+    CollectedScalarParameters[64] = { Value=0, Name=Height Variation, Group=None }
+    CollectedScalarParameters[65] = { Value=0.1, Name=Compensation Amount, Group=None }
+    CollectedScalarParameters[66] = { Value=0, Name=Avoid Short - Offset, Group=None }
+    CollectedScalarParameters[67] = { Value=1, Name=WL2 Texture Power, Group=None }
+    CollectedScalarParameters[68] = { Value=0.1, Name=Wind Weight, Group=None }
+    CollectedScalarParameters[69] = { Value=1, Name=Power SSS, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.0419999, G=0.217633, B=1, A=1 }
+        Name = Base Colour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Wind Offset
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.46, G=0.320697, B=0.2783, A=1 }
+        Name = Dirt Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Cat_furmesh_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Cat_furmesh_FurGrowth
+    }
+}

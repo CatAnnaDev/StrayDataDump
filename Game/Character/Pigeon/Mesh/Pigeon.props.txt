@@ -1,0 +1,68 @@
+Skeleton = Skeleton'/Game/Character/Pigeon/Mesh/Pigeon_Skeleton.Pigeon_Skeleton'
+bHasVertexColors = false
+LODInfo[3] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[4] =
+        {
+            BonesToRemove[0] = { BoneName=Leg_L }
+            BonesToRemove[1] = { BoneName=Leg_R }
+            BonesToRemove[2] = { BoneName=BeakDown }
+            BonesToRemove[3] = { BoneName=BeakUp }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "../../../../HK_Sources/Content/Character/Pigeon/Mesh/Pigeon_LOD1.fbx"
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[12] =
+        {
+            BonesToRemove[0] = { BoneName=Neck01 }
+            BonesToRemove[1] = { BoneName=Leg_R }
+            BonesToRemove[2] = { BoneName=Leg_L }
+            BonesToRemove[3] = { BoneName=FeatherTop_L }
+            BonesToRemove[4] = { BoneName=WingBoneL_F_002 }
+            BonesToRemove[5] = { BoneName=FeatherTop_R }
+            BonesToRemove[6] = { BoneName=FeatherTop02_R }
+            BonesToRemove[7] = { BoneName=Feather_L }
+            BonesToRemove[8] = { BoneName=Feather_R }
+            BonesToRemove[9] = { BoneName=TailCenter02 }
+            BonesToRemove[10] = { BoneName=TailLeft02 }
+            BonesToRemove[11] = { BoneName=TailRight02 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "../../../../HK_Sources/Content/Character/Pigeon/Mesh/Pigeon_LOD1.fbx"
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[3] = { , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0

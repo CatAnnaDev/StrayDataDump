@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Materials/LevelDesign/checker_1M_WorldMap.checker_1M_WorldMap'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/LevelDesign/checker_1M_WorldMap.checker_1M_WorldMap'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 319.6, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=159.79, Y=139.37, Z=-24.8618 }
+    BoxExtent = { X=89.8986, Y=89.5079, Z=28.4413 }
+    SphereRadius = 111.962
+}

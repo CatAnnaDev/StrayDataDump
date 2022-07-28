@@ -1,0 +1,85 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Character/Drone/FX/hologram/drone_projector_alpha.drone_projector_alpha'
+    ReferencedTextures[5] = Texture2D'/Game/Character/Drone/UI/Holo/Holo_scanline_dust.Holo_scanline_dust'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=uv / speed }
+                    ParameterInfos[1] = { Name=SI_co }
+                    ParameterInfos[2] = { Name=fb }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.05, G=6, B=0.001, A=5 }
+            VectorValues[1] = { R=0, G=3.33333, B=10, A=1 }
+            VectorValues[2] = { R=3, G=2, B=5, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Drone/FX/hologram/drone_projector_alpha.drone_projector_alpha'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Drone/UI/Holo/Holo_scanline_dust.Holo_scanline_dust'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.05, G=6, B=0.001, A=5 }
+        Name = uv / speed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=3.33333, B=10, A=1 }
+        Name = SI_co
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=3, G=2, B=5, A=0 }
+        Name = fb
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

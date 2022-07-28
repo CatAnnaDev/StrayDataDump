@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_06_Midtown/MI_Pipe_06_B_Midtown.MI_Pipe_06_B_Midtown'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_06_Midtown/MI_Pipe_06_A_Midtown.MI_Pipe_06_A_Midtown'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_06_Midtown/MI_Pipe_06_B_Midtown.MI_Pipe_06_B_Midtown'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.034, 1062.5, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_06_Midtown/MI_Pipe_06_A_Midtown.MI_Pipe_06_A_Midtown'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 257.824, 1073.56, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1521.87, Y=-1156.75, Z=167.679 }
+    BoxExtent = { X=1517.67, Y=1742.72, Z=639.593 }
+    SphereRadius = 2106.94
+}

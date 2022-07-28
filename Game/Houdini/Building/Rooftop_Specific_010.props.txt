@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Floor/MI_Concrete_Tiles_Slime.MI_Concrete_Tiles_Slime'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Floor/MI_Concrete_Tiles_Slime.MI_Concrete_Tiles_Slime'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 260.028, 1504.73, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000610352, Y=43.1428, Z=-28.49 }
+    BoxExtent = { X=800, Y=676.641, Z=6.06442 }
+    SphereRadius = 1047.8
+}

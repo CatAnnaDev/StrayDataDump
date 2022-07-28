@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_03_Dead_City/Mi_Pipe_03_Dead_City.Mi_Pipe_03_Dead_City'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_03_Dead_City/Mi_Pipe_03_Dead_City.Mi_Pipe_03_Dead_City'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 288.802, 610.989, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1008.39, Y=-764.841, Z=371.403 }
+    BoxExtent = { X=2516.35, Y=806.726, Z=501.161 }
+    SphereRadius = 2667.61
+}

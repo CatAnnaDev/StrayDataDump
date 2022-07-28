@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/Mi_Pipe_01_Inside_the_Wall_Tile.Mi_Pipe_01_Inside_the_Wall_Tile'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_01_Inside_the_Wall/Mi_Pipe_01_Inside_the_Wall_Tile.Mi_Pipe_01_Inside_the_Wall_Tile'
+        MaterialSlotName = Mi_Pipe_01_Inside_the_Wall_Tile_013
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 240.616, 1098.04, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=506.665, Y=-123.969, Z=-26.6239 }
+    BoxExtent = { X=1887.67, Y=144.687, Z=745.12 }
+    SphereRadius = 1915.12
+}

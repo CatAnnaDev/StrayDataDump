@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Metro_mosaic_dirty_CO
+Other[1]=Metro_mosaic_dirty_LP
+Other[2]=Metro_mosaic_dirty_NM
+Other[3]=Metro_mosaic_old_CO
+Other[4]=Metro_mosaic_old_LP
+Other[5]=Metro_mosaic_old_NM
+Other[6]=Base_LP

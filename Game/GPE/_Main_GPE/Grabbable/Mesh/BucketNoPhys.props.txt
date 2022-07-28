@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cleaning_Kit/MI_Cleaning_Kit.MI_Cleaning_Kit'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cleaning_Kit/MI_Cleaning_Kit.MI_Cleaning_Kit'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 132.388, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-13.7385 }
+    BoxExtent = { X=17.502, Y=18.4521, Z=15.7615 }
+    SphereRadius = 24.2775
+}

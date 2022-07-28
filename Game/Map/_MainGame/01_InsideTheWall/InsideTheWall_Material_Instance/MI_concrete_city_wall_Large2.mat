@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Concrete_WallCast_2K_CO
+Other[1]=Concrete_WallCast_2K_LP
+Other[2]=Concrete_WallCast_2K_NM
+Other[3]=Ground_veget_01_D
+Other[4]=Ground_veget_01_LP
+Other[5]=Ground_veget_01_NM
+Other[6]=Moss_2K_CO
+Other[7]=Moss_2K_LP
+Other[8]=Moss_2K_NM
+Other[9]=Base_LP

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_WalkableBlockCam1.MI_Coll_WalkableBlockCam1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_Coll_WalkableBlockCam1.MI_Coll_WalkableBlockCam1'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.03, 126.351, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=14.9995, Y=-30.2962, Z=-22.8164 }
+    BoxExtent = { X=155.631, Y=101.301, Z=19.0511 }
+    SphereRadius = 165.733
+}

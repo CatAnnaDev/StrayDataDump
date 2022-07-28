@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile03.MI_CableTile03'
+    Materials[2] = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/MI_Grillage_TrashMovingBox.MI_Grillage_TrashMovingBox'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 427.345, 75.0538, 819.147, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile03.MI_CableTile03'
+        MaterialSlotName = DefaultMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.9385, 28.2975, 803.876, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/MI_Grillage_TrashMovingBox.MI_Grillage_TrashMovingBox'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 254.561, 516.771, 811.908, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0234985, Y=0, Z=-128.12 }
+    BoxExtent = { X=52.4648, Y=48.6194, Z=128.12 }
+    SphereRadius = 145.588
+}

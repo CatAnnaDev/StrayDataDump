@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask3_LP.Glitch_Mask3_LP'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask_1_LP.Glitch_Mask_1_LP'
+    ReferencedTextures[7] = Texture2D'/Game/Data/Textures/Fx/Glitch_mask_uv_LP.Glitch_mask_uv_LP'
+    ReferencedTextures[8] = Texture2D'/Game/GPE/_Main_GPE/B12Memories/Screenshots/MemoScreenshot_Cottage.MemoScreenshot_Cottage'
+    ReferencedTextures[9] = Texture2D'/Game/Misc/textures/screenglitch_test03.screenglitch_test03'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=color_int }
+                    ParameterInfos[1] = { Name=Nmb_Vertical }
+                    ParameterInfos[2] = { Name=mul }
+                    ParameterInfos[3] = { Name=grzeg }
+                    ParameterInfos[4] = { Name=glitch_time }
+                    ParameterInfos[5] = { Name=pow }
+                    ParameterInfos[6] = { Name=muldz }
+                    ParameterInfos[7] = { Name=uv*glitch }
+                    ParameterInfos[8] = { Name=Nmb_Horizontal }
+                    ParameterInfos[9] = { Name=pixel }
+                    ParameterInfos[10] = { Name=uv* }
+                    ParameterInfos[11] = { Name=grzegdzqd }
+                    ParameterInfos[12] = { Name=bhc }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture_base }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 8
+            ScalarValues[2] = 3
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 12
+            ScalarValues[6] = 100000
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 8
+            ScalarValues[9] = 0.25
+            ScalarValues[10] = 8
+            ScalarValues[11] = 1
+            ScalarValues[12] = 2
+        }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/GPE/_Main_GPE/B12Memories/Screenshots/MemoScreenshot_Cottage.MemoScreenshot_Cottage'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask3_LP.Glitch_Mask3_LP'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[6] = Texture2D'/Game/Misc/textures/screenglitch_test03.screenglitch_test03'
+        ReferencedTextures[7] = Texture2D'/Game/Data/Textures/Fx/Glitch_mask_uv_LP.Glitch_mask_uv_LP'
+        ReferencedTextures[8] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+        ReferencedTextures[9] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask_1_LP.Glitch_Mask_1_LP'
+        ReferencedTextures[10] = Texture2D'/Game/GPE/_Main_GPE/B12Memories/Screenshots/MemoScreenshot_Cottage.MemoScreenshot_Cottage'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/GPE/_Main_GPE/B12Memories/Screenshots/MemoScreenshot_Cottage.MemoScreenshot_Cottage'
+        Name = Texture_base
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=color_int, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=Nmb_Vertical, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=mul, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=grzeg, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=glitch_time, Group=None }
+    CollectedScalarParameters[5] = { Value=12, Name=pow, Group=None }
+    CollectedScalarParameters[6] = { Value=100000, Name=muldz, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=uv*glitch, Group=None }
+    CollectedScalarParameters[8] = { Value=8, Name=Nmb_Horizontal, Group=None }
+    CollectedScalarParameters[9] = { Value=0.25, Name=pixel, Group=None }
+    CollectedScalarParameters[10] = { Value=8, Name=uv*, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=grzegdzqd, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=bhc, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

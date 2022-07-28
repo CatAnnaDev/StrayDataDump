@@ -1,0 +1,17 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=concrete_raw_damaged_CO
+Other[1]=concrete_standard_rough_LP
+Other[2]=concrete_raw_damaged_NM
+Other[3]=Moss_2K_CO
+Other[4]=Moss_2K_LP
+Other[5]=Moss_2K_NM
+Other[6]=HK_Concrete_1_CO
+Other[7]=HK_Concrete_2_LP
+Other[8]=HK_Concrete_2_NM
+Other[9]=Concrete_WallCast_2K_CO
+Other[10]=Concrete_WallCast_2K_LP
+Other[11]=Concrete_WallCast_2K_NM
+Other[12]=concrete_blocks_structure_dirty_CO
+Other[13]=concrete_blocks_structure_LP
+Other[14]=Base_LP

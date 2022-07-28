@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/GPE/Charger/Material/MI_Charger_metal.MI_Charger_metal'
+    Materials[1] = MaterialInstanceConstant'/Game/GPE/Charger/Material/MI_Charger_Light.MI_Charger_Light'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Charger/Material/MI_Charger_metal.MI_Charger_metal'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.51511, 21.8226, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Charger/Material/MI_Charger_Light.MI_Charger_Light'
+        MaterialSlotName = 02 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.8458, 58.2906, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=1.55502 }
+    BoxExtent = { X=38.8573, Y=33.0353, Z=1.55502 }
+    SphereRadius = 46.7448
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Toyo/Sewer_Huge_toyo/MI_Sewer_Huge_Toyo.MI_Sewer_Huge_Toyo'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Toyo/Sewer_Huge_toyo/MI_Sewer_Huge_Toyo1.MI_Sewer_Huge_Toyo1'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Toyo/Sewer_Huge_toyo/MI_Sewer_Huge_Toyo1.MI_Sewer_Huge_Toyo1'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Toyo/Sewer_Huge_toyo/MI_Sewer_Huge_Toyo.MI_Sewer_Huge_Toyo'
+        MaterialSlotName = Material #27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 704.004, 4052.26, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Toyo/Sewer_Huge_toyo/MI_Sewer_Huge_Toyo1.MI_Sewer_Huge_Toyo1'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 145.443, 4232.15, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Toyo/Sewer_Huge_toyo/MI_Sewer_Huge_Toyo1.MI_Sewer_Huge_Toyo1'
+        MaterialSlotName = Material #26_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 348.975, 4216.67, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-682.437, Y=112.302, Z=1002.92 }
+    BoxExtent = { X=3625.01, Y=708.51, Z=1113.6 }
+    SphereRadius = 3822.17
+}

@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Spec }
+                    ParameterInfos[1] = { Name=Fake SSS }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NM }
+                    ParameterInfos[1] = { Name=Color }
+                    ParameterInfos[2] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 0.5, 0.25 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+            TextureValues[1] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+            TextureValues[2] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+        Name = Color
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Spec, Group=None }
+    CollectedScalarParameters[1] = { Value=0.25, Name=Fake SSS, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CAT_Head_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CAT_Head_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CAT_Head_NM
+    }
+}

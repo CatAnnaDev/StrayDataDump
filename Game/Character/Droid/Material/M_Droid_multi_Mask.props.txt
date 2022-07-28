@@ -1,0 +1,351 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Droid/Texture/droid_AO.droid_AO'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Texture/Droid_color_mask.Droid_color_mask'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Texture/droid_D.droid_D'
+    ReferencedTextures[3] = Texture2D'/Game/Character/Droid/Texture/droid_LP.droid_LP'
+    ReferencedTextures[4] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=ro2 }
+                    ParameterInfos[1] = { Name=ro5 }
+                    ParameterInfos[2] = { Name=Fade_Length }
+                    ParameterInfos[3] = { Name=me2 }
+                    ParameterInfos[4] = { Name=me3 }
+                    ParameterInfos[5] = { Name=ro6 }
+                    ParameterInfos[6] = { Name=ro9 }
+                    ParameterInfos[7] = { Name=me5 }
+                    ParameterInfos[8] = { Name=me9 }
+                    ParameterInfos[9] = { Name=ro8 }
+                    ParameterInfos[10] = { Name=ro4 }
+                    ParameterInfos[11] = { Name=me4 }
+                    ParameterInfos[12] = { Name=thre }
+                    ParameterInfos[13] = { Name=camfade? }
+                    ParameterInfos[14] = { Name=ro7 }
+                    ParameterInfos[15] = { Name=me6 }
+                    ParameterInfos[16] = { Name=me8 }
+                    ParameterInfos[17] = { Name=me7 }
+                    ParameterInfos[18] = { Name=me1 }
+                    ParameterInfos[19] = { Name=ro1 }
+                    ParameterInfos[20] = { Name=Fade_Offset }
+                    ParameterInfos[21] = { Name=ro3 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=mask3 }
+                    ParameterInfos[1] = { Name=mask7 }
+                    ParameterInfos[2] = { Name=mask6 }
+                    ParameterInfos[3] = { Name=co2 }
+                    ParameterInfos[4] = { Name=co3 }
+                    ParameterInfos[5] = { Name=co1 }
+                    ParameterInfos[6] = { Name=mask5 }
+                    ParameterInfos[7] = { Name=mask4 }
+                    ParameterInfos[8] = { Name=co4 }
+                    ParameterInfos[9] = { Name=co8 }
+                    ParameterInfos[10] = { Name=co6 }
+                    ParameterInfos[11] = { Name=mask8 }
+                    ParameterInfos[12] = { Name=co5 }
+                    ParameterInfos[13] = { Name=mask9 }
+                    ParameterInfos[14] = { Name=co7 }
+                    ParameterInfos[15] = { Name=co9 }
+                    ParameterInfos[16] = { Name=mask2 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=NM }
+                    ParameterInfos[2] = { Name=Mask }
+                    ParameterInfos[3] = { Name=AO }
+                    ParameterInfos[4] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 150
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.05
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 75
+            ScalarValues[21] = 3
+        }
+        VectorValues[17] =
+        {
+            VectorValues[0] = { R=0, G=0, B=1, A=1 }
+            VectorValues[1] = { R=0.049707, G=0.226966, B=0.049707, A=1 }
+            VectorValues[2] = { R=0.508881, G=0, B=1, A=1 }
+            VectorValues[3] = { R=0.094924, G=1, B=0, A=1 }
+            VectorValues[4] = { R=0.379259, G=0.569361, B=0.93, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=0, G=1, B=1, A=1 }
+            VectorValues[7] = { R=1, G=1, B=0, A=1 }
+            VectorValues[8] = { R=0.72, G=0.460638, B=0.306343, A=1 }
+            VectorValues[9] = { R=0.161151, G=1, B=0.606354, A=1 }
+            VectorValues[10] = { R=1, G=0, B=0, A=1 }
+            VectorValues[11] = { R=1, G=0.168269, B=0, A=1 }
+            VectorValues[12] = { R=0.097319, G=0.62651, B=0.72, A=1 }
+            VectorValues[13] = { R=1, G=0, B=0, A=1 }
+            VectorValues[14] = { R=0.955289, G=1, B=0.0636, A=1 }
+            VectorValues[15] = { R=0.72, G=0.09574, B=0.665714, A=1 }
+            VectorValues[16] = { R=0, G=1, B=0, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Droid/Texture/droid_D.droid_D'
+            TextureValues[1] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+            TextureValues[2] = Texture2D'/Game/Character/Droid/Texture/Droid_color_mask.Droid_color_mask'
+            TextureValues[3] = Texture2D'/Game/Character/Droid/Texture/droid_AO.droid_AO'
+            TextureValues[4] = Texture2D'/Game/Character/Droid/Texture/droid_LP.droid_LP'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Texture/droid_AO.droid_AO'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Texture/Droid_color_mask.Droid_color_mask'
+        ReferencedTextures[3] = Texture2D'/Game/Character/Droid/Texture/droid_D.droid_D'
+        ReferencedTextures[4] = Texture2D'/Game/Character/Droid/Texture/droid_LP.droid_LP'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Texture/droid_D.droid_D'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Texture/Droid_color_mask.Droid_color_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Texture/droid_AO.droid_AO'
+        Name = AO
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Character/Droid/Texture/droid_LP.droid_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=ro2, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ro5, Group=None }
+    CollectedScalarParameters[2] = { Value=150, Name=Fade_Length, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=me2, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=me3, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=ro6, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=ro9, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=me5, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=me9, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=ro8, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=ro4, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=me4, Group=None }
+    CollectedScalarParameters[12] = { Value=0.05, Name=thre, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=camfade?, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=ro7, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=me6, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=me8, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=me7, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=me1, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=ro1, Group=None }
+    CollectedScalarParameters[20] = { Value=75, Name=Fade_Offset, Group=None }
+    CollectedScalarParameters[21] = { Value=3, Name=ro3, Group=None }
+}
+CollectedVectorParameters[17] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = mask3
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.049707, G=0.226966, B=0.049707, A=1 }
+        Name = mask7
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.508881, G=0, B=1, A=1 }
+        Name = mask6
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.094924, G=1, B=0, A=1 }
+        Name = co2
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.379259, G=0.569361, B=0.93, A=1 }
+        Name = co3
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = co1
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=1, B=1, A=1 }
+        Name = mask5
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = mask4
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.72, G=0.460638, B=0.306343, A=1 }
+        Name = co4
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.161151, G=1, B=0.606354, A=1 }
+        Name = co8
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = co6
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=0.168269, B=0, A=1 }
+        Name = mask8
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0.097319, G=0.62651, B=0.72, A=1 }
+        Name = co5
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = mask9
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0.955289, G=1, B=0.0636, A=1 }
+        Name = co7
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0.72, G=0.09574, B=0.665714, A=1 }
+        Name = co9
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = mask2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Droid_color_mask
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_D
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_LP
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_NM
+    }
+}

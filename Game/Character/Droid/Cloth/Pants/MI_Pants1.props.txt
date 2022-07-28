@@ -1,0 +1,164 @@
+Parent = Material3'/Game/Data/Materials/Instance/Base/Base_Droid_Cloth.Base_Droid_Cloth'
+ScalarParameterValues[10] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Detail CO Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Detail NM Intensity }
+        ParameterValue = 12
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Detail Scale }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Fuzz Core Darkness }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Fuzz Edge Brightness }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Fuzz Power }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Roughness Multiplier }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Specular Mask Power }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SSS Amount }
+        ParameterValue = 0.33
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base CO }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Pants/Texture/Pants_D.Pants_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base LP }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Pants/Texture/Pants_LP.Pants_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Base NM }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Pants/Texture/Pants_NM.Pants_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Detail CO }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/Mask/Dirt_Mask_01_MASK.Dirt_Mask_01_MASK'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Detail NM }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color Multiplier }
+        ParameterValue = { R=0.114258, G=0.170835, B=0.203125, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = Dirt_Mask_01_MASK
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Pants_D
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Pants_LP
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Pants_NM
+    }
+}

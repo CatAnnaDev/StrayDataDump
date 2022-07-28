@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/SmartSplineGen/Materials/BasicEnviro/Liana_Mat.Liana_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/SmartSplineGen/Materials/BasicEnviro/Liana_Mat.Liana_Mat'
+        MaterialSlotName = Liana_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.7601, 55.6357, 102.198, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50.1184, Y=-0.485672, Z=9.53674e-07 }
+    BoxExtent = { X=50.1184, Y=4.60036, Z=4.83711 }
+    SphereRadius = 50.4178
+}

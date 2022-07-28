@@ -1,0 +1,6 @@
+Diffuse=Generic_Trash_ALBEDO
+Normal=Generic_Trash_NORMAL
+Other[0]=Generic_Trash_RMS
+Other[1]=127grey
+Other[2]=FlatNormal
+Other[3]=DefaultTexture

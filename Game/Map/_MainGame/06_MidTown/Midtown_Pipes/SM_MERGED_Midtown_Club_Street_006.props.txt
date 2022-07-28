@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_05_Sewers/MI_Pipe_05_A_Sewers.MI_Pipe_05_A_Sewers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Pipe/Pipe_05_Sewers/MI_Pipe_05_A_Sewers.MI_Pipe_05_A_Sewers'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.736, 316.054, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=47.5686, Y=-32.8123, Z=239.215 }
+    BoxExtent = { X=302.185, Y=40.9526, Z=247.346 }
+    SphereRadius = 383.308
+}

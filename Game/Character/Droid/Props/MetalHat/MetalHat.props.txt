@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Props/MetalHat/Material/MI_MetalHat.MI_MetalHat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Props/MetalHat/Material/MI_MetalHat.MI_MetalHat'
+        MaterialSlotName = MI_MetalHat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 79.7104, 92.2734, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0331478, Y=2.24532, Z=11.436 }
+    BoxExtent = { X=22.4632, Y=22.4018, Z=13.4475 }
+    SphereRadius = 22.57
+}

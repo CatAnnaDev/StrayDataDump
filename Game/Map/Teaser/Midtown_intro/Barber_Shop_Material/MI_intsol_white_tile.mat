@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=tile_mosa_CO
+Other[1]=tile_mosa_LP
+Other[2]=tile_mosa_NM
+Other[3]=Ground_int_water_CO
+Other[4]=Ground_int_water_LP
+Other[5]=Ground_int_water_NM
+Other[6]=Base_LP

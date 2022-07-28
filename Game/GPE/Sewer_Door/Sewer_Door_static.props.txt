@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/GPE/Sewer_Door/MI_Sewer_Door_01.MI_Sewer_Door_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Sewer_Door/MI_Sewer_Door_01.MI_Sewer_Door_01'
+        MaterialSlotName = 04 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 235.776, 234.947, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.62561, Y=-12.2151, Z=-0.327843 }
+    BoxExtent = { X=41.1152, Y=24.4772, Z=39.4177 }
+    SphereRadius = 47.1109
+}

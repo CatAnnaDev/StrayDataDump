@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+    Materials[1] = Material3'/Game/Data/Materials/Instance/Base/Base_Glass.Base_Glass'
+    Materials[2] = Material3'/Game/Data/Materials/Tests/BlackMetal.BlackMetal'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Hangar/Material/MI_Light01_metal.MI_Light01_metal'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 181.645, 684.314, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Instance/Base/Base_Glass.Base_Glass'
+        MaterialSlotName = Base_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 129.993, 486.048, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Tests/BlackMetal.BlackMetal'
+        MaterialSlotName = BlackMetal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Hangar/Material/MI_Light01_metal.MI_Light01_metal'
+        MaterialSlotName = MI_Light01_metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.1213, 127.675, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=175 }
+    BoxExtent = { X=35, Y=35, Z=175 }
+    SphereRadius = 178.552
+}

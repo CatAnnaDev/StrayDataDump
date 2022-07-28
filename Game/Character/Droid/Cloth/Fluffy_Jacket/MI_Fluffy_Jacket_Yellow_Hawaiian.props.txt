@@ -1,0 +1,116 @@
+Parent = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Fluffy_Jacket/MI_Fluffy_Jacket_Yellow.MI_Fluffy_Jacket_Yellow'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Detail Scale }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base CO }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/Motif_Hawaii.Motif_Hawaii'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base LP }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_LP.Fluffy_Jacket_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Base NM }
+        ParameterValue = Texture2D'/Game/Character/Droid/Cloth/Fluffy_Jacket/Texture/Fluffy_Jacket_NM.Fluffy_Jacket_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Detail CO }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_CO.fibre_tissus_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Detail NM }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color Multiplier }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fluffy_Jacket_LP
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fluffy_Jacket_NM
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Motif_Hawaii
+    }
+}

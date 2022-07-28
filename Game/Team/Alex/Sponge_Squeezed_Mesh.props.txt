@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/sponge/MI_Sponge.MI_Sponge'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/sponge/MI_Sponge.MI_Sponge'
+        MaterialSlotName = MI_Sponge
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.0903, 40.1769, 40.196, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.37532, Y=-0.0570135, Z=-1.52951 }
+    BoxExtent = { X=7.10712, Y=10.4761, Z=5.40256 }
+    SphereRadius = 12.6909
+}

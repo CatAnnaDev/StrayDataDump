@@ -1,0 +1,5 @@
+Diffuse=ElectricBox_D
+Normal=ElectricBox_NM
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=ElectricBox_LP
+Other[2]=ElectricBox_Screens

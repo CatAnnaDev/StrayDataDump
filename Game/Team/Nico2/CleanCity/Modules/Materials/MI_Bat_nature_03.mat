@@ -1,0 +1,10 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=DefaultDiffuse
+Other[1]=LargeWhiteTile_CO
+Other[2]=LargeWhiteTile_LP
+Other[3]=LargeWhiteTile_NM
+Other[4]=PlantWall_CO
+Other[5]=PlantWall_LP
+Other[6]=PlantWall_NM
+Other[7]=Base_LP

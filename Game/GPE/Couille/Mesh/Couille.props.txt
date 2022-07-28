@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/GPE/Couille/Material/MI_Couille.MI_Couille'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Couille/Material/MI_Couille.MI_Couille'
+        MaterialSlotName = default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.904, 283.742, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00618744, Y=-0.00934601, Z=28.9345 }
+    BoxExtent = { X=106.179, Y=104.217, Z=34.2739 }
+    SphereRadius = 114.947
+}

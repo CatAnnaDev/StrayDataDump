@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Piano/Material/MI_PIano.MI_PIano'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Piano/Material/MI_PIano.MI_PIano'
+        MaterialSlotName = MI_PIano
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 234.434, 8.77844, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.76837e-07, Y=-2.9251, Z=1.10022 }
+    BoxExtent = { X=0.500001, Y=5, Z=1.1 }
+    SphereRadius = 5.14393
+}

@@ -1,0 +1,10 @@
+Diffuse=alpha_dot_CO
+Normal=ManholeCover03_NM
+Other[0]=alpha_dot_HI
+Other[1]=alpha_dot_LP
+Other[2]=alpha_dot_NM
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=T_EV_BlankWhite_01
+Other[5]=ManholeCover03_CO
+Other[6]=ManholeCover03_height
+Other[7]=ManholeCover03_LP

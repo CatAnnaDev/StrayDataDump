@@ -1,0 +1,109 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/eye_NM.eye_NM'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/eye_SI2.eye_SI2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=reflectFraction }
+                    ParameterInfos[1] = { Name=ExpIn }
+                    ParameterInfos[2] = { Name=Power }
+                    ParameterInfos[3] = { Name=ro }
+                    ParameterInfos[4] = { Name=si }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SI color/mul }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 0.1, 3, 1, 31.9993 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Cat/Texture/eye_SI2.eye_SI2'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/eye_NM.eye_NM'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/eye_SI2.eye_SI2'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/eye_SI2.eye_SI2'
+        Name = CO
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=reflectFraction, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=ExpIn, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Power, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=ro, Group=None }
+    CollectedScalarParameters[4] = { Value=31.9993, Name=si, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SI color/mul
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = eye_NM
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = eye_SI2
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/CowBoyHat/Texture/MI_CowBoyHat.MI_CowBoyHat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/CowBoyHat/Texture/MI_CowBoyHat.MI_CowBoyHat'
+        MaterialSlotName = MI_Cowboy_01a_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.3333, 82.1103, 90.5464, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0589523, Y=4.21809, Z=14.7204 }
+    BoxExtent = { X=18.1744, Y=22.1297, Z=11.0584 }
+    SphereRadius = 24.8711
+}

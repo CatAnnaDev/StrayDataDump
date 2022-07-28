@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Map/Vertical_Slice/SUB_Sewer/Material/MI_Sewer_Huge_Toyo.MI_Sewer_Huge_Toyo'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/Vertical_Slice/SUB_Sewer/Material/MI_Sewer_Huge_Toyo.MI_Sewer_Huge_Toyo'
+        MaterialSlotName = MI_Sewer_Huge_Toyo
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.9462, 1829.71, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=423.968, Y=3288.04, Z=-24.5339 }
+    BoxExtent = { X=426.4, Y=3287.8, Z=126.466 }
+    SphereRadius = 3317.43
+}

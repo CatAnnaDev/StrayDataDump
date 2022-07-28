@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Sentinel/Material/Mi_Sentinel_base.Mi_Sentinel_base'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Sentinel/Material/Mi_Sentinel_base.Mi_Sentinel_base'
+        MaterialSlotName = Mi_Sentinel_base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.0648, 111.028, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.34873, Y=2.90197, Z=-163.15 }
+    BoxExtent = { X=33.4549, Y=18.6291, Z=14.3935 }
+    SphereRadius = 34.9389
+}

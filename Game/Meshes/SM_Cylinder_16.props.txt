@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+    Materials[1] = Material3'/Game/Data/Materials/Instance/Base/Base_Glass.Base_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 101.829, 402.594, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Instance/Base/Base_Glass.Base_Glass'
+        MaterialSlotName = Base_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 104.191, 399.334, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=100 }
+    BoxExtent = { X=35, Y=35, Z=100 }
+    SphereRadius = 106.177
+}

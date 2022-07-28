@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Shelves/Material/MI_Shelve_02_Camfade.MI_Shelve_02_Camfade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Shelves/Material/MI_Shelve_02_Camfade.MI_Shelve_02_Camfade'
+        MaterialSlotName = Shelf_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.908, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=1.90735e-06, Z=24.7349 }
+    BoxExtent = { X=52, Y=17.5, Z=25.2652 }
+    SphereRadius = 60.4035
+}

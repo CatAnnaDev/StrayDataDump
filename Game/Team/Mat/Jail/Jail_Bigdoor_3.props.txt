@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Tile/Rust/MI_Rust.MI_Rust'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grid_rusty.MI_Grid_rusty'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Tile/Rust/MI_Rust.MI_Rust'
+        MaterialSlotName = rust
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 715.817, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grid_rusty.MI_Grid_rusty'
+        MaterialSlotName = grid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-150, Y=-12.2789, Z=207.162 }
+    BoxExtent = { X=205, Y=5.69812, Z=207.162 }
+    SphereRadius = 281.167
+}

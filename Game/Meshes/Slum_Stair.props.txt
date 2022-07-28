@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.654, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-34.781, Y=-174.206, Z=72.0524 }
+    BoxExtent = { X=177.12, Y=273.161, Z=118.25 }
+    SphereRadius = 316.315
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Team/Swann/VariousItems/CACA_Grey.CACA_Grey'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Team/Swann/VariousItems/CACA_Grey.CACA_Grey'
+        MaterialSlotName = CACA_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.8585, 310.821, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.863132, Y=0.00666809, Z=-1.01418 }
+    BoxExtent = { X=14.3206, Y=26.594, Z=14.9543 }
+    SphereRadius = 29.3624
+}

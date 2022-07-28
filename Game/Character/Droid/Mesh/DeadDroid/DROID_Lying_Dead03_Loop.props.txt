@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Character/Droid/Material/M_Droid_v2.M_Droid_v2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Character/Droid/Material/M_Droid_v2.M_Droid_v2'
+        MaterialSlotName = M_Droid_v2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.057, 262.74, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=19.5475, Y=5.63065, Z=10.6893 }
+    BoxExtent = { X=79.3369, Y=30.6585, Z=12.8452 }
+    SphereRadius = 80.853
+}

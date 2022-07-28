@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Engine/VREditor/TransformGizmo/TransformGizmoMaterial.TransformGizmoMaterial'
+    Materials[1] = Material3'/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.TranslucentTransformGizmoMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Engine/VREditor/TransformGizmo/TransformGizmoMaterial.TransformGizmoMaterial'
+        MaterialSlotName = TransformGizmoMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.9914, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.TranslucentTransformGizmoMaterial'
+        MaterialSlotName = TranslucentTransformGizmoMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.9914, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.000399113, Z=0 }
+    BoxExtent = { X=5.00127, Y=0.5, Z=0.5 }
+    SphereRadius = 5.0366
+}

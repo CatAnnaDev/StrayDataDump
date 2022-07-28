@@ -1,0 +1,128 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Color3-B }
+                    ParameterInfos[1] = { Name=Color1-R }
+                    ParameterInfos[2] = { Name=Color2-G }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=MRS }
+                    ParameterInfos[2] = { Name=NormalMap }
+                    ParameterInfos[3] = { Name=ColorMap }
+                    ParameterInfos[4] = { Name=RMS }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+            TextureValues[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[3] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+            TextureValues[4] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+        Name = MRS
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+        Name = ColorMap
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+        Name = RMS
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color3-B
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color1-R
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color2-G
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

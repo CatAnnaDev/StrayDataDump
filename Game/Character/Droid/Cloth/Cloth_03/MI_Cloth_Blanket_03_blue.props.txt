@@ -1,0 +1,98 @@
+Parent = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Cloth_03/MI_Cloth_Blanket_03.MI_Cloth_Blanket_03'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base CO }
+        ParameterValue = Texture2D'/Game/Data/Textures/fabric_colors_nuance_D.fabric_colors_nuance_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base LP }
+        ParameterValue = Texture2D'/Game/Data/Textures/Base/Base_Glass_LP.Base_Glass_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Base NM }
+        ParameterValue = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color Multiplier }
+        ParameterValue = { R=0.225726, G=0.777834, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Base_Glass_LP
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = fabric_colors_nuance_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_CO
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_NM
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+}

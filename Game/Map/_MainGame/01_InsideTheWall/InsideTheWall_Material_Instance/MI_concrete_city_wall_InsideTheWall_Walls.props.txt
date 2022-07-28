@@ -1,0 +1,58 @@
+Parent = MaterialInstanceConstant'/Game/Map/_MainGame/01_InsideTheWall/InsideTheWall_Material_Instance/MI_concrete_city_wall_InsideTheWall_Floor.MI_concrete_city_wall_InsideTheWall_Floor'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CO_2 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/concrete_raw_damaged/concrete_raw_damaged_CO.concrete_raw_damaged_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=LP_2 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/concrete_standard_rough/concrete_standard_rough_LP.concrete_standard_rough_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NM_2 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/concrete_raw_damaged/concrete_raw_damaged_NM.concrete_raw_damaged_NM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

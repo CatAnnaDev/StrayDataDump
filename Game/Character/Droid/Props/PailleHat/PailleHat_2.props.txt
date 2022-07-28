@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Props/PailleHat/Material/MI_PailleHat_2.MI_PailleHat_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Props/PailleHat/Material/MI_PailleHat_2.MI_PailleHat_2'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.0836, 106.196, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.168224, Y=2.27208, Z=10.7828 }
+    BoxExtent = { X=28.1424, Y=24.0486, Z=15.0387 }
+    SphereRadius = 28.5244
+}

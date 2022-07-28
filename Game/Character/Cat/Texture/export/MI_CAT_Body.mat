@@ -1,0 +1,8 @@
+Diffuse=CAT_Body_D
+Normal=CAT_Head_NM
+Other[0]=Cat_Body_AO
+Other[1]=CAT_Body_LP
+Other[2]=CAT_Body_NM
+Other[3]=Cat_Head_AO
+Other[4]=CAT_Head_D
+Other[5]=CAT_Head_LP

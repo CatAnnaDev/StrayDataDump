@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage03.MI_Grillage03'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 207.9, 129.78, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage03.MI_Grillage03'
+        MaterialSlotName = lambert1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.101, 135.764, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=47.4632 }
+    BoxExtent = { X=96.3271, Y=2.71167, Z=99.4633 }
+    SphereRadius = 138.475
+}

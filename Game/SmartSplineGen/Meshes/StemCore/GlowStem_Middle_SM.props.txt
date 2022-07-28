@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/GlowingVein_1_MatInst.GlowingVein_1_MatInst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/SmartSplineGen/Materials/GlowingVein_1_MatInst.GlowingVein_1_MatInst'
+        MaterialSlotName = GlowingVein_1_MatInst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.6774, 102.26, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50.1184, Y=-0.485672, Z=1.43051e-06 }
+    BoxExtent = { X=50.1184, Y=4.60036, Z=4.83711 }
+    SphereRadius = 50.4178
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Lab_Robot/MI_Lab_Robot.MI_Lab_Robot'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Glass.MI_Glass'
+    Materials[2] = MaterialInstanceConstant'/Game/Character/Lab_Robot/MI_Lab_Robot_Texte_Inst.MI_Lab_Robot_Texte_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Lab_Robot/MI_Lab_Robot.MI_Lab_Robot'
+        MaterialSlotName = Lab_Robot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 171.763, 341.997, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Glass.MI_Glass'
+        MaterialSlotName = Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50.5018, 347.15, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Lab_Robot/MI_Lab_Robot_Texte_Inst.MI_Lab_Robot_Texte_Inst'
+        MaterialSlotName = Screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17.3897, 344.527, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.06648, Y=0, Z=39 }
+    BoxExtent = { X=34.0665, Y=31, Z=39 }
+    SphereRadius = 57.2974
+}

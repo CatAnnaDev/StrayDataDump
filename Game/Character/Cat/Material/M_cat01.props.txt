@@ -1,0 +1,126 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/Cat_Head_AO.Cat_Head_AO'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=SSS_Power }
+                    ParameterInfos[1] = { Name=Spec }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NM }
+                    ParameterInfos[1] = { Name=ao }
+                    ParameterInfos[2] = { Name=Color }
+                    ParameterInfos[3] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 1, 0.5 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+            TextureValues[1] = Texture2D'/Game/Character/Cat/Texture/export/Cat_Head_AO.Cat_Head_AO'
+            TextureValues[2] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+            TextureValues[3] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+        ReferencedTextures[3] = Texture2D'/Game/Character/Cat/Texture/export/Cat_Head_AO.Cat_Head_AO'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_NM.CAT_Head_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/Cat_Head_AO.Cat_Head_AO'
+        Name = ao
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_D.CAT_Head_D'
+        Name = Color
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/export/CAT_Head_LP.CAT_Head_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=SSS_Power, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Spec, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Cat_Head_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CAT_Head_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CAT_Head_LP
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CAT_Head_NM
+    }
+}

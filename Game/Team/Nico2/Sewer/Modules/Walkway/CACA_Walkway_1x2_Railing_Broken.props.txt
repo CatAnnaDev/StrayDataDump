@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Nico2/Sewer/Material/MI_CC_Rust.MI_CC_Rust'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Nico2/Sewer/Material/MI_Pom_Grid_06.MI_Pom_Grid_06'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/Sewer/Material/MI_CC_Rust.MI_CC_Rust'
+        MaterialSlotName = MI_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 151.322, 263.059, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/Sewer/Material/MI_Pom_Grid_06.MI_Pom_Grid_06'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 194.078, 276.561, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-65.9947, Y=2.27226, Z=18.1046 }
+    BoxExtent = { X=65.9947, Y=52.2723, Z=81.8954 }
+    SphereRadius = 116.86
+}

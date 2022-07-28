@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Character/Drone/material/M_Drone.M_Drone'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Drone/material/M_eye_drone_Inst.M_eye_drone_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Character/Drone/material/M_Drone.M_Drone'
+        MaterialSlotName = M_Drone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.216, 35.9322, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Drone/material/M_eye_drone_Inst.M_eye_drone_Inst'
+        MaterialSlotName = M_eye_drone_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.27623, 36.0833, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.40243, Y=0.00866175, Z=1.26142 }
+    BoxExtent = { X=3.17231, Y=3.01972, Z=2.15299 }
+    SphereRadius = 3.85268
+}

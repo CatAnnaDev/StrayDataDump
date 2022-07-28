@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile02.MI_CableTile02'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_Toyo_SelfIllum_Colors_01.MI_Toyo_SelfIllum_Colors_01'
+    Materials[2] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile02.MI_CableTile02'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 36.9251, 36.9251, 325.079, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_Toyo_SelfIllum_Colors_01.MI_Toyo_SelfIllum_Colors_01'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.8859, 39.8859, 338.66, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = 02_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 51.5845, 51.5845, 342.009, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-151.969, Y=807.76, Z=36.5509 }
+    BoxExtent = { X=214.734, Y=934.31, Z=39.0564 }
+    SphereRadius = 939.286
+}

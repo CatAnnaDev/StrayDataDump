@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_sentinel.MI_sentinel'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_Light.MI_Light'
+    Materials[2] = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_sentinel.MI_sentinel'
+    Materials[3] = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_sentinel.MI_sentinel'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_sentinel.MI_sentinel'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.5727, 90.3119, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_Light.MI_Light'
+        MaterialSlotName = Light
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.8758, 78.5374, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_sentinel.MI_sentinel'
+        MaterialSlotName = Gun
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Sentinel/Material/MI_sentinel.MI_sentinel'
+        MaterialSlotName = Material #50
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0.140449, 112.747, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.09376, Y=0, Z=12.4719 }
+    BoxExtent = { X=14.7433, Y=22.5639, Z=33.0831 }
+    SphereRadius = 40.6006
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Zurg/Material/M_ZurgSkin1_Inst.M_ZurgSkin1_Inst'
+    Materials[1] = Material3'/Game/Character/Zurg/Material/M_Zurg_Eye.M_Zurg_Eye'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Zurg/Material/M_ZurgSkin1_Inst.M_ZurgSkin1_Inst'
+        MaterialSlotName = M_ZurgSkin1_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 27.6003, 32.7144, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Character/Zurg/Material/M_Zurg_Eye.M_Zurg_Eye'
+        MaterialSlotName = M_Zurg_Eye
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.93273, 30.5599, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.86102e-06, Y=-1.90899, Z=5.1283 }
+    BoxExtent = { X=5.62286, Y=6.38676, Z=5.1318 }
+    SphereRadius = 9.31031
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/bottle/MI_bottle.MI_bottle'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/bottle/MI_bottle_paper.MI_bottle_paper'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Wood_Comptoir1.MI_Wood_Comptoir1'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/bottle/MI_bottle.MI_bottle'
+        MaterialSlotName = 09 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.881, 57.7682, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/bottle/MI_bottle_paper.MI_bottle_paper'
+        MaterialSlotName = 09 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.66, 56.7808, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_Wood_Comptoir1.MI_Wood_Comptoir1'
+        MaterialSlotName = 09 - Default_ncl1_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.73133, 57.1919, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0640106, Y=-0.000976563, Z=19.0917 }
+    BoxExtent = { X=7.46957, Y=7.42206, Z=19.0917 }
+    SphereRadius = 20.2161
+}

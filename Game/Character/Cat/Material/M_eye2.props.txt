@@ -1,0 +1,141 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Cat/Texture/export/Cat_Eye_Shadow.Cat_Eye_Shadow'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/eye_D.eye_D'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/eye_Iris_D.eye_Iris_D'
+    ReferencedTextures[3] = Texture2D'/Game/Character/Cat/Texture/eye_NM.eye_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Shadow add }
+                    ParameterInfos[1] = { Name=Pupil Scale V }
+                    ParameterInfos[2] = { Name=Shadow Scale V }
+                    ParameterInfos[3] = { Name=Shadow Scale U }
+                    ParameterInfos[4] = { Name=retro pow }
+                    ParameterInfos[5] = { Name=Iris Scale }
+                    ParameterInfos[6] = { Name=RO }
+                    ParameterInfos[7] = { Name=NM Scale }
+                    ParameterInfos[8] = { Name=UV Scale }
+                    ParameterInfos[9] = { Name=Pupil Scale U }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NM* SI }
+                    ParameterInfos[1] = { Name=Retro Color }
+                    ParameterInfos[2] = { Name=NM* }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Eye_D }
+                    ParameterInfos[1] = { Name=Retro Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 0, 0.7, 0.7, 0.7, 64, 0, 0.6, 0, 16, 0.7 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=1, A=0 }
+            VectorValues[1] = { R=1, G=0.666667, B=0.5, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Character/Cat/Texture/eye_D.eye_D'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Character/Cat/Texture/eye_NM.eye_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Cat/Texture/eye_Iris_D.eye_Iris_D'
+        ReferencedTextures[3] = Texture2D'/Game/Character/Cat/Texture/eye_D.eye_D'
+        ReferencedTextures[4] = Texture2D'/Game/Character/Cat/Texture/export/Cat_Eye_Shadow.Cat_Eye_Shadow'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Character/Cat/Texture/eye_D.eye_D'
+        Name = Eye_D
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=Retro Texture, Group=None }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Shadow add, Group=None }
+    CollectedScalarParameters[1] = { Value=0.7, Name=Pupil Scale V, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=Shadow Scale V, Group=None }
+    CollectedScalarParameters[3] = { Value=0.7, Name=Shadow Scale U, Group=None }
+    CollectedScalarParameters[4] = { Value=64, Name=retro pow, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Iris Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=0.6, Name=RO, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=NM Scale, Group=None }
+    CollectedScalarParameters[8] = { Value=16, Name=UV Scale, Group=None }
+    CollectedScalarParameters[9] = { Value=0.7, Name=Pupil Scale U, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = NM* SI
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.666667, B=0.5, A=1 }
+        Name = Retro Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = NM*
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.42188
+        UVChannelIndex = 0
+        TextureName = Cat_Eye_Shadow
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.42188
+        UVChannelIndex = 0
+        TextureName = eye_Iris_D
+    }
+}

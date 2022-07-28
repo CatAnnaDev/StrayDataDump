@@ -1,0 +1,138 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Zurg/texture/Zurg_AO.Zurg_AO'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Zurg/texture/Zurg_D.Zurg_D'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Zurg/texture/Zurg_expand_alpha.Zurg_expand_alpha'
+    ReferencedTextures[3] = Texture2D'/Game/Character/Zurg/texture/Zurg_LP.Zurg_LP'
+    ReferencedTextures[4] = Texture2D'/Game/Character/Zurg/texture/Zurg_NM.Zurg_NM'
+    ReferencedTextures[5] = Texture2D'/Game/Character/Zurg/texture/Zurg_SSS.Zurg_SSS'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=SleepIntensity }
+                    ParameterInfos[1] = { Name=SSS_Power }
+                    ParameterInfos[2] = { Name=randomscale }
+                    ParameterInfos[3] = { Name=SI_mul }
+                    ParameterInfos[4] = { Name=SleepSpeed }
+                    ParameterInfos[5] = { Name=displace }
+                    ParameterInfos[6] = { Name=Ro* }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Color_mul }
+                    ParameterInfos[1] = { Name=Color_SI }
+                    ParameterInfos[2] = { Name=Sleep SI }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0, 8.65443, 50, 0, 0.25, 0, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1.5, G=0.061712, B=0.046791, A=1 }
+            VectorValues[2] = { R=0.2, G=0.008228, B=0.006239, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Zurg/texture/Zurg_NM.Zurg_NM'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Zurg/texture/Zurg_LP.Zurg_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Zurg/texture/Zurg_D.Zurg_D'
+        ReferencedTextures[3] = Texture2D'/Game/Character/Zurg/texture/Zurg_SSS.Zurg_SSS'
+        ReferencedTextures[4] = Texture2D'/Game/Character/Zurg/texture/Zurg_expand_alpha.Zurg_expand_alpha'
+        ReferencedTextures[5] = Texture2D'/Game/Character/Zurg/texture/Zurg_AO.Zurg_AO'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=SleepIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=8.65443, Name=SSS_Power, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=randomscale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SI_mul, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=SleepSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=displace, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Ro*, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color_mul
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.5, G=0.061712, B=0.046791, A=1 }
+        Name = Color_SI
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.2, G=0.008228, B=0.006239, A=1 }
+        Name = Sleep SI
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Zurg_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Zurg_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Zurg_expand_alpha
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Zurg_LP
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Zurg_NM
+    }
+}

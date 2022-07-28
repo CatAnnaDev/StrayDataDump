@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Props/CigaretElectro/material/MI_CigaretElectro.MI_CigaretElectro'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Props/CigaretElectro/material/MI_CigaretElectro.MI_CigaretElectro'
+        MaterialSlotName = M_CigaretElectro
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.4718, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=1.37392, Y=7.36371, Z=1.37392 }
+    SphereRadius = 7.47137
+}

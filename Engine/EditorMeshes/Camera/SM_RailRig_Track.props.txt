@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Engine/EditorMaterials/Camera/MI_CineMat_Rig.MI_CineMat_Rig'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Engine/EditorMaterials/Camera/MI_CineMat_Rig.MI_CineMat_Rig'
+        MaterialSlotName = MI_CineMat_Rig
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 43.407, 81.0116, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.413097, Y=-0.0100636, Z=24.2167 }
+    BoxExtent = { X=24.4037, Y=4.00125, Z=37.8715 }
+    SphereRadius = 45.0532
+}

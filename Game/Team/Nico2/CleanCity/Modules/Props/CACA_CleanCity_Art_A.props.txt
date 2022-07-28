@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Dark_Mirror.MI_Dark_Mirror'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Nico2/CleanCity/Modules/Materials/MI_Dark_Mirror.MI_Dark_Mirror'
+        MaterialSlotName = MI_ai_Metal_Brushed_Dark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1064.34, 1241.13, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=13.5857, Y=-9.22131, Z=278.07 }
+    BoxExtent = { X=209.109, Y=175.655, Z=279.732 }
+    SphereRadius = 307.087
+}

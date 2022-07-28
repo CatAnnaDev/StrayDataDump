@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/GPE/_Main_GPE/NavigationAndPlatforms/RotatingBeam/Mesh/Materials/MI_Beams.MI_Beams'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/_Main_GPE/NavigationAndPlatforms/RotatingBeam/Mesh/Materials/MI_Beams.MI_Beams'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 606.716, 50.956, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28.4954, Y=-0.396011, Z=220.268 }
+    BoxExtent = { X=18.4241, Y=6.25378, Z=25.5032 }
+    SphereRadius = 32.04
+}

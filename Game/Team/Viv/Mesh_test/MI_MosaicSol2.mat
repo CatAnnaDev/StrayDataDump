@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Mosaic_CO
+Other[1]=Mosaic_LP
+Other[2]=Mosaic_NM
+Other[3]=Leaking_2_CO
+Other[4]=Leaking_2_LP
+Other[5]=Leaking_2_NM
+Other[6]=Leaking_1_CO
+Other[7]=Leaking_1_LP
+Other[8]=Leaking_1_NM
+Other[9]=Base_LP

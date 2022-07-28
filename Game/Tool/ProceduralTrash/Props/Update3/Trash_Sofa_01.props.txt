@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Tool/ProceduralTrash/Materials/Trash/GenericTrash_MIC.GenericTrash_MIC'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Tool/ProceduralTrash/Materials/Trash/GenericTrash_MIC.GenericTrash_MIC'
+        MaterialSlotName = GenericTrash_MIC
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 387.64, 431.692, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000175476, Y=-7.62939e-06, Z=56.6415 }
+    BoxExtent = { X=65.1765, Y=55.3801, Z=57.1802 }
+    SphereRadius = 97.71
+}

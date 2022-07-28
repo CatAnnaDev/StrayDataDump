@@ -1,0 +1,92 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Lighting/NoiseClouds_LP.NoiseClouds_LP'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=speed1 }
+                    ParameterInfos[1] = { Name=mul }
+                    ParameterInfos[2] = { Name=mul2 }
+                    ParameterInfos[3] = { Name=fade }
+                    ParameterInfos[4] = { Name=fade_cam }
+                    ParameterInfos[5] = { Name=pow }
+                    ParameterInfos[6] = { Name=rot2 }
+                    ParameterInfos[7] = { Name=pow2 }
+                    ParameterInfos[8] = { Name=rot1 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=co1 }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { -0.03, 1, 1.5, 32, 128, 1, 0.001, 1.5, 0.0005 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0.25 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Lighting/NoiseClouds_LP.NoiseClouds_LP'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=-0.03, Name=speed1, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=mul, Group=None }
+    CollectedScalarParameters[2] = { Value=1.5, Name=mul2, Group=None }
+    CollectedScalarParameters[3] = { Value=32, Name=fade, Group=None }
+    CollectedScalarParameters[4] = { Value=128, Name=fade_cam, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=pow, Group=None }
+    CollectedScalarParameters[6] = { Value=0.001, Name=rot2, Group=None }
+    CollectedScalarParameters[7] = { Value=1.5, Name=pow2, Group=None }
+    CollectedScalarParameters[8] = { Value=0.0005, Name=rot1, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0.25 }
+        Name = co1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = NoiseClouds_LP
+    }
+}

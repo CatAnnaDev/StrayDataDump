@@ -1,0 +1,6 @@
+Diffuse=Zurg_D
+Normal=Zurg_NM
+Opacity=Zurg_expand_alpha
+Other[0]=Zurg_AO
+Other[1]=Zurg_LP
+Other[2]=Zurg_SSS

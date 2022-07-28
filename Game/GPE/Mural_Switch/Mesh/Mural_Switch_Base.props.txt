@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/GPE/Mural_Switch/MI_Mural_Switch.MI_Mural_Switch'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/GPE/Mural_Switch/MI_Mural_Switch.MI_Mural_Switch'
+        MaterialSlotName = MI_Switch
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 75.2707, 95.752, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.23604, Y=0, Z=0.868048 }
+    BoxExtent = { X=7.23604, Y=11.9153, Z=21.3757 }
+    SphereRadius = 25.3463
+}

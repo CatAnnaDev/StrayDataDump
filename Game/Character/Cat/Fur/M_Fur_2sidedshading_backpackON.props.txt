@@ -1,0 +1,436 @@
+Parent = Material3'/Game/Character/Cat/Fur/M_Base_GFur_2sidedshading.M_Base_GFur_2sidedshading'
+ScalarParameterValues[52] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base to Tip Distribution }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Texture Power for Tip }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tip Hue Shift }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Roughness Texture Offset }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Roughness Texture Power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Fur Pattern Tiling }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Fur Pattern Tiling Far }
+        ParameterValue = 16
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Fur Pattern Tiling 2 }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Height Variation }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Height Variation Power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Compensation Power }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Compensation Amount }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Camera Distance Blend }
+        ParameterValue = 75
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Camera Offset }
+        ParameterValue = -150
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Fur Tip Thickness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Thickness Root to Tip Distribution }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Alpha Offset }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Fur Root Thickness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=AO Power }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Fade Out Start }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Fade Out End }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Avoid Short - Offset }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Avoid Short - Power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=AO Strength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=Amount }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Clumping Root to Tip Distribution }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Mask Tiling }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=Mask Values Offset }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Clumping Mask Power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=Wind Intensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=Wind Weight }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=Wind Speed }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=Wind Root to Tip Distribution }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=Fur Length Affects Wind Strength }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=Fur Length Power }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=WL2 Strength }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=Rim Light Strength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=Fresnel Exponent }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=Fuzzy : Brightness }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[40] =
+    {
+        ParameterInfo = { Name=Fuzzy : Darkness }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[41] =
+    {
+        ParameterInfo = { Name=Fuzzy : Lerp }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[42] =
+    {
+        ParameterInfo = { Name=Fuzzy : Power }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[43] =
+    {
+        ParameterInfo = { Name=Fade max }
+        ParameterValue = 40
+        ParameterName = None
+    }
+    ScalarParameterValues[44] =
+    {
+        ParameterInfo = { Name=Fade min }
+        ParameterValue = 35
+        ParameterName = None
+    }
+    ScalarParameterValues[45] =
+    {
+        ParameterInfo = { Name=Fake SSS }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[46] =
+    {
+        ParameterInfo = { Name=Max SSS }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[47] =
+    {
+        ParameterInfo = { Name=Min SSS }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[48] =
+    {
+        ParameterInfo = { Name=Power SSS }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[49] =
+    {
+        ParameterInfo = { Name=Spec AO mul }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[50] =
+    {
+        ParameterInfo = { Name=Spec AO power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[51] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Texture }
+        ParameterValue = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_CO.Cat_furmesh_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Fur Blend Mask }
+        ParameterValue = Texture2D'/Game/Character/Cat/Texture/export/Cat_furmesh_FurGrowth.Cat_furmesh_FurGrowth'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Fur Pattern Far }
+        ParameterValue = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Fur Pattern Near }
+        ParameterValue = Texture2D'/Game/Character/Cat/Texture/FurNoise_CO.FurNoise_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Clumping Texture }
+        ParameterValue = Texture2D'/Hk_project/Plugins/GFurPRO/Content/GFurPRO/gFur/Textures/Patterns/FurPattern_04.FurPattern_04'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Colour }
+        ParameterValue = { R=1.25, G=1.25, B=1.25, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[5] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Tip Colour Controls }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Texture For Roughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Second Density Controls }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Second Layer (WL2) }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Wind Effect }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Cat_furmesh_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Cat_furmesh_FurGrowth
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = Default_White_Linear
+    }
+}

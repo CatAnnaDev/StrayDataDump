@@ -1,0 +1,74 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Character/Droid/Texture/droid_AO.droid_AO'
+    ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Texture/droid_D.droid_D'
+    ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Texture/droid_LP.droid_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Character/Droid/Texture/droid_D.droid_D'
+        ReferencedTextures[1] = Texture2D'/Game/Character/Droid/Texture/droid_LP.droid_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Character/Droid/Texture/droid_NM.droid_NM'
+        ReferencedTextures[3] = Texture2D'/Game/Character/Droid/Texture/droid_AO.droid_AO'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_LP
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = droid_NM
+    }
+}

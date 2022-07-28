@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/FX/Particles/Fire/Texture/Flames_16x4_01.Flames_16x4_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=light hard }
+                    ParameterInfos[2] = { Name=Fade Distance }
+                    ParameterInfos[3] = { Name=pow }
+                    ParameterInfos[4] = { Name=light radius }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=si2 }
+                    ParameterInfos[1] = { Name=si1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0.25, 0, 50, 8, 500 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=300, G=53, B=15, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/FX/Particles/Fire/Texture/Flames_16x4_01.Flames_16x4_01'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/FX/Particles/Fire/Texture/Flames_16x4_01.Flames_16x4_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/FX/Particles/Fire/Texture/Flames_16x4_01.Flames_16x4_01'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.25, Name=CO, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=light hard, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[3] = { Value=8, Name=pow, Group=None }
+    CollectedScalarParameters[4] = { Value=500, Name=light radius, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=300, G=53, B=15, A=0 }
+        Name = si2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = si1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

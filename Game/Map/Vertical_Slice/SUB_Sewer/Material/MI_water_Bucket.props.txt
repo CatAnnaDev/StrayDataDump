@@ -1,0 +1,248 @@
+Parent = Material3'/Game/Data/Materials/Instance/Base/M_water_plane_depth.M_water_plane_depth'
+ScalarParameterValues[25] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=bubble_flow_distor_pow }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=bubble_uv }
+        ParameterValue = 0.609851
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=foam_dist }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=foam_dist_pow }
+        ParameterValue = 64
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=foam_flow_distor_pow_1 }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=foam_flow_speed }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=foam_flow_uv }
+        ParameterValue = 5.24979
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=foam_nm_dist_mul }
+        ParameterValue = 1.1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=foam_uv_1 }
+        ParameterValue = -3.17564
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=irisation_uv }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=pipi }
+        ParameterValue = 0.340183
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=ro_water1 }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=ro_water2 }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Spec }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=speed }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=speed2 }
+        ParameterValue = -0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=uv }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=uv2 }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=uv2_1 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=water_depth }
+        ParameterValue = -3.71391
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=water_depth_pow }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=water_fade_bord }
+        ParameterValue = 3.26341
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=water_opacity_max }
+        ParameterValue = 0.813296
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=water_opacity_min }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=bubble_alpha }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/bubble_piss/bubble_piss_CO.bubble_piss_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=bubble_lp }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/bubble_piss/bubble_piss_LP.bubble_piss_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=bubble_nm }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/bubble_piss/bubble_piss_NM.bubble_piss_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=irisation_texture }
+        ParameterValue = Texture2D'/Game/Data/Textures/Fx/color_irid_CO.color_irid_CO'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=foam_co }
+        ParameterValue = { R=0.489583, G=0.489583, B=0.489583, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=irisation_co }
+        ParameterValue = { R=0.598958, G=0.598958, B=0.598958, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=nm* }
+        ParameterValue = { R=1, G=1, B=16, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=water_deep_co }
+        ParameterValue = { R=0.25, G=0.20333, B=0.091466, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = bubble_piss_LP
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TilingNoise05
+    }
+}

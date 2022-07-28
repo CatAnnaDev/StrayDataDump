@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Hat/MI_Hat_TopHat.MI_Hat_TopHat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Hat/MI_Hat_TopHat.MI_Hat_TopHat'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 102.591, 108.388, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0.000961304, Z=11.9534 }
+    BoxExtent = { X=19.0855, Y=19.622, Z=12.6054 }
+    SphereRadius = 23.1563
+}
