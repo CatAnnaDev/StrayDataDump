@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Trench/MI_Trench.MI_Trench'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Trench/MI_Trench.MI_Trench'
+        MaterialSlotName = MI_Trench
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 139.838, 147.552, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.44653, Y=-0.932795, Z=115.429 }
+    BoxExtent = { X=16.8423, Y=30.2108, Z=44.9014 }
+    SphereRadius = 49.0375
+}

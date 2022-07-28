@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/ElectricPillar/material/MI_MetalBox.MI_MetalBox'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ElectricPillar/material/MI_MetalBox.MI_MetalBox'
+        MaterialSlotName = MI_MetalBox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 363.6, 822.8, 363.6, 363.6 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-44.1947, Y=0.787186, Z=489.984 }
+    BoxExtent = { X=97.5726, Y=86.7593, Z=427.858 }
+    SphereRadius = 434.175
+}

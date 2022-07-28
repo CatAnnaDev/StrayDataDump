@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Downloader/Material/MI_Downloader_01.MI_Downloader_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Downloader/Material/MI_Downloader_02.MI_Downloader_02'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Downloader/Material/MI_Downloader_03.MI_Downloader_03'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Downloader/Material/MI_Downloader_01.MI_Downloader_01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.4196, 39.1918, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Downloader/Material/MI_Downloader_02.MI_Downloader_02'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 28.7714, 150.81, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Downloader/Material/MI_Downloader_03.MI_Downloader_03'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.1814, 28.5121, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.71228, Z=8.0106 }
+    BoxExtent = { X=13.7049, Y=15.4171, Z=9.92964 }
+    SphereRadius = 22.8934
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Construction_Light/Base_Textures_Inst.Base_Textures_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/Construction_Light/Base_Textures_Inst1.Base_Textures_Inst1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Construction_Light/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = workLightStand
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 86.3854, 172.178, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Construction_Light/Base_Textures_Inst1.Base_Textures_Inst1'
+        MaterialSlotName = workLightStand_emission
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.258, 160.865, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.09331, Y=-0.00395203, Z=83.8762 }
+    BoxExtent = { X=36.9615, Y=40.0993, Z=83.8762 }
+    SphereRadius = 97.4254
+}

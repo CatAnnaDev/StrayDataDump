@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Newspapers/Material/MI_Newspapers.MI_Newspapers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Newspapers/Material/MI_Newspapers.MI_Newspapers'
+        MaterialSlotName = MI_Newspapers
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.98, 69.0569, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.56129, Y=57.3114, Z=0.442738 }
+    BoxExtent = { X=14.8892, Y=17.5329, Z=0.442737 }
+    SphereRadius = 23.0062
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Zurg_Tube/Mesh/MI_GlassTuvbe.MI_GlassTuvbe'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Zurg_Tube/Mesh/MI_GlassTuvbe.MI_GlassTuvbe'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 31.3752, 56.0942, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=22.4684 }
+    BoxExtent = { X=9.46595, Y=9.46595, Z=17.0691 }
+    SphereRadius = 19.5182
+}

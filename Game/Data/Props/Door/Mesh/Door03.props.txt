@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_CR_Door03.MI_CR_Door03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_CR_Door03.MI_CR_Door03'
+        MaterialSlotName = MI_CR_Door03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 348.781, 404.753, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-06, Y=-3.05176e-05, Z=110.039 }
+    BoxExtent = { X=60.1223, Y=11.0324, Z=109.95 }
+    SphereRadius = 125.799
+}

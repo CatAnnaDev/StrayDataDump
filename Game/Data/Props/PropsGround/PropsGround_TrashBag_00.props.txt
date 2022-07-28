@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_TrashBag.MI_PropsGround_TrashBag'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_TrashBag.MI_PropsGround_TrashBag'
+        MaterialSlotName = MI_PropsGround_TrashBag
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 307.377, 96.6695, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.71661e-05, Y=0, Z=4.25514 }
+    BoxExtent = { X=23.5977, Y=20.5688, Z=4.403 }
+    SphereRadius = 27.9765
+}

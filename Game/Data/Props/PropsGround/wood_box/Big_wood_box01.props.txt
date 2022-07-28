@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Misc/materials/MI_oldwood.MI_oldwood'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/agrafe/MI_agrafe.MI_agrafe'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_oldwood.MI_oldwood'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.498, 294.916, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/agrafe/MI_agrafe.MI_agrafe'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.32115, 293.04, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0213165, Y=0.0528374, Z=20.2454 }
+    BoxExtent = { X=33.0793, Y=26.6398, Z=20.296 }
+    SphereRadius = 46.9981
+}

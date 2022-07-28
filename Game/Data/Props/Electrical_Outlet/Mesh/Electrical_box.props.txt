@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Electrical_Outlet/MI_Electrical_Outlet.MI_Electrical_Outlet'
+    Materials[1] = Material3'/Game/Team/Nico2/CleanCity/Modules/Materials/Emissive_White.Emissive_White'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Tissus_Frise.M_Parasol_Tissus_Frise'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Electrical_Outlet/MI_Electrical_Outlet.MI_Electrical_Outlet'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.135, 35.4, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Team/Nico2/CleanCity/Modules/Materials/Emissive_White.Emissive_White'
+        MaterialSlotName = Material_002
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 71.0713, 35.4104, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Tissus_Frise.M_Parasol_Tissus_Frise'
+        MaterialSlotName = sangle
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.24506, 35.4008, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.84629, Y=0.00223398, Z=0.901982 }
+    BoxExtent = { X=4.8463, Y=6.80027, Z=6.90198 }
+    SphereRadius = 10.0697
+}

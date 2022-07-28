@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Juckbox/Material/MI_Sentinel_projectil.MI_Sentinel_projectil'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Juckbox/Material/MI_Sentinel_projectil.MI_Sentinel_projectil'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 38.3727, 27.1426, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=21.1611, Y=-9.53674e-06, Z=1.33514e-05 }
+    BoxExtent = { X=31.1611, Y=11.6669, Z=11.6669 }
+    SphereRadius = 31.4152
+}

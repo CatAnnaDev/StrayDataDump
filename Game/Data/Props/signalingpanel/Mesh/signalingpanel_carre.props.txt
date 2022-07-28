@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_signalingpanel.MI_signalingpanel'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_SignalingPanel_carre.MI_SignalingPanel_carre'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_signalingpanel.MI_signalingpanel'
+        MaterialSlotName = MI_signalingpanel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 213.167, 103.824, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_SignalingPanel_carre.MI_SignalingPanel_carre'
+        MaterialSlotName = MI_SignalingPanel_carre
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.9063, 103.243, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.20047, Z=-7.62939e-06 }
+    BoxExtent = { X=20.9831, Y=2.47202, Z=19.8959 }
+    SphereRadius = 27.8476
+}

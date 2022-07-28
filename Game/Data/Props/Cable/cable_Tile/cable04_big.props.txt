@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableCheap_RubberBlack.MI_CableCheap_RubberBlack'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableCheap_RubberBlack.MI_CableCheap_RubberBlack'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.2877, 21.5457, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.286185, Y=-0.0148453, Z=76.0649 }
+    BoxExtent = { X=2.20575, Y=1.88906, Z=76.0666 }
+    SphereRadius = 76.0701
+}

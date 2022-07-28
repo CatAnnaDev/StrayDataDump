@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Armcahir_01_Green.MI_Armcahir_01_Green'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Wood.MI_Wood'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Armcahir_01_Green.MI_Armcahir_01_Green'
+        MaterialSlotName = ArmChair_Scandi
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 264.08, 256.944, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Wood.MI_Wood'
+        MaterialSlotName = Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 122.539, 258.807, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=0.40287, Z=44.4119 }
+    BoxExtent = { X=44.2255, Y=44.6488, Z=44.4119 }
+    SphereRadius = 74.332
+}

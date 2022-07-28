@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Wood.MI_Wood'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic.MI_Black_Plastic'
+    Materials[2] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Wood.MI_Wood'
+        MaterialSlotName = Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 176.803, 403.093, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic.MI_Black_Plastic'
+        MaterialSlotName = Black
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.055, 361.245, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = Light
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=22 }
+    BoxExtent = { X=85, Y=85, Z=22 }
+    SphereRadius = 87.6525
+}

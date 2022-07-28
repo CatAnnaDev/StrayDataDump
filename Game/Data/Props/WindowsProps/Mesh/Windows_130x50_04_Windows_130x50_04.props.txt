@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_noCF_PlasticWindows01.MI_noCF_PlasticWindows01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass.MI_Glass'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass2_dither.MI_Glass2_dither'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_noCF_PlasticWindows01.MI_noCF_PlasticWindows01'
+        MaterialSlotName = PlasticWindows01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 289.645, 206.387, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass.MI_Glass'
+        MaterialSlotName = MI_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 271.799, 209.242, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass2_dither.MI_Glass2_dither'
+        MaterialSlotName = MI_Glass2_dither
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 271.799, 209.242, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.247601, Y=-0.20042, Z=0.496346 }
+    BoxExtent = { X=32.1668, Y=3.88155, Z=72.6727 }
+    SphereRadius = 79.5664
+}

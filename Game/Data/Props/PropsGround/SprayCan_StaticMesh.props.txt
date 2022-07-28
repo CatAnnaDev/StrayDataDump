@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround01.MI_PropsGround01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround01.MI_PropsGround01'
+        MaterialSlotName = MI_PropsGround01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.944, 34.7707, 38.1201, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.95503e-05, Y=0, Z=12.5175 }
+    BoxExtent = { X=3.94745, Y=3.94746, Z=12.5175 }
+    SphereRadius = 13.1251
+}

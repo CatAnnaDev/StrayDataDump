@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Poubelle01/Material/MI_TrashCan.MI_TrashCan'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Poubelle01/Material/MI_TrashCan.MI_TrashCan'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 169.717, 183.817, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.228277, Y=-0.17045, Z=31.0033 }
+    BoxExtent = { X=27.213, Y=22.6097, Z=31.0033 }
+    SphereRadius = 42.497
+}

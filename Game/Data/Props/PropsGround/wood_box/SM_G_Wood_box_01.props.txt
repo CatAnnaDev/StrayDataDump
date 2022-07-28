@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Textures/Wood/MI_Wood_beech_natural.MI_Wood_beech_natural'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/agrafe/MI_agrafe.MI_agrafe'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Decal/etiquette/MI_Etiquette01.MI_Etiquette01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Wood/MI_Wood_beech_natural.MI_Wood_beech_natural'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 205.535, 542.478, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/agrafe/MI_agrafe.MI_agrafe'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.06276, 600.295, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Decal/etiquette/MI_Etiquette01.MI_Etiquette01'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 44.5894, 539.962, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000244141, Y=-0.146484, Z=60.3608 }
+    BoxExtent = { X=40.1428, Y=38.4551, Z=60.5251 }
+    SphereRadius = 72.6049
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/camscreen/material/MI_camscreen.MI_camscreen'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_off.MI_screen_off'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/camscreen/material/MI_camscreen.MI_camscreen'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.332, 137.193, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_off.MI_screen_off'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 32.4933, 148.187, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.50412, Z=-21.3844 }
+    BoxExtent = { X=20.8109, Y=12.476, Z=23.0044 }
+    SphereRadius = 32.3053
+}

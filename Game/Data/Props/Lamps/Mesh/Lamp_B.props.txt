@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Lamps/Material/MI_Lamp_B.MI_Lamp_B'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Lamps/Material/MI_Lamp_B.MI_Lamp_B'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 55.9383, 77.6489, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-4.57764e-05, Z=24.4842 }
+    BoxExtent = { X=12.5522, Y=12.5522, Z=24.4842 }
+    SphereRadius = 25.9896
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cat_Jail_Cell/MI_Cat_Jail_Cell.MI_Cat_Jail_Cell'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cat_Jail_Cell/MI_Cat_Jail_Cell.MI_Cat_Jail_Cell'
+        MaterialSlotName = MI_Rust_Inst1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 225.633, 257.525, 1499.09, 374.403 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.430265, Y=0.115374, Z=-38.7109 }
+    BoxExtent = { X=30.458, Y=30.2016, Z=38.7109 }
+    SphereRadius = 57.3611
+}

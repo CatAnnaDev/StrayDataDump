@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_03.MI_screen_03'
+    Materials[1] = Material3'/Game/Data/Materials/Screen/Glitch/M_TV_Glitch01.M_TV_Glitch01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_03.MI_screen_03'
+        MaterialSlotName = MI_screen_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.921, 184.937, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Screen/Glitch/M_TV_Glitch01.M_TV_Glitch01'
+        MaterialSlotName = M_TV_Glitch01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.6369, 184.971, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=3.05176e-05, Z=21.3821 }
+    BoxExtent = { X=24.8381, Y=17.0289, Z=21.3821 }
+    SphereRadius = 36.9338
+}

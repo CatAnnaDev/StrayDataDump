@@ -1,0 +1,77 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Props/Candle/Textures/Candles_Flame_CO.Candles_Flame_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Props/Candle/Textures/Candles_Flame_EM.Candles_Flame_EM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=xSineCycles }
+                    ParameterInfos[1] = { Name=Emm_Power }
+                    ParameterInfos[2] = { Name=XDistMax }
+                    ParameterInfos[3] = { Name=yDistMax }
+                    ParameterInfos[4] = { Name=Speed }
+                    ParameterInfos[5] = { Name=ySineCycles }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 1, 0.05, 0.05, 0.15, 2 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Props/Candle/Textures/Candles_Flame_EM.Candles_Flame_EM'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Props/Candle/Textures/Candles_Flame_CO.Candles_Flame_CO'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=xSineCycles, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Emm_Power, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=XDistMax, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=yDistMax, Group=None }
+    CollectedScalarParameters[4] = { Value=0.15, Name=Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=ySineCycles, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Candles_Flame_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Candles_Flame_EM
+    }
+}

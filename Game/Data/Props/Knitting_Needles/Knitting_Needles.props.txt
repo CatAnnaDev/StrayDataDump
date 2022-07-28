@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Metal.MI_Train_Metal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Wagon_V2/Material/MI_Train_Metal.MI_Train_Metal'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.2692, 23.643, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-1.90735e-06 }
+    BoxExtent = { X=1.64808, Y=1.67705, Z=29.3913 }
+    SphereRadius = 29.3954
+}

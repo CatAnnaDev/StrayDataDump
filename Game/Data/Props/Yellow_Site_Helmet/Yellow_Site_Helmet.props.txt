@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Yellow_Site_Helmet/Material/MI_Yellow_Site_Helmet.MI_Yellow_Site_Helmet'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Yellow_Site_Helmet/Material/MI_Yellow_Site_Helmet.MI_Yellow_Site_Helmet'
+        MaterialSlotName = Lowpoly
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.4769, 80.8424, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=6.04043, Z=21.16 }
+    BoxExtent = { X=14.9402, Y=18.6653, Z=9.76272 }
+    SphereRadius = 20.7745
+}

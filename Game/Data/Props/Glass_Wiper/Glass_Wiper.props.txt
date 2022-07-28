@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Glass_Wiper/MI_Glass_Wiper_Metal.MI_Glass_Wiper_Metal'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Glass_Wiper/MI_Glass_Wiper_Rubber.MI_Glass_Wiper_Rubber'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Glass_Wiper/MI_Glass_Wiper_Metal.MI_Glass_Wiper_Metal'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.5948, 33.4259, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Glass_Wiper/MI_Glass_Wiper_Rubber.MI_Glass_Wiper_Rubber'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.2593, 34.3219, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.43148, Y=-0.235844, Z=-1.64196 }
+    BoxExtent = { X=11.7853, Y=17, Z=3.54196 }
+    SphereRadius = 20.9491
+}

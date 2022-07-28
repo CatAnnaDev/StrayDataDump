@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_Props.MI_VendingMachine_Props'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_Props.MI_VendingMachine_Props'
+        MaterialSlotName = Material #203
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 77.6141, 27.2425, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-06, Z=4.53718 }
+    BoxExtent = { X=2.67244, Y=2.67243, Z=4.53718 }
+    SphereRadius = 5.26574
+}

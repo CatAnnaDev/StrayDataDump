@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_HangingNeon.MI_HangingNeon'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_HangingNeon_ON.MI_HangingNeon_ON'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_HangingNeon.MI_HangingNeon'
+        MaterialSlotName = MI_HangingNeon
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 111.861, 123.926, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_HangingNeon_ON.MI_HangingNeon_ON'
+        MaterialSlotName = MI_HangingNeon
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 111.401, 123.247, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.43323e-05, Y=6.67572e-06, Z=-4.36763 }
+    BoxExtent = { X=55.3206, Y=9.2312, Z=3.27363 }
+    SphereRadius = 55.9335
+}

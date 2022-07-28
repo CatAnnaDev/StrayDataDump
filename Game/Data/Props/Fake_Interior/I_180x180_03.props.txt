@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Fake_Interior/Material/MI_Int.MI_Int'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fake_Interior/Material/MI_Int.MI_Int'
+        MaterialSlotName = Material #223
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 179.869, 179.869, 318.203, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-16.6885, Z=0 }
+    BoxExtent = { X=90, Y=6.10352e-05, Z=90 }
+    SphereRadius = 127.279
+}

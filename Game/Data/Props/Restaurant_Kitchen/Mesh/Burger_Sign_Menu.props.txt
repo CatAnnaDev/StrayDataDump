@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Burger_Signage.MI_Burger_Signage'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Burger_Signage.MI_Burger_Signage'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 117.87, 92.5258, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.33624, Y=0, Z=7.62939e-06 }
+    BoxExtent = { X=1.33624, Y=28.1976, Z=42.2964 }
+    SphereRadius = 50.8515
+}

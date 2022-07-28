@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Bike/Material/MI_Bike.MI_Bike'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bike/Material/MI_Bike.MI_Bike'
+        MaterialSlotName = MI_Bike
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 220.907, 219.99, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.00943, Y=-1.80071, Z=53.352 }
+    BoxExtent = { X=24.6902, Y=78.4401, Z=53.4595 }
+    SphereRadius = 88.2057
+}

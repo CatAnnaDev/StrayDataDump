@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_TrashBag.MI_PropsGround_TrashBag'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_noCF_Ficelle.MI_noCF_Ficelle'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_TrashBag.MI_PropsGround_TrashBag'
+        MaterialSlotName = MI_PropsGround_TrashBag
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 211.585, 169.615, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_noCF_Ficelle.MI_noCF_Ficelle'
+        MaterialSlotName = MI_Ficelle
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.6735, 159.148, 0, 0 }
+        }
+    }
+}
+Sockets[16] = {  }
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=30.1813 }
+    BoxExtent = { X=31.5796, Y=32.9387, Z=30.0056 }
+    SphereRadius = 47.6166
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Traffic_Cone/MI_Traffic_Cone.MI_Traffic_Cone'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Traffic_Cone/MI_Traffic_Cone.MI_Traffic_Cone'
+        MaterialSlotName = default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 92.0869, 120.325, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-06, Z=34.966 }
+    BoxExtent = { X=20, Y=20, Z=34.966 }
+    SphereRadius = 42.6466
+}

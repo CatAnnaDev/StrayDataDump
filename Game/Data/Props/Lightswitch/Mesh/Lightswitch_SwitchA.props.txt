@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Lightswitch/MI_LightSwitch.MI_LightSwitch'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Lightswitch/MI_LightSwitch.MI_LightSwitch'
+        MaterialSlotName = Lightswitch
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 36.2436, 35.9108, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.57396, Y=0.0188527, Z=-2.86102e-06 }
+    BoxExtent = { X=3.57396, Y=3.94534, Z=6.60593 }
+    SphereRadius = 8.21
+}

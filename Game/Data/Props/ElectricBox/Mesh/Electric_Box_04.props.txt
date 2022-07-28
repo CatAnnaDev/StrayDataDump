@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/ElectricBox/material/MI_ElectricBox4.MI_ElectricBox4'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ElectricBox/material/MI_ElectricBox4.MI_ElectricBox4'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 123.143, 186.625, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=17.0726, Y=0.228142, Z=31.5074 }
+    BoxExtent = { X=17.0726, Y=35.2281, Z=31.5074 }
+    SphereRadius = 50.2515
+}

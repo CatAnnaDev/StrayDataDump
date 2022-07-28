@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/WoodPlane/material/MI_WoodPlane01.MI_WoodPlane01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WoodPlane/material/MI_WoodPlane01.MI_WoodPlane01'
+        MaterialSlotName = MI_WoodPlane01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 376.682, 191.785, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.28882e-05, Y=7.62939e-06, Z=0.983912 }
+    BoxExtent = { X=65.9848, Y=43.9387, Z=1.12576 }
+    SphereRadius = 79.2306
+}

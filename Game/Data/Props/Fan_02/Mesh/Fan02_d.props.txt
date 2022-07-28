@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Fan_02/Material/MI_Fan02.MI_Fan02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fan_02/Material/MI_Fan02.MI_Fan02'
+        MaterialSlotName = MI_Fan02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 68.3029, 48.0012, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.25971, Y=0, Z=1.4866 }
+    BoxExtent = { X=16.1846, Y=4.33381, Z=15.167 }
+    SphereRadius = 18.2367
+}

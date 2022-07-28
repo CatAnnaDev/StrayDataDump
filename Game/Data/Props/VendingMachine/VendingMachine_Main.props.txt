@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_Glass.MI_VendingMachine_Glass'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_001.MI_VendingMachine_001'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_Glass.MI_VendingMachine_Glass'
+        MaterialSlotName = VendingMachine_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 117.89, 398.803, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_001.MI_VendingMachine_001'
+        MaterialSlotName = VendingMachine
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 281.454, 399.211, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0.399794, Z=98.1276 }
+    BoxExtent = { X=52.5596, Y=30.4, Z=98.1278 }
+    SphereRadius = 115.198
+}

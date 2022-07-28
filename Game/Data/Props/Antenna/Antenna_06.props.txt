@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Antenna/MI_Antenna.MI_Antenna'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Antenna/MI_Antenna.MI_Antenna'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 149.653, 219.141, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.387821, Y=24.1637, Z=44.8477 }
+    BoxExtent = { X=24.3974, Y=27.2322, Z=44.8477 }
+    SphereRadius = 51.6891
+}

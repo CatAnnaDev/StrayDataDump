@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Awning/Materials/MI_Awnings_structure.MI_Awnings_structure'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Awning/Materials/MI_Awnings_fabric.MI_Awnings_fabric'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Awning/Materials/MI_Awnings_structure.MI_Awnings_structure'
+        MaterialSlotName = Awning_Structure
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 189.891, 267.679, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Awning/Materials/MI_Awnings_fabric.MI_Awnings_fabric'
+        MaterialSlotName = Awning_Fabric
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 403.053, 265.898, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=74.9025, Y=3.8147e-05, Z=-8.55587 }
+    BoxExtent = { X=75.1715, Y=72.5, Z=23.5176 }
+    SphereRadius = 106.735
+}

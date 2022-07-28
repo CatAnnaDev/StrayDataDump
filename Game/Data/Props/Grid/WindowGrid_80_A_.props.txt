@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Grid/Material/MI_WindowGrid_80_A.MI_WindowGrid_80_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grid/Material/MI_WindowGrid_80_A.MI_WindowGrid_80_A'
+        MaterialSlotName = MI_WindowGrid_80_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 177.428, 150.509, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=9.53883, Z=3.8147e-06 }
+    BoxExtent = { X=46.0334, Y=9.53885, Z=55.5508 }
+    SphereRadius = 68.8314
+}

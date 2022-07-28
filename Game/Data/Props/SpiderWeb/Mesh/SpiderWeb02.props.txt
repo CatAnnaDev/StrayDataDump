@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/SpiderWeb/Material/MI_SpiderWeb01.MI_SpiderWeb01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/SpiderWeb/Material/MI_SpiderWeb01.MI_SpiderWeb01'
+        MaterialSlotName = MI_SpiderWeb01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 162.078, 82.3872, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=40.5195, Y=6.60146e-06, Z=40.5195 }
+    SphereRadius = 57.3032
+}

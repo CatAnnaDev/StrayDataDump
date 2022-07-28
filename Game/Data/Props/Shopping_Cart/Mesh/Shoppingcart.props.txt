@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Shopping_Cart/MI_ShoppingCart.MI_ShoppingCart'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Shopping_Cart/MI_ShoppingCart.MI_ShoppingCart'
+        MaterialSlotName = MI_ShoppingCart
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 120.192, 177.152, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.218796, Y=-1.52588e-05, Z=50.6608 }
+    BoxExtent = { X=49.0133, Y=28.7518, Z=50.7965 }
+    SphereRadius = 73.8562
+}

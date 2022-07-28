@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Guirlande/MI_Guirlande_ampoule.MI_Guirlande_ampoule'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/Guirlande/MI_Guirlande_cable.MI_Guirlande_cable'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Guirlande/MI_Guirlande_ampoule.MI_Guirlande_ampoule'
+        MaterialSlotName = MI_Guirlande_ampoule
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.3151, 23.5993, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Guirlande/MI_Guirlande_cable.MI_Guirlande_cable'
+        MaterialSlotName = MI_Guirlande_cable
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.468, 24.2284, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-2.98472 }
+    BoxExtent = { X=2.18317, Y=2.18317, Z=2.98472 }
+    SphereRadius = 2.99551
+}

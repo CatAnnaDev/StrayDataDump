@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Carpet/Material/MI_carpet_04.MI_carpet_04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Carpet/Material/MI_carpet_04.MI_carpet_04'
+        MaterialSlotName = Material #28
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 319.959, 123.047, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.111084, Y=1.72065, Z=1.66651 }
+    BoxExtent = { X=52.7663, Y=65.9004, Z=2.09148 }
+    SphereRadius = 84.4
+}

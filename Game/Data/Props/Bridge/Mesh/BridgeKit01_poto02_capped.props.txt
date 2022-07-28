@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Bridge/material/MI_BridgeKit01.MI_BridgeKit01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bridge/material/MI_BridgeKit01.MI_BridgeKit01'
+        MaterialSlotName = MI_BridgeKit01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 239.455, 68.2361, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=41.8955 }
+    BoxExtent = { X=8.7154, Y=8.583, Z=41.8955 }
+    SphereRadius = 43.4845
+}

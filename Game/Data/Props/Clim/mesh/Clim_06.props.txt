@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Clim/Materials/MI_vent06.MI_vent06'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Clim/Materials/MI_vent06.MI_vent06'
+        MaterialSlotName = MI_vent06
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 224.432, 284.774, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28.259, Y=-7.62939e-06, Z=46.3945 }
+    BoxExtent = { X=28.293, Y=70.6277, Z=77.3455 }
+    SphereRadius = 94.9255
+}

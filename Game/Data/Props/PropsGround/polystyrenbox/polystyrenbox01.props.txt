@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/polystyrenbox/Material/MI_Polystyren.MI_Polystyren'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/polystyrenbox/Material/MI_Polystyren.MI_Polystyren'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113.211, 125.96, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-06, Z=11.0584 }
+    BoxExtent = { X=21.2632, Y=16.848, Z=11.0584 }
+    SphereRadius = 28.1295
+}

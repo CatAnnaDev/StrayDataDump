@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile02.MI_CableTile02'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_Toyo_SelfIllum_Colors_Green1.MI_Toyo_SelfIllum_Colors_Green1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_CableTile02.MI_CableTile02'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.1904, 14.1904, 17.039, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_Tile/material/MI_Toyo_SelfIllum_Colors_Green1.MI_Toyo_SelfIllum_Colors_Green1'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.1734, 14.1734, 16.9399, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.86102e-06, Y=0, Z=16 }
+    BoxExtent = { X=0.976493, Y=1.01746, Z=16 }
+    SphereRadius = 16.0349
+}

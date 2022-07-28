@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Industrial_Metal.MI_Industrial_Metal'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_white_neon_flick.MI_white_neon_flick'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Black_Plastic.MI_Black_Plastic'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Industrial_Metal.MI_Industrial_Metal'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.41, 127.297, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_white_neon_flick.MI_white_neon_flick'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.762, 125.69, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Black_Plastic.MI_Black_Plastic'
+        MaterialSlotName = Material #62
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.628, 127.201, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=0, Z=0 }
+    BoxExtent = { X=30.6039, Y=6.43817, Z=38.9355 }
+    SphereRadius = 41.9136
+}

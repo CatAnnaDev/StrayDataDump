@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage07.MI_Grillage07'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage07.MI_Grillage07'
+        MaterialSlotName = grillage
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16.0644, 186.846, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-99.8346, Y=2.50061, Z=106.554 }
+    BoxExtent = { X=97.5609, Y=3.05176e-05, Z=86.5539 }
+    SphereRadius = 130.421
+}

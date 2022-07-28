@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Sofa_03.MI_Sofa_03'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Wood.MI_Wood'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Sofa_03.MI_Sofa_03'
+        MaterialSlotName = Sofa_Scandi_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 292.765, 290.424, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Wood.MI_Wood'
+        MaterialSlotName = Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 124.049, 290.134, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00025177, Y=0.438057, Z=44.4835 }
+    BoxExtent = { X=70.0002, Y=44.6836, Z=44.4835 }
+    SphereRadius = 90.8531
+}

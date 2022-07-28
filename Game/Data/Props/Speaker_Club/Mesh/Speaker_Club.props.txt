@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Speaker_Club/MI_Speaker_Club.MI_Speaker_Club'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Speaker_Club/MI_Speaker_Grille_Club.MI_Speaker_Grille_Club'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Speaker_Club/MI_Speaker_Club.MI_Speaker_Club'
+        MaterialSlotName = MI_Speaker
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 129.672, 167.7, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Speaker_Club/MI_Speaker_Grille_Club.MI_Speaker_Grille_Club'
+        MaterialSlotName = MI_Grille
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 7.60659, 167.397, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.26555, Y=1.20095, Z=18.9373 }
+    BoxExtent = { X=25.8344, Y=32.5299, Z=18.7743 }
+    SphereRadius = 42.762
+}

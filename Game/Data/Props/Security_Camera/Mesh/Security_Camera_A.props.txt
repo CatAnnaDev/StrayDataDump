@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Security_Camera/Mesh/MI_Security_Camera.MI_Security_Camera'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Security_Camera/Mesh/MI_Security_Camera.MI_Security_Camera'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.7314, 52.3158, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.91821e-05, Y=-10.2975, Z=4.76837e-07 }
+    BoxExtent = { X=4.0782, Y=10.2977, Z=6 }
+    SphereRadius = 12.3905
+}

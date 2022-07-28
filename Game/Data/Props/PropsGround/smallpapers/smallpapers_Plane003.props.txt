@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/smallpapers/MI_smallpapers.MI_smallpapers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/smallpapers/MI_smallpapers.MI_smallpapers'
+        MaterialSlotName = MI_smallpapers
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 9.74394, 4.78412, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0.254768 }
+    BoxExtent = { X=1.92, Y=2.82269, Z=0.209672 }
+    SphereRadius = 3.42023
+}

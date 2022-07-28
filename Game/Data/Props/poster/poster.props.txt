@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Decal/MI_Smuggler_wanted_poster.MI_Smuggler_wanted_poster'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Decal/MI_Smuggler_wanted_poster.MI_Smuggler_wanted_poster'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16.9315, 18.2325, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.506897, Y=-0.000183105, Z=1.52588e-05 }
+    BoxExtent = { X=0.506897, Y=6.96356, Z=10.2353 }
+    SphereRadius = 12.3899
+}

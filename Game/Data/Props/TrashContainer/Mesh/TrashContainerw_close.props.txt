@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TrashContainer/material/MI_TrashContainer_Dirty.MI_TrashContainer_Dirty'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TrashContainer/material/MI_TrashContainer_Dirty.MI_TrashContainer_Dirty'
+        MaterialSlotName = MI_TrashContainer
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 411.599, 483.791, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=24.1403 }
+    BoxExtent = { X=62.352, Y=43.009, Z=63.1022 }
+    SphereRadius = 95.1383
+}

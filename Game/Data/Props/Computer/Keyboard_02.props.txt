@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_keyboard_02.MI_keyboard_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_keyboard_02.MI_keyboard_02'
+        MaterialSlotName = MI_keyboard_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.6093, 113.887, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=-0.00646973, Z=1.50197 }
+    BoxExtent = { X=24.1236, Y=9.42328, Z=1.51586 }
+    SphereRadius = 25.943
+}

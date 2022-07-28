@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_HandRail_A.MI_Sewer_HandRail_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_HandRail_A.MI_Sewer_HandRail_A'
+        MaterialSlotName = MI_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 93.2253, 77.0635, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=-8.06567, Z=96.0414 }
+    BoxExtent = { X=47.6455, Y=7.5, Z=3.95859 }
+    SphereRadius = 48.3029
+}

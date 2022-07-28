@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/poster/Material/Mi_Seamus_Familly_pics.Mi_Seamus_Familly_pics'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_noCF_Wood_Comptoir.MI_noCF_Wood_Comptoir'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/poster/Material/Mi_Seamus_Familly_pics.Mi_Seamus_Familly_pics'
+        MaterialSlotName = Mi_Familly_pics
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 35.4163, 91.3195, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_noCF_Wood_Comptoir.MI_noCF_Wood_Comptoir'
+        MaterialSlotName = MI_gold
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.7374, 91.418, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.510632, Y=-3.8147e-06, Z=0 }
+    BoxExtent = { X=0.510637, Y=22.8476, Z=17.1096 }
+    SphereRadius = 28.5484
+}

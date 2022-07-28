@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Badge/MI_B12_ghost_catlogo.MI_B12_ghost_catlogo'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent.MI_MetalVent'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Badge/MI_B12_ghost_catlogo.MI_B12_ghost_catlogo'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.83135, 5.118, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent.MI_MetalVent'
+        MaterialSlotName = Material_002
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 28.2815, 4.67251, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.302271, Y=-2.38419e-07, Z=0.00455642 }
+    BoxExtent = { X=0.234583, Y=1.32847, Z=1.32847 }
+    SphereRadius = 1.32847
+}

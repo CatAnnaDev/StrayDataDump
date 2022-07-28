@@ -1,0 +1,109 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Fx/RGB_tv_pixel.RGB_tv_pixel'
+    ReferencedTextures[2] = Texture2D'/Game/Misc/textures/banrisul_scifi_aotw.banrisul_scifi_aotw'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=pixel_tile_u }
+                    ParameterInfos[1] = { Name=dirt }
+                    ParameterInfos[2] = { Name=pixel_tile_v }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=uv_dirt }
+                    ParameterInfos[1] = { Name=si }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=texture }
+                    ParameterInfos[1] = { Name=texture_1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 64, 0, 16 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=10, G=10, B=10, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Misc/textures/banrisul_scifi_aotw.banrisul_scifi_aotw'
+            TextureValues[1] = Texture2D'/Game/Misc/textures/banrisul_scifi_aotw.banrisul_scifi_aotw'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Fx/RGB_tv_pixel.RGB_tv_pixel'
+        ReferencedTextures[1] = Texture2D'/Game/Misc/textures/banrisul_scifi_aotw.banrisul_scifi_aotw'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Fx/Glitch_Mask2_LP.Glitch_Mask2_LP'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Misc/textures/banrisul_scifi_aotw.banrisul_scifi_aotw'
+        Name = texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Misc/textures/banrisul_scifi_aotw.banrisul_scifi_aotw'
+        Name = texture_1
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=64, Name=pixel_tile_u, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=dirt, Group=None }
+    CollectedScalarParameters[2] = { Value=16, Name=pixel_tile_v, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = uv_dirt
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=10, G=10, B=10, A=1 }
+        Name = si
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

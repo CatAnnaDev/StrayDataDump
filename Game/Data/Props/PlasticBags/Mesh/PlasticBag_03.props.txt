@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_03.MI_Plasticbag_03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PlasticBags/Material/MI_Plasticbag_03.MI_Plasticbag_03'
+        MaterialSlotName = PlasticBag_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 95.4763, 102.329, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.138975, Y=-0.0494375, Z=0 }
+    BoxExtent = { X=18.6165, Y=10.1657, Z=27.434 }
+    SphereRadius = 32.037
+}

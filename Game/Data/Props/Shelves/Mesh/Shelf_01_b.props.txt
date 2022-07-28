@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Shelves/Material/MI_Shelve_01.MI_Shelve_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Shelves/Material/MI_Shelve_01.MI_Shelve_01'
+        MaterialSlotName = Shelf_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.731, 237.909, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=40 }
+    BoxExtent = { X=40, Y=20, Z=40 }
+    SphereRadius = 60
+}

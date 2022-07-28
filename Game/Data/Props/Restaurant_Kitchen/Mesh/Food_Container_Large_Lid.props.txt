@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Food_Container.MI_Food_Container'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Food_Container.MI_Food_Container'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.21, 98.3493, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-06, Y=-0.000413895, Z=-0.645559 }
+    BoxExtent = { X=10, Y=20.0142, Z=1.13559 }
+    SphereRadius = 21.9028
+}

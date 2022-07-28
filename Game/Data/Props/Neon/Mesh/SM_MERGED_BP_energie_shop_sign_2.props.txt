@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Riconium_shop.MI_Riconium_shop'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_alpha/material/MI_Cable01_Alpha.MI_Cable01_Alpha'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/ElectricBox/material/MI_ElectricBox.MI_ElectricBox'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Riconium_shop.MI_Riconium_shop'
+        MaterialSlotName = MI_Riconium_shop
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 9250.69, 391.12, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+        MaterialSlotName = MI_Metal_stuff
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 203.956, 419.213, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_alpha/material/MI_Cable01_Alpha.MI_Cable01_Alpha'
+        MaterialSlotName = MI_Cable01_Alpha
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 105.101, 417.408, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ElectricBox/material/MI_ElectricBox.MI_ElectricBox'
+        MaterialSlotName = MI_ElectricBox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 79.5703, 418.628, 4093.24, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.20381, Y=13.1542, Z=-47.1776 }
+    BoxExtent = { X=21.5599, Y=152.283, Z=95.7883 }
+    SphereRadius = 177.689
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/MetalPlane/material/MetalPlane_01.MetalPlane_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MetalPlane/material/MetalPlane_01.MetalPlane_01'
+        MaterialSlotName = MetalPlane_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 583.352, 406.608, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=0, Z=-7.62939e-06 }
+    BoxExtent = { X=107.574, Y=78.5522, Z=5.8271 }
+    SphereRadius = 132.517
+}

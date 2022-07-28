@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/_LOOT/Adress_Clementine/MI_AdressClem.MI_AdressClem'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/_LOOT/Adress_Clementine/MI_AdressClem.MI_AdressClem'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 337.543, 410.548, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.8199, Y=0.421204, Z=6.22323 }
+    BoxExtent = { X=111.165, Y=100.421, Z=8.23095 }
+    SphereRadius = 149.814
+}

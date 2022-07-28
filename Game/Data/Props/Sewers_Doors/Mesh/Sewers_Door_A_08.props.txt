@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sewers_Doors/MI_Sewers_Door_Trim.MI_Sewers_Door_Trim'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sewers_Doors/MI_Sewers_Door_Trim.MI_Sewers_Door_Trim'
+        MaterialSlotName = Sewers_Door_Trim
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 307.92, 185.859, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.57628e-06, Y=0, Z=0 }
+    BoxExtent = { X=3.50002, Y=86.74, Z=8.34033 }
+    SphereRadius = 87.2103
+}

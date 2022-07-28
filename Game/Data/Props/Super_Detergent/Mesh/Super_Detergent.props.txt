@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Super_Detergent/MI_Super_Detergent.MI_Super_Detergent'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Super_Detergent/MI_Super_Detergent.MI_Super_Detergent'
+        MaterialSlotName = MI_Super_Detergent
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 67.1321, 69.1936, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0106792, Y=0, Z=20.35 }
+    BoxExtent = { X=12.8498, Y=6.58123, Z=20.2756 }
+    SphereRadius = 23.1463
+}

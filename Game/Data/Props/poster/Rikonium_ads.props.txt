@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Rikonium_ads.MI_Rikonium_ads'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Rikonium_ads.MI_Rikonium_ads'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.522, 27.4366, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.934914, Y=0, Z=0 }
+    BoxExtent = { X=0.758061, Y=9.53423, Z=16.9813 }
+    SphereRadius = 19.4895
+}

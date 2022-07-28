@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Seau/Bassine/material/MI_Bassine01.MI_Bassine01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Seau/Bassine/material/MI_Bassine01.MI_Bassine01'
+        MaterialSlotName = MI_Bassine01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 156.11, 156.11, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.72802, Y=-0.0130768, Z=17.2123 }
+    BoxExtent = { X=33.4596, Y=38.9198, Z=17.1908 }
+    SphereRadius = 42.2898
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/robinetterie/Material/MI_Robinet01.MI_Robinet01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/robinetterie/Material/MI_Robinet01.MI_Robinet01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.9171, 26.9171, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.33786e-06, Y=10.2337, Z=2.96745 }
+    BoxExtent = { X=3.41476, Y=10.1571, Z=7.23105 }
+    SphereRadius = 12.3663
+}

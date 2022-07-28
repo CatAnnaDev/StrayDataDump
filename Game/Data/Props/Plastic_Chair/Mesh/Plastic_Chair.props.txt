@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Chair/MI_Plastic_Chair.MI_Plastic_Chair'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Chair/MI_Plastic_Chair.MI_Plastic_Chair'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 137.756, 221.032, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.03331, Y=0.00335312, Z=43.6151 }
+    BoxExtent = { X=26.8719, Y=22.5461, Z=43.5998 }
+    SphereRadius = 54.5062
+}

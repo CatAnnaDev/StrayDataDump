@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Rebel_Logo_01.MI_Rebel_Logo_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Rebel_Logo_02.MI_Rebel_Logo_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Rebel_Logo_01.MI_Rebel_Logo_01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Rebel_Logo_02.MI_Rebel_Logo_02'
+        MaterialSlotName = 01 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=15.523, Y=-9.46773, Z=7.48579 }
+    BoxExtent = { X=3.74273, Y=68.0986, Z=66.5602 }
+    SphereRadius = 93.6092
+}

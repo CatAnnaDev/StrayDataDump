@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Props/Candle/Candles_Flame.Candles_Flame'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Candle/Candles_Flame.Candles_Flame'
+        MaterialSlotName = Mi_Candle_Flame
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.83697, 2.97201, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.103447, Y=0.0201044, Z=9.96675 }
+    BoxExtent = { X=0.637291, Y=0.637295, Z=1.27459 }
+    SphereRadius = 1.42503
+}

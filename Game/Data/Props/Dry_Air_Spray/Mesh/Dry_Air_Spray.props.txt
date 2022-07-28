@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Dry_Air_Spray/MI_Dry_Air_Spray.MI_Dry_Air_Spray'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Dry_Air_Spray/MI_Dry_Air_Spray.MI_Dry_Air_Spray'
+        MaterialSlotName = MI_Dry_Air_Spray
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 31.2047, 55.6154, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-4.68956, Z=13.8591 }
+    BoxExtent = { X=4.31032, Y=8.99988, Z=13.8282 }
+    SphereRadius = 16.3379
+}

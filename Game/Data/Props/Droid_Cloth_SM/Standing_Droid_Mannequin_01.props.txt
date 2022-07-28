@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Pants/MI_Pants.MI_Pants'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Red_Plastic1_Inst.MI_Red_Plastic1_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Pants/MI_Pants.MI_Pants'
+        MaterialSlotName = Material #68
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.378, 330.159, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Red_Plastic1_Inst.MI_Red_Plastic1_Inst'
+        MaterialSlotName = Material #54
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.026, 335.85, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.53415, Y=-1.0695, Z=86.7951 }
+    BoxExtent = { X=21.3527, Y=30.422, Z=89.1001 }
+    SphereRadius = 94.0831
+}

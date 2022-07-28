@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Signs_Module.MI_Signs_Module'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Sign/AnimatedSigns/MI_Neon_Sign_B.MI_Neon_Sign_B'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Signs_Module.MI_Signs_Module'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 81.4249, 153.212, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/AnimatedSigns/MI_Neon_Sign_B.MI_Neon_Sign_B'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 842.656, 67.6159, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.86819, Y=2.61854, Z=1.13593 }
+    BoxExtent = { X=5.45008, Y=17.5026, Z=17.5003 }
+    SphereRadius = 19.444
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_FlowerPot01.M_FlowerPot01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_FlowerPot01.M_FlowerPot01'
+        MaterialSlotName = Flowerpot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 166.028, 68.6152, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=9.25234 }
+    BoxExtent = { X=12.3375, Y=12.3375, Z=9.25234 }
+    SphereRadius = 15.3839
+}

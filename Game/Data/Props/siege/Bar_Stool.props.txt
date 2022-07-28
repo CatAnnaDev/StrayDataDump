@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Misc/materials/MI_oldwood.MI_oldwood'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Misc/materials/MI_oldwood.MI_oldwood'
+        MaterialSlotName = MI_Bol
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.3876, 167.663, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.52588e-05, Z=42.7813 }
+    BoxExtent = { X=17.4197, Y=18.2274, Z=42.7813 }
+    SphereRadius = 49.6581
+}

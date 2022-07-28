@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Glass.MI_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Glass.MI_Glass'
+        MaterialSlotName = Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.8, 104.724, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28, Y=10, Z=129 }
+    BoxExtent = { X=3.8147e-06, Y=40.5, Z=65.5 }
+    SphereRadius = 77.0097
+}

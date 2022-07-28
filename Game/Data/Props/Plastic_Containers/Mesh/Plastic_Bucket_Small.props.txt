@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Bucket_Small.MI_Plastic_Bucket_Small'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Bucket_Small.MI_Plastic_Bucket_Small'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 117.585, 145.975, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=21.0161 }
+    BoxExtent = { X=19.9984, Y=19.9984, Z=21.0161 }
+    SphereRadius = 28.444
+}

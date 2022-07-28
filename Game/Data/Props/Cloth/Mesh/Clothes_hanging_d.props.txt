@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cloth/material/MI_cloth_01.MI_cloth_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cloth/material/MI_cloth_01.MI_cloth_01'
+        MaterialSlotName = Clothes
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 178.725, 79.6335, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.480723, Y=1.90735e-06, Z=-7.30601 }
+    BoxExtent = { X=12.739, Y=15.4528, Z=15.4828 }
+    SphereRadius = 20.7753
+}

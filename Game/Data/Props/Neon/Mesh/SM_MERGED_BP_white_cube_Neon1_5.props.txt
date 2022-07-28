@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_alpha/material/MI_Cable01_Alpha.MI_Cable01_Alpha'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/ElectricBox/material/MI_ElectricBox.MI_ElectricBox'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Metal_stuff/Material/MI_Metal_stuff.MI_Metal_stuff'
+        MaterialSlotName = MI_Metal_stuff
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 241.381, 310.202, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/cable_alpha/material/MI_Cable01_Alpha.MI_Cable01_Alpha'
+        MaterialSlotName = MI_Cable01_Alpha
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 161.673, 309.374, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ElectricBox/material/MI_ElectricBox.MI_ElectricBox'
+        MaterialSlotName = MI_ElectricBox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50.6824, 310.029, 5468.46, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.321182, Y=-21.5176, Z=12.9814 }
+    BoxExtent = { X=33.5622, Y=29.6167, Z=39.501 }
+    SphereRadius = 52.0039
+}

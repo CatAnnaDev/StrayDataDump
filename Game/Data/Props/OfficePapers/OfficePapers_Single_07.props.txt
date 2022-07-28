@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/OfficePapers/MI_OfficePapers.MI_OfficePapers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/OfficePapers/MI_OfficePapers.MI_OfficePapers'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 158.924, 10.0343, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0231986, Y=0, Z=0.271351 }
+    BoxExtent = { X=4.9768, Y=3.5, Z=0.221301 }
+    SphereRadius = 6.08831
+}

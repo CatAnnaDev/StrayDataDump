@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Props/HangingClothes/Material/M_HangingClothes_Hanger.M_HangingClothes_Hanger'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/HangingClothes/Material/M_HangingClothes_Hanger.M_HangingClothes_Hanger'
+        MaterialSlotName = Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.555, 25.3154, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.66893e-06, Z=-9.65176 }
+    BoxExtent = { X=22.0363, Y=0.501762, Z=10.6204 }
+    SphereRadius = 23.7889
+}

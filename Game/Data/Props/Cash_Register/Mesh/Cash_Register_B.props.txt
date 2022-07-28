@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cash_Register/Material/Base_Textures_Inst.Base_Textures_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cash_Register/Material/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 152.192, 112.729, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.33514e-05, Y=-8.45651, Z=5.5002 }
+    BoxExtent = { X=18.9, Y=14.3985, Z=3.4 }
+    SphereRadius = 23.7524
+}

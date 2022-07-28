@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Beds/Material/MI_Beds_02.MI_Beds_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Beds/Material/MI_Beds_02.MI_Beds_02'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 276.776, 93.3907, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0244274, Y=0.0967884, Z=-7.62939e-06 }
+    BoxExtent = { X=24.0021, Y=31.766, Z=7.22471 }
+    SphereRadius = 34.7322
+}

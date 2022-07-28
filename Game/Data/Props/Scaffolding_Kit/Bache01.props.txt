@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_Bache01.MI_Bache01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_Bache01.MI_Bache01'
+        MaterialSlotName = Fabric7739_FRONT_7739
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 298.342, 299.948, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.189575, Y=-0.627365, Z=0.799881 }
+    BoxExtent = { X=108.677, Y=21.6433, Z=147.46 }
+    SphereRadius = 180.893
+}

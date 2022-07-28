@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/crystal/MI_Crystal.MI_Crystal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/crystal/MI_Crystal.MI_Crystal'
+        MaterialSlotName = crystal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 90.8715, 102.413, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.74439, Y=3.08093, Z=25.4161 }
+    BoxExtent = { X=19.025, Y=13.4308, Z=25.4626 }
+    SphereRadius = 26.9311
+}

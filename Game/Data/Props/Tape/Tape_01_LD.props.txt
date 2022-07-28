@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Tape/Material/MI_Tape_01.MI_Tape_01'
+    Materials[1] = Material3'/Game/Data/Materials/Tests/M_glass_blur_wet.M_glass_blur_wet'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Tape/Material/MI_Tape_01.MI_Tape_01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17.1374, 62.6518, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Tests/M_glass_blur_wet.M_glass_blur_wet'
+        MaterialSlotName = 01 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.793, 62.9356, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=5.96046e-08, Z=0 }
+    BoxExtent = { X=5.40127, Y=0.549481, Z=3.28986 }
+    SphereRadius = 6.12918
+}

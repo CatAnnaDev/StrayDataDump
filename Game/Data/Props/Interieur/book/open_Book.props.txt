@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/book/Material/MI_book.MI_book'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Interieur/book/Material/MI_page.MI_page'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/book/Material/MI_book.MI_book'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 24.8614, 37.1706, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/book/Material/MI_page.MI_page'
+        MaterialSlotName = fake_texte
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 27.7037, 37.5783, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.977765, Y=-3.10988, Z=0.0184994 }
+    BoxExtent = { X=7.96974, Y=3.13702, Z=8.15666 }
+    SphereRadius = 11.6641
+}

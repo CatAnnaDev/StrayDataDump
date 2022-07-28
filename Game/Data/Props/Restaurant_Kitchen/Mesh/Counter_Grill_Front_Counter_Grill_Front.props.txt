@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox_Dark.MI_Inox_Dark'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_HoodFilter.MI_HoodFilter'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+        MaterialSlotName = MI_Counter_Inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 82.2356, 212.455, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox_Dark.MI_Inox_Dark'
+        MaterialSlotName = MI_Counter_Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.2387, 212.473, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_HoodFilter.MI_HoodFilter'
+        MaterialSlotName = MI_Counter_Marble
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 82.5366, 200.278, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+        MaterialSlotName = MI_Marble2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.9118, 208.156, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=39.5, Y=-2.28882e-05, Z=50 }
+    BoxExtent = { X=3.3595, Y=66.1192, Z=50 }
+    SphereRadius = 82.8398
+}

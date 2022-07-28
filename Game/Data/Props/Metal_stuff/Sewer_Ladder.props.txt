@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Sign_horizontalTube_metal.MI_Sign_horizontalTube_metal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Sign_horizontalTube_metal.MI_Sign_horizontalTube_metal'
+        MaterialSlotName = MI_Facade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 157.762, 151.829, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.19617e-05, Y=13.8296, Z=166.743 }
+    BoxExtent = { X=37.2244, Y=14.5883, Z=142.299 }
+    SphereRadius = 147.246
+}

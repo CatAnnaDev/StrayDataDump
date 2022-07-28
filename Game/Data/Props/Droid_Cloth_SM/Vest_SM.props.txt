@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Yellow_Vest/MI_YellowVest_movers.MI_YellowVest_movers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Yellow_Vest/MI_YellowVest_movers.MI_YellowVest_movers'
+        MaterialSlotName = MI_YellowVest
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.6358, 106.466, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.437744, Y=-0.0469208, Z=124.788 }
+    BoxExtent = { X=14.1965, Y=20.788, Z=31.8003 }
+    SphereRadius = 37.7092
+}

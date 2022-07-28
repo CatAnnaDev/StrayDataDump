@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_inox.MI_inox'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_inox.MI_inox'
+        MaterialSlotName = metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 79.5043, 59.0359, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=1.90735e-06 }
+    BoxExtent = { X=4.45028, Y=0.426665, Z=18.7128 }
+    SphereRadius = 18.7336
+}

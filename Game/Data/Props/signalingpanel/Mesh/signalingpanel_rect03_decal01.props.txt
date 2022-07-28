@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_Midtown_Direction_Sign_Decals.MI_Midtown_Direction_Sign_Decals'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_Midtown_Direction_Sign_Decals.MI_Midtown_Direction_Sign_Decals'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.5854, 69.8563, 34.2314, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62461, Y=1.97502, Z=0.000106812 }
+    BoxExtent = { X=0.0345955, Y=27.5682, Z=9.10483 }
+    SphereRadius = 28.5821
+}

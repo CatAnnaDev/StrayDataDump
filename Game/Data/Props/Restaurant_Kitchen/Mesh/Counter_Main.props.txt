@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox_Dark.MI_Inox_Dark'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Counter_Glass.MI_Counter_Glass'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Midtown_Bat04.MI_Midtown_Bat04'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+        MaterialSlotName = MI_Counter_Marble
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.976, 386.547, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox_Dark.MI_Inox_Dark'
+        MaterialSlotName = MI_Counter_Inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 241.607, 381.674, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Counter_Glass.MI_Counter_Glass'
+        MaterialSlotName = MI_Counter_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 241.695, 380.135, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Midtown_Bat04.MI_Midtown_Bat04'
+        MaterialSlotName = MI_Marble2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 242.333, 652.633, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=0, Z=72.1528 }
+    BoxExtent = { X=55, Y=125.5, Z=72.1528 }
+    SphereRadius = 150.596
+}

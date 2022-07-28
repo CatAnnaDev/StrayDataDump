@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_CC_Rust.MI_CC_Rust'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Pom_Grid_06.MI_Pom_Grid_06'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_CC_Rust.MI_CC_Rust'
+        MaterialSlotName = MI_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.9927, 426.962, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Pom_Grid_06.MI_Pom_Grid_06'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 323.33, 424.954, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100, Y=0, Z=-14.2626 }
+    BoxExtent = { X=100, Y=50, Z=14.2626 }
+    SphereRadius = 112.709
+}

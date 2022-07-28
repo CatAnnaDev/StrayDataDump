@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/gouttiere/MI_Gouttiere.MI_Gouttiere'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/gouttiere/MI_Gouttiere.MI_Gouttiere'
+        MaterialSlotName = MI_Gouttiere
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 121.259, 111.48, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.00341, Y=42.4561, Z=-3.26725 }
+    BoxExtent = { X=11.4369, Y=42.4561, Z=5.48173 }
+    SphereRadius = 44.3099
+}

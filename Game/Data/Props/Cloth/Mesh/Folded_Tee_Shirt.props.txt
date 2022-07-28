@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Team/Swann/VariousItems/CACA_White.CACA_White'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Clara/Hawaiian_print.Hawaiian_print'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Team/Swann/VariousItems/CACA_White.CACA_White'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 64.7764, 46.0617, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Clara/Hawaiian_print.Hawaiian_print'
+        MaterialSlotName = Material #14
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 65.9466, 62.5149, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.222125, Y=0.273376, Z=0.699004 }
+    BoxExtent = { X=16.1816, Y=16.4535, Z=1.32606 }
+    SphereRadius = 22.6994
+}

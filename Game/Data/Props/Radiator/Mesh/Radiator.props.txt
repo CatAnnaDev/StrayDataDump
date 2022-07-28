@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Radiator/MI_Radiator.MI_Radiator'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Radiator/MI_Radiator.MI_Radiator'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 217.243, 348.728, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.76566e-05, Y=-1.03338, Z=52.9629 }
+    BoxExtent = { X=15.1366, Y=58.3936, Z=52.9629 }
+    SphereRadius = 78.034
+}

@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson.Mi_Light_Caisson'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+    Materials[6] = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson.Mi_Light_Caisson'
+        MaterialSlotName = Mi_Light_Caisson
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 385.173, 744.138, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+        MaterialSlotName = Mi_Light_Caisson_ON
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 382.339, 739.795, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+        MaterialSlotName = Mi_Light_Caisson_ON
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 382.913, 736.742, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+        MaterialSlotName = Mi_Light_Caisson_ON
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 379.939, 741.968, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+        MaterialSlotName = Mi_Light_Caisson_ON
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 381.107, 740.351, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+        MaterialSlotName = Mi_Light_Caisson_ON
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 379.596, 741.464, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/caisson/material/Mi_Light_Caisson_ON.Mi_Light_Caisson_ON'
+        MaterialSlotName = Mi_Light_Caisson_ON
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.795, 743.013, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-2.28882e-05, Z=2.28882e-05 }
+    BoxExtent = { X=196.053, Y=19.0995, Z=39.9856 }
+    SphereRadius = 200.998
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Metro/Material/MI_siege_white_plastic1.MI_siege_white_plastic1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grid_rusty1.MI_Grid_rusty1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Metro/Material/MI_siege_white_plastic1.MI_siege_white_plastic1'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 186.04, 284.782, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grid_rusty1.MI_Grid_rusty1'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.576, 281.55, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=15.8625, Y=95.578, Z=139.521 }
+    BoxExtent = { X=22.256, Y=99.874, Z=139.521 }
+    SphereRadius = 172.582
+}

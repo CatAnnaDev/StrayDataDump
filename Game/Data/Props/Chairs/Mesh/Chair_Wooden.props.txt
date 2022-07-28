@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Chairs/Material/MI_Chair_Wooden.MI_Chair_Wooden'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Chairs/Material/MI_Chair_Wooden.MI_Chair_Wooden'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.293, 163.952, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.880884, Y=-0.0149059, Z=49.4279 }
+    BoxExtent = { X=27.7393, Y=23.8375, Z=49.4279 }
+    SphereRadius = 59.7466
+}

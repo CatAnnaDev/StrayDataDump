@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_Osier_neuf.MI_Osier_neuf'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_osier_02.MI_osier_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_Osier_neuf.MI_Osier_neuf'
+        MaterialSlotName = MI_Osier_neuf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.3564, 105.856, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_osier_02.MI_osier_02'
+        MaterialSlotName = MI_osier_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.0069, 86.3852, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.200062, Y=-0.087883, Z=16.3407 }
+    BoxExtent = { X=18.6013, Y=18.0848, Z=16.9778 }
+    SphereRadius = 26.1404
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Toyo/PropsToyo01/material/MI_PropsToyo01.MI_PropsToyo01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Toyo/PropsToyo01/material/MI_PropsToyo01.MI_PropsToyo01'
+        MaterialSlotName = MI_PropsToyo01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 79.4857, 113.772, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.48863, Y=-1.51764, Z=6.90135 }
+    BoxExtent = { X=16.447, Y=10.4763, Z=23.298 }
+    SphereRadius = 28.831
+}

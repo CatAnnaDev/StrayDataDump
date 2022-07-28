@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Bulb/MI_Bulb.MI_Bulb'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/Bulb/MI_Bulb_alpha.MI_Bulb_alpha'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Light/Bulb/MI_Bulb_emissive.MI_Bulb_emissive'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Bulb/MI_Bulb.MI_Bulb'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 44.3727, 53.7002, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Bulb/MI_Bulb_alpha.MI_Bulb_alpha'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.7752, 50.1866, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Bulb/MI_Bulb_emissive.MI_Bulb_emissive'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.85674, 49.8795, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.0855074, Z=-10.7143 }
+    BoxExtent = { X=4.92993, Y=5.01553, Z=10.7143 }
+    SphereRadius = 10.7954
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TV/Textures/MI_TV.MI_TV'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_off.MI_screen_off'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TV/Textures/MI_TV.MI_TV'
+        MaterialSlotName = MI_TV
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 213.389, 233.594, 236.862, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_off.MI_screen_off'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 213.135, 233.762, 236.694, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.016571, Y=1.25789, Z=35.9598 }
+    BoxExtent = { X=41.5374, Y=32.3499, Z=36.1523 }
+    SphereRadius = 62.0952
+}

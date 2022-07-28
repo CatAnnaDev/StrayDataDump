@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Bucket_Big.MI_Plastic_Bucket_Big'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Bucket_Big.MI_Plastic_Bucket_Big'
+        MaterialSlotName = Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.5824, 93.8617, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=14.272 }
+    BoxExtent = { X=14.4367, Y=14.4367, Z=14.272 }
+    SphereRadius = 20.011
+}

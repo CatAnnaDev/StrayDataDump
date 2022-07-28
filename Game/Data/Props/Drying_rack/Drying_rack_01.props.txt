@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Drying_rack/material/MI_Drying_rack.MI_Drying_rack'
+        MaterialSlotName = MI_etendoir01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 72.7426, 76.0833, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=24.3568, Y=0, Z=0 }
+    BoxExtent = { X=24.3568, Y=39.8317, Z=4.74784 }
+    SphereRadius = 46.8387
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/paperlight/Mi_Paperlight_base.Mi_Paperlight_base'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/paperlight/Mi_Paperlight_SI.Mi_Paperlight_SI'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/paperlight/Mi_Paperlight_base.Mi_Paperlight_base'
+        MaterialSlotName = 12 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.907, 217.134, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/paperlight/Mi_Paperlight_SI.Mi_Paperlight_SI'
+        MaterialSlotName = 12 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.444, 216.186, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.80245, Y=3.33941, Z=-36.0474 }
+    BoxExtent = { X=24.1287, Y=23.7622, Z=41.8843 }
+    SphereRadius = 43.1336
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/LCDscreen/Material/MI_LCDscreen.MI_LCDscreen'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/Mi_Club_Computer_Screen_02.Mi_Club_Computer_Screen_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/LCDscreen/Material/MI_LCDscreen.MI_LCDscreen'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 122.66, 156.493, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/Mi_Club_Computer_Screen_02.Mi_Club_Computer_Screen_02'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 48.0445, 154.584, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0.839966, Z=32.419 }
+    BoxExtent = { X=33.9554, Y=13.7681, Z=32.419 }
+    SphereRadius = 47.1159
+}

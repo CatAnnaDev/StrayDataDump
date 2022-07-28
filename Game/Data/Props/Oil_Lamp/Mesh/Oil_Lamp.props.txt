@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Oil_Lamp/MI_Oil_Lamp.MI_Oil_Lamp'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Oil_Lamp/MI_Oil_Lamp.MI_Oil_Lamp'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 52.9852, 83.8363, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00011158, Y=-0.138101, Z=-17.8925 }
+    BoxExtent = { X=9.00811, Y=9.14624, Z=19.2901 }
+    SphereRadius = 21.3485
+}

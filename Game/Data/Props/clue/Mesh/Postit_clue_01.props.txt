@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/clue/MI_Postit_Clue_01.MI_Postit_Clue_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/clue/MI_Postit_Clue_01.MI_Postit_Clue_01'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 21.3388, 30.5771, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.129804, Y=9.53674e-07, Z=-0.0150762 }
+    BoxExtent = { X=0.623094, Y=7.33824, Z=7.54619 }
+    SphereRadius = 10.5358
+}

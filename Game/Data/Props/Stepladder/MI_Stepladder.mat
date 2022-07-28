@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Stepladder_CO
+Other[1]=Stepladder_LP
+Other[2]=Stepladder_N
+Other[3]=Ground_int_water_CO
+Other[4]=HK_Concrete_5_LP
+Other[5]=Ground_int_water_NM
+Other[6]=Base_LP

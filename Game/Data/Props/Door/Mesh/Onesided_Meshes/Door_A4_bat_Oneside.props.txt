@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_DoorA4.MI_DoorA4'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_DoorA4.MI_DoorA4'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.573, 465.967, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+        MaterialSlotName = WorldGridMaterial_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 314.45, 465.117, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.39902, Y=-4.62032, Z=110.789 }
+    BoxExtent = { X=62.6566, Y=8.80245, Z=110.789 }
+    SphereRadius = 126.97
+}

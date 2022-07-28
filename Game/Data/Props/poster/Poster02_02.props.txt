@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Poster02.MI_Poster02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Poster02.MI_Poster02'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 64.543, 18.2448, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.506897, Y=1.52588e-05, Z=0.000183105 }
+    BoxExtent = { X=0.506897, Y=10.2353, Z=6.96356 }
+    SphereRadius = 12.3899
+}

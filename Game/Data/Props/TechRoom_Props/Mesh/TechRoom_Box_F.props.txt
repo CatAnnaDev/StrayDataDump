@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_TechRoom_Boxes.MI_TechRoom_Boxes'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_TechRoom_Boxes.MI_TechRoom_Boxes'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 210.699, 103.976, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.485901, Y=-1.90735e-06, Z=5.5 }
+    BoxExtent = { X=15.4859, Y=27.5, Z=5.5 }
+    SphereRadius = 32.0361
+}

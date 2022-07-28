@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_Walkway.MI_Sewer_Walkway'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Pom_Grid_Sewer.MI_Pom_Grid_Sewer'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_Walkway.MI_Sewer_Walkway'
+        MaterialSlotName = MI_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.4008, 293.673, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Pom_Grid_Sewer.MI_Pom_Grid_Sewer'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.7652, 291.237, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=6.10352e-05, Z=-14.2626 }
+    BoxExtent = { X=50, Y=50.0001, Z=14.2626 }
+    SphereRadius = 72.1348
+}

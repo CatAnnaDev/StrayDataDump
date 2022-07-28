@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Data/Props/Neon/Material/Big_multicolor_neon.Big_multicolor_neon'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Neon1.MI_Neon1'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Plastic_Mauve.MI_Plastic_Mauve'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Plastic_Grey.MI_Plastic_Grey'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Neon/Material/Big_multicolor_neon.Big_multicolor_neon'
+        MaterialSlotName = Material #53
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Neon1.MI_Neon1'
+        MaterialSlotName = Material #dsd53
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.29848, 338.436, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Plastic_Mauve.MI_Plastic_Mauve'
+        MaterialSlotName = 45456
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1883.89, 328.454, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Plastic_Grey.MI_Plastic_Grey'
+        MaterialSlotName = 454562514
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 592.311, 329.419, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.188171, Y=3.49348, Z=-0.153915 }
+    BoxExtent = { X=90.6956, Y=3.99641, Z=44.4929 }
+    SphereRadius = 100.32
+}

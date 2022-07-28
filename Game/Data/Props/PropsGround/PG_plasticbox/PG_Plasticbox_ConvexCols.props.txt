@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/PG_plasticbox/MI_Plasticbox2.MI_Plasticbox2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/PG_plasticbox/MI_Plasticbox2.MI_Plasticbox2'
+        MaterialSlotName = MI_Plasticbox2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 161.714, 170.706, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=10.8998 }
+    BoxExtent = { X=23.6861, Y=15.9744, Z=10.8998 }
+    SphereRadius = 29.6452
+}

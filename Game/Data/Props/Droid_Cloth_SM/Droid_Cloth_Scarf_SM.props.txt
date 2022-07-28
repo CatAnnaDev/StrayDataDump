@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Scarf/Marerial/MI_Cloth_Scarf.MI_Cloth_Scarf'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Scarf/Marerial/MI_Cloth_Scarf.MI_Cloth_Scarf'
+        MaterialSlotName = MI_Cloth_Scarf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 60.4545, 69.6709, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.47522, Y=-0.97085, Z=163.345 }
+    BoxExtent = { X=14.9281, Y=12.923, Z=16.8955 }
+    SphereRadius = 22.5779
+}

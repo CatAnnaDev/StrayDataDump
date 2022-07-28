@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_gold.MI_gold'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/poster/Material/Mi_Familly_pics.Mi_Familly_pics'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Bar/Material/MI_gold.MI_gold'
+        MaterialSlotName = Material #1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 45.8328, 46.0547, 61.502, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/poster/Material/Mi_Familly_pics.Mi_Familly_pics'
+        MaterialSlotName = portecoulissante
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 79.4151, 47.4942, 62.6558, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.510655, Y=1.90735e-06, Z=9.53674e-07 }
+    BoxExtent = { X=0.510636, Y=13.9185, Z=13.3881 }
+    SphereRadius = 19.3191
+}

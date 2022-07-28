@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/ModularSigns/Texture/MI_ModularSigns.MI_ModularSigns'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ModularSigns/Texture/MI_ModularSigns.MI_ModularSigns'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 189.288, 155.53, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-37.9999, Y=-3.33786e-06, Z=0 }
+    BoxExtent = { X=38, Y=5.00003, Z=40 }
+    SphereRadius = 55.3986
+}

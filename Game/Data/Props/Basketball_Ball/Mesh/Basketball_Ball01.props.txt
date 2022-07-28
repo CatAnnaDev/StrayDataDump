@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Basketball_Ball/MI_Basketball_Ball.MI_Basketball_Ball'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Basketball_Ball/MI_Basketball_Ball.MI_Basketball_Ball'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.1468, 60.7279, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=13.1752 }
+    BoxExtent = { X=13.1252, Y=13.1253, Z=13.1252 }
+    SphereRadius = 13.3497
+}

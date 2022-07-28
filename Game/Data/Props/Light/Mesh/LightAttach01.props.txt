@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_LightAttach01.MI_LightAttach01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_LightAttach01.MI_LightAttach01'
+        MaterialSlotName = MI_LightAttach01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 197.9, 199.654, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52588e-05, Y=93.8075, Z=0 }
+    BoxExtent = { X=3.40746, Y=93.8089, Z=41.6458 }
+    SphereRadius = 102.694
+}

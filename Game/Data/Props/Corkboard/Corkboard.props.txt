@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/cat_tree/MI_Cat_tree_Wood.MI_Cat_tree_Wood'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Corkboard/Material/MI_Cork.MI_Cork'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/cat_tree/MI_Cat_tree_Wood.MI_Cat_tree_Wood'
+        MaterialSlotName = Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 173.831, 149.061, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Corkboard/Material/MI_Cork.MI_Cork'
+        MaterialSlotName = Cork
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 187.195, 172.569, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.55474, Z=0 }
+    BoxExtent = { X=55.5564, Y=1.55475, Z=41.6855 }
+    SphereRadius = 69.4738
+}

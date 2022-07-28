@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_noCF_PlasticWindows01.MI_noCF_PlasticWindows01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass2.MI_Glass2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_noCF_PlasticWindows01.MI_noCF_PlasticWindows01'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 256.118, 1747.65, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/MI_Glass2.MI_Glass2'
+        MaterialSlotName = Material #119
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.7247, 471.394, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.99622, Y=-39.1895, Z=0.0913086 }
+    BoxExtent = { X=94.548, Y=50.2955, Z=90.856 }
+    SphereRadius = 139.717
+}

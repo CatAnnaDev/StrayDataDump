@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TV_Stands/Materials/MI_TV_Stand_B.MI_TV_Stand_B'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TV_Stands/Materials/MI_TV_Stand_B.MI_TV_Stand_B'
+        MaterialSlotName = TV_stand_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 171.795, 111.038, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.38419e-06, Y=0, Z=1.90735e-06 }
+    BoxExtent = { X=1, Y=25.9, Z=25.9 }
+    SphereRadius = 36.6418
+}

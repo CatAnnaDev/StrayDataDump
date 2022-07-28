@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/ScreenPost/material/MI_ScreenPost01.MI_ScreenPost01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_Screen_pixel01.MI_Screen_pixel01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ScreenPost/material/MI_ScreenPost01.MI_ScreenPost01'
+        MaterialSlotName = MI_ScreenPost01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 234.969, 213.812, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_Screen_pixel01.MI_Screen_pixel01'
+        MaterialSlotName = MI_Screen_pixel01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.2516, 213.32, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-34.4167, Y=-2.09523, Z=75.7059 }
+    BoxExtent = { X=44.3077, Y=30.4076, Z=41.7914 }
+    SphereRadius = 63.1056
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Alarm_Clock/Material/MI_Alarm_Clock.MI_Alarm_Clock'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Alarm_Clock/Material/MI_Alarm_Clock.MI_Alarm_Clock'
+        MaterialSlotName = alarm_clock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.8637, 39.8371, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.313527, Z=7.91883 }
+    BoxExtent = { X=6, Y=3.02505, Z=7.92862 }
+    SphereRadius = 8.73079
+}

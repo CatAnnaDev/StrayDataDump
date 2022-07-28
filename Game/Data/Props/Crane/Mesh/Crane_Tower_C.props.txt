@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane.MI_Crane'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane.MI_Crane'
+        MaterialSlotName = Crane
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 370.169, 629.177, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.191879, Y=-3.8147e-06, Z=296.796 }
+    BoxExtent = { X=67.9749, Y=60, Z=318.387 }
+    SphereRadius = 327.25
+}

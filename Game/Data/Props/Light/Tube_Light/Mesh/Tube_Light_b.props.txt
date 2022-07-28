@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Tube_Light/MI_TubeLight.MI_TubeLight'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/Tube_Light/MI_TubeLight2Sided.MI_TubeLight2Sided'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Tube_Light/MI_TubeLight.MI_TubeLight'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 93.6161, 107.988, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Tube_Light/MI_TubeLight2Sided.MI_TubeLight2Sided'
+        MaterialSlotName = Material #268
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.4876, 108.951, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.90138, Y=-0.0222092, Z=-3.8147e-06 }
+    BoxExtent = { X=3.90078, Y=50.0103, Z=5.12969 }
+    SphereRadius = 50.1183
+}

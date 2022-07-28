@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Bookshelf/Textures/MI_Bookshelf.MI_Bookshelf'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bookshelf/Textures/MI_Bookshelf.MI_Bookshelf'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.166, 358.203, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.57722, Y=0, Z=75 }
+    BoxExtent = { X=21.5772, Y=37.5, Z=75 }
+    SphereRadius = 86.5842
+}

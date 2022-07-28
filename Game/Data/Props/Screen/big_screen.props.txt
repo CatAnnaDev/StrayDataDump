@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_color1.MI_color1'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/M_ScreenGlich_auto_Inst.M_ScreenGlich_auto_Inst'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_GlassScreen.MI_GlassScreen'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_color2.MI_color2'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_color1.MI_color1'
+        MaterialSlotName = MI_color1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1234.62, 1241.09, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/M_ScreenGlich_auto_Inst.M_ScreenGlich_auto_Inst'
+        MaterialSlotName = M_ScreenGlich_auto_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 420.923, 1206.14, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_GlassScreen.MI_GlassScreen'
+        MaterialSlotName = MI_GlassScreen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 420.923, 1214.19, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_color2.MI_color2'
+        MaterialSlotName = MI_color2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1219.87, 1214.45, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=10.5414, Z=0 }
+    BoxExtent = { X=175, Y=10, Z=300 }
+    SphereRadius = 347.455
+}

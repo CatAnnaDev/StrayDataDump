@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Neon.MI_Neon'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Neon.MI_Neon'
+        MaterialSlotName = MI_Neon
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.9097, 100.165, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.0751, Y=3.8147e-06, Z=-2.14577e-05 }
+    BoxExtent = { X=5.48761, Y=54.2573, Z=4.1134 }
+    SphereRadius = 54.689
+}

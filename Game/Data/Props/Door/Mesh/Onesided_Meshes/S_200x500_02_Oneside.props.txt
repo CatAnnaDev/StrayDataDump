@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Store/material/MI_noCF_Store_01.MI_noCF_Store_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_noCF_Wood_Planks.MI_noCF_Wood_Planks'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Store/material/MI_noCF_Store_01.MI_noCF_Store_01'
+        MaterialSlotName = Material #59
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 683.364, 1010.17, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_noCF_Wood_Planks.MI_noCF_Wood_Planks'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 492.319, 1000.16, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.0282, Y=8.39381, Z=-0.932388 }
+    BoxExtent = { X=106.155, Y=4.7948, Z=130.272 }
+    SphereRadius = 166.722
+}

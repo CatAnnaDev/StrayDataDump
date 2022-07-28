@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Juckbox/Material/MI_JuckBox.MI_JuckBox'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Glass.MI_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Juckbox/Material/MI_JuckBox.MI_JuckBox'
+        MaterialSlotName = JukeBox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 176.733, 269.225, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Glass.MI_Glass'
+        MaterialSlotName = Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 95.269, 201.396, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=25.5421, Y=0, Z=78.0097 }
+    BoxExtent = { X=25.5421, Y=41.0937, Z=78.0098 }
+    SphereRadius = 90.4541
+}

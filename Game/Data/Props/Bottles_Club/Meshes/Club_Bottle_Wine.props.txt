@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Bottles_Club/MI_Bottles_Club.MI_Bottles_Club'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Bottles_Club/MI_Bottles_Club_Labels.MI_Bottles_Club_Labels'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bottles_Club/MI_Bottles_Club.MI_Bottles_Club'
+        MaterialSlotName = MI_bottle
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 86.4143, 42.5874, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bottles_Club/MI_Bottles_Club_Labels.MI_Bottles_Club_Labels'
+        MaterialSlotName = MI_Bottle_Label
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.3776, 40.3148, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=-0.0392342, Z=22.3444 }
+    BoxExtent = { X=5.69251, Y=5.73174, Z=22.2474 }
+    SphereRadius = 22.8258
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Nature_Photo.MI_Nature_Photo'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/poster/Material/MI_Nature_Photo.MI_Nature_Photo'
+        MaterialSlotName = Material #37
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 68.0464, 27.6087, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.55384, Y=0, Z=0 }
+    BoxExtent = { X=0.431764, Y=16.9813, Z=9.64984 }
+    SphereRadius = 19.5363
+}

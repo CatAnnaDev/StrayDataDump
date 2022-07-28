@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_signalingpanel.MI_signalingpanel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/signalingpanel/Material/MI_signalingpanel.MI_signalingpanel'
+        MaterialSlotName = MI_signalingpanel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.813, 146.624, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-5.48551, Z=0 }
+    BoxExtent = { X=8.57301, Y=5.48552, Z=2.28734 }
+    SphereRadius = 10.4317
+}

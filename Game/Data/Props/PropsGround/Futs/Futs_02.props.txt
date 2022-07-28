@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/Futs/Material/MI_futs.MI_futs'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/Futs/Material/MI_stickfuts.MI_stickfuts'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/Futs/Material/MI_futs.MI_futs'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 153.231, 185.948, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/Futs/Material/MI_stickfuts.MI_stickfuts'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 110.037, 186.29, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=24.8132 }
+    BoxExtent = { X=24.9792, Y=24.9792, Z=24.814 }
+    SphereRadius = 34.7567
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Gas_Stove/Material/MI_Gas_Stove.MI_Gas_Stove'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Gas_Stove/Material/MI_Gas_Stove.MI_Gas_Stove'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 316.82, 126.24, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.46216, Y=0, Z=23.6814 }
+    BoxExtent = { X=4.03785, Y=31.5, Z=23.6814 }
+    SphereRadius = 39.1311
+}

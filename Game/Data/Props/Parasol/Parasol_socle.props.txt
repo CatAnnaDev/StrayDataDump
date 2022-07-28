@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Plastic.M_Parasol_Plastic'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Plastic.M_Parasol_Plastic'
+        MaterialSlotName = 1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.4181, 104.739, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.90735e-06, Z=15.8362 }
+    BoxExtent = { X=24.6798, Y=24.3781, Z=15.8362 }
+    SphereRadius = 29.4452
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Trims_03_NoCF.MI_Trims_03_NoCF'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic_noCF.MI_Black_Plastic_noCF'
+    Materials[2] = MaterialInstanceConstant'/Game/Character/Drone/material/M_screen_off.M_screen_off'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Digicode/MI_Digicode01.MI_Digicode01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Trims_03_NoCF.MI_Trims_03_NoCF'
+        MaterialSlotName = Metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 477.117, 403.239, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic_noCF.MI_Black_Plastic_noCF'
+        MaterialSlotName = Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 259.989, 408.996, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Drone/material/M_screen_off.M_screen_off'
+        MaterialSlotName = Screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 20.4443, 402.692, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Digicode/MI_Digicode01.MI_Digicode01'
+        MaterialSlotName = Buttons
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 28.9616, 394.658, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.249998, Y=0, Z=100 }
+    BoxExtent = { X=30.25, Y=60, Z=100 }
+    SphereRadius = 120.031
+}

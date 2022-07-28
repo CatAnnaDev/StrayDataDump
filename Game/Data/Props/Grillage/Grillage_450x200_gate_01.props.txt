@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Props/Grillage/material/M_Grillage.M_Grillage'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Grillage/material/M_Grillage.M_Grillage'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 298.017, 359.697, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.47903e-05, Z=-7.62939e-06 }
+    BoxExtent = { X=225, Y=1.95505e-05, Z=100 }
+    SphereRadius = 246.221
+}

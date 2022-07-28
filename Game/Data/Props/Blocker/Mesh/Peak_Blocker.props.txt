@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Blocker/MI_Blocker_Metal.MI_Blocker_Metal'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Blocker/MI_Blocker_Plastic.MI_Blocker_Plastic'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Blocker/MI_Blocker_Metal.MI_Blocker_Metal'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 61.4248, 140.003, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Blocker/MI_Blocker_Plastic.MI_Blocker_Plastic'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.5873, 144.748, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.04161, Z=20.4553 }
+    BoxExtent = { X=26.8733, Y=19.8708, Z=20.4553 }
+    SphereRadius = 33.9676
+}

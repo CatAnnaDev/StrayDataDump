@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Can/MI_Plastic_Can_B_Grey.MI_Plastic_Can_B_Grey'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Can/MI_Plastic_Can_B_Grey.MI_Plastic_Can_B_Grey'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.353, 67.247, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0148993, Y=0, Z=14.9901 }
+    BoxExtent = { X=10.5615, Y=6.6966, Z=14.9752 }
+    SphereRadius = 17.9827
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/WallFloorTransition/MI_WallFloorTransition.MI_WallFloorTransition'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WallFloorTransition/MI_WallFloorTransition.MI_WallFloorTransition'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.578, 166.937, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=15.3886, Y=-1.02721, Z=15.0756 }
+    BoxExtent = { X=15.1894, Y=233.106, Z=14.8764 }
+    SphereRadius = 234.074
+}

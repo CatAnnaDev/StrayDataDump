@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Washing_machine/MI_Washing_Machine.MI_Washing_Machine'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Glass.MI_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Washing_machine/MI_Washing_Machine.MI_Washing_Machine'
+        MaterialSlotName = Washing_Machine
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 273.238, 424.187, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Glass.MI_Glass'
+        MaterialSlotName = Washing_Machine_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 258.153, 423.296, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.82526, Y=-19.8169, Z=82.5003 }
+    BoxExtent = { X=54.8253, Y=64.8169, Z=82.5 }
+    SphereRadius = 118.378
+}

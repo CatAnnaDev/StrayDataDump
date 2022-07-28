@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_osier_03.MI_osier_03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Panierosier/Material/MI_osier_03.MI_osier_03'
+        MaterialSlotName = MI_osier_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 5.53853, 111.911, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.114546, Y=0.184624, Z=15.1988 }
+    BoxExtent = { X=17.6651, Y=16.0646, Z=15.622 }
+    SphereRadius = 23.3396
+}

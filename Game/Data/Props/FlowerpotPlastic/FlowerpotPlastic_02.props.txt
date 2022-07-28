@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Bucket_Big.MI_Plastic_Bucket_Big'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_ClayPot01.M_ClayPot01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Bucket_Big.MI_Plastic_Bucket_Big'
+        MaterialSlotName = Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 88.107, 77.3966, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Flowerpot/Material/M_ClayPot01.M_ClayPot01'
+        MaterialSlotName = Soil
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 65.921, 67.0783, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=13.3517 }
+    BoxExtent = { X=14.251, Y=14.251, Z=13.3517 }
+    SphereRadius = 19.2655
+}

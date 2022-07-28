@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Control_Desk/MI_Control_Desk.MI_Control_Desk'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Control_Desk/MI_Control_Desk.MI_Control_Desk'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 364.264, 549.245, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-185.411, Y=56.4618, Z=81.5434 }
+    BoxExtent = { X=185.411, Y=56.4618, Z=81.5534 }
+    SphereRadius = 210.276
+}

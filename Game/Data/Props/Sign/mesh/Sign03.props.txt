@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Sign03.MI_Sign03'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_logo_3x2_02.MI_logo_3x2_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_Sign03.MI_Sign03'
+        MaterialSlotName = MI_Sign03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113.843, 178.165, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_logo_3x2_02.MI_logo_3x2_02'
+        MaterialSlotName = MI_logo_3x2_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 47.002, 176.892, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=33.3975, Y=-0.276642, Z=-3.8147e-06 }
+    BoxExtent = { X=36.9044, Y=10.2978, Z=35.2354 }
+    SphereRadius = 48.8404
+}

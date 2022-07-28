@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Concrete.MI_Metro_Concrete'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane.MI_Crane'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Concrete.MI_Metro_Concrete'
+        MaterialSlotName = Concrete
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 398.878, 573.688, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Crane/MI_Crane.MI_Crane'
+        MaterialSlotName = Crane
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 434.403, 582.931, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=75, Y=49.0051, Z=99.9998 }
+    SphereRadius = 129.94
+}

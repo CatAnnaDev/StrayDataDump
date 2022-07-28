@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Engine/TemplateResources/MI_Template_BaseGray_02_Metal.MI_Template_BaseGray_02_Metal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Engine/TemplateResources/MI_Template_BaseGray_02_Metal.MI_Template_BaseGray_02_Metal'
+        MaterialSlotName = MI_Template_BaseGray_02_Metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 323.179, 354.277, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.09808e-05, Y=-50.6664, Z=148.739 }
+    BoxExtent = { X=6.34658, Y=246.176, Z=148.739 }
+    SphereRadius = 287.691
+}

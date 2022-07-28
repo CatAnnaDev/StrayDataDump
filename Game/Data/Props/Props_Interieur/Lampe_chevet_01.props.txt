@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Props_Interieur/material/MI_WhiteMat.MI_WhiteMat'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Props_Interieur/material/MI_WhiteBright.MI_WhiteBright'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Props_Interieur/material/MI_WhiteMat.MI_WhiteMat'
+        MaterialSlotName = MI_WhiteMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 91.7424, 88.7838, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Props_Interieur/material/MI_WhiteBright.MI_WhiteBright'
+        MaterialSlotName = MI_WhiteBright
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 92.0201, 70.6779, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-06, Z=22.0898 }
+    BoxExtent = { X=16.3302, Y=16.0821, Z=22.0898 }
+    SphereRadius = 24.3602
+}

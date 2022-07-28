@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_balcon_00.MI_balcon_00'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Grid/Material/MI_Pom_Grid_03.MI_Pom_Grid_03'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_balcon_00.MI_balcon_00'
+        MaterialSlotName = 10 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 422.244, 777.998, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grid/Material/MI_Pom_Grid_03.MI_Pom_Grid_03'
+        MaterialSlotName = Grid_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 77.6861, 762.306, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+        MaterialSlotName = bois
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 550.197, 761.602, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-195.299, Y=48.2623, Z=89.2646 }
+    BoxExtent = { X=195.299, Y=48.2624, Z=137.248 }
+    SphereRadius = 243.532
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Material/MI_Droid_Rusty_02.MI_Droid_Rusty_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Material/MI_Droid_Rusty_02.MI_Droid_Rusty_02'
+        MaterialSlotName = MI_Droid_Rusty_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.377, 302.954, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=22.8109, Y=8.67093, Z=51.7425 }
+    BoxExtent = { X=46.9212, Y=46.5139, Z=54.9955 }
+    SphereRadius = 78.2264
+}

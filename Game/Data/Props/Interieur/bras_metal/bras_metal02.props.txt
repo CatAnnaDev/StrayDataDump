@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/bras_metal/Material/MI_nocf_Bras_Metal.MI_nocf_Bras_Metal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/bras_metal/Material/MI_nocf_Bras_Metal.MI_nocf_Bras_Metal'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 67.0114, 86.447, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0653381, Y=-31.2041, Z=-18.0994 }
+    BoxExtent = { X=3.35214, Y=31.6849, Z=27.2453 }
+    SphereRadius = 40.1383
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PaintBucket/MI_PaintBucket.MI_PaintBucket'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PaintBucket/MI_PaintBucket.MI_PaintBucket'
+        MaterialSlotName = default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 147.536, 176.264, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0147724, Y=0, Z=25.4224 }
+    BoxExtent = { X=19.8329, Y=19.8167, Z=25.441 }
+    SphereRadius = 32.1493
+}

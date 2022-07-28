@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Lampe_loupe/Material/MI_nocf_lampe_loupe_off.MI_nocf_lampe_loupe_off'
+    Materials[1] = Material3'/Game/Data/Props/Interieur/Lampe_loupe/Material/M_loupe.M_loupe'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Lampe_loupe/Material/MI_nocf_lampe_loupe_off.MI_nocf_lampe_loupe_off'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 67.6436, 115.321, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Interieur/Lampe_loupe/Material/M_loupe.M_loupe'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22.3859, 114.821, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.033844, Y=17.7032, Z=-1.54409 }
+    BoxExtent = { X=16.3749, Y=19.8077, Z=7.40557 }
+    SphereRadius = 19.8707
+}

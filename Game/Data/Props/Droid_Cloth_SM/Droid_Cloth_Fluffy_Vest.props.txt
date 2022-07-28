@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Cloth_03/MI_Cloth_Blanket_02_Irid.MI_Cloth_Blanket_02_Irid'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Cloth_03/MI_Cloth_Blanket_02_Irid.MI_Cloth_Blanket_02_Irid'
+        MaterialSlotName = MI_Cloth_Blanket_02_Irid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.491, 113.617, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.95642, Y=0.165094, Z=127.812 }
+    BoxExtent = { X=15.4604, Y=18.8656, Z=35.3584 }
+    SphereRadius = 39.3705
+}

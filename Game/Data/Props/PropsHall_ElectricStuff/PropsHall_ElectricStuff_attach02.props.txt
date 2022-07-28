@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsHall_ElectricStuff/MI_PropsHall_ElectricStuff.MI_PropsHall_ElectricStuff'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsHall_ElectricStuff/MI_PropsHall_ElectricStuff.MI_PropsHall_ElectricStuff'
+        MaterialSlotName = MI_PropsHall_ElectricStuff
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 86.339, 13.9625, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.96046e-08, Y=1.90735e-06, Z=9.53674e-07 }
+    BoxExtent = { X=0.890401, Y=1.72449, Z=0.386851 }
+    SphereRadius = 1.97897
+}

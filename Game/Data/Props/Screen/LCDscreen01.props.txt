@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_Screen01.MI_Screen01'
+    Materials[1] = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/M_ScreenGlich_auto_Inst15.M_ScreenGlich_auto_Inst15'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Screen/material/MI_Screen01.MI_Screen01'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 187.522, 177.528, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/M_ScreenGlich_auto_Inst15.M_ScreenGlich_auto_Inst15'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 70.0638, 179.335, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.340438, Y=-1.90735e-05, Z=1.90735e-05 }
+    BoxExtent = { X=8.60485, Y=34.4293, Z=43.2829 }
+    SphereRadius = 55.2381
+}

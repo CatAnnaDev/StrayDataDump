@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Kitchen_Dishes/Material/MI_Kitchen_Dish_1.MI_Kitchen_Dish_1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Kitchen_Dishes/Material/MI_Kitchen_Dish_1.MI_Kitchen_Dish_1'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.449, 130.258, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.54533, Y=2.83118, Z=12.2372 }
+    BoxExtent = { X=21.2876, Y=17.2811, Z=12.1619 }
+    SphereRadius = 28.4792
+}

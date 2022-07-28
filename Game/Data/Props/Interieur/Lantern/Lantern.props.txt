@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Lantern/Material/MI_Lantern.MI_Lantern'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Lantern/Material/MI_Lantern.MI_Lantern'
+        MaterialSlotName = Lantern_LP_01___Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 43.3227, 78.106, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000497818, Y=-0.00393295, Z=-25.0047 }
+    BoxExtent = { X=9.95124, Y=9.95124, Z=25.1477 }
+    SphereRadius = 25.1783
+}

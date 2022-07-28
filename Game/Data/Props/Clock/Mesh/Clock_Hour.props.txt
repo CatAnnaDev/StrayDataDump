@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Clock/material/MI_Clock_Wood.MI_Clock_Wood'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Clock/material/MI_Clock_Wood.MI_Clock_Wood'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 31.3628, 3.01249, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.027581, Y=2.06589, Z=4.46623 }
+    BoxExtent = { X=0.350001, Y=9.53674e-07, Z=4.5 }
+    SphereRadius = 4.51359
+}

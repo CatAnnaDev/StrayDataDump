@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cage/material/MI_cage.MI_cage'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cage/material/MI_cage.MI_cage'
+        MaterialSlotName = Base_Textures_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 150.9, 150.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.105286, Y=3.13335, Z=0 }
+    BoxExtent = { X=21.7885, Y=36.3348, Z=26.7449 }
+    SphereRadius = 48.0778
+}

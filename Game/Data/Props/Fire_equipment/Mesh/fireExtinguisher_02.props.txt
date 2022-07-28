@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Fire_equipment/Material/MI_Fire_Equipment.MI_Fire_Equipment'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fire_equipment/Material/MI_Fire_Equipment.MI_Fire_Equipment'
+        MaterialSlotName = Material #29
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 144.115, 74.2469, 110.111, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.1502, Y=-0.16334, Z=26.7575 }
+    BoxExtent = { X=6.98694, Y=12.2925, Z=26.7575 }
+    SphereRadius = 28.969
+}

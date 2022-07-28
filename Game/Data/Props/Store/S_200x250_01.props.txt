@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Store/material/MI_noCF_Tile_Store03.MI_noCF_Tile_Store03'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Store/material/MI_noCF_FrameStore1.MI_noCF_FrameStore1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Store/material/MI_noCF_Tile_Store03.MI_noCF_Tile_Store03'
+        MaterialSlotName = Material #59
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 220.516, 388.707, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Store/material/MI_noCF_FrameStore1.MI_noCF_FrameStore1'
+        MaterialSlotName = 17 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.52, 392.706, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.190857, Y=0.77207, Z=0.0621948 }
+    BoxExtent = { X=101.28, Y=5.44691, Z=126.069 }
+    SphereRadius = 161.805
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_02.MI_Fridge_02'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_inside.MI_Fridge_inside'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_02.MI_Fridge_02'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 209.344, 288.434, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_inside.MI_Fridge_inside'
+        MaterialSlotName = 04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 242.275, 288.617, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.90735e-06, Z=52.5 }
+    BoxExtent = { X=27.5, Y=27.5, Z=52.5 }
+    SphereRadius = 65.3357
+}

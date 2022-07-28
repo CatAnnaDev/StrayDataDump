@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Head/Droid_head_08/MI_Droid_Head_08.MI_Droid_Head_08'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Head/Droid_head_08/MI_Droid_Head_08.MI_Droid_Head_08'
+        MaterialSlotName = MI_Droid_Head_08
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 60.4974, 95.0189, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.3561, Y=0.00012207, Z=169.56 }
+    BoxExtent = { X=11.8709, Y=13.5311, Z=14.3101 }
+    SphereRadius = 20.8894
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent_2sided.MI_MetalVent_2sided'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent_2sided.MI_MetalVent_2sided'
+        MaterialSlotName = MI_inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 38.5213, 83.317, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-9.53674e-07, Z=25 }
+    BoxExtent = { X=15, Y=15, Z=25 }
+    SphereRadius = 32.6731
+}

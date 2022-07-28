@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/pearl_curtain/MI_pearl_curtain.MI_pearl_curtain'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Interieur/pearl_curtain/MI_pearl_curtain_ring.MI_pearl_curtain_ring'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/pearl_curtain/MI_pearl_curtain.MI_pearl_curtain'
+        MaterialSlotName = MI_pearl_curtain
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16.9772, 38.5161, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/pearl_curtain/MI_pearl_curtain_ring.MI_pearl_curtain_ring'
+        MaterialSlotName = MI_pearl_curtain_ring
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.94867, 38.5686, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000195503, Y=-8.82149e-06, Z=-76.0891 }
+    BoxExtent = { X=1.58039, Y=1.58039, Z=76.6414 }
+    SphereRadius = 76.6476
+}

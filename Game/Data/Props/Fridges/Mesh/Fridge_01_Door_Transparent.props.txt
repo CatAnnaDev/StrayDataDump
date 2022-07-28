@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_01.MI_Fridge_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_inside.MI_Fridge_inside'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Glass.MI_Club_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_01.MI_Fridge_01'
+        MaterialSlotName = MI_Fridge
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 185.722, 199.707, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fridges/Material/MI_Fridge_inside.MI_Fridge_inside'
+        MaterialSlotName = MI_Fridge_Inside
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 244.788, 199.907, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Glass.MI_Club_Glass'
+        MaterialSlotName = MI_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 244.613, 199.823, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.272879, Y=-27.7244, Z=54.5 }
+    BoxExtent = { X=6.23433, Y=30.0001, Z=51.5 }
+    SphereRadius = 59.3559
+}

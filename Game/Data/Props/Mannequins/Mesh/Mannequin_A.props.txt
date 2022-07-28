@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Mannequins/Material/MI_Mannequins_A_Old.MI_Mannequins_A_Old'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Mannequins/Material/MI_Mannequins_A_Old.MI_Mannequins_A_Old'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.207, 161.084, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.61677, Y=-1.15804, Z=92.989 }
+    BoxExtent = { X=17.286, Y=26.9208, Z=93.2558 }
+    SphereRadius = 95.8705
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/pillow/MI_Pillow.MI_Pillow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/pillow/MI_Pillow.MI_Pillow'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.7339, 66.7968, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.47501, Y=0.621433, Z=8.23231 }
+    BoxExtent = { X=11.0178, Y=14.7502, Z=11.9289 }
+    SphereRadius = 19.9934
+}

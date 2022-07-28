@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/speaker/MI_Speaker.MI_Speaker'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/speaker/MI_Speaker.MI_Speaker'
+        MaterialSlotName = MI_Plastic_seat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 91.7896, 102.691, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-9.78331, Z=-9.12409 }
+    BoxExtent = { X=13.7677, Y=12.8303, Z=13.9096 }
+    SphereRadius = 21.3904
+}

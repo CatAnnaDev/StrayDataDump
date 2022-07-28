@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Curtains/Material/MI_Curtains.MI_Curtains'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Curtains/Material/MI_Curtains.MI_Curtains'
+        MaterialSlotName = MI_Curtains
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 303.411, 267.409, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.15767, Y=0.413989, Z=-0.486328 }
+    BoxExtent = { X=61.5473, Y=5.62463, Z=75.4863 }
+    SphereRadius = 97.4107
+}

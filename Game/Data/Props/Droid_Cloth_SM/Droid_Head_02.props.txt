@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Head/Droid_head_02/MI_Droid_Head_02.MI_Droid_Head_02'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Black_Plastic.MI_Black_Plastic'
+    Materials[2] = MaterialInstanceConstant'/Game/Character/Droid/Material/MI_Vitre.MI_Vitre'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Head/Droid_head_02/MI_Droid_Head_02.MI_Droid_Head_02'
+        MaterialSlotName = MI_Droid_Head_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.0316, 90.0732, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Black_Plastic.MI_Black_Plastic'
+        MaterialSlotName = MI_Black_Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 7.24657, 90.2866, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Material/MI_Vitre.MI_Vitre'
+        MaterialSlotName = MI_Vitre
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.8472, 90.5181, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.6657, Y=-0.0900145, Z=174.95 }
+    BoxExtent = { X=11.1929, Y=14.7901, Z=17.432 }
+    SphereRadius = 19.1624
+}

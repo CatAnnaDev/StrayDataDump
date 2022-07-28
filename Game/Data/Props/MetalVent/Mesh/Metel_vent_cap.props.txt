@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/MI_MetalVent_1sided.MI_MetalVent_1sided'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Map/_MainGame/02_DeadCity/DeadCity_Material_Instance/MI_MetalVent_1sided.MI_MetalVent_1sided'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 87.8039, 195.774, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=2.14577e-06, Z=0 }
+    BoxExtent = { X=16.2, Y=1.29673, Z=16.2 }
+    SphereRadius = 22.7563
+}

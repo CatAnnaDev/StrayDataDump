@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_Carton.MI_PropsGround_Carton'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_Carton_Frise.MI_PropsGround_Carton_Frise'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_Carton.MI_PropsGround_Carton'
+        MaterialSlotName = MI_PropsGround_Carton
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 326.881, 175.824, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_Carton_Frise.MI_PropsGround_Carton_Frise'
+        MaterialSlotName = MI_PropsGround_Carton_Frise
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.57811, 180.294, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-4.3869e-05, Z=11.426 }
+    BoxExtent = { X=38.7709, Y=30.8708, Z=9.86728 }
+    SphereRadius = 50.3182
+}

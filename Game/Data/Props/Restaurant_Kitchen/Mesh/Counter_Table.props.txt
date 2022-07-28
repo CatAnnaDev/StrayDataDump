@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+        MaterialSlotName = MI_Counter_Marble
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 82.6259, 202.568, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+        MaterialSlotName = MI_Counter_Inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 82.8283, 203.436, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_counter.MI_Counter'
+        MaterialSlotName = MI_Counter_Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.6497, 242.233, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-05, Z=55 }
+    BoxExtent = { X=40.8134, Y=57.0628, Z=55 }
+    SphereRadius = 89.022
+}

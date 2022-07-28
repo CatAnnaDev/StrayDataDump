@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Data/Materials/bordel/Whiteplastic.Whiteplastic'
+    Materials[1] = Material3'/Game/Data/Props/Neon/Material/Big_multicolor_neon.Big_multicolor_neon'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/bordel/Whiteplastic.Whiteplastic'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 382.97, 481.13, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Neon/Material/Big_multicolor_neon.Big_multicolor_neon'
+        MaterialSlotName = 01 - Defaultrr
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-86.3157, Y=-1.90735e-06, Z=21.7438 }
+    BoxExtent = { X=231.09, Y=7.38453, Z=81.6581 }
+    SphereRadius = 240.388
+}

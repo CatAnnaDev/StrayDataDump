@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Metro/Material/MI_siege_leather.MI_siege_leather'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Hangar/Material/MI_Light01_metal2.MI_Light01_metal2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Metro/Material/MI_siege_leather.MI_siege_leather'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 273.345, 256.221, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Hangar/Material/MI_Light01_metal2.MI_Light01_metal2'
+        MaterialSlotName = 08 - Default_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 273.6, 254.816, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.01705, Z=69.3811 }
+    BoxExtent = { X=34.9721, Y=82.614, Z=69.3811 }
+    SphereRadius = 103.961
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Air_Grid/MI_AirGrid.MI_AirGrid'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Air_Grid/MI_AirGrid.MI_AirGrid'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Air_Grid/MI_AirGrid.MI_AirGrid'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 98.2113, 109.461, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Air_Grid/MI_AirGrid.MI_AirGrid'
+        MaterialSlotName = MI_AirGrid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.5368, 108.39, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.602429, Y=0, Z=0 }
+    BoxExtent = { X=2.45131, Y=25, Z=25 }
+    SphereRadius = 35.3829
+}

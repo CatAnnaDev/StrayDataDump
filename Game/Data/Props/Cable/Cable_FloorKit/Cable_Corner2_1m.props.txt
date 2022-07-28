@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cable/Cable_FloorKit/Material/MI_CableTile02_Dark.MI_CableTile02_Dark'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cable/Cable_FloorKit/Material/MI_CableTile02_Dark.MI_CableTile02_Dark'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.22679, 34.2126, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49.6058, Y=-50.3998, Z=9.53674e-07 }
+    BoxExtent = { X=50.4148, Y=50.409, Z=0.951056 }
+    SphereRadius = 71.2839
+}

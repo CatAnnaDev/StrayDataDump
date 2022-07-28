@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TurnTable/MI_TurnTable.MI_TurnTable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TurnTable/MI_TurnTable.MI_TurnTable'
+        MaterialSlotName = Turntable
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 150.992, 146.641, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00726891, Y=-0.00101852, Z=9.82891 }
+    BoxExtent = { X=25.4797, Y=25.4797, Z=1.36887 }
+    SphereRadius = 25.5601
+}

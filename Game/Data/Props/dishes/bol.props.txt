@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/dishes/material/MI_Bol.MI_Bol'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/dishes/material/MI_Bol.MI_Bol'
+        MaterialSlotName = MI_Bol
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.2178, 87.0099, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.26575, Y=1.43452, Z=7.59841 }
+    BoxExtent = { X=14.8838, Y=14.8838, Z=7.99634 }
+    SphereRadius = 16.766
+}

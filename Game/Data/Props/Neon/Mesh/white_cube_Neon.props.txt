@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Data/Props/Neon/Material/Big_multicolor_neon.Big_multicolor_neon'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Chrome.MI_Chrome'
+    Materials[2] = Material3'/Game/Data/Props/Sign/material/pharma_sign_SI.pharma_sign_SI'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Neon/Material/Big_multicolor_neon.Big_multicolor_neon'
+        MaterialSlotName = Material #53
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_Chrome.MI_Chrome'
+        MaterialSlotName = Material #dsd53
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 132.053, 132.053, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Sign/material/pharma_sign_SI.pharma_sign_SI'
+        MaterialSlotName = 45456
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.9106, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0751953, Y=19.7519, Z=0.213867 }
+    BoxExtent = { X=22.8235, Y=23.7008, Z=22.0171 }
+    SphereRadius = 38.5136
+}

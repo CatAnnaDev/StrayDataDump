@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/lockable_door/MI_Digicode.MI_Digicode'
+    Materials[1] = Material3'/Game/Character/Drone/material/M_screen.M_screen'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/lockable_door/MI_Digicode.MI_Digicode'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.725, 141.99, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Character/Drone/material/M_screen.M_screen'
+        MaterialSlotName = 07 - Default_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.5413, 141.328, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=17.8634, Y=0, Z=5.73497 }
+    BoxExtent = { X=17.8634, Y=15.2549, Z=27.1422 }
+    SphereRadius = 32.7198
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/MailBox/Material/MI_MailBox_Locks.MI_MailBox_Locks'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MailBox/Material/MI_MailBox_Locks.MI_MailBox_Locks'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.543, 20.7502, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-3.46472 }
+    BoxExtent = { X=1.13197, Y=3.35802, Z=5.72754 }
+    SphereRadius = 6.67388
+}

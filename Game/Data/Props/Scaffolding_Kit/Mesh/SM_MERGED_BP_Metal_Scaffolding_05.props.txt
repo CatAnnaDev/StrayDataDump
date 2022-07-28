@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_Scaffold_Wood.MI_Scaffold_Wood'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_Scaffold_Tubes.MI_Scaffold_Tubes'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_Scaffold_Wood.MI_Scaffold_Wood'
+        MaterialSlotName = Scaffold_Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.298, 333.126, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_Scaffold_Tubes.MI_Scaffold_Tubes'
+        MaterialSlotName = Scaffold_Tubes
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.434, 306.127, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=23.3783, Y=0.122192, Z=-99.542 }
+    BoxExtent = { X=56.1361, Y=103.12, Z=101.67 }
+    SphereRadius = 152.853
+}

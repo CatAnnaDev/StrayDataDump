@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent.MI_MetalVent'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/MetalVent/Material/MI_MetalVent.MI_MetalVent'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 87.2141, 103.655, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.783386, Y=9.34738, Z=-2.40393 }
+    BoxExtent = { X=16.9834, Y=10.6441, Z=18.6039 }
+    SphereRadius = 27.0467
+}

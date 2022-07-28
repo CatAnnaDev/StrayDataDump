@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/siege/material/MI_siege_atelier.MI_siege_atelier'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/siege/material/MI_siege_atelier.MI_siege_atelier'
+        MaterialSlotName = default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.495, 162.569, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-5.72205e-06, Z=60.245 }
+    BoxExtent = { X=24.7819, Y=29.5626, Z=60.245 }
+    SphereRadius = 67.1075
+}

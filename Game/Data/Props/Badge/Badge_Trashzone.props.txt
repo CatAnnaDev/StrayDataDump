@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Badge/MI_Badge_Trashzone.MI_Badge_Trashzone'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Badge/MI_Badge_Trashzone.MI_Badge_Trashzone'
+        MaterialSlotName = MI_Badge_Outsider
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 10.377, 4.85788, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.302271, Y=-2.38419e-07, Z=0.00455654 }
+    BoxExtent = { X=0.234583, Y=1.32847, Z=1.32847 }
+    SphereRadius = 1.32847
+}

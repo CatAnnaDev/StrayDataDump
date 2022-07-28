@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_GroundSign.MI_GroundSign'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_logo_1x4_01.MI_logo_1x4_01'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_GroundSign_Attach.MI_GroundSign_Attach'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_GroundSign.MI_GroundSign'
+        MaterialSlotName = MI_GroundSign
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 269.334, 194.367, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_logo_1x4_01.MI_logo_1x4_01'
+        MaterialSlotName = MI_logo_1x4_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.3085, 193.62, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sign/material/MI_GroundSign_Attach.MI_GroundSign_Attach'
+        MaterialSlotName = MI_GroundSign_Attach
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 438.671, 193.845, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=57.0527 }
+    BoxExtent = { X=24.8208, Y=30.1657, Z=57.0527 }
+    SphereRadius = 67.8099
+}

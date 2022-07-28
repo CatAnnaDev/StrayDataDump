@@ -1,0 +1,110 @@
+Parent = Material3'/Game/Data/Materials/Instance/Base/Base_Vertex_Paint.Base_Vertex_Paint'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=UV2 }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CO_1 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Wood/Tropical_Hardwood_CO.Tropical_Hardwood_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=LP_1 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Wood/Tropical_Hardwood_LP.Tropical_Hardwood_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NM_1 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Base/Base_NM.Base_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CO_2 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/Metro/Metro_quai_dirty_CO.Metro_quai_dirty_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=LP_2 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/Metro/Metro_quai_dirty_LP.Metro_quai_dirty_LP'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=NM_2 }
+        ParameterValue = Texture2D'/Game/Data/Textures/Tile/Metro/Metro_quai_dirty_NM.Metro_quai_dirty_NM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=tex2_CO }
+        ParameterValue = { R=7, G=7, B=7, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Metro_quai_dirty_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Metro_quai_dirty_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Metro_quai_dirty_NM
+    }
+}

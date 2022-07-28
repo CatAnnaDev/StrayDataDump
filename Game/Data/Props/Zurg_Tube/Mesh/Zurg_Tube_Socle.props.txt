@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Zurg_Tube/Mesh/MI_ZurgTubeSocle.MI_ZurgTubeSocle'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Zurg_Tube/Mesh/MI_ZurgTubeSocle.MI_ZurgTubeSocle'
+        MaterialSlotName = aiStandardSurface1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 38.8321, 72.3307, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.53674e-07, Y=9.53674e-07, Z=2.69966 }
+    BoxExtent = { X=12.344, Y=12.344, Z=2.69966 }
+    SphereRadius = 12.6358
+}

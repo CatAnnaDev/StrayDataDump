@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Rubble/TilesScrap/Materials/MI_TilesScrap.MI_TilesScrap'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Rubble/TilesScrap/Materials/MI_TilesScrap.MI_TilesScrap'
+        MaterialSlotName = TilesScrap
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.166, 174.619, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.59916, Y=-0.784595, Z=0.995471 }
+    BoxExtent = { X=12.5279, Y=16.9062, Z=0.995471 }
+    SphereRadius = 20.5326
+}

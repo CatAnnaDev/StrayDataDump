@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/ElectricPillar/material/MI_Light.MI_Light'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/ElectricPillar/material/MI_Light.MI_Light'
+        MaterialSlotName = MI_Light
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.414, 560.99, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-76.2127, Y=1.64774, Z=344.625 }
+    BoxExtent = { X=40.5589, Y=20.324, Z=8.89259 }
+    SphereRadius = 42.6729
+}

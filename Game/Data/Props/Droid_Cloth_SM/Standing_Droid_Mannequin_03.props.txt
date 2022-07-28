@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/LongJacket/MI_LongJacket_HawaiiTEST.MI_LongJacket_HawaiiTEST'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Pants/MI_Pants_02.MI_Pants_02'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Red_Plastic1_Inst.MI_Red_Plastic1_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/LongJacket/MI_LongJacket_HawaiiTEST.MI_LongJacket_HawaiiTEST'
+        MaterialSlotName = Material #55
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 156.425, 369.691, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Pants/MI_Pants_02.MI_Pants_02'
+        MaterialSlotName = Material #68
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.509, 368.116, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Red_Plastic1_Inst.MI_Red_Plastic1_Inst'
+        MaterialSlotName = Material #54
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.855, 373.946, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.54906, Y=-1.0685, Z=88.7512 }
+    BoxExtent = { X=21.3336, Y=30.422, Z=89.1026 }
+    SphereRadius = 94.0225
+}

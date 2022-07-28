@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Lamps/Material/MI_Lamp_E.MI_Lamp_E'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Lamps/Material/MI_Lamp_E.MI_Lamp_E'
+        MaterialSlotName = Lamp_E
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 126.261, 135.139, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=23.1188 }
+    BoxExtent = { X=31.4327, Y=31.4327, Z=23.3443 }
+    SphereRadius = 32.5335
+}

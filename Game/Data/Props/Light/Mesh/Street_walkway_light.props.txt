@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Engine/TemplateResources/MI_Template_BaseGray_02_Metal.MI_Template_BaseGray_02_Metal'
+    Materials[1] = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Concrete.MI_Metro_Concrete'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Engine/TemplateResources/MI_Template_BaseGray_02_Metal.MI_Template_BaseGray_02_Metal'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 323.478, 317.144, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Team/Viv/Maps/Midtown/MI_Metro_Concrete.MI_Metro_Concrete'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.15256e-06, Y=0, Z=148.739 }
+    BoxExtent = { X=6.34657, Y=195.51, Z=148.739 }
+    SphereRadius = 245.739
+}

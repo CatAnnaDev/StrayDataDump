@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/sale-pay-phone/MI_sale-pay-phone.MI_sale-pay-phone'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/sale-pay-phone/MI_sale-pay-phone.MI_sale-pay-phone'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/sale-pay-phone/MI_sale-pay-phone.MI_sale-pay-phone'
+        MaterialSlotName = Phone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 292.822, 702.199, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/sale-pay-phone/MI_sale-pay-phone.MI_sale-pay-phone'
+        MaterialSlotName = Phone_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 294.76, 699.655, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.458918, Y=-6.94411, Z=181.38 }
+    BoxExtent = { X=25.4291, Y=75.8472, Z=174.919 }
+    SphereRadius = 186.357
+}

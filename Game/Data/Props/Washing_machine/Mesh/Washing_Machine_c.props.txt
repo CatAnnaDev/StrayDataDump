@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Washing_machine/MI_Washing_Machine.MI_Washing_Machine'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Washing_machine/MI_Washing_Machine.MI_Washing_Machine'
+        MaterialSlotName = MI_Washing_Machine
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.263, 280.572, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.03608, Y=-0.000259399, Z=55.5002 }
+    BoxExtent = { X=31.7139, Y=33.75, Z=55.5 }
+    SphereRadius = 72.2848
+}

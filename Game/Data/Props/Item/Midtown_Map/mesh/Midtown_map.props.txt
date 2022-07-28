@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Item/Midtown_Map/MI_Midtown_Map.MI_Midtown_Map'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Item/Midtown_Map/MI_Midtown_Map.MI_Midtown_Map'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.3431, 101.336, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.06116, Y=-2.09167, Z=25.6376 }
+    BoxExtent = { X=7.70753, Y=47.9083, Z=25.2125 }
+    SphereRadius = 54.6835
+}

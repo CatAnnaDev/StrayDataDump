@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_arrow_neon.MI_arrow_neon'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Neon/Material/MI_arrow_neon.MI_arrow_neon'
+        MaterialSlotName = arrow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11020.6, 394.996, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.66936, Y=-8.82149e-06, Z=5.29918 }
+    BoxExtent = { X=83.5683, Y=1.50001, Z=45.4871 }
+    SphereRadius = 86.9949
+}

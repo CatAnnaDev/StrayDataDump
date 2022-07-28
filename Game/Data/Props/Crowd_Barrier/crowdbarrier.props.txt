@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Crowd_Barrier/MI_CrowdBarrier.MI_CrowdBarrier'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Crowd_Barrier/MI_CrowdBarrier.MI_CrowdBarrier'
+        MaterialSlotName = crowdbarrier_phong1SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.7838, 129.384, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=43.3036 }
+    BoxExtent = { X=100.543, Y=19.1138, Z=43.3036 }
+    SphereRadius = 106.037
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sarcophagus/MI_Sarcophagus.MI_Sarcophagus'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sarcophagus/MI_Sarcophagus.MI_Sarcophagus'
+        MaterialSlotName = M_Sarcophagus
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 232.958, 268.021, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=2.09575, Z=104.835 }
+    BoxExtent = { X=41.9131, Y=29.9628, Z=104.837 }
+    SphereRadius = 111.184
+}

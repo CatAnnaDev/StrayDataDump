@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_balcon_00.MI_balcon_00'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_balcon_00.MI_balcon_00'
+        MaterialSlotName = Material #37
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 221.295, 560.591, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+        MaterialSlotName = Material #38
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.998, 560.563, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=48.7921, Y=146.592, Z=113.256 }
+    BoxExtent = { X=50.7205, Y=155.32, Z=113.256 }
+    SphereRadius = 195.456
+}

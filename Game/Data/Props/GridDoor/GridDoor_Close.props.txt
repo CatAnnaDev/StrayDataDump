@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/GridDoor/material/MI_GridDoor.MI_GridDoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/GridDoor/material/MI_GridDoor.MI_GridDoor'
+        MaterialSlotName = MI_GridDoor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 592.092, 592.092, 592.092, 592.092 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.62939e-06, Z=228.835 }
+    BoxExtent = { X=3.89333, Y=107.191, Z=228.835 }
+    SphereRadius = 248.031
+}

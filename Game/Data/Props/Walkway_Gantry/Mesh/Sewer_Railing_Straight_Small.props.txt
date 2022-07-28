@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_CC_Rust.MI_CC_Rust'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_CC_Rust.MI_CC_Rust'
+        MaterialSlotName = railingcorner_Fence_MI_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.2205, 114.568, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=14.1138, Y=9.15527e-05, Z=50 }
+    BoxExtent = { X=13.7607, Y=2.50003, Z=50 }
+    SphereRadius = 51.9191
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/horloge/material/MI_horloge_Blue.MI_horloge_Blue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/horloge/material/MI_horloge_Blue.MI_horloge_Blue'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 62.9328, 45.5668, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00285339, Y=1.58063, Z=-7.48639 }
+    BoxExtent = { X=0.722763, Y=0.117371, Z=9.02972 }
+    SphereRadius = 9.04274
+}

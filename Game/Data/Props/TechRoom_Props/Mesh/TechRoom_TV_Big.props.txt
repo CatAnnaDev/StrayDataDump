@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_TechRoom_TVs.MI_TechRoom_TVs'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_off.MI_screen_off'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_TechRoom_TVs.MI_TechRoom_TVs'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 134.961, 197.428, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Computer/Material/MI_screen_off.MI_screen_off'
+        MaterialSlotName = Screens
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 53.3448, 197.669, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=29.7916, Y=0, Z=35 }
+    BoxExtent = { X=29.7916, Y=37.5, Z=35.0001 }
+    SphereRadius = 59.3194
+}

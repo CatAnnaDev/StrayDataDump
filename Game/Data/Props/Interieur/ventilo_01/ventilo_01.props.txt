@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/ventilo_01/Material/MI_Ventilo.MI_Ventilo'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/ventilo_01/Material/MI_Ventilo.MI_Ventilo'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 201, 345.023, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.78546, Y=40.3331, Z=6.57967 }
+    BoxExtent = { X=38.8245, Y=45.6665, Z=41.6476 }
+    SphereRadius = 53.455
+}

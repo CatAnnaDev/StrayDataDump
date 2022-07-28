@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Laundry_basket/MI_Laundry_Basket.MI_Laundry_Basket'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Laundry_basket/MI_Laundry_Basket.MI_Laundry_Basket'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 270.41, 359.652, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.46334, Y=-0.0247917, Z=50.1454 }
+    BoxExtent = { X=56.6101, Y=40.2083, Z=50.1188 }
+    SphereRadius = 81.6494
+}

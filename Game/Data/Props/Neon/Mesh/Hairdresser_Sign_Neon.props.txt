@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_metal_01.MI_metal_01'
+    Materials[1] = Material3'/Game/Data/Materials/Instance/Base/Base_Glass.Base_Glass'
+    Materials[2] = Material3'/Game/Character/Drone/material/M_blackmetal.M_blackmetal'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Materials/Instance/Base/Haidresser_Sign_Neon.Haidresser_Sign_Neon'
+    Materials[4] = Material3'/Game/Team/Nico2/CleanCity/Modules/Materials/Emissive_White.Emissive_White'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_metal_01.MI_metal_01'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.9923, 121.552, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Data/Materials/Instance/Base/Base_Glass.Base_Glass'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.5573, 121.596, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Character/Drone/material/M_blackmetal.M_blackmetal'
+        MaterialSlotName = Material #38
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.3888, 120.373, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Instance/Base/Haidresser_Sign_Neon.Haidresser_Sign_Neon'
+        MaterialSlotName = Material #51
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.5201, 121.573, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Team/Nico2/CleanCity/Modules/Materials/Emissive_White.Emissive_White'
+        MaterialSlotName = Material #64
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.0643, 122.956, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-07, Y=-13.1506, Z=5.18561 }
+    BoxExtent = { X=9.81105, Y=13.1802, Z=32.7472 }
+    SphereRadius = 33.9365
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+        MaterialSlotName = Material #53
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 45.8607, 72.4078, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.296003, Y=0, Z=26.2205 }
+    BoxExtent = { X=4.1284, Y=3.998, Z=76.2297 }
+    SphereRadius = 76.3114
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_Walkway_New_Grey.MI_Sewer_Walkway_New_Grey'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Grille_Sewer.MI_Grille_Sewer'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_Walkway_New_Grey.MI_Sewer_Walkway_New_Grey'
+        MaterialSlotName = MI_Sewer_Walkway_New_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 197.367, 637.246, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Sewer/Materials/MI_Grille_Sewer.MI_Grille_Sewer'
+        MaterialSlotName = MI_Grille_Sewer
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 91.4153, 637.647, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-171.924, Y=-41.9236, Z=-14.2626 }
+    BoxExtent = { X=171.923, Y=141.924, Z=14.2626 }
+    SphereRadius = 223.391
+}

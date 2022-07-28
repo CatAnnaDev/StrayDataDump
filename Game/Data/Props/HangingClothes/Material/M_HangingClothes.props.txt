@@ -1,0 +1,212 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Props/HangingClothes/Texture/FabricAlpha_Micro.FabricAlpha_Micro'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_D.HangingClothes_D'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_LP.HangingClothes_LP'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_NM.HangingClothes_NM'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Base/Base_Wind.Base_Wind'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Fuzz }
+                    ParameterInfos[1] = { Name=Fade Offset }
+                    ParameterInfos[2] = { Name=Wind_NM }
+                    ParameterInfos[3] = { Name=Color Curve }
+                    ParameterInfos[4] = { Name=Holes Micro Contrast }
+                    ParameterInfos[5] = { Name=Fuzz Power }
+                    ParameterInfos[6] = { Name=Global Brightness Multiplier }
+                    ParameterInfos[7] = { Name=Wind_pow }
+                    ParameterInfos[8] = { Name=Scale Wind }
+                    ParameterInfos[9] = { Name=Fade Distance }
+                    ParameterInfos[10] = { Name=Holes Color Add }
+                    ParameterInfos[11] = { Name=Detail Normal Strength }
+                    ParameterInfos[12] = { Name=Speed }
+                    ParameterInfos[13] = { Name=Accent Color Curve }
+                    ParameterInfos[14] = { Name=CamFade Radius }
+                    ParameterInfos[15] = { Name=Holes Coverage }
+                    ParameterInfos[16] = { Name=Holes Mask Tiling }
+                    ParameterInfos[17] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=max_dir }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=NM }
+                    ParameterInfos[2] = { Name=NM Detail }
+                    ParameterInfos[3] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 64
+            ScalarValues[2] = 0.5
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1.5
+            ScalarValues[7] = 10
+            ScalarValues[8] = 0.1
+            ScalarValues[9] = 128
+            ScalarValues[10] = 0
+            ScalarValues[11] = 5
+            ScalarValues[12] = 0.1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 200
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0.25
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_D.HangingClothes_D'
+            TextureValues[1] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_NM.HangingClothes_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+            TextureValues[3] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_LP.HangingClothes_LP'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_NM.HangingClothes_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_D.HangingClothes_D'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Base/Base_Wind.Base_Wind'
+        ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Props/HangingClothes/Texture/FabricAlpha_Micro.FabricAlpha_Micro'
+        ReferencedTextures[7] = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_LP.HangingClothes_LP'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.6
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_D.HangingClothes_D'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_NM.HangingClothes_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/fibre/fibre_tissus_NM.fibre_tissus_NM'
+        Name = NM Detail
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Props/HangingClothes/Texture/HangingClothes_LP.HangingClothes_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Fuzz, Group=None }
+    CollectedScalarParameters[1] = { Value=64, Name=Fade Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Wind_NM, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Color Curve, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Holes Micro Contrast, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Fuzz Power, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1.5
+        Name = Global Brightness Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=10, Name=Wind_pow, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=Scale Wind, Group=None }
+    CollectedScalarParameters[9] = { Value=128, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Holes Color Add, Group=None }
+    CollectedScalarParameters[11] = { Value=5, Name=Detail Normal Strength, Group=None }
+    CollectedScalarParameters[12] = { Value=0.1, Name=Speed, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Accent Color Curve, Group=None }
+    CollectedScalarParameters[14] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Holes Coverage, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Holes Mask Tiling, Group=None }
+    CollectedScalarParameters[17] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = max_dir
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 24
+        UVChannelIndex = 0
+        TextureName = FabricAlpha_Micro
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 24
+        UVChannelIndex = 0
+        TextureName = fibre_tissus_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = HangingClothes_D
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = HangingClothes_LP
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = HangingClothes_NM
+    }
+}

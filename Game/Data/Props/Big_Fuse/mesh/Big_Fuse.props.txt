@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Big_Fuse/MI_Big_Fuse.MI_Big_Fuse'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Big_Fuse/MI_Big_Fuse.MI_Big_Fuse'
+        MaterialSlotName = MI_Big_Fuse
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.8745, 19.2713, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0167611, Y=0.0167577, Z=10.2877 }
+    BoxExtent = { X=2.23496, Y=2.23496, Z=10.2831 }
+    SphereRadius = 10.2831
+}

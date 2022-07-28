@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Metal_Panel_B.MI_Club_Metal_Panel_B'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Panning.MI_Club_Screen_Panning'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/BeerTap/MI_Club_BeerTap_A.MI_Club_BeerTap_A'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Pulse_Orange.MI_Club_Screen_Pulse_Orange'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Metal_Panel_B.MI_Club_Metal_Panel_B'
+        MaterialSlotName = Mi_Grille
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 64.157, 124.948, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Panning.MI_Club_Screen_Panning'
+        MaterialSlotName = Mi_Neon
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.27016, 125.028, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BeerTap/MI_Club_BeerTap_A.MI_Club_BeerTap_A'
+        MaterialSlotName = MI_Beertap
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.6211, 125.373, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Midtown/Club/Material/MI_Club_Screen_Pulse_Orange.MI_Club_Screen_Pulse_Orange'
+        MaterialSlotName = Mi_Neon_Yellow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.5607, 125.108, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0284805, Y=9.05843, Z=24.766 }
+    BoxExtent = { X=15.2143, Y=16.2831, Z=24.7107 }
+    SphereRadius = 32.9867
+}

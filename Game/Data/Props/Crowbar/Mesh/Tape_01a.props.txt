@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Crowbar/MI_Crowbar.MI_Crowbar'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Crowbar/MI_Crowbar.MI_Crowbar'
+        MaterialSlotName = MI_Crowbar_Tape_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 48.3067, 29.0057, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-07, Y=-1.43051e-06, Z=2.25 }
+    BoxExtent = { X=5.97016, Y=5.97016, Z=2.22189 }
+    SphereRadius = 6.37021
+}

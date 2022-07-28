@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Exit_Sign/Material/MI_inox.MI_inox'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Exit_Sign/Material/Base_Textures_Inst.Base_Textures_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Exit_Sign/Material/MI_inox.MI_inox'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.9368, 85.325, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Exit_Sign/Material/Base_Textures_Inst.Base_Textures_Inst'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 21.1602, 85.1915, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.74848, Z=-9.53674e-07 }
+    BoxExtent = { X=15, Y=3.74848, Z=9 }
+    SphereRadius = 17.7517
+}

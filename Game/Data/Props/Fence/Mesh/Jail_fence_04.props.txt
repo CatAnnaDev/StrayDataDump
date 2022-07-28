@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Vehicle/Metro/Material/MI_siege_white_plastic1.MI_siege_white_plastic1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Vehicle/Metro/Material/MI_siege_white_plastic1.MI_siege_white_plastic1'
+        MaterialSlotName = 01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.831, 231.282, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.38419e-07, Y=-7.62939e-06, Z=123.827 }
+    BoxExtent = { X=3, Y=4.29598, Z=123.827 }
+    SphereRadius = 123.909
+}

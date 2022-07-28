@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_Walkway_New_Grey.MI_Sewer_Walkway_New_Grey'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Grille_Fence.MI_Grille_Fence'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Grille_Fence.MI_Grille_Fence'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Sewer_Walkway_New_Grey.MI_Sewer_Walkway_New_Grey'
+        MaterialSlotName = Walkway_V4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 196.349, 779.669, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Grille_Fence.MI_Grille_Fence'
+        MaterialSlotName = MI_Floor_Grid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Walkway_Gantry/Material/MI_Grille_Fence.MI_Grille_Fence'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 90.1161, 776.319, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-194.968, Y=-173.736, Z=-14.2626 }
+    BoxExtent = { X=194.969, Y=176.238, Z=14.2626 }
+    SphereRadius = 263.203
+}

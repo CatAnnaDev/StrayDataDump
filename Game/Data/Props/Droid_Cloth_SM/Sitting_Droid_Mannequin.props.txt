@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Hoodie/MI_Hoodie1.MI_Hoodie1'
+    Materials[1] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Pants/MI_Pants_03.MI_Pants_03'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Red_Plastic1_Inst.MI_Red_Plastic1_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Hoodie/MI_Hoodie1.MI_Hoodie1'
+        MaterialSlotName = Material #55
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.219, 363.993, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Pants/MI_Pants_03.MI_Pants_03'
+        MaterialSlotName = Material #68
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113.371, 355.846, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/presentoir_snack/Material/MI_Red_Plastic1_Inst.MI_Red_Plastic1_Inst'
+        MaterialSlotName = Material #54
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.191, 373.462, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.49345, Y=11.5793, Z=67.5773 }
+    BoxExtent = { X=58.6879, Y=31.184, Z=69.5463 }
+    SphereRadius = 91.0268
+}

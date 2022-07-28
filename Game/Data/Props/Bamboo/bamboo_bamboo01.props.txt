@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Bamboo/material/MI_Bamboo.MI_Bamboo'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bamboo/material/MI_Bamboo.MI_Bamboo'
+        MaterialSlotName = MI_Bamboo
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 359.147, 351.421, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-06, Y=0, Z=0 }
+    BoxExtent = { X=9.99364, Y=10.0655, Z=458.522 }
+    SphereRadius = 458.595
+}

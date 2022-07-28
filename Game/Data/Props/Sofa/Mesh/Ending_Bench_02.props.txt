@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Ending_Bench.MI_Ending_Bench'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Inox.MI_Inox'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_FakeLight_White_SI2.MI_FakeLight_White_SI2'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Ending_Bench.MI_Ending_Bench'
+        MaterialSlotName = Leather
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 401.983, 410.038, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Inox.MI_Inox'
+        MaterialSlotName = Metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 410.223, 892.542, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_FakeLight_White_SI2.MI_FakeLight_White_SI2'
+        MaterialSlotName = Light
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 336.141, 753.861, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=95.426, Y=-148.399, Z=44 }
+    BoxExtent = { X=148.399, Y=148.399, Z=44 }
+    SphereRadius = 207.988
+}

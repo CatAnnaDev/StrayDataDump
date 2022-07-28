@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/DartBoard/MI_DartBoard.MI_DartBoard'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/DartBoard/MI_DartBoard_Metal.MI_DartBoard_Metal'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/DartBoard/MI_DartBoard.MI_DartBoard'
+        MaterialSlotName = Material #30
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.59, 144.551, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/DartBoard/MI_DartBoard_Metal.MI_DartBoard_Metal'
+        MaterialSlotName = Material #31
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.1009, 134.798, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=2.0748, Z=0 }
+    BoxExtent = { X=22.6596, Y=2.0748, Z=22.4695 }
+    SphereRadius = 22.8842
+}

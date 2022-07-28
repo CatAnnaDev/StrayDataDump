@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Rubble/BoardScrap/Materials/MI_BoardScrap.MI_BoardScrap'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Rubble/BoardScrap/Materials/MI_BoardScrap.MI_BoardScrap'
+        MaterialSlotName = BoardsScrap
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 126.678, 75.3788, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.511276, Y=-2.76318, Z=0.132187 }
+    BoxExtent = { X=4.20235, Y=35.8265, Z=0.684319 }
+    SphereRadius = 35.9243
+}

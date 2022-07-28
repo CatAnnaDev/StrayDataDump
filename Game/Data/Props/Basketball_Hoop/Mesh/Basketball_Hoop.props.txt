@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Basketball_Hoop/MI_Basketball_Hoop.MI_Basketball_Hoop'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Metal_ring/MI_Metal_Ring.MI_Metal_Ring'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Basketball_Hoop/MI_Basketball_Hoop.MI_Basketball_Hoop'
+        MaterialSlotName = default1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 224.182, 297.465, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Metal_ring/MI_Metal_Ring.MI_Metal_Ring'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.14717, 296.95, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0331535, Y=38.1615, Z=164.884 }
+    BoxExtent = { X=52.3324, Y=44.0974, Z=164.883 }
+    SphereRadius = 172.954
+}

@@ -1,0 +1,6 @@
+Diffuse=Base_Glass_CO
+Normal=Base_NM
+Other[0]=Windows_Glass_CO
+Other[1]=Windows_Glass_LP
+Other[2]=Windows_Glass_1_NM
+Other[3]=Base_Glass_LP

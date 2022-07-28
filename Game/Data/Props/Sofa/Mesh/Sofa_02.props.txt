@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Sofa_02.MI_Sofa_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sofa/Material/MI_Sofa_02.MI_Sofa_02'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 340.729, 360.586, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.35035, Y=-0.327202, Z=41.5242 }
+    BoxExtent = { X=48.3113, Y=91.6385, Z=41.2772 }
+    SphereRadius = 103.395
+}

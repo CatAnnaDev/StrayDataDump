@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/calendrier/Material/MI_calendrier.MI_calendrier'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/calendrier/Material/MI_calendrier.MI_calendrier'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 162.699, 120.507, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.13726, Y=4.31717, Z=0.423538 }
+    BoxExtent = { X=21.9585, Y=4.31717, Z=31.3192 }
+    SphereRadius = 38.1791
+}

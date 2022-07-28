@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_A.MI_Sewers_Control_Panel_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Sewers_Control_Panels/Material/MI_Sewers_Control_Panel_A.MI_Sewers_Control_Panel_A'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 241.296, 367.882, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-57.5, Y=0, Z=60 }
+    BoxExtent = { X=58.0759, Y=80, Z=60 }
+    SphereRadius = 112.498
+}

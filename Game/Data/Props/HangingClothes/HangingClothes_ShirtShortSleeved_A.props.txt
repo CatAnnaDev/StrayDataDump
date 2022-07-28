@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/HangingClothes/Material/MI_HangingClothes_Dull.MI_HangingClothes_Dull'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/HangingClothes/Material/MI_HangingClothes_Dull.MI_HangingClothes_Dull'
+        MaterialSlotName = HangingClothes_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 265.219, 156.559, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.17839, Y=1.57963, Z=-45.0772 }
+    BoxExtent = { X=28.71, Y=5.86578, Z=34.211 }
+    SphereRadius = 37.8813
+}

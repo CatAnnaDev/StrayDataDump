@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Gramophone/Material/MI_Gramophone.MI_Gramophone'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Gramophone/Material/MI_Gramophone.MI_Gramophone'
+        MaterialSlotName = pasted__blinn4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 81.6717, 167.509, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.61897, Y=1.88536, Z=32.1091 }
+    BoxExtent = { X=32.9051, Y=23.7668, Z=32.105 }
+    SphereRadius = 46.6697
+}

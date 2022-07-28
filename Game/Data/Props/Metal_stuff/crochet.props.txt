@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_metal_Tile_01.MI_metal_Tile_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_metal_Tile_01.MI_metal_Tile_01'
+        MaterialSlotName = 12 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.34, 53.2872, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0679779, Y=1.70245, Z=-6.23412 }
+    BoxExtent = { X=0.616196, Y=6.10578, Z=12.0711 }
+    SphereRadius = 12.3788
+}

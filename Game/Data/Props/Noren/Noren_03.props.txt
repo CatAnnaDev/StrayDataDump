@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Noren/MI_Noren_Base.MI_Noren_Base'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Noren/MI_Noren_Base.MI_Noren_Base'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 95.3217, 699.628, 49.2823, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.516593, Y=1.56404, Z=-24.1846 }
+    BoxExtent = { X=3.71151, Y=21.403, Z=26.1906 }
+    SphereRadius = 32.7484
+}

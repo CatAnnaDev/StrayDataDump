@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Fly_Trap/Material/MI_FlyTrap.MI_FlyTrap'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Fly_Trap/Material/MI_FlyTrap.MI_FlyTrap'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 41.5252, 41.0267, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.232132, Y=-0.0307286, Z=38.8132 }
+    BoxExtent = { X=3.29178, Y=1.93284, Z=43.7075 }
+    SphereRadius = 43.7685
+}

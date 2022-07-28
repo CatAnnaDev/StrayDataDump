@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Candle/MI_Candles.MI_Candles'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Candle/MI_Candles.MI_Candles'
+        MaterialSlotName = MI_Candle
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 27.6501, 22.3893, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.271677, Z=5.25142 }
+    BoxExtent = { X=2.5, Y=2.77168, Z=5.19517 }
+    SphereRadius = 5.79318
+}

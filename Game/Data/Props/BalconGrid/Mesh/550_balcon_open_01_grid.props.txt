@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Clim_MetalPlug/material/MI_MetalPlug.MI_MetalPlug'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Rusty_Plate.MI_Rusty_Plate'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate_color02.MI_Plastic_Plate_color02'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate.MI_Plastic_Plate'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_balcon_00.MI_balcon_00'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+    Materials[6] = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage04.MI_Grillage04'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Clim_MetalPlug/material/MI_MetalPlug.MI_MetalPlug'
+        MaterialSlotName = metalplug
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 322.437, 947.847, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Rusty_Plate.MI_Rusty_Plate'
+        MaterialSlotName = rustyplate
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 278.168, 929.519, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate_color02.MI_Plastic_Plate_color02'
+        MaterialSlotName = rustyplatecolor2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 280.764, 949.553, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate.MI_Plastic_Plate'
+        MaterialSlotName = plasticplate
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 301.581, 937.475, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_balcon_00.MI_balcon_00'
+        MaterialSlotName = balcon
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 982.451, 923.222, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/BalconGrid/Material/MI_oldwood.MI_oldwood'
+        MaterialSlotName = oldwood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 334.118, 928.441, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Grillage/material/MI_Grillage04.MI_Grillage04'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.0561, 926.559, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=266.349, Y=-49.5403, Z=94.0937 }
+    BoxExtent = { X=272.972, Y=53.1829, Z=168.272 }
+    SphereRadius = 320.526
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Wooden_Box/MI_Wooden_Box.MI_Wooden_Box'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wooden_Box/MI_Wooden_Box.MI_Wooden_Box'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 142.898, 149.891, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.445999, Y=-0.874449, Z=1.90735e-06 }
+    BoxExtent = { X=24.2164, Y=28.3118, Z=1.85106 }
+    SphereRadius = 37.3017
+}

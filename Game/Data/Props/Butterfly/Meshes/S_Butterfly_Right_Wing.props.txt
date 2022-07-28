@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Data/Props/Butterfly/Materials/M_Butterfly_wing.M_Butterfly_wing'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Data/Props/Butterfly/Materials/M_Butterfly_wing.M_Butterfly_wing'
+        MaterialSlotName = M_Butterfly_wing
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16.5566, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.44397, Y=6.2173, Z=-3.55271e-15 }
+    BoxExtent = { X=10.9281, Y=6.26166, Z=2.98023e-08 }
+    SphereRadius = 12.5648
+}

@@ -1,0 +1,7 @@
+Diffuse=Base_Glass_CO
+Normal=Base_NM
+Other[0]=VendingMachine_Glass_D
+Other[1]=VendingMachine_Glass_LP
+Other[2]=VendingMachine_Glass_NM
+Other[3]=Base_Glass_LP
+Other[4]=Dirt_Mask_01_MASK

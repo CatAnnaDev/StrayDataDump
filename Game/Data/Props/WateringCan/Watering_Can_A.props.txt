@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/WateringCan/MI_WateringCan.MI_WateringCan'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WateringCan/MI_WateringCan.MI_WateringCan'
+        MaterialSlotName = MI_Grey
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.598, 126.43, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-12.7935, Y=-3.8147e-06, Z=24.0464 }
+    BoxExtent = { X=34.7186, Y=13.8981, Z=24.0464 }
+    SphereRadius = 37.1476
+}

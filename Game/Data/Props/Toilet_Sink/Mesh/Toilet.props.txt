@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Toilet_Sink/MI_Toilet.MI_Toilet'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Toilet_Sink/MI_Toilet.MI_Toilet'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 151.866, 193.955, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=35.2709, Y=0, Z=46.782 }
+    BoxExtent = { X=35.2704, Y=24.3635, Z=46.8175 }
+    SphereRadius = 60.9606
+}

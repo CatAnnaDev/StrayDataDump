@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cardboard/material/MI_Cardboard.MI_Cardboard'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cardboard/material/MI_Cardboard.MI_Cardboard'
+        MaterialSlotName = Base_Textures_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 31.774, 92.1544, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.25844, Y=1.48906, Z=16.2913 }
+    BoxExtent = { X=13.4868, Y=21.4504, Z=16.3284 }
+    SphereRadius = 29.1712
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PaintBrush/MI_PaintBrush.MI_PaintBrush'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PaintBrush/MI_PaintBrush.MI_PaintBrush'
+        MaterialSlotName = MI_PaintBrush_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 127.363, 41.659, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.14441e-05, Y=0, Z=0.984023 }
+    BoxExtent = { X=6.31235, Y=18.6147, Z=1.32363 }
+    SphereRadius = 19.6482
+}

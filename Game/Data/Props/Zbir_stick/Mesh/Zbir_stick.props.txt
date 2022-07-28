@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Zbir_stick/MI_Zbir_stick.MI_Zbir_stick'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Zbir_stick/MI_Zbir_stick.MI_Zbir_stick'
+        MaterialSlotName = Zbir_stick_M
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.3125, 27.7357, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.196848, Y=3.8147e-06, Z=12.1533 }
+    BoxExtent = { X=7.89524, Y=2.30501, Z=26.7969 }
+    SphereRadius = 27.5958
+}

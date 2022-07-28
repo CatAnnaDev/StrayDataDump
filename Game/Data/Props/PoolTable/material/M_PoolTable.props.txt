@@ -1,0 +1,118 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_CO.PoolTable_CO'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_LP.PoolTable_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_NM.PoolTable_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Power }
+                    ParameterInfos[1] = { Name=CoreDarkness }
+                    ParameterInfos[2] = { Name=EdgeBrightness }
+                    ParameterInfos[3] = { Name=CamFade Radius }
+                    ParameterInfos[4] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=NM }
+                    ParameterInfos[2] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 1, 1, 200, 0.25 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_CO.PoolTable_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_NM.PoolTable_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_LP.PoolTable_LP'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_CO.PoolTable_CO'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_LP.PoolTable_LP'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_NM.PoolTable_NM'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_CO.PoolTable_CO'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_NM.PoolTable_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Props/PoolTable/texture/PoolTable_LP.PoolTable_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Power, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=CoreDarkness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EdgeBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = PoolTable_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = PoolTable_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = PoolTable_NM
+    }
+}

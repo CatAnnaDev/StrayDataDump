@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/PlasticWindows01.PlasticWindows01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/WindowsProps/Material/PlasticWindows01.PlasticWindows01'
+        MaterialSlotName = 01 - Default1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 352.124, 23.7229, 352.124, 352.124 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=3.32727, Z=-6.92741 }
+    BoxExtent = { X=1.40527, Y=3.32729, Z=8.36897 }
+    SphereRadius = 9.11511
+}

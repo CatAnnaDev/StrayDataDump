@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/wooden_palette/MI_wooden_palette.MI_wooden_palette'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/wooden_palette/MI_wooden_palette.MI_wooden_palette'
+        MaterialSlotName = MI_WoodenPalette_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 306.078, 650.591, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=9.53674e-07 }
+    BoxExtent = { X=107.298, Y=111.375, Z=14.8404 }
+    SphereRadius = 154.437
+}

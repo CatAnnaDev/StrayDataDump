@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_glass_dirty.MI_glass_dirty'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Materials/Tests/MI_glass_dirty.MI_glass_dirty'
+        MaterialSlotName = alarm_clock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.1022, 11.4499, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=2.63149, Z=6.02378 }
+    BoxExtent = { X=4.80619, Y=9.53674e-07, Z=4.73318 }
+    SphereRadius = 4.80619
+}

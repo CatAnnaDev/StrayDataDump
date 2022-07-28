@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Chairs/Material/MI_Chair_01.MI_Chair_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Chairs/Material/MI_Chair_01.MI_Chair_01'
+        MaterialSlotName = Chair_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 111.762, 122.894, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=41.8822 }
+    BoxExtent = { X=25.9875, Y=26.3242, Z=42.117 }
+    SphereRadius = 54.9347
+}

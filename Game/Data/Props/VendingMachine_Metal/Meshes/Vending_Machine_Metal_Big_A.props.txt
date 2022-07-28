@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Trims_03_NoCF.MI_Trims_03_NoCF'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic_noCF.MI_Black_Plastic_noCF'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Screen_Store.MI_Screen_Store'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Props/Digicode/MI_Digicode01.MI_Digicode01'
+    Materials[4] = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_noCF_VendingMachine_003.MI_noCF_VendingMachine_003'
+    Materials[5] = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Screen_Red.MI_Screen_Red'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Trims_03_NoCF.MI_Trims_03_NoCF'
+        MaterialSlotName = Metal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 477.061, 1.04723, 403.269, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Black_Plastic_noCF.MI_Black_Plastic_noCF'
+        MaterialSlotName = Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 242.662, 1.12864, 409.008, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Screen_Store.MI_Screen_Store'
+        MaterialSlotName = Screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17.8536, 0, 402.436, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Digicode/MI_Digicode01.MI_Digicode01'
+        MaterialSlotName = Buttons
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 28.9616, 37.2454, 394.658, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_noCF_VendingMachine_003.MI_noCF_VendingMachine_003'
+        MaterialSlotName = Detail
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/07_Ending/Material_instance/MI_Screen_Red.MI_Screen_Red'
+        MaterialSlotName = Screen_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22.5, 0, 402.895, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.249998, Y=0, Z=100 }
+    BoxExtent = { X=30.25, Y=60, Z=100 }
+    SphereRadius = 120.031
+}

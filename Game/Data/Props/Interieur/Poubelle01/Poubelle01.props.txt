@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Poubelle01/Material/MI_Poubelle01.MI_Poubelle01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Poubelle01/Material/MI_Poubelle01.MI_Poubelle01'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 197.143, 200.5, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.022583, Y=0.151733, Z=34.0141 }
+    BoxExtent = { X=35.74, Y=25.7199, Z=34.1971 }
+    SphereRadius = 49.4905
+}

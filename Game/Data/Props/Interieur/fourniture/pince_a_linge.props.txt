@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/fourniture/Material/MI_pince_a_linge.MI_pince_a_linge'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 15.0341, 15.0341, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.00732422, Z=3.24735 }
+    BoxExtent = { X=1.64856, Y=0.92572, Z=5.62547 }
+    SphereRadius = 5.90391
+}

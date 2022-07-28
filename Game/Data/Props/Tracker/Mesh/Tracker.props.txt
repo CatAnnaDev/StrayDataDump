@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Tracker/MI_Tracker.MI_Tracker'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Tracker/MI_DroidScreen_Idle02.MI_DroidScreen_Idle02'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Tracker/MI_Tracker_Glass.MI_Tracker_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Tracker/MI_Tracker.MI_Tracker'
+        MaterialSlotName = Tracker
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.8923, 45.8806, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Tracker/MI_DroidScreen_Idle02.MI_DroidScreen_Idle02'
+        MaterialSlotName = Screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 7.494, 45.9557, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Tracker/MI_Tracker_Glass.MI_Tracker_Glass'
+        MaterialSlotName = Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.82197, 45.9414, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.16657, Y=-0.823987, Z=9.25725 }
+    BoxExtent = { X=3.10515, Y=7.56154, Z=25.0951 }
+    SphereRadius = 25.7728
+}

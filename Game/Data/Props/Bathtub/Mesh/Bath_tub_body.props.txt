@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Bathtub/MI_BathTub.MI_BathTub'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Bathtub/MI_BathTub.MI_BathTub'
+        MaterialSlotName = BaseMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 245.397, 285.617, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.761032, Z=34.3231 }
+    BoxExtent = { X=75.1774, Y=41.0662, Z=22.3003 }
+    SphereRadius = 77.683
+}

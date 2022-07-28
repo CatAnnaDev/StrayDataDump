@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_Stickers.MI_VendingMachine_Stickers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/VendingMachine/Material/MI_VendingMachine_Stickers.MI_VendingMachine_Stickers'
+        MaterialSlotName = VendingMachine_Stickers
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.527, 32.5685, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28.35, Y=-2.08325, Z=90.2885 }
+    BoxExtent = { X=2.25, Y=51.6099, Z=73.2936 }
+    SphereRadius = 89.6583
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Fluffy_Jacket/MI_Fluffy_Jacket_Yellow_CF.MI_Fluffy_Jacket_Yellow_CF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/Fluffy_Jacket/MI_Fluffy_Jacket_Yellow_CF.MI_Fluffy_Jacket_Yellow_CF'
+        MaterialSlotName = MI_Fluffy_Jacket_Yellow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.128, 181.228, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.95351, Y=-1.12629, Z=120.695 }
+    BoxExtent = { X=22.2891, Y=31.8398, Z=43.182 }
+    SphereRadius = 52.7243
+}

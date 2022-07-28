@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Toyo/material/MI_ToyoChrome.MI_ToyoChrome'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Toyo/material/MI_ToyoChrome.MI_ToyoChrome'
+        MaterialSlotName = MI_ToyoChrome
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 222.32, 42.0403, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-0.0745087 }
+    BoxExtent = { X=12.7368, Y=8.58389, Z=2.50421 }
+    SphereRadius = 12.7631
+}

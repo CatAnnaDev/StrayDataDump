@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PoolTable/material/MI_PoolTable.MI_PoolTable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PoolTable/material/MI_PoolTable.MI_PoolTable'
+        MaterialSlotName = Pool_Table_mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.892, 451.316, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=41.6033 }
+    BoxExtent = { X=67.2889, Y=124.444, Z=41.6051 }
+    SphereRadius = 142.704
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Barbed/Material/MI_Barbed_01.MI_Barbed_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Barbed/Material/MI_Barbed_01.MI_Barbed_01'
+        MaterialSlotName = ScrewPicket
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.2032, 803.614, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=198.778, Y=-1.17641, Z=40.9401 }
+    BoxExtent = { X=201.869, Y=45.6941, Z=45.376 }
+    SphereRadius = 207.313
+}

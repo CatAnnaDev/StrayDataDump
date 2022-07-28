@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 366.239, 177.535, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.19209e-07, Y=1.90735e-06, Z=7.62939e-06 }
+    BoxExtent = { X=0.686004, Y=27.4201, Z=99.8507 }
+    SphereRadius = 102.873
+}

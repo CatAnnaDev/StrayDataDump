@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Crate_JumpStart.MI_Plastic_Crate_JumpStart'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Textures/Wood/MI_noCF_Wood_beech_natural.MI_noCF_Wood_beech_natural'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Textures/agrafe/MI_agrafe.MI_agrafe'
+    Materials[3] = MaterialInstanceConstant'/Game/Data/Decal/etiquette/MI_Etiquette01.MI_Etiquette01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plastic_Containers/MI_Plastic_Crate_JumpStart.MI_Plastic_Crate_JumpStart'
+        MaterialSlotName = MI_Plastic_Crate_JumpStart
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 84.4059, 338.985, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/Wood/MI_noCF_Wood_beech_natural.MI_noCF_Wood_beech_natural'
+        MaterialSlotName = MI_noCF_Wood_beech_natural
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 190.353, 339.64, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Textures/agrafe/MI_agrafe.MI_agrafe'
+        MaterialSlotName = MI_agrafe
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.67618, 464.864, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Decal/etiquette/MI_Etiquette01.MI_Etiquette01'
+        MaterialSlotName = MI_Etiquette01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 46.5234, 338.883, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=14.9884, Y=7.84858, Z=1.81136 }
+    BoxExtent = { X=32.3446, Y=36.1866, Z=42.6674 }
+    SphereRadius = 56.7461
+}

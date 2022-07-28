@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_HoodFilter.MI_HoodFilter'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_Inox.MI_Inox'
+        MaterialSlotName = MI_Counter_Inox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.2561, 315.902, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Restaurant_Kitchen/Material/MI_HoodFilter.MI_HoodFilter'
+        MaterialSlotName = MI_Counter_Plastic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 81.2632, 313.461, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=41.0359, Y=-4.19617e-05, Z=5.72205e-05 }
+    BoxExtent = { X=41.036, Y=57.9122, Z=34.2221 }
+    SphereRadius = 78.5808
+}

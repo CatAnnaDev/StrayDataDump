@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Hangar/Material/MI_Light01_metal.MI_Light01_metal'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Alert_Lamp/MI_AlertLamp_Lamp.MI_AlertLamp_Lamp'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Hangar/Material/MI_Light01_metal.MI_Light01_metal'
+        MaterialSlotName = 02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 23.7717, 61.4334, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Alert_Lamp/MI_AlertLamp_Lamp.MI_AlertLamp_Lamp'
+        MaterialSlotName = 03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=9.53674e-07, Z=0 }
+    BoxExtent = { X=13.8488, Y=9.10401, Z=13.8488 }
+    SphereRadius = 16.5733
+}

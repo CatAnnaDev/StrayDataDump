@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/Candle_Holders/Material/MI_Candle_Holder_C.MI_Candle_Holder_C'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/Candle_Holders/Material/MI_Candle_Holder_C.MI_Candle_Holder_C'
+        MaterialSlotName = None1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 24.2345, 34.9541, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=8.45265 }
+    BoxExtent = { X=4.72792, Y=4.72792, Z=8.53936 }
+    SphereRadius = 9.76083
+}

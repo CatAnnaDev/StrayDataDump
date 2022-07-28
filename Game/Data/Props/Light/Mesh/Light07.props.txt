@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light06.MI_Light06'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light06_ON1.MI_Light06_ON1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light06.MI_Light06'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.581, 126.848, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Material/MI_Light06_ON1.MI_Light06_ON1'
+        MaterialSlotName = 07 - Default2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 136.203, 127.179, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28.6895, Y=0, Z=8.58636 }
+    BoxExtent = { X=28.6895, Y=22.8322, Z=15.5745 }
+    SphereRadius = 37.85
+}

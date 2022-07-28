@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/OilBarrel/Material/MI_Oldbarrel.MI_Oldbarrel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/OilBarrel/Material/MI_Oldbarrel.MI_Oldbarrel'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 201.986, 311.447, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.263885, Y=0.0271683, Z=56.8463 }
+    BoxExtent = { X=33.5439, Y=33.4753, Z=56.9253 }
+    SphereRadius = 65.2954
+}

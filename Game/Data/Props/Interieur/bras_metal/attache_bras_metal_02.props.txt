@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Interieur/bras_metal/Material/MI_Attache_Bras_Metal2.MI_Attache_Bras_Metal2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Interieur/bras_metal/Material/MI_Attache_Bras_Metal2.MI_Attache_Bras_Metal2'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.064, 69.2722, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=0, Z=-5.59976 }
+    BoxExtent = { X=9.64053, Y=9.81879, Z=5.59981 }
+    SphereRadius = 14.6398
+}

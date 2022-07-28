@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_ScaffoldingAttach.MI_ScaffoldingAttach'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Scaffolding_Kit/material/MI_ScaffoldingAttach.MI_ScaffoldingAttach'
+        MaterialSlotName = MI_ScaffoldingAttach
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17.5669, 21.0519, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=-1.52588e-05, Z=3.05176e-05 }
+    BoxExtent = { X=9.87515, Y=10.6675, Z=10.5559 }
+    SphereRadius = 16.4472
+}

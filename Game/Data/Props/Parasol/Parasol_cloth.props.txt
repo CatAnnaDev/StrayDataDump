@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Tissus.M_Parasol_Tissus'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Tissus_Frise.M_Parasol_Tissus_Frise'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Tissus.M_Parasol_Tissus'
+        MaterialSlotName = 2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 311.29, 296.484, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Parasol/Material/M_Parasol_Tissus_Frise.M_Parasol_Tissus_Frise'
+        MaterialSlotName = 3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.08382, 296.363, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.62939e-06, Z=199.17 }
+    BoxExtent = { X=122.947, Y=122.947, Z=27.09 }
+    SphereRadius = 124.308
+}

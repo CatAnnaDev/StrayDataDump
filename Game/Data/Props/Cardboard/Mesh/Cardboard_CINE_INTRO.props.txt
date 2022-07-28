@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_Carton_Frise_noCF.MI_PropsGround_Carton_Frise_noCF'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Cardboard/material/MI_Cardboard_CINE_INTRO.MI_Cardboard_CINE_INTRO'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/PropsGround/material/MI_PropsGround_Carton_Frise_noCF.MI_PropsGround_Carton_Frise_noCF'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.23456, 258.088, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cardboard/material/MI_Cardboard_CINE_INTRO.MI_Cardboard_CINE_INTRO'
+        MaterialSlotName = base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 159.784, 251.586, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.03941, Y=-2.19714, Z=5.77357 }
+    BoxExtent = { X=61.1408, Y=77.6432, Z=3.79395 }
+    SphereRadius = 82.8477
+}

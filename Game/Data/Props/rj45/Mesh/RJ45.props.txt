@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/rj45/MI_RJ45.MI_RJ45'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/rj45/MI_RJ45.MI_RJ45'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.2068, 512.954, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.34242, Y=-3.39415, Z=0.0581827 }
+    BoxExtent = { X=31.9015, Y=14.9352, Z=7.80354 }
+    SphereRadius = 34.8222
+}

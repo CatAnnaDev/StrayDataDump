@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_CR_Door02.MI_CR_Door02'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grillage.MI_Grillage'
+    Materials[2] = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_CR_Door02.MI_CR_Door02'
+        MaterialSlotName = Material #46
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 353.619, 514.12, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Door/Material/MI_Grillage.MI_Grillage'
+        MaterialSlotName = Material #47
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 20.8817, 513.588, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wood_Planks/MI_Wood_Planks.MI_Wood_Planks'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 309.223, 515.044, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.211018, Y=-1.66206, Z=109.997 }
+    BoxExtent = { X=60.1167, Y=8.2748, Z=109.997 }
+    SphereRadius = 125.498
+}

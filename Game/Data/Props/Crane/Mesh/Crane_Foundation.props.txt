@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Concrete.MI_Metro_Concrete'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Archi/Unique/Metro/Material/MI_Metro_Concrete.MI_Metro_Concrete'
+        MaterialSlotName = Concrete
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.635, 638.744, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=40 }
+    BoxExtent = { X=150, Y=150, Z=90 }
+    SphereRadius = 228.815
+}

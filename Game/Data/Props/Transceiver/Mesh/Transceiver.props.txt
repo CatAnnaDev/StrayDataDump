@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Transceiver/MI_Transceiver_On.MI_Transceiver_On'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Transceiver/MI_Transceiver_On.MI_Transceiver_On'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.0858, 118.613, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.95613, Y=-3.87683, Z=18.7074 }
+    BoxExtent = { X=24.421, Y=24.5106, Z=19.0386 }
+    SphereRadius = 33.4096
+}

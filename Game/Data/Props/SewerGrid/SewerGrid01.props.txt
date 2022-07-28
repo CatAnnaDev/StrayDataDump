@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/SewerGrid/material/MI_SewerGrid.MI_SewerGrid'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/SewerGrid/material/MI_SewerGrid_LOD.MI_SewerGrid_LOD'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/SewerGrid/material/MI_SewerGrid.MI_SewerGrid'
+        MaterialSlotName = MI_SewerGrid
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 60.1743, 152.192, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/SewerGrid/material/MI_SewerGrid_LOD.MI_SewerGrid_LOD'
+        MaterialSlotName = MI_SewerGrid_LOD
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.8779, 40.7179, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-0.618033 }
+    BoxExtent = { X=29.1238, Y=5.04045, Z=0.618034 }
+    SphereRadius = 29.5632
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Old_Radio/MI_Oldradio.MI_Oldradio'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Old_Radio/MI_Oldradio_Glass.MI_Oldradio_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Old_Radio/MI_Oldradio.MI_Oldradio'
+        MaterialSlotName = Radio_mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 91.2401, 120.031, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Old_Radio/MI_Oldradio_Glass.MI_Oldradio_Glass'
+        MaterialSlotName = Glass_mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 101.419, 119.493, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.3248, Y=-0.434862, Z=20.7991 }
+    BoxExtent = { X=7.3023, Y=22.0561, Z=21.1215 }
+    SphereRadius = 29.4817
+}

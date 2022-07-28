@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Defluxor/MI_Defluxor.MI_Defluxor'
+    Materials[1] = MaterialInstanceConstant'/Game/Data/Props/Defluxor/MI_Defluxor_Glass.MI_Defluxor_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Defluxor/MI_Defluxor.MI_Defluxor'
+        MaterialSlotName = Defluxor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 72.9496, 1.50162, 100.05, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Defluxor/MI_Defluxor_Glass.MI_Defluxor_Glass'
+        MaterialSlotName = Defluxor_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.1387, 2.06406, 99.9311, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52748, Y=-0.0933247, Z=17.9171 }
+    BoxExtent = { X=19.0994, Y=10.4718, Z=17.8085 }
+    SphereRadius = 25.8372
+}

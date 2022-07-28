@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Maneki-neko/material/MI_Maneki-neko.MI_Maneki-neko'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Maneki-neko/material/MI_Maneki-neko.MI_Maneki-neko'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 20.5041, 21.9042, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0256019, Y=1.10009, Z=1.65707 }
+    BoxExtent = { X=0.963742, Y=1.08595, Z=2.51165 }
+    SphereRadius = 2.73889
+}

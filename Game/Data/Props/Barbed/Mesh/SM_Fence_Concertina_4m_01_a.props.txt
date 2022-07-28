@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Barbed/Material/MI_Barbed_01.MI_Barbed_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Barbed/Material/MI_Barbed_01.MI_Barbed_01'
+        MaterialSlotName = BarbedWire
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.7728, 904.772, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=200.002, Y=3.57012, Z=40.2268 }
+    BoxExtent = { X=200.007, Y=47.5051, Z=43.0087 }
+    SphereRadius = 202.712
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Droid/Cloth/M_Poncho_Iridescent.M_Poncho_Iridescent'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Droid/Cloth/M_Poncho_Iridescent.M_Poncho_Iridescent'
+        MaterialSlotName = MaterialSlot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 192.356, 236.012, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.523167, Y=1.171, Z=101.295 }
+    BoxExtent = { X=24.2264, Y=34.3689, Z=57.6396 }
+    SphereRadius = 62.063
+}

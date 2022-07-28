@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_noCF_TechRoom_Table.MI_noCF_TechRoom_Table'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/TechRoom_Props/MI_noCF_TechRoom_Table.MI_noCF_TechRoom_Table'
+        MaterialSlotName = 04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 169.475, 219.405, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=20, Y=0, Z=45 }
+    BoxExtent = { X=20, Y=60.4, Z=45 }
+    SphereRadius = 77.6209
+}

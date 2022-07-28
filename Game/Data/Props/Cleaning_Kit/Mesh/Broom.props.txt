@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Cleaning_Kit/MI_Cleaning_Kit.MI_Cleaning_Kit'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Cleaning_Kit/MI_Cleaning_Kit.MI_Cleaning_Kit'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.574, 136.597, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.8147e-06, Z=-25.1509 }
+    BoxExtent = { X=11.0738, Y=8.75373, Z=83.6802 }
+    SphereRadius = 84.2204
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Light/Guirlande/MI_Guirlande_cable.MI_Guirlande_cable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Light/Guirlande/MI_Guirlande_cable.MI_Guirlande_cable'
+        MaterialSlotName = MI_Guirlande_cable
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.3721, 12.5727, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0736223, Y=0, Z=50 }
+    BoxExtent = { X=0.220867, Y=0.255035, Z=50 }
+    SphereRadius = 50.0011
+}

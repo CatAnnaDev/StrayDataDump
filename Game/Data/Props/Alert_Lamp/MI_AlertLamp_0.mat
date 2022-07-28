@@ -1,0 +1,5 @@
+Diffuse=Base_Glass_CO
+Normal=Base_NM
+Other[0]=Windows_Glass_NM
+Other[1]=Base_Glass_LP
+Other[2]=Dirt_Mask_01_MASK

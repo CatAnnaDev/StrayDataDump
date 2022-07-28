@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Wicker_Basket/MI_Wicker_Basket.MI_Wicker_Basket'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Wicker_Basket/MI_Wicker_Basket.MI_Wicker_Basket'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 130.32, 155.065, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00393677, Y=-0.226297, Z=14.3845 }
+    BoxExtent = { X=31.1465, Y=31.7405, Z=14.3845 }
+    SphereRadius = 34.7053
+}

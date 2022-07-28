@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Props_Interieur/material/MI_WhiteMat.MI_WhiteMat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Props_Interieur/material/MI_WhiteMat.MI_WhiteMat'
+        MaterialSlotName = MI_WhiteMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.633, 42.633, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=1.4664 }
+    BoxExtent = { X=7.63488, Y=7.63488, Z=2.23203 }
+    SphereRadius = 7.95445
+}

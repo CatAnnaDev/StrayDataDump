@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate.MI_Plastic_Plate'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Data/Props/Plate/MI_Plastic_Plate.MI_Plastic_Plate'
+        MaterialSlotName = MI_Plastic_Plate
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 245.347, 145.243, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-06, Y=-1.90735e-06, Z=8.1841 }
+    BoxExtent = { X=50.003, Y=24.4756, Z=8.99123 }
+    SphereRadius = 55.8438
+}
