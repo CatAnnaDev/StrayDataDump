@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusTouch/MI_OculusTouch.MI_OculusTouch'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusTouch/MI_OculusTouch.MI_OculusTouch'
+        MaterialSlotName = oculus
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 21.5005, 30.8596, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.933596, Y=0.532962, Z=-2.73579 }
+    BoxExtent = { X=5.71772, Y=5.47975, Z=4.68465 }
+    SphereRadius = 6.59
+}

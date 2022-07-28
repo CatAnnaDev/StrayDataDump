@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusGo/MI_OculusGo.MI_OculusGo'
+    Materials[1] = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusGo/MI_OculusGo.MI_OculusGo'
+    Materials[2] = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusGo/MI_OculusGo.MI_OculusGo'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusGo/MI_OculusGo.MI_OculusGo'
+        MaterialSlotName = mp
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4.18905, 16.7491, 533.633, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusGo/MI_OculusGo.MI_OculusGo'
+        MaterialSlotName = mp_trackpad
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.218, 0, 670.114, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Plugins/Runtime/OpenXR/Content/Devices/OculusGo/MI_OculusGo.MI_OculusGo'
+        MaterialSlotName = mp_trigger
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 5.65702, 15.9404, 545.949, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.18574, Y=0, Z=-0.979492 }
+    BoxExtent = { X=6.32268, Y=2.12849, Z=3.08463 }
+    SphereRadius = 6.46629
+}

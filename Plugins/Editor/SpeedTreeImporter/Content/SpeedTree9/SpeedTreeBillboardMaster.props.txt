@@ -1,0 +1,119 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+    ReferencedTextures[1] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+    ReferencedTextures[2] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.game_wind_noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=SharedStartHeight }
+                    ParameterInfos[1] = { Name=SharedBend }
+                    ParameterInfos[2] = { Name=SharedOscillation }
+                    ParameterInfos[3] = { Name=SharedIndependence }
+                    ParameterInfos[4] = { Name=SharedSpeed }
+                    ParameterInfos[5] = { Name=BillboardCount }
+                    ParameterInfos[6] = { Name=SharedTurbulence }
+                    ParameterInfos[7] = { Name=SharedFlexibility }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=WindDirection }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ColorOpacity }
+                    ParameterInfos[1] = { Name=Subsurface }
+                    ParameterInfos[2] = { Name=NormalRoughness }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0.1, 100, 50, 0.001, 0.05, 8, 0.5, 0.01 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+            TextureValues[1] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+            TextureValues[2] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+        ReferencedTextures[1] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+        ReferencedTextures[2] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.game_wind_noise'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.1
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+        Name = ColorOpacity
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+        Name = Subsurface
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+        Name = NormalRoughness
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=SharedStartHeight, Group=None }
+    CollectedScalarParameters[1] = { Value=100, Name=SharedBend, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=SharedOscillation, Group=None }
+    CollectedScalarParameters[3] = { Value=0.001, Name=SharedIndependence, Group=None }
+    CollectedScalarParameters[4] = { Value=0.05, Name=SharedSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=BillboardCount, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=SharedTurbulence, Group=None }
+    CollectedScalarParameters[7] = { Value=0.01, Name=SharedFlexibility, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = WindDirection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

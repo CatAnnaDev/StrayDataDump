@@ -1,0 +1,200 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+    ReferencedTextures[1] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+    ReferencedTextures[2] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.game_wind_noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=RippleSpeed }
+                    ParameterInfos[1] = { Name=SharedStartHeight }
+                    ParameterInfos[2] = { Name=SharedBend }
+                    ParameterInfos[3] = { Name=RippleShimmer }
+                    ParameterInfos[4] = { Name=SharedOscillation }
+                    ParameterInfos[5] = { Name=Branch1Bend }
+                    ParameterInfos[6] = { Name=Branch1Oscillation }
+                    ParameterInfos[7] = { Name=Branch1Speed }
+                    ParameterInfos[8] = { Name=SharedIndependence }
+                    ParameterInfos[9] = { Name=Branch2Independence }
+                    ParameterInfos[10] = { Name=Branch2StretchLimit }
+                    ParameterInfos[11] = { Name=RippleFlexibility }
+                    ParameterInfos[12] = { Name=Branch1Flexibility }
+                    ParameterInfos[13] = { Name=RipplePlanar }
+                    ParameterInfos[14] = { Name=Branch1Turbulence }
+                    ParameterInfos[15] = { Name=SharedSpeed }
+                    ParameterInfos[16] = { Name=Branch2Turbulence }
+                    ParameterInfos[17] = { Name=Branch2Bend }
+                    ParameterInfos[18] = { Name=RippleIndependence }
+                    ParameterInfos[19] = { Name=Branch2Oscillation }
+                    ParameterInfos[20] = { Name=RippleDirectional }
+                    ParameterInfos[21] = { Name=Branch2Flexibility }
+                    ParameterInfos[22] = { Name=Branch1StretchLimit }
+                    ParameterInfos[23] = { Name=Branch1Independence }
+                    ParameterInfos[24] = { Name=SharedTurbulence }
+                    ParameterInfos[25] = { Name=SharedFlexibility }
+                    ParameterInfos[26] = { Name=Branch2Speed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=WindDirection }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ColorOpacity }
+                    ParameterInfos[1] = { Name=Subsurface }
+                    ParameterInfos[2] = { Name=NormalRoughness }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[27] =
+        {
+            ScalarValues[0] = 0.25
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 100
+            ScalarValues[3] = 0.25
+            ScalarValues[4] = 50
+            ScalarValues[5] = 100
+            ScalarValues[6] = 25
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 0.001
+            ScalarValues[9] = 0.75
+            ScalarValues[10] = 1000
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = 0.05
+            ScalarValues[13] = 25
+            ScalarValues[14] = 0.25
+            ScalarValues[15] = 0.05
+            ScalarValues[16] = 0.25
+            ScalarValues[17] = 100
+            ScalarValues[18] = 0.1
+            ScalarValues[19] = 25
+            ScalarValues[20] = 25
+            ScalarValues[21] = 0.05
+            ScalarValues[22] = 1000
+            ScalarValues[23] = 0.75
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 0.01
+            ScalarValues[26] = 0.1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+            TextureValues[1] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+            TextureValues[2] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+        ReferencedTextures[1] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+        ReferencedTextures[2] = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.game_wind_noise'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.1
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+        Name = ColorOpacity
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.Empty'
+        Name = Subsurface
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.EmptyNormal'
+        Name = NormalRoughness
+        Group = None
+    }
+}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=0.25, Name=RippleSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=SharedStartHeight, Group=None }
+    CollectedScalarParameters[2] = { Value=100, Name=SharedBend, Group=None }
+    CollectedScalarParameters[3] = { Value=0.25, Name=RippleShimmer, Group=None }
+    CollectedScalarParameters[4] = { Value=50, Name=SharedOscillation, Group=None }
+    CollectedScalarParameters[5] = { Value=100, Name=Branch1Bend, Group=None }
+    CollectedScalarParameters[6] = { Value=25, Name=Branch1Oscillation, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=Branch1Speed, Group=None }
+    CollectedScalarParameters[8] = { Value=0.001, Name=SharedIndependence, Group=None }
+    CollectedScalarParameters[9] = { Value=0.75, Name=Branch2Independence, Group=None }
+    CollectedScalarParameters[10] = { Value=1000, Name=Branch2StretchLimit, Group=None }
+    CollectedScalarParameters[11] = { Value=0.1, Name=RippleFlexibility, Group=None }
+    CollectedScalarParameters[12] = { Value=0.05, Name=Branch1Flexibility, Group=None }
+    CollectedScalarParameters[13] = { Value=25, Name=RipplePlanar, Group=None }
+    CollectedScalarParameters[14] = { Value=0.25, Name=Branch1Turbulence, Group=None }
+    CollectedScalarParameters[15] = { Value=0.05, Name=SharedSpeed, Group=None }
+    CollectedScalarParameters[16] = { Value=0.25, Name=Branch2Turbulence, Group=None }
+    CollectedScalarParameters[17] = { Value=100, Name=Branch2Bend, Group=None }
+    CollectedScalarParameters[18] = { Value=0.1, Name=RippleIndependence, Group=None }
+    CollectedScalarParameters[19] = { Value=25, Name=Branch2Oscillation, Group=None }
+    CollectedScalarParameters[20] = { Value=25, Name=RippleDirectional, Group=None }
+    CollectedScalarParameters[21] = { Value=0.05, Name=Branch2Flexibility, Group=None }
+    CollectedScalarParameters[22] = { Value=1000, Name=Branch1StretchLimit, Group=None }
+    CollectedScalarParameters[23] = { Value=0.75, Name=Branch1Independence, Group=None }
+    CollectedScalarParameters[24] = { Value=0.5, Name=SharedTurbulence, Group=None }
+    CollectedScalarParameters[25] = { Value=0.01, Name=SharedFlexibility, Group=None }
+    CollectedScalarParameters[26] = { Value=0.1, Name=Branch2Speed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = WindDirection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Empty
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = EmptyNormal
+    }
+}

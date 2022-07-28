@@ -1,0 +1,6 @@
+Normal=NormalTexture
+Emissive=EmissiveTexture
+Other[0]=BaseTexture
+Other[1]=MRTexture
+Other[2]=BaseFlattenNormalMap
+Other[3]=Black
