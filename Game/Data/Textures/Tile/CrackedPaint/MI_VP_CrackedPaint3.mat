@@ -1,0 +1,13 @@
+Diffuse=GradientMap_01
+Normal=Base_NM
+Other[0]=crackedpaint_light_CO
+Other[1]=crackedpaint_light_LP
+Other[2]=crackedpaint_light_NM
+Other[3]=crackedpaint_heavy_CO
+Other[4]=crackedpaint_heavy_LP
+Other[5]=crackedpaint_heavy_NM
+Other[6]=BrickWall_CO
+Other[7]=BrickWall_LP
+Other[8]=BrickWall_NM
+Other[9]=Base_CO
+Other[10]=Base_LP

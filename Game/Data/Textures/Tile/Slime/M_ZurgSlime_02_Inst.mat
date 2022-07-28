@@ -1,0 +1,8 @@
+Diffuse=BlendFunc_DefBase
+Normal=Slime_Tile_01_NM
+Opacity=Slime_Tile_01
+Other[0]=BlendFunc_DefBlend
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=ZurgSlime_01_CO
+Other[3]=ZurgSlime_01_LP
+Other[4]=ZurgSlime_01_NM

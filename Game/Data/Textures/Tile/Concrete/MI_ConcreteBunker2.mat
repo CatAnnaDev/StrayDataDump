@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=ConcreteBunker_CO
+Other[1]=ConcreteBunker_LP
+Other[2]=ConcreteBunker_NM
+Other[3]=HK_Concrete_1_CO
+Other[4]=HK_Concrete_1_LP
+Other[5]=HK_Concrete_1_NM
+Other[6]=Ground_dusty_rocky_D
+Other[7]=Ground_dusty_rocky_LP
+Other[8]=Ground_dusty_rocky_NM
+Other[9]=Base_LP

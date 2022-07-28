@@ -1,0 +1,146 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_CO.Fake_Bat01_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_LP.Fake_Bat01_LP'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_NM.Fake_Bat01_NM'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_SI.Fake_Bat01_SI'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Gradient_Linear.Gradient_Linear'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Gradient_Random.Gradient_Random'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=World Position Random }
+                    ParameterInfos[1] = { Name=SI Mask Power }
+                    ParameterInfos[2] = { Name=u }
+                    ParameterInfos[3] = { Name=SI Saturation }
+                    ParameterInfos[4] = { Name=v }
+                    ParameterInfos[5] = { Name=Object Position Random }
+                    ParameterInfos[6] = { Name=NM * }
+                    ParameterInfos[7] = { Name=Random }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SI Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=CO }
+                    ParameterInfos[1] = { Name=Gradient Random }
+                    ParameterInfos[2] = { Name=NM }
+                    ParameterInfos[3] = { Name=LP }
+                    ParameterInfos[4] = { Name=SI }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 16741.1, 32, 1, 0, 1, 4, 1, 10 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0.808079, B=0.543446, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_CO.Fake_Bat01_CO'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Gradient_Random.Gradient_Random'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_NM.Fake_Bat01_NM'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_LP.Fake_Bat01_LP'
+            TextureValues[4] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_SI.Fake_Bat01_SI'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_CO.Fake_Bat01_CO'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_LP.Fake_Bat01_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_NM.Fake_Bat01_NM'
+        ReferencedTextures[3] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Gradient_Linear.Gradient_Linear'
+        ReferencedTextures[4] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Gradient_Random.Gradient_Random'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_SI.Fake_Bat01_SI'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_CO.Fake_Bat01_CO'
+        Name = CO
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Gradient_Random.Gradient_Random'
+        Name = Gradient Random
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_NM.Fake_Bat01_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_LP.Fake_Bat01_LP'
+        Name = LP
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_SI.Fake_Bat01_SI'
+        Name = SI
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 16741.1
+        Name = World Position Random
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=32, Name=SI Mask Power, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=u, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SI Saturation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=v, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=Object Position Random, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=NM *, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=Random, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.808079, B=0.543446, A=0 }
+        Name = SI Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

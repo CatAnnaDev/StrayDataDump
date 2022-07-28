@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Brickwall_2_CO
+Other[1]=Brickwall_2_LP
+Other[2]=Brickwall_2_NM
+Other[3]=Leaking_2_CO
+Other[4]=Leaking_2_LP
+Other[5]=Leaking_2_NM
+Other[6]=Paint_effect_CO
+Other[7]=Paint_effect_LP
+Other[8]=Paint_effect_NM
+Other[9]=Base_LP

@@ -1,0 +1,122 @@
+Parent = Material3'/Game/Data/Textures/FakeBat/FakeBat01/M_Fake_Bat_Base.M_Fake_Bat_Base'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=NM * }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Object Position Random }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Random }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=SI Mask Power }
+        ParameterValue = 32
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=u }
+        ParameterValue = 0.375
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=v }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CO }
+        ParameterValue = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_CO.Fake_Bat01_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=SI }
+        ParameterValue = Texture2D'/Game/Data/Textures/FakeBat/FakeBat01/Fake_Bat01_SI.Fake_Bat01_SI'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SI Color }
+        ParameterValue = { R=50, G=50, B=50, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.375
+        UVChannelIndex = 0
+        TextureName = Fake_Bat01_CO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.375
+        UVChannelIndex = 0
+        TextureName = Fake_Bat01_LP
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.375
+        UVChannelIndex = 0
+        TextureName = Fake_Bat01_NM
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.375
+        UVChannelIndex = 0
+        TextureName = Fake_Bat01_SI
+    }
+}

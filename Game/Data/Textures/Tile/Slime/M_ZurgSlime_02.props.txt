@@ -1,0 +1,167 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Slime/Slime_Tile_01.Slime_Tile_01'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Slime/Slime_Tile_01_NM.Slime_Tile_01_NM'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_CO.ZurgSlime_01_CO'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_LP.ZurgSlime_01_LP'
+    ReferencedTextures[7] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_NM.ZurgSlime_01_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Exp }
+                    ParameterInfos[1] = { Name=Flam Hardness }
+                    ParameterInfos[2] = { Name=Color_Alpha }
+                    ParameterInfos[3] = { Name=maskspeed }
+                    ParameterInfos[4] = { Name=Rough_Mul }
+                    ParameterInfos[5] = { Name=ColorDepth_Mul }
+                    ParameterInfos[6] = { Name=Burn Radius }
+                    ParameterInfos[7] = { Name=NM_mul }
+                    ParameterInfos[8] = { Name=Burn Hardness }
+                    ParameterInfos[9] = { Name=Depth Dither }
+                    ParameterInfos[10] = { Name=CamFade Radius }
+                    ParameterInfos[11] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color_Blend }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Alpha_Motif }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 10
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1024
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 1
+            ScalarValues[10] = 200
+            ScalarValues[11] = 0.25
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.75, G=0.207608, B=0.312774, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Slime/Slime_Tile_01.Slime_Tile_01'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Slime/Slime_Tile_01.Slime_Tile_01'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Slime/Slime_Tile_01_NM.Slime_Tile_01_NM'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_CO.ZurgSlime_01_CO'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_LP.ZurgSlime_01_LP'
+        ReferencedTextures[7] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_NM.ZurgSlime_01_NM'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Slime/Slime_Tile_01.Slime_Tile_01'
+        Name = Alpha_Motif
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Exp, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Flam Hardness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Color_Alpha, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=maskspeed, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Rough_Mul, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=ColorDepth_Mul, Group=None }
+    CollectedScalarParameters[6] = { Value=1024, Name=Burn Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=NM_mul, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Burn Hardness, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Depth Dither, Group=None }
+    CollectedScalarParameters[10] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[11] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.75, G=0.207608, B=0.312774, A=1 }
+        Name = Color_Blend
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Slime_Tile_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Slime_Tile_01_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = ZurgSlime_01_CO
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = ZurgSlime_01_LP
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = ZurgSlime_01_NM
+    }
+}

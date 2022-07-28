@@ -1,0 +1,9 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Bitume_01_CO
+Other[1]=Bitume_01_LP
+Other[2]=Bitume_01_NM
+Other[3]=HK_Concrete_5_CO
+Other[4]=HK_Concrete_5_LP
+Other[5]=HK_Concrete_5_NM
+Other[6]=Base_LP

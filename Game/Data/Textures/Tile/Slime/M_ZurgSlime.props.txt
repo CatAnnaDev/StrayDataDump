@@ -1,0 +1,158 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Lighting/NoiseBlur_LP.NoiseBlur_LP'
+    ReferencedTextures[3] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_CO.ZurgSlime_01_CO'
+    ReferencedTextures[4] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_Height.ZurgSlime_01_Height'
+    ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_LP.ZurgSlime_01_LP'
+    ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_NM.ZurgSlime_01_NM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=height }
+                    ParameterInfos[1] = { Name=MaxStep }
+                    ParameterInfos[2] = { Name=ref_plane }
+                    ParameterInfos[3] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[4] = { Name=Alpha Radius }
+                    ParameterInfos[5] = { Name=uv distor }
+                    ParameterInfos[6] = { Name=Minstep }
+                    ParameterInfos[7] = { Name=Alpha Density }
+                    ParameterInfos[8] = { Name=CamFade Radius }
+                    ParameterInfos[9] = { Name=CamFade Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=height_channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Height }
+                    ParameterInfos[1] = { Name=NM }
+                    ParameterInfos[2] = { Name=Color }
+                    ParameterInfos[3] = { Name=LP }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 0.05, 32, 0.5, 32, 0.5, 0.1, 8, 4, 200, 0.25 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_Height.ZurgSlime_01_Height'
+            TextureValues[1] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_NM.ZurgSlime_01_NM'
+            TextureValues[2] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_CO.ZurgSlime_01_CO'
+            TextureValues[3] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_LP.ZurgSlime_01_LP'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_CO.ZurgSlime_01_CO'
+        ReferencedTextures[1] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_LP.ZurgSlime_01_LP'
+        ReferencedTextures[2] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_NM.ZurgSlime_01_NM'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[5] = Texture2D'/Game/Data/Textures/Lighting/NoiseBlur_LP.NoiseBlur_LP'
+        ReferencedTextures[6] = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_Height.ZurgSlime_01_Height'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_Height.ZurgSlime_01_Height'
+        Name = Height
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_NM.ZurgSlime_01_NM'
+        Name = NM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_CO.ZurgSlime_01_CO'
+        Name = Color
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Data/Textures/Tile/Slime/ZurgSlime_01_LP.ZurgSlime_01_LP'
+        Name = LP
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=height, Group=None }
+    CollectedScalarParameters[1] = { Value=32, Name=MaxStep, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=ref_plane, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Alpha Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=uv distor, Group=None }
+    CollectedScalarParameters[6] = { Value=8, Name=Minstep, Group=None }
+    CollectedScalarParameters[7] = { Value=4, Name=Alpha Density, Group=None }
+    CollectedScalarParameters[8] = { Value=200, Name=CamFade Radius, Group=None }
+    CollectedScalarParameters[9] = { Value=0.25, Name=CamFade Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = height_channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NoiseBlur_LP
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = ZurgSlime_01_LP
+    }
+}

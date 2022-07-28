@@ -1,0 +1,12 @@
+Diffuse=Base_CO
+Normal=Base_NM
+Other[0]=Bitume_02_CO
+Other[1]=Bitume_02_LP
+Other[2]=Bitume_02_NM
+Other[3]=Ground_int_water_CO
+Other[4]=Ground_int_water_LP
+Other[5]=Ground_int_water_NM
+Other[6]=Bitume_01_CO
+Other[7]=Bitume_01_dry_LP
+Other[8]=Bitume_01_NM
+Other[9]=Base_LP
